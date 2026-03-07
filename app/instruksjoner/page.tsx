@@ -1,8 +1,19 @@
+
+import type { Metadata } from "next"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import Container from "@/components/Container"
 import { instructionSections } from "@/content/instructionContent"
 import GuideClusters from "@/components/GuideClusters"
+
+export const metadata: Metadata = {
+  title: "Instruksjoner for Jobbleder",
+  description:
+    "Lær hvordan du bruker Jobbleder til å lage faktura, tilbud og timelister steg for steg.",
+  alternates: {
+    canonical: "https://jobbleder.no/instruksjoner",
+  },
+}
 
 export default function InstruksjonerPage() {
   return (

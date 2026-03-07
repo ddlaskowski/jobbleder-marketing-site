@@ -10,12 +10,12 @@ const posts = [
   {
     title: "Hva skal en faktura inneholde i Norge?",
     excerpt: "Krav til faktura og hva du bør huske for å unngå problemer.",
-    href: "/blogg/hva-skal-en-faktura-inneholde",
+    href: "/blogg/innhold-i-faktura",
   },
   {
     title: "Hvordan følge opp et sendt tilbud",
     excerpt: "Enkelt oppfølgingsoppsett som gir flere svar og flere ja.",
-    href: "/blogg/hvordan-folge-opp-tilbud",
+    href: "/blogg/folle-opp-tilbud",
   },
 ]
 

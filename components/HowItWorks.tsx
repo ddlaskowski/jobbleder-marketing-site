@@ -43,7 +43,7 @@ export default function HowItWorks() {
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold">{s.title}</h3>
+                  <h3 className="text-lg font-semibold  text-gray-900">{s.title}</h3>
                   <p className="mt-1 text-gray-600">{s.desc}</p>
                 </div>
               </div>
@@ -52,10 +52,10 @@ export default function HowItWorks() {
         </div>
         <div className="mt-10">
           <Link
-            href="/timeliste-mal"
-            className="inline-flex rounded-lg border border-gray-300 bg-white px-5 py-3 font-medium text-gray-900 transition-colors hover:bg-gray-100"
-          >
-            Se timeliste mal →
+              href="https://app.jobbleder.no"
+              className="bg-blue-600 text-white px-6 py-3 rounded"
+            >
+              Start gratis
           </Link>
         </div>
       </Container>
