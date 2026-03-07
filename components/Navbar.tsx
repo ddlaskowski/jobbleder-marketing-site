@@ -1,32 +1,43 @@
 import Link from "next/link"
+import Container from "@/components/Container"
+
+const navLinks = [
+  { href: "/", label: "Hjem" },
+  { href: "/instruksjoner", label: "Instruksjoner" },
+  { href: "/blogg", label: "Blogg" },
+  { href: "/om-oss", label: "Om oss" },
+  { href: "/kontakt", label: "Kontakt" },
+]
 
 export default function Navbar() {
   return (
-    <nav className="w-full border-b bg-white">
-      <div className="max-w-6xl mx-auto flex items-center justify-between py-4">
+    <nav className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
+      <Container>
+        <div className="flex h-16 items-center justify-between">
+          <Link href="/" className="text-xl font-semibold text-gray-900">
+            Jobbleder
+          </Link>
 
-        <div className="font-bold text-xl">
-          Jobbleder
+          <div className="flex items-center gap-6">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-sm font-medium text-gray-700 transition-colors hover:text-gray-900"
+              >
+                {link.label}
+              </Link>
+            ))}
+
+            <a
+              href="https://app.jobbleder.no"
+              className="inline-flex rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-blue-700"
+            >
+              Login
+            </a>
+          </div>
         </div>
-
-        <div className="flex gap-6 items-center">
-
-          <Link href="/">Hjem</Link>
-          <Link href="/instruksjoner">Instruksjoner</Link>
-          <Link href="/blogg">Blogg</Link>
-          <Link href="/om-oss">Om oss</Link>
-          <Link href="/kontakt">Kontakt</Link>
-
-          <a
-            href="https://app.jobbleder.no"
-            className="bg-blue-600 text-white px-4 py-2 rounded"
-          >
-            Login
-          </a>
-
-        </div>
-
-      </div>
+      </Container>
     </nav>
   )
 }

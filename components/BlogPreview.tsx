@@ -25,7 +25,7 @@ export default function BlogPreview() {
       <Container>
         <div className="flex items-end justify-between gap-6">
           <div className="max-w-2xl">
-            <h2 className="text-3xl font-bold">Tips og guider</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Tips og guider</h2>
             <p className="mt-3 text-gray-600">
               Lær beste praksis for faktura, timeliste og tilbud i Norge.
             </p>
@@ -33,7 +33,7 @@ export default function BlogPreview() {
 
           <Link
             href="/blogg"
-            className="hidden md:inline-flex rounded-lg border bg-white px-4 py-2 text-sm font-medium hover:bg-gray-100"
+            className="hidden md:inline-flex rounded-lg border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100"
           >
             Se alle artikler →
           </Link>
@@ -46,7 +46,7 @@ export default function BlogPreview() {
               href={p.href}
               className="group rounded-xl border bg-white p-6 shadow-sm hover:shadow transition-shadow"
             >
-              <h3 className="text-lg font-semibold group-hover:underline">
+              <h3 className="text-lg font-semibold text-gray-900 group-hover:text-blue-600">
                 {p.title}
               </h3>
               <p className="mt-3 text-gray-600">{p.excerpt}</p>

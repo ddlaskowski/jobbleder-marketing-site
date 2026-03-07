@@ -1,8 +1,14 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Container from "@/components/Container"
+import Navbar from "@/components/Navbar"
+import Footer from "@/components/Footer"
 import { seoPages } from "@/content/seoPages"
 import RelatedSeoPages from "@/components/RelatedSeoPages"
+import FAQAccordion from "@/components/FAQAccordion"
+import DownloadResources from "@/components/DownloadResources"
+import ClusterNavigation from "@/components/ClusterNavigation"
+import Breadcrumbs from "@/components/Breadcrumbs"
 
 function buildFaqJsonLd(faqs: { q: string; a: string }[]) {
   return {
@@ -55,51 +61,82 @@ export default async function SEOPage({ params }: Props) {
     const faqJsonLd = page.faqs?.length ? buildFaqJsonLd(page.faqs) : null;
 
   return (
-    <main className="py-16">
-      {faqJsonLd && (
-        <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
-        )}
-      <Container>
-        <div className="max-w-3xl">
-          <h1 className="text-4xl font-bold">{page.h1}</h1>
-          <p className="mt-4 text-lg text-gray-600">{page.intro}</p>
+    <>
+      <Navbar/>  
+      <Breadcrumbs slug={page.slug} />
+      <main className="py-16">
+        {faqJsonLd && (
+          <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+          />
+          )}
+        <Container>
+          <div className="max-w-3xl">
+            <h1 className="text-4xl font-bold text-white">{page.h1}</h1>
+            <p className="mt-4 text-lg text-gray-300">{page.intro}</p>
 
-          <ul className="mt-8 space-y-2">
-            {page.bullets.map((b) => (
-              <li key={b} className="flex gap-2">
-                <span className="mt-1">✓</span>
-                <span>{b}</span>
-              </li>
-            ))}
-          </ul>
-
-          <div className="mt-10">
-            <a
-              href="https://app.jobbleder.no"
-              className="inline-flex rounded-lg bg-blue-600 px-6 py-3 font-medium text-white hover:bg-blue-700"
-            >
-              {page.ctaLabel ?? "Start gratis"}
-            </a>
-          </div>
-
-          <div className="mt-14">
-            <h2 className="text-2xl font-bold">Ofte stilte spørsmål</h2>
-            <div className="mt-6 space-y-6">
-              {page.faqs.map((f) => (
-                <div key={f.q} className="rounded-xl border bg-white p-6">
-                  <h3 className="font-semibold">{f.q}</h3>
-                  <p className="mt-2 text-gray-600">{f.a}</p>
-                </div>
+            <ul className="mt-8 space-y-2">
+              {page.bullets.map((b) => (
+                <li key={b} className="flex gap-2">
+                  <span className="mt-1">✓</span>
+                  <span>{b}</span>
+                </li>
               ))}
+            </ul>
+
+            <div className="mt-10">
+              <a
+                href="https://app.jobbleder.no"
+                className="inline-flex rounded-lg bg-blue-600 px-6 py-3 font-medium text-white hover:bg-blue-700"
+              >
+                {page.ctaLabel ?? "Start gratis"}
+              </a>
+            </div>
+
+            {page.downloadResources && (
+              <DownloadResources
+                title={page.downloadResources.title}
+                description={page.downloadResources.description}
+                items={page.downloadResources.items}
+              />
+            )}
+
+            <ClusterNavigation currentSlug={page.slug}/>
+
+            {page.sections && page.sections.length > 0 && (
+              <section className="pb-8">
+                <Container>
+                  <div className="max-w-3xl space-y-12">
+                    {page.sections.map((section) => (
+                      <div key={section.heading}>
+                        <h2 className="text-2xl font-bold text-white">
+                          {section.heading}
+                        </h2>
+
+                        <div className="mt-4 space-y-4">
+                          {section.paragraphs.map((paragraph, index) => (
+                            <p key={index} className="text-gray-300 leading-8">
+                              {paragraph}
+                            </p>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Container>
+              </section>
+            )}
+            <div className="mt-14  mb-16">
+              <h2 className="text-2xl font-bold">Ofte stilte spørsmål</h2>
+              <FAQAccordion items={page.faqs} />
             </div>
           </div>
-        </div>
 
-        <RelatedSeoPages currentSlug={page.slug} />
-      </Container>
-    </main>
+          <RelatedSeoPages currentSlug={page.slug} />
+        </Container>
+      </main>
+      <Footer/>
+    </>
   )
 }

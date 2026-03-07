@@ -1,4 +1,5 @@
 import Container from "@/components/Container"
+import Link from "next/link"
 
 const steps = [
   {
@@ -24,7 +25,7 @@ export default function HowItWorks() {
     <section id="how" className="py-20 bg-white">
       <Container>
         <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold">Slik fungerer Jobbleder</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Slik fungerer Jobbleder</h2>
           <p className="mt-3 text-gray-600">
             Fra registrering til PDF – på få minutter.
           </p>
@@ -50,12 +51,12 @@ export default function HowItWorks() {
           ))}
         </div>
         <div className="mt-10">
-          <a
+          <Link
             href="/timeliste-mal"
-            className="inline-flex rounded-lg border bg-white px-5 py-3 font-medium hover:bg-gray-100"
+            className="inline-flex rounded-lg border border-gray-300 bg-white px-5 py-3 font-medium text-gray-900 transition-colors hover:bg-gray-100"
           >
             Se timeliste mal →
-          </a>
+          </Link>
         </div>
       </Container>
     </section>

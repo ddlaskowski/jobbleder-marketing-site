@@ -2,15 +2,31 @@ import Link from "next/link"
 import Container from "@/components/Container"
 import { seoPages } from "@/content/seoPages"
 
-type Props = { currentSlug: string }
+type Props = {
+  currentSlug: string
+}
 
 export default function RelatedSeoPages({ currentSlug }: Props) {
-  const related = seoPages.filter((p) => p.slug !== currentSlug).slice(0, 6)
+  const current = seoPages.find((p) => p.slug === currentSlug)
+
+  if (!current) return null
+
+  const sameTopicPages = seoPages.filter(
+    (p) => p.slug !== currentSlug && p.topic === current.topic
+  )
+
+  const otherPages = seoPages.filter(
+    (p) =>
+      p.slug !== currentSlug &&
+      p.topic !== current.topic
+  )
+
+  const related = [...sameTopicPages, ...otherPages].slice(0, 6)
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="pt-20 pb-16 bg-gray-50">
       <Container>
-        <h2 className="text-2xl font-bold">Relaterte sider</h2>
+        <h2 className="text-2xl font-bold text-gray-900">Relaterte sider</h2>
         <p className="mt-2 text-gray-600">
           Flere maler og guider for faktura, timeliste og tilbud.
         </p>
@@ -20,10 +36,12 @@ export default function RelatedSeoPages({ currentSlug }: Props) {
             <Link
               key={p.slug}
               href={`/${p.slug}`}
-              className="rounded-xl border bg-white p-5 hover:shadow-sm transition-shadow"
+              className="rounded-xl border border-gray-200 bg-white p-5 transition-shadow hover:shadow-md"
             >
-              <div className="font-semibold">{p.h1}</div>
-              <div className="mt-2 text-sm text-gray-600">{p.description}</div>
+              <div className="font-semibold text-gray-900">{p.h1}</div>
+              <div className="mt-2 text-sm text-gray-600">
+                {p.description}
+              </div>
             </Link>
           ))}
         </div>
