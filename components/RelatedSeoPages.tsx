@@ -11,17 +11,25 @@ export default function RelatedSeoPages({ currentSlug }: Props) {
 
   if (!current) return null
 
-  const sameTopicPages = seoPages.filter(
-    (p) => p.slug !== currentSlug && p.topic === current.topic
+  const sameTopicPages = seoPages
+    .filter((p) => p.slug !== currentSlug && p.topic === current.topic)
+    .slice(0, 3)
+
+  const otherTopics = Array.from(
+    new Set(
+      seoPages
+        .filter((p) => p.slug !== currentSlug && p.topic !== current.topic)
+        .map((p) => p.topic)
+    )
   )
 
-  const otherPages = seoPages.filter(
-    (p) =>
-      p.slug !== currentSlug &&
-      p.topic !== current.topic
+  const otherTopicPages = otherTopics.flatMap((topic) =>
+    seoPages
+      .filter((p) => p.slug !== currentSlug && p.topic === topic)
+      .slice(0, 2)
   )
 
-  const related = [...sameTopicPages, ...otherPages].slice(0, 6)
+  const related = [...sameTopicPages, ...otherTopicPages].slice(0, 6)
 
   return (
     <section className="pt-20 pb-16 bg-gray-50">
