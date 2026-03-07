@@ -4,7 +4,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   metadataBase: new URL("https://jobbleder.no"),
   title: {
-    default: "Jobbleder",
+    default: "Jobbleder – Faktura, timeliste og tilbud på minutter",
     template: "%s | Jobbleder",
   },
   description:
@@ -22,6 +22,13 @@ export const metadata: Metadata = {
     locale: "no_NO",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Jobbleder",
+    description:
+      "Lag faktura, timeliste og tilbud enkelt i nettleseren.",
+  },
+
 }
 
 export default function RootLayout({
@@ -45,6 +52,11 @@ export default function RootLayout({
     url: "https://jobbleder.no",
     description:
       "Lag faktura, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
+     potentialAction: {
+      "@type": "SearchAction",
+      target: "https://jobbleder.no/blogg?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
   }
   return (
     <html lang="no">

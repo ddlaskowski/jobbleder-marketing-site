@@ -1,36 +1,177 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jobbleder
 
-## Getting Started
+Jobbleder is a web application designed to help craftsmen and small businesses in Norway easily create and manage business documents such as:
 
-First, run the development server:
+- invoices (faktura)
+- timesheets (timeliste)
+- offers / quotations (tilbud)
 
-```bash
+The application runs entirely in the browser and allows users to quickly generate professional PDF documents.
+
+---
+
+# Live
+
+https://jobbleder.no
+
+App:
+
+https://app.jobbleder.no
+
+---
+
+# Features
+
+Create and manage:
+
+- invoices
+- timesheets
+- offers
+
+Additional features:
+
+- generate professional PDF documents
+- convert offer → invoice
+- convert timesheet → invoice
+- store customers and projects
+- fast document creation workflow
+- simple interface for craftsmen
+
+Free plan:
+
+- unlimited documents
+- PDF with watermark
+
+Premium plan:
+
+- custom logo
+- watermark removal
+
+---
+
+# Tech Stack
+
+Frontend:
+
+- Next.js
+- React
+- TypeScript
+- TailwindCSS
+
+SEO / Marketing site:
+
+- dynamic SEO landing pages
+- blog system
+- instruction hub
+- structured data (schema.org)
+- dynamic OpenGraph images
+
+Other:
+
+- Node.js backend (document generation)
+- PDF generation
+
+---
+
+# Project Structure
+app/
+blogg/
+instruksjoner/
+(seo)/
+components/
+content/
+blogPosts.ts
+seoPages.ts
+instructionContent.ts
+public/
+logo.png
+favicon.png
+sitemap.ts
+
+
+Key sections:
+
+- `/` – marketing homepage
+- `/blogg` – blog with guides
+- `/instruksjoner` – application instructions
+- `/timeliste-*` – timesheet SEO pages
+- `/faktura-*` – invoice SEO pages
+- `/tilbud-*` – offer SEO pages
+
+---
+
+# SEO Architecture
+
+The site is structured around **topic clusters**:
+
+### Timeliste
+- timeliste-mal
+- timeliste-uke
+- timeliste-prosjekt
+
+### Faktura
+- fakturaprogram-gratis
+- lage-faktura
+- faktura-krav
+
+### Tilbud
+- tilbud-mal
+- lage-tilbud
+- tilbud-eksempel
+
+Each cluster is supported by blog articles and internal linking.
+
+---
+
+# Development
+
+Install dependencies:
+npm install
+
+Run development server:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open: 
+http//localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The site is built using **Next.js App Router** and can be deployed to:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Vercel
+- Node server
+- Docker
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Planned improvements:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- more SEO landing pages
+- expanded blog content
+- improved OpenGraph images
+- additional integrations for document export
+- analytics integration
+
+---
+
+# Author
+
+Damian Laskowski  
+Software Engineer
+
+GitHub:  
+https://github.com/ddlaskowski
+
+LinkedIn:  
+https://www.linkedin.com/in/ddlaskowski/
+
+---
+
+# License
+
+Private project – all rights reserved.

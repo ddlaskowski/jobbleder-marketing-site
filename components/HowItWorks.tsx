@@ -52,10 +52,10 @@ export default function HowItWorks() {
         </div>
         <div className="mt-10">
           <Link
-              href="https://app.jobbleder.no"
-              className="bg-blue-600 text-white px-6 py-3 rounded"
-            >
-              Start gratis
+            href="/instruksjoner"
+            className="inline-flex rounded-lg border border-gray-300 bg-white px-5 py-3 font-medium text-gray-900 hover:bg-gray-100"
+          >
+            Se instruksjoner
           </Link>
         </div>
       </Container>
