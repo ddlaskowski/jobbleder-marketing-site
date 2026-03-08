@@ -1,5 +1,6 @@
 import "./globals.css"
 import type { Metadata } from "next"
+import Tracker from "@/components/Tracker";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jobbleder.no"),
@@ -75,6 +76,8 @@ export default function RootLayout({
           }}
         />
 
+        <Tracker />
+        
         {children}
         
         </body>

@@ -1,5 +1,6 @@
 import Container from "@/components/Container"
 import Link from "next/link"
+import { sendFootprint, TRACK_EVENTS } from "@/lib/tracking"
 
 export default function CTASection() {
   return (
