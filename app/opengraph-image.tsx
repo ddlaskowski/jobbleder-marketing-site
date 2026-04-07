@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og"
 
-export const alt = "Jobbleder – faktura, timeliste og tilbud"
+export const alt = "Jobbleder – faktura, kontrakt, timeliste og tilbud"
 export const size = {
   width: 1200,
   height: 630,
@@ -47,7 +47,7 @@ export default function Image() {
               maxWidth: 900,
             }}
           >
-            Lag faktura, timeliste og tilbud på minutter
+            Lag faktura, kontrakt, timeliste og tilbud på minutter
           </div>
 
           <div
@@ -72,7 +72,7 @@ export default function Image() {
           }}
         >
           <div>jobbleder.no</div>
-          <div>Faktura • Timeliste • Tilbud</div>
+          <div>Faktura • Kontrakt • Timeliste • Tilbud</div>
         </div>
       </div>
     ),

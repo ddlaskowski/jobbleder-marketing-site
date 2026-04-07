@@ -8,9 +8,10 @@ import BlogCategoryNav from "@/components/BlogCategoryNav"
 
 
 export const metadata: Metadata = {
-  title: "Blogg om faktura, timelister og tilbud | Jobbleder",
+  title: "Blogg om faktura, tilbud, timelister og kontrakter | Jobbleder",
   description:
-    "Artikler og guider om faktura, timelister og tilbud for håndverkere og små bedrifter i Norge.",
+  
+    "Artikler og guider om faktura, tilbud, timelister og kontrakter for håndverkere og små bedrifter i Norge.",
   alternates: {
     canonical: "https://jobbleder.no/blogg",
   },
@@ -32,7 +33,7 @@ export default function BloggPage() {
             <div className="max-w-3xl">
               <h1 className="text-4xl font-bold text-gray-900">Blogg</h1>
               <p className="mt-4 text-lg text-gray-600">
-                Artikler og guider om faktura, timelister og tilbud for håndverkere og små bedrifter i Norge.
+                Artikler og guider om faktura, kontrakter, timelister og tilbud for håndverkere og små bedrifter i Norge.
               </p>
             </div>
             <BlogCategoryNav active="Alle" />

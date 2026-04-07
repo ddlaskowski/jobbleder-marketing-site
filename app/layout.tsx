@@ -5,11 +5,11 @@ import Tracker from "@/components/Tracker";
 export const metadata: Metadata = {
   metadataBase: new URL("https://jobbleder.no"),
   title: {
-    default: "Jobbleder – Faktura, timeliste og tilbud på minutter",
+    default: "Jobbleder – Faktura, kontrakt, timeliste og tilbud på minutter",
     template: "%s | Jobbleder",
   },
   description:
-    "Lag faktura, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
+    "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
     icons: {
       icon: "/favicon.png",
       apple: "/apple-touch-icon.png",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jobbleder",
     description:
-      "Lag faktura, timeliste og tilbud enkelt i nettleseren.",
+      "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren.",
     url: "https://jobbleder.no",
     siteName: "Jobbleder",
     locale: "no_NO",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Jobbleder",
     description:
-      "Lag faktura, timeliste og tilbud enkelt i nettleseren.",
+      "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren.",
   },
 
 }
@@ -52,7 +52,7 @@ export default function RootLayout({
     name: "Jobbleder",
     url: "https://jobbleder.no",
     description:
-      "Lag faktura, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
+      "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
      potentialAction: {
       "@type": "SearchAction",
       target: "https://jobbleder.no/blogg?q={search_term_string}",

@@ -7,7 +7,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Kontakt",
   description:
-    "Kontakt oss hvis du har spørsmål om Jobbleder, faktura, timelister eller tilbud.",
+    "Kontakt oss hvis du har spørsmål om Jobbleder, faktura, kontrakt, timelister eller tilbud.",
   alternates: {
     canonical: "https://jobbleder.no/kontakt",
   },

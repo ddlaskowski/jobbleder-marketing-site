@@ -28,7 +28,7 @@ export default async function Image({ params }: Props) {
   const category = post?.category ?? "Blogg"
   const summary =
     post?.summary ??
-    "Artikler og guider om faktura, timelister og tilbud."
+    "Artikler og guider om faktura, kontrakt, tilbud og timelister."
 
   return new ImageResponse(
     (
@@ -113,7 +113,7 @@ export default async function Image({ params }: Props) {
           }}
         >
           <div>jobbleder.no/blogg</div>
-          <div>Faktura • Timeliste • Tilbud</div>
+          <div>Faktura • Kontrakt • Timeliste • Tilbud</div>
         </div>
       </div>
     ),
