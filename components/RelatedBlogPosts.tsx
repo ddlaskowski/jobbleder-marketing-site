@@ -4,7 +4,7 @@ import { blogPosts } from "@/content/blogPosts"
 
 type Props = {
   currentSlug: string
-  relatedTopic?: "timeliste" | "faktura" | "tilbud" | "oversikt"
+  relatedTopic?: "timeliste" | "faktura" | "tilbud" | "kontrakt" | "oversikt"
 }
 
 export default function RelatedBlogPosts({
