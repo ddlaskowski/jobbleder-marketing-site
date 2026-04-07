@@ -3,7 +3,7 @@ import Container from "@/components/Container"
 import { seoPages } from "@/content/seoPages"
 
 type Props = {
-  relatedTopic?: "timeliste" | "faktura" | "tilbud" | "oversikt"
+  relatedTopic?: "timeliste" | "faktura" | "tilbud" | "kontrakt" | "oversikt"
 }
 
 export default function RelatedGuides({ relatedTopic }: Props) {
