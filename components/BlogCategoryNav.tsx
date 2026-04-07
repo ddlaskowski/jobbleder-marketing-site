@@ -9,6 +9,7 @@ const categories = [
   { label: "Timeliste", href: "/blogg/kategori/timeliste" },
   { label: "Faktura", href: "/blogg/kategori/faktura" },
   { label: "Tilbud", href: "/blogg/kategori/tilbud" },
+  { label: "Kontrakt", href: "/blogg/kategori/kontrakt" },
   { label: "Oversikt", href: "/blogg/kategori/oversikt" },
 ]
 

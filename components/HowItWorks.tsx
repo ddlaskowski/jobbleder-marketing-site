@@ -3,20 +3,20 @@ import Link from "next/link"
 
 const steps = [
   {
-    title: "Registrer timer",
-    desc: "Før arbeidstid daglig – raskt og oversiktlig.",
-  },
-  {
     title: "Lag tilbud",
-    desc: "Send et profesjonelt tilbud til kunden.",
+    desc: "Opprett et profesjonelt tilbud og send til kunden.",
   },
   {
-    title: "Generer faktura",
-    desc: "Gjør tilbud eller timer om til faktura med ett klikk.",
+    title: "Opprett kontrakt",
+    desc: "Gjør tilbudet om til kontrakt og sikre avtalen.",
   },
   {
-    title: "Last ned PDF",
-    desc: "Last ned, send på e-post eller skriv ut.",
+    title: "Registrer arbeid",
+    desc: "Før timer og arbeid etter avtalen.",
+  },
+  {
+    title: "Send faktura",
+    desc: "Generer faktura basert på kontrakt eller timer.",
   },
 ]
 
@@ -35,10 +35,10 @@ export default function HowItWorks() {
           {steps.map((s, idx) => (
             <div
               key={s.title}
-              className="rounded-xl border bg-white p-6 shadow-sm"
+              className="rounded-xl border bg-white p-6 shadow-sm hover:shadow-md transition"
             >
               <div className="flex items-start gap-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white font-semibold">
+                <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white font-semibold shadow-sm">
                   {idx + 1}
                 </div>
 

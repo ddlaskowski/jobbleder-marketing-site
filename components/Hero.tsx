@@ -7,12 +7,11 @@ export default function Hero() {
 
         <div>
           <h1 className="text-5xl font-bold leading-tight">
-            Lag faktura, timeliste og tilbud på minutter
+            Lag tilbud, kontrakt, timeliste og faktura på minutter
           </h1>
 
           <p className="mt-6 text-lg text-gray-600">
-            Gratis nettbasert verktøy for håndverkere og små bedrifter i Norge.
-            Ingen installasjon – alt fungerer i nettleseren.
+           Opprett tilbud, signer kontrakt og send faktura – alt på ett sted.
           </p>
 
           <div className="mt-8 flex gap-4">

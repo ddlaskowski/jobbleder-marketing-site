@@ -757,4 +757,210 @@ export const seoPages: SEOPage[] = [
     ],
     topic: "faktura",
   },
+  {
+    slug: "kontrakt-mal",
+    title: "Kontrakt mal – enkel kontrakt for håndverkere (gratis)",
+    topic: "kontrakt",
+    isPillar: true,
+    description:
+      "Gratis kontrakt mal for håndverkere og små bedrifter. Lag kontrakt raskt og sikre avtalen med kunden.",
+    h1: "Kontrakt mal (gratis)",
+    intro:
+      "Trenger du en enkel kontrakt mal? Med Jobbleder kan du opprette kontrakt raskt og bruke den som grunnlag for arbeid og faktura.",
+    bullets: [
+      "Gratis kontrakt mal for håndverkere",
+      "Lag kontrakt på minutter",
+      "Bruk tilbud som grunnlag",
+      "Konverter kontrakt til faktura",
+    ],
+    faqs: [
+      {
+        q: "Hva er en kontrakt?",
+        a: "En kontrakt er en avtale mellom deg og kunden som beskriver arbeid, pris og vilkår.",
+      },
+      {
+        q: "Må jeg ha kontrakt som håndverker?",
+        a: "Det anbefales sterkt for å unngå misforståelser og sikre tydelige avtaler.",
+      },
+      {
+        q: "Kan jeg lage kontrakt gratis?",
+        a: "Ja, du kan opprette kontrakt gratis i Jobbleder.",
+      },
+    ],
+    ctaLabel: "Opprett kontrakt",
+    sections: [
+      {
+        heading: "Hva er en kontrakt?",
+        paragraphs: [
+          "En kontrakt er en skriftlig avtale mellom deg og kunden som beskriver hva som skal leveres, til hvilken pris og på hvilke vilkår.",
+          "For håndverkere er kontrakten et viktig dokument som skaper tydelighet før arbeidet starter.",
+        ],
+      },
+      {
+        heading: "Hvorfor bruke kontrakt?",
+        paragraphs: [
+          "En kontrakt reduserer risiko for misforståelser og gir begge parter trygghet.",
+          "Den gjør det også enklere å følge opp arbeid, betaling og eventuelle endringer.",
+        ],
+      },
+      {
+        heading: "Hva bør en kontrakt inneholde?",
+        paragraphs: [
+          "En god kontrakt bør inneholde beskrivelse av arbeid, pris, tidsramme og vilkår.",
+          "Jo tydeligere kontrakten er, desto enklere blir samarbeidet med kunden.",
+        ],
+      },
+      {
+        heading: "Fra tilbud til kontrakt",
+        paragraphs: [
+          "Når kunden godkjenner tilbudet, kan det gjøres om til en kontrakt.",
+          "Dette sikrer at avtalen er tydelig før arbeidet starter.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "kontrakt-handverker",
+    title: "Kontrakt håndverker – trygg avtale med kunde",
+    topic: "kontrakt",
+    description:
+      "Lag kontrakt som håndverker og sikre tydelige avtaler med kunden. Enkel løsning for små bedrifter i Norge.",
+    h1: "Kontrakt håndverker",
+    intro:
+      "Som håndverker er det viktig å ha en tydelig kontrakt med kunden. Det skaper trygghet og reduserer risiko for misforståelser.",
+    bullets: [
+      "Tydelig avtale med kunden",
+      "Beskriv arbeid og pris",
+      "Unngå misforståelser",
+      "Bruk kontrakt som grunnlag for faktura",
+    ],
+    faqs: [
+      {
+        q: "Trenger håndverkere kontrakt?",
+        a: "Ja, det anbefales for å sikre tydelige avtaler og unngå konflikter.",
+      },
+      {
+        q: "Hva bør en kontrakt inneholde?",
+        a: "Beskrivelse av arbeid, pris, tidsramme og vilkår.",
+      },
+      {
+        q: "Kan jeg lage kontrakt digitalt?",
+        a: "Ja, med Jobbleder kan du lage kontrakt raskt i nettleseren.",
+      },
+    ],
+    ctaLabel: "Opprett kontrakt",
+    sections: [
+      {
+        heading: "Hvorfor kontrakt er viktig for håndverkere",
+        paragraphs: [
+          "En kontrakt gjør det klart hva som er avtalt mellom deg og kunden før arbeidet starter.",
+          "Dette reduserer risiko for uenigheter og gir et mer profesjonelt samarbeid.",
+        ],
+      },
+      {
+        heading: "Hva bør en håndverkerkontrakt inneholde?",
+        paragraphs: [
+          "Kontrakten bør beskrive arbeid, pris, fremdrift og eventuelle vilkår.",
+          "Jo tydeligere avtalen er, desto enklere blir gjennomføringen av prosjektet.",
+        ],
+      },
+      {
+        heading: "Fra kontrakt til faktura",
+        paragraphs: [
+          "Når arbeidet er utført kan kontrakten brukes som grunnlag for faktura.",
+          "Dette gjør prosessen mer strukturert og oversiktlig.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "kontrakt-eksempel",
+    title: "Kontrakt eksempel – slik kan en avtale se ut",
+    topic: "kontrakt",
+    description:
+      "Se kontrakt eksempel og lær hvordan en tydelig avtale kan bygges opp for håndverkere og små bedrifter.",
+    h1: "Kontrakt eksempel",
+    intro:
+      "Et kontrakt eksempel gjør det enklere å forstå hvordan en avtale bør settes opp og hvilke opplysninger som er viktige.",
+    bullets: [
+      "Se struktur på en kontrakt",
+      "Lær hva som bør være med",
+      "Bruk som inspirasjon",
+      "Lag kontrakt digitalt",
+    ],
+    faqs: [
+      {
+        q: "Hva viser et kontrakt eksempel?",
+        a: "Det viser hvordan arbeid, pris og vilkår kan settes opp i et dokument.",
+      },
+      {
+        q: "Kan jeg bruke et eksempel som mal?",
+        a: "Ja, det er et godt utgangspunkt.",
+      },
+      {
+        q: "Kan jeg lage kontrakt i Jobbleder?",
+        a: "Ja, enkelt direkte i nettleseren.",
+      },
+    ],
+    ctaLabel: "Lag kontrakt",
+    sections: [
+      {
+        heading: "Hvordan ser en god kontrakt ut?",
+        paragraphs: [
+          "En god kontrakt er tydelig strukturert og lett å forstå.",
+          "Den bør gi en klar oversikt over hva som er avtalt.",
+        ],
+      },
+      {
+        heading: "Hva kan du lære av et eksempel?",
+        paragraphs: [
+          "Et eksempel gjør det enklere å lage egne kontrakter raskt.",
+          "Du slipper å starte fra blankt ark.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "hva-skal-en-kontrakt-inneholde",
+    title: "Hva skal en kontrakt inneholde?",
+    topic: "kontrakt",
+    description:
+      "Se hva en kontrakt bør inneholde og hvordan du lager en tydelig avtale med kunden.",
+    h1: "Hva skal en kontrakt inneholde?",
+    intro:
+      "En god kontrakt gjør det enkelt å forstå hva som er avtalt mellom deg og kunden.",
+    bullets: [
+      "Beskrivelse av arbeid",
+      "Pris og betaling",
+      "Tidsramme",
+      "Vilkår",
+    ],
+    faqs: [
+      {
+        q: "Hva er viktig i en kontrakt?",
+        a: "Tydelig beskrivelse av arbeid, pris og vilkår.",
+      },
+      {
+        q: "Hvorfor er kontrakt viktig?",
+        a: "For å unngå misforståelser.",
+      },
+    ],
+    ctaLabel: "Opprett kontrakt",
+    sections: [
+      {
+        heading: "De viktigste elementene",
+        paragraphs: [
+          "En kontrakt bør inneholde arbeid, pris og vilkår.",
+          "Dette gir en tydelig avtale.",
+        ],
+      },
+      {
+        heading: "Hvorfor tydelig struktur er viktig",
+        paragraphs: [
+          "Jo tydeligere kontrakten er, desto enklere blir samarbeidet.",
+          "Det gir trygghet for begge parter.",
+        ],
+      },
+    ],
+  }
 ]

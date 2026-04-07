@@ -29,7 +29,7 @@ export default function RelatedSeoPages({ currentSlug }: Props) {
       .slice(0, 2)
   )
 
-  const related = [...sameTopicPages, ...otherTopicPages].slice(0, 6)
+  const related = [...sameTopicPages, ...otherTopicPages].slice(0, 9)
 
   return (
     <section className="pt-20 pb-16 bg-gray-50">

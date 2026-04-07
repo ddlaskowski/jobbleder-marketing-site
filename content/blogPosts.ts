@@ -16,7 +16,7 @@ export type BlogPost = {
   createdAt: string
   seoTitle?: string
   seoDescription?: string
-  relatedTopic?: "timeliste" | "faktura" | "tilbud" | "oversikt"
+  relatedTopic?: "timeliste" | "faktura" | "tilbud" | "kontrakt" | "oversikt"
   blocks: BlogBlock[]
 }
 
@@ -1134,11 +1134,79 @@ export const blogPosts: BlogPost[] = [
             label: "Opprett tilbud gratis",
             },
         ],
-        }
+    },
+    {
+        id: 16,
+        title: "Tilbud vs kontrakt – hva er forskjellen?",
+        slug: "tilbud-vs-kontrakt",
+        summary: "Lær forskjellen mellom tilbud og kontrakt og når du bør bruke hvert dokument.",
+        category: "Kontrakt",
+        tags: ["tilbud", "kontrakt", "forskjell"],
+        createdAt: "2026-04-07",
+        relatedTopic: "kontrakt",
+        blocks: [
+            { type: "paragraph", text: "Mange blander tilbud og kontrakt..." },
+            { type: "heading", text: "Hva er et tilbud?" },
+            { type: "paragraph", text: "Tilbud sendes før arbeid starter..." },
+            { type: "heading", text: "Hva er en kontrakt?" },
+            { type: "paragraph", text: "Kontrakten er en bindende avtale..." },
+            { type: "heading", text: "Når bruker du hva?" },
+            {
+            type: "list",
+            items: [
+                "Tilbud – før avtale",
+                "Kontrakt – når avtalen er bekreftet",
+            ],
+            },
+            { type: "cta", text: "Vil du gjøre tilbud om til kontrakt? Prøv Jobbleder." },
+        ],
+    },
+    {
+        id: 17,
+        title: "Når trenger du kontrakt som håndverker?",
+        slug: "nar-trenger-du-kontrakt",
+        summary: "Se når du bør bruke kontrakt og hvorfor det er viktig i byggebransjen.",
+        category: "Kontrakt",
+        tags: ["kontrakt", "håndverker"],
+        createdAt: "2026-04-07",
+        relatedTopic: "kontrakt",
+        blocks: [
+            { type: "paragraph", text: "Mange jobber uten kontrakt..." },
+            { type: "heading", text: "Når bør du bruke kontrakt?" },
+            {
+            type: "list",
+            items: [
+                "Større jobber",
+                "Langvarige prosjekter",
+                "Når pris må dokumenteres",
+            ],
+            },
+            { type: "note", text: "Kontrakt gir trygghet for begge parter." },
+            { type: "cta", text: "Opprett kontrakt enkelt i Jobbleder." },
+        ],
+    },
+    {
+        id: 18,
+        title: "Fra tilbud til kontrakt og faktura – slik fungerer det",
+        slug: "fra-tilbud-til-kontrakt-og-faktura",
+        summary: "Se hvordan hele prosessen fungerer fra første tilbud til betaling.",
+        category: "Oversikt",
+        tags: ["workflow", "tilbud", "kontrakt", "faktura"],
+        createdAt: "2026-04-07",
+        relatedTopic: "oversikt",
+        blocks: [
+            { type: "paragraph", text: "En god arbeidsflyt gjør alt enklere..." },
+            { type: "heading", text: "1. Lag tilbud" },
+            { type: "heading", text: "2. Opprett kontrakt" },
+            { type: "heading", text: "3. Utfør arbeid" },
+            { type: "heading", text: "4. Send faktura" },
+            { type: "cta", text: "Vil du ha alt i ett system? Prøv Jobbleder." },
+        ],
+    },
 ]
 
 
-export const blogCategories = ["Timeliste", "Faktura", "Tilbud", "Oversikt"] as const
+export const blogCategories = ["Timeliste", "Faktura", "Tilbud", "Kontrakt", "Oversikt"] as const
 
 export function getPostsByCategory(category: string) {
   return blogPosts.filter((post) => post.category.toLowerCase() === category.toLowerCase())
