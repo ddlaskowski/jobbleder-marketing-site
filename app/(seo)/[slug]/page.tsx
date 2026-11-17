@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { siteUrl } from "@/lib/siteUrl"
 import { notFound } from "next/navigation"
 import Container from "@/components/Container"
 import Navbar from "@/components/Navbar"
@@ -49,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: page.title,
     description: page.description,
     alternates: {
-      canonical: `https://jobbleder.no/${page.slug}`,
+      canonical: siteUrl(`/${page.slug}`),
     },
   }
 }

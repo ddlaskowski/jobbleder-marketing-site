@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next"
-
-const baseUrl = "https://jobbleder.no"
+import { SITE_ORIGIN, siteUrl } from "@/lib/siteUrl"
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -9,7 +8,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/private/"],
     },
-    sitemap: `${baseUrl}/sitemap.xml`,
-    host: baseUrl,
+    sitemap: siteUrl("/sitemap.xml"),
+    host: SITE_ORIGIN,
   }
 }

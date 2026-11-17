@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { siteUrl } from "@/lib/siteUrl"
 import Link from "next/link"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Les mer om Jobbleder og hvorfor løsningen er laget for håndverkere og små bedrifter i Norge.",
   alternates: {
-    canonical: "https://jobbleder.no/om-oss",
+    canonical: siteUrl("/om-oss"),
   },
 }
 

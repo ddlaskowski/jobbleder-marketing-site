@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { siteUrl } from "@/lib/siteUrl"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import Container from "@/components/Container"
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   description:
     "Lær hvordan du bruker Jobbleder til å opprette faktura, tilbud, timelister og kontrakter, registrere arbeidsøkter og holde oversikt over prosjekter, kunder og rapporter.",
   alternates: {
-    canonical: "https://jobbleder.no/instruksjoner",
+    canonical: siteUrl("/instruksjoner"),
   },
 }
 

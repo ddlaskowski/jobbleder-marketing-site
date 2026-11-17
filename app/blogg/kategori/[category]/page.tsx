@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { siteUrl } from "@/lib/siteUrl"
 import { notFound } from "next/navigation"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
@@ -47,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${displayCategory} | Blogg`,
     description: `Artikler og guider om ${displayCategory.toLowerCase()} for brukere av Jobbleder.`,
     alternates: {
-      canonical: `https://jobbleder.no/blogg/${normalized}`,
+      canonical: siteUrl(`/blogg/kategori/${normalized}`),
     },
   }
 }

@@ -1,9 +1,10 @@
 import "./globals.css"
 import type { Metadata } from "next"
 import Tracker from "@/components/Tracker";
+import { SITE_ORIGIN, siteUrl } from "@/lib/siteUrl"
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jobbleder.no"),
+  metadataBase: new URL(SITE_ORIGIN),
   title: {
     default: "Jobbleder – Faktura, kontrakt, timeliste og tilbud på minutter",
     template: "%s | Jobbleder",
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
     title: "Jobbleder",
     description:
       "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren.",
-    url: "https://jobbleder.no",
+    url: siteUrl("/"),
     siteName: "Jobbleder",
     locale: "no_NO",
     type: "website",
@@ -41,8 +42,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Jobbleder",
-    url: "https://jobbleder.no",
-    logo: "https://jobbleder.no/logo.png",
+    url: siteUrl("/"),
+    logo: siteUrl("/logo.png"),
     sameAs: [],
   }
 
@@ -50,12 +51,12 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "Jobbleder",
-    url: "https://jobbleder.no",
+    url: siteUrl("/"),
     description:
       "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
      potentialAction: {
       "@type": "SearchAction",
-      target: "https://jobbleder.no/blogg?q={search_term_string}",
+      target: `${siteUrl("/blogg")}?q={search_term_string}`,
       "query-input": "required name=search_term_string",
     },
   }

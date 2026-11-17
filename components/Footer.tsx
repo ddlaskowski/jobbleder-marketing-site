@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Footer() {
   return (
     <footer className="py-10 border-t mt-20">
@@ -11,9 +13,9 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-6">
-          <a href="/instruksjoner">Instruksjoner</a>
-          <a href="/blogg">Blogg</a>
-          <a href="/om-oss">Om oss</a>
+          <Link href="/instruksjoner">Instruksjoner</Link>
+          <Link href="/blogg">Blogg</Link>
+          <Link href="/om-oss">Om oss</Link>
         </div>
 
       </div>

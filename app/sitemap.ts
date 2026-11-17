@@ -1,72 +1,53 @@
 // app/sitemap.ts
 import type { MetadataRoute } from "next"
 import { seoPages } from "@/content/seoPages"
-import { instructionSections } from "@/content/instructionContent"
 import { blogPosts, blogCategories } from "@/content/blogPosts"
-
-const baseUrl = "https://jobbleder.no"
+import { siteUrl } from "@/lib/siteUrl"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     {
-      url: `${baseUrl}/`,
-      lastModified: new Date(),
+      url: siteUrl("/"),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
-      url: `${baseUrl}/instruksjoner`,
-      lastModified: new Date(),
+      url: siteUrl("/instruksjoner"),
       changeFrequency: "weekly",
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/blogg`,
-      lastModified: new Date(),
+      url: siteUrl("/blogg"),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/om-oss`,
-      lastModified: new Date(),
+      url: siteUrl("/om-oss"),
       changeFrequency: "monthly",
       priority: 0.5,
     },
     {
-      url: `${baseUrl}/kontakt`,
-      lastModified: new Date(),
+      url: siteUrl("/kontakt"),
       changeFrequency: "monthly",
       priority: 0.5,
     },
   ]
 
   const seoLandingPages: MetadataRoute.Sitemap = seoPages.map((page) => ({
-    url: `${baseUrl}/${page.slug}`,
-    lastModified: new Date(),
+    url: siteUrl(`/${page.slug}`),
     changeFrequency: page.isPillar ? "weekly" : "monthly",
     priority: page.isPillar ? 0.9 : 0.7,
   }))
 
-  const instructionAnchors: MetadataRoute.Sitemap = instructionSections.map(
-    (section) => ({
-      url: `${baseUrl}/instruksjoner#${section.id}`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.6,
-    })
-  )
-
   const blogPostPages: MetadataRoute.Sitemap = blogPosts.map((post) => ({
-    url: `${baseUrl}/blogg/${post.slug}`,
-    lastModified: new Date(post.createdAt),
+    url: siteUrl(`/blogg/${post.slug}`),
     changeFrequency: "monthly",
     priority: 0.7,
   }))
 
   const blogCategoryPages: MetadataRoute.Sitemap = blogCategories.map(
     (category) => ({
-      url: `${baseUrl}/blogg/kategori/${category.toLowerCase()}`,
-      lastModified: new Date(),
+      url: siteUrl(`/blogg/kategori/${category.toLowerCase()}`),
       changeFrequency: "weekly",
       priority: 0.75,
     })
@@ -75,7 +56,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages,
     ...seoLandingPages,
-    ...instructionAnchors,
     ...blogCategoryPages,
     ...blogPostPages,
   ]

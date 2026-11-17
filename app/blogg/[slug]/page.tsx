@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { siteUrl } from "@/lib/siteUrl"
 import { notFound } from "next/navigation"
 import Link from "next/link"
 import Navbar from "@/components/Navbar"
@@ -33,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.seoTitle ?? post.title,
     description: post.seoDescription ?? post.summary,
     alternates: {
-      canonical: `https://jobbleder.no/blogg/${post.slug}`,
+      canonical: siteUrl(`/blogg/${post.slug}`),
     },
   }
 }

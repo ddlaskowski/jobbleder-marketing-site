@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { siteUrl } from "@/lib/siteUrl"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Container from "@/components/Container";
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   description:
     "Kontakt oss hvis du har spørsmål om Jobbleder, faktura, kontrakt, timelister eller tilbud.",
   alternates: {
-    canonical: "https://jobbleder.no/kontakt",
+    canonical: siteUrl("/kontakt"),
   },
 };
 
