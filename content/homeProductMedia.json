@@ -1,0 +1,159 @@
+{
+  "assets": {
+    "overview": {
+      "src": "/images/product/overview/optimized/jobbleder-home-overview-e9a124620412.webp",
+      "width": 1918,
+      "height": 1077,
+      "bytes": 77266,
+      "original": {
+        "file": "public/app-preview.png",
+        "width": 1918,
+        "height": 1077,
+        "bytes": 152432,
+        "sha256": "20bc85643c90e4f2af8a49cb874e9e2801a2dd68b0b7f675ace1760c601ce28a"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "overviewMobile": {
+      "src": "/images/product/overview/optimized/jobbleder-home-overview-mobile-880aee00ae06.webp",
+      "width": 392,
+      "height": 216,
+      "bytes": 5688,
+      "original": {
+        "file": "public/app-preview.png",
+        "width": 1918,
+        "height": 1077,
+        "bytes": 152432,
+        "sha256": "20bc85643c90e4f2af8a49cb874e9e2801a2dd68b0b7f675ace1760c601ce28a"
+      },
+      "crop": {
+        "left": 320,
+        "top": 330,
+        "width": 392,
+        "height": 216
+      },
+      "format": "webp"
+    },
+    "timelist": {
+      "src": "/images/product/timeliste/optimized/jobbleder-home-timelist-1ed52e78b8c6.webp",
+      "width": 608,
+      "height": 512,
+      "bytes": 49762,
+      "original": {
+        "file": "public/images/product/timeliste/source/documents_menu_preview_timelist_document.png",
+        "width": 1280,
+        "height": 604,
+        "bytes": 170865,
+        "sha256": "202cb06dd4da60b6210ad0e0470558636a9faf67dcced1a416ed864a7feb2198"
+      },
+      "crop": {
+        "left": 660,
+        "top": 48,
+        "width": 608,
+        "height": 512
+      },
+      "format": "webp"
+    },
+    "timelistMobile": {
+      "src": "/images/product/timeliste/optimized/jobbleder-home-timelist-mobile-208a0fd31c80.webp",
+      "width": 300,
+      "height": 104,
+      "bytes": 7234,
+      "original": {
+        "file": "public/images/product/timeliste/source/documents_menu_preview_timelist_document.png",
+        "width": 1280,
+        "height": 604,
+        "bytes": 170865,
+        "sha256": "202cb06dd4da60b6210ad0e0470558636a9faf67dcced1a416ed864a7feb2198"
+      },
+      "crop": {
+        "left": 770,
+        "top": 281,
+        "width": 300,
+        "height": 104
+      },
+      "format": "webp"
+    },
+    "offer": {
+      "src": "/images/product/tilbud/optimized/jobbleder-home-offer-59f2cd7e7af2.webp",
+      "width": 506,
+      "height": 360,
+      "bytes": 19060,
+      "original": {
+        "file": "public/images/product/tilbud/source/exported_tilbud_A5.png",
+        "width": 506,
+        "height": 360,
+        "bytes": 37358,
+        "sha256": "4681a8aa8b485fd066dc943c6636d66717478f57e5a645a6b7596d8b4c847f53"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "contractDocument": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-home-contract-document-249c17de7105.webp",
+      "width": 508,
+      "height": 720,
+      "bytes": 37384,
+      "original": {
+        "file": "public/images/product/kontrakt/source/exported_contract_preview.png",
+        "width": 508,
+        "height": 720,
+        "bytes": 73859,
+        "sha256": "f9f3480a06a9e01377203d40082d0e510dc7654c9af6a99c6f696c2d1c80b933"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "documentFlow": {
+      "src": "/images/product/docflow/optimized/jobbleder-home-document-flow-940f0666f4cc.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1005366,
+      "original": {
+        "file": "public/images/product/docflow/source/jobbleder_docflow.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1605526,
+        "sha256": "faaad50c687dd56425089edb97c91b1d9991b35c651430977402e553e70f8442"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "documentFlowCompact": {
+      "src": "/images/product/docflow/optimized/jobbleder-home-document-flow-compact-a1de69c9b05c.webp",
+      "width": 1442,
+      "height": 597,
+      "bytes": 610516,
+      "original": {
+        "file": "public/images/product/docflow/source/docflow_cropped.png",
+        "width": 1442,
+        "height": 597,
+        "bytes": 982488,
+        "sha256": "77d80a3be71c29e689e14fe63bda901880f83b1b0e8626a3e92733f7bc777866"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "documentFlowMobile": {
+      "src": "/images/product/docflow/optimized/jobbleder-home-document-flow-mobile-3dbe42d3e7a8.webp",
+      "width": 1000,
+      "height": 597,
+      "bytes": 408308,
+      "original": {
+        "file": "public/images/product/docflow/source/docflow_cropped.png",
+        "width": 1442,
+        "height": 597,
+        "bytes": 982488,
+        "sha256": "77d80a3be71c29e689e14fe63bda901880f83b1b0e8626a3e92733f7bc777866"
+      },
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 1000,
+        "height": 597
+      },
+      "format": "webp"
+    }
+  }
+}

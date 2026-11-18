@@ -16,17 +16,19 @@ const files = {
 };
 
 async function exists(file) { try { await fs.access(file); return true; } catch { return false; } }
-async function optimize(file, name, crop) {
+export async function optimize(file, name, crop, { outputDirectory = output, lossless = false, width } = {}) {
   const input = await fs.readFile(file);
   const original = await sharp(input).metadata();
   let pipeline = sharp(input);
   if (crop) pipeline = pipeline.extract(crop);
-  const { data, info } = await pipeline.webp({ quality: 94, effort: 6 }).toBuffer({ resolveWithObject: true });
+  if (width) pipeline = pipeline.resize({ width, withoutEnlargement: true });
+  const { data, info } = await pipeline.webp({ quality: 94, lossless, effort: 6 }).toBuffer({ resolveWithObject: true });
   const hash = crypto.createHash('sha256').update(data).digest('hex').slice(0, 12);
   const filename = `${name}-${hash}.webp`;
-  await fs.writeFile(path.join(output, filename), data);
+  await fs.mkdir(outputDirectory, { recursive: true });
+  await fs.writeFile(path.join(outputDirectory, filename), data);
   return {
-    src: `/images/product/invoice/optimized/${filename}`,
+    src: `/${path.relative(path.join(root, 'public'), path.join(outputDirectory, filename)).replaceAll('\\', '/')}`,
     width: info.width, height: info.height, bytes: data.length,
     original: { file: path.relative(root, file).replaceAll('\\', '/'), width: original.width, height: original.height, bytes: input.length, sha256: crypto.createHash('sha256').update(input).digest('hex') },
     ...(crop ? { crop } : {}),
@@ -78,4 +80,6 @@ async function main() {
   }
   console.log(JSON.stringify(manifest, null, 2));
 }
-main().catch((error) => { console.error(error); process.exitCode = 1; });
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch((error) => { console.error(error); process.exitCode = 1; });
+}

@@ -1,0 +1,62 @@
+.hero { padding-block: 48px 64px; }
+.heroCopy { max-width: 840px; margin-inline: auto; text-align: center; }
+.headline { font-size: clamp(2.15rem, 5.4vw, 4.6rem); line-height: 1.05; font-weight: 700; letter-spacing: -.055em; margin-top: 20px; }
+.headline span { color: #2563eb; }
+.intro { max-width: 620px; margin: 24px auto 0; }
+.heroActions { display: flex; flex-wrap: wrap; gap: 12px 28px; justify-content: center; align-items: center; margin-top: 28px; }
+.heroGuidance { margin: 16px auto 0; }
+.overview { margin: 40px auto 0; }
+.overview figcaption { display: flex; gap: 8px; flex-wrap: wrap; justify-content: space-between; align-items: baseline; }
+.productJump { border-block: 1px solid #e2e8f0; scroll-margin-top: 88px; }
+.productJump nav { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 20px; }
+.productJump a { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-block: 22px; color: #0f172a; font-size: .875rem; font-weight: 600; }
+.productJump a:hover { color: #1d4ed8; }
+.productJump span { color: #475569; font-size: .6875rem; font-weight: 400; }
+.products > section { border-bottom: 1px solid #e2e8f0; }
+.products > section:nth-child(even) { background: #f8fafc; }
+.productNote { color: #475569; font-size: .8125rem; border-left: 2px solid #2563eb; padding-left: 16px; }
+.sectionHeader { max-width: 650px; }
+.sectionHeader h2 { margin-top: 16px; }
+.sectionHeader > p:last-child { margin-top: 22px; }
+.workflowFootnote { color: #475569; font-size: .8125rem; margin-top: 24px; }
+.workflowMedia { margin-top: 32px; }
+.workflowText { margin-top: 20px; font-size: .875rem; color: #475569; }
+.workflowText summary { cursor: pointer; padding-block: 12px; color: #1d4ed8; font-weight: 600; }
+.workflowText ol { padding-left: 24px; margin-top: 8px; }
+.workflowText li { padding-block: 4px; }
+.contractMedia { width: 100%; max-width: 508px; margin-inline: auto; }
+.onboarding { background: #f8fafc; border-block: 1px solid #e2e8f0; }
+.steps { list-style: none; margin: 36px 0 0; padding: 0; display: grid; gap: 28px; }
+.steps li { min-width: 0; border-top: 1px solid #cbd5e1; padding-top: 18px; }
+.stepNumber { color: #1d4ed8; font-size: .75rem; font-weight: 600; }
+.steps h3 { font-size: 1rem; font-weight: 600; margin-top: 14px; }
+.steps p { margin-top: 10px; font-size: .875rem; }
+.onboardingLinks { display: flex; flex-wrap: wrap; gap: 12px 28px; align-items: center; margin-top: 30px; }
+.resourceGrid { display: grid; gap: 32px; margin-top: 36px; }
+.resourceGroup { border-top: 2px solid #cbd5e1; padding-top: 20px; min-width: 0; }
+.resourceGroup h3 { font-size: 1.0625rem; font-weight: 600; }
+.resourceGroup ul { margin-top: 12px; padding: 0; list-style: none; }
+.resourceGroup a { display: inline-flex; align-items: center; min-height: 44px; padding-block: 8px; color: #475569; font-size: .8125rem; text-decoration: underline; text-decoration-color: #94a3b8; text-underline-offset: 4px; }
+.resourceGroup li:first-child a { color: #1d4ed8; font-weight: 600; }
+.resourceGroup a:hover { color: #0f172a; }
+.resourceFooter { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 0 24px; }
+@media (min-width: 640px) {
+  .productJump nav { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; }
+  .steps, .resourceGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .products > section:has(.contractMedia) > div > div { grid-template-columns: minmax(0, 1fr); }
+}
+@media (min-width: 1024px) {
+  .hero { padding-top: 64px; }
+  .overview { margin-top: 48px; }
+  .steps { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; }
+  .resourceGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 28px; }
+}
+@media (max-width: 639px) {
+  .heroActions { flex-direction: column; align-items: stretch; }
+  .heroActions > a:last-child { justify-content: center; }
+  .headline { font-size: clamp(2.1rem, 8.8vw, 3.25rem); }
+  .onboardingLinks { flex-direction: column; align-items: stretch; }
+  .onboardingLinks > a:last-child { justify-content: center; }
+}

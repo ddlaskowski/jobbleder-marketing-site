@@ -6,7 +6,7 @@ import styles from "./invoiceProduct.module.css"
 import { heroIsOverview, invoiceImage } from "@/lib/invoiceProductMedia"
 
 export default function ProductHero() {
-  const heroImage = invoiceImage("hero", heroIsOverview ? "Jobbleder: oversikt og hurtighandling for ny faktura" : "Fakturaeditoren i Jobbleder", "(max-width: 1279px) calc(100vw - 48px), 1232px")
+  const heroImage = invoiceImage("hero", heroIsOverview ? "Jobbleder: oversikt og hurtighandling for ny faktura" : "Fakturaeditoren i Jobbleder med kunde og utstedelsesdato", "(max-width: 1279px) calc(100vw - 48px), 1232px")
   return (
     <section className={styles.hero} aria-labelledby="produkttittel">
       <Container>
@@ -30,7 +30,7 @@ export default function ProductHero() {
           </div>
           <div className={styles.heroMedia}>
             <div className={styles.heroApp}>
-              <ProductMediaFrame label="Fakturavisning i Jobbleder" image={heroImage} mobileImage={invoiceImage("heroMobile", "Hurtighandlingen Ny faktura i Jobbleder", "100vw")} priority />
+              <ProductMediaFrame label="Fakturavisning i Jobbleder" image={heroImage} mobileImage={invoiceImage("heroMobile", heroIsOverview ? "Hurtighandlingen Ny faktura i Jobbleder" : "Kunde og utstedelsesdato i fakturaeditoren i Jobbleder", "100vw")} priority />
               {heroImage && <a href={heroImage.src} className={styles.mediaFullLink}>Åpne produktvisningen i full størrelse <span aria-hidden="true">↗</span></a>}
               {heroIsOverview && <p className={styles.mediaCaption}>Oversikt i Jobbleder. På mobil vises et utsnitt av hurtighandlingen «Ny faktura».</p>}
             </div>
