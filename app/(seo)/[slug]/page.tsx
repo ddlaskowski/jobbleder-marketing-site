@@ -11,6 +11,7 @@ import DownloadResources from "@/components/DownloadResources"
 import ClusterNavigation from "@/components/ClusterNavigation"
 import Breadcrumbs from "@/components/Breadcrumbs"
 import InvoiceProductPage from "@/components/product/invoice/InvoiceProductPage"
+import TimelistProductPage from "@/components/product/timelist/TimelistProductPage"
 
 function buildFaqJsonLd(faqs: { q: string; a: string }[]) {
   return {
@@ -61,6 +62,7 @@ export default async function SEOPage({ params }: Props) {
   const page = getPage(slug)
   if (!page) return notFound()
   if (slug === "fakturaprogram-gratis") return <InvoiceProductPage />
+  if (slug === "timeliste-mal") return <TimelistProductPage />
     const faqJsonLd = page.faqs?.length ? buildFaqJsonLd(page.faqs) : null;
 
   return (

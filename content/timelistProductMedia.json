@@ -1,0 +1,184 @@
+{
+  "assets": {
+    "hero": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-hero-6426b7a8e7d6.webp",
+      "width": 624,
+      "height": 646,
+      "bytes": 46052,
+      "original": {
+        "file": "public/images/product/timeliste/source/timelist_4_different_entries_in_documents_menu.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 177017,
+        "sha256": "6ccd2040907ceda33e904ffc7583a1acb7ea2e9f4d7b85076c83e167f49083a2"
+      },
+      "crop": {
+        "left": 646,
+        "top": 54,
+        "width": 624,
+        "height": 646
+      },
+      "format": "webp"
+    },
+    "heroMobile": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-hero-mobile-b1225eb33266.webp",
+      "width": 520,
+      "height": 222,
+      "bytes": 14784,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_timelist_form_4_different_entries.png",
+        "width": 654,
+        "height": 720,
+        "bytes": 82084,
+        "sha256": "23076580e61dd8ca70d66300cef1a581a4b56a27c5a4dff5b897a874426a9cdc"
+      },
+      "crop": {
+        "left": 0,
+        "top": 96,
+        "width": 520,
+        "height": 222
+      },
+      "format": "webp"
+    },
+    "registrations": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-registrations-b7636e83c465.webp",
+      "width": 1070,
+      "height": 370,
+      "bytes": 35438,
+      "original": {
+        "file": "public/images/product/timeliste/source/work_entries_panel_with_2_entries_marked.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 104952,
+        "sha256": "b5fd3614ebb335599adf0b46bdac874b55a75109fc8064266305f918dc5568aa"
+      },
+      "crop": {
+        "left": 200,
+        "top": 64,
+        "width": 1070,
+        "height": 370
+      },
+      "format": "webp"
+    },
+    "registrationsMobile": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-registrations-mobile-1c7e61037ffa.webp",
+      "width": 590,
+      "height": 166,
+      "bytes": 11708,
+      "original": {
+        "file": "public/images/product/timeliste/source/work_entries_panel_with_2_entries_marked.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 104952,
+        "sha256": "b5fd3614ebb335599adf0b46bdac874b55a75109fc8064266305f918dc5568aa"
+      },
+      "crop": {
+        "left": 204,
+        "top": 214,
+        "width": 590,
+        "height": 166
+      },
+      "format": "webp"
+    },
+    "form": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-form-0ef832050c88.webp",
+      "width": 654,
+      "height": 720,
+      "bytes": 47768,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_timelist_form_4_different_entries.png",
+        "width": 654,
+        "height": 720,
+        "bytes": 82084,
+        "sha256": "23076580e61dd8ca70d66300cef1a581a4b56a27c5a4dff5b897a874426a9cdc"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "formMobile": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-form-mobile-683400a49c39.webp",
+      "width": 520,
+      "height": 548,
+      "bytes": 33176,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_timelist_form_4_different_entries.png",
+        "width": 654,
+        "height": 720,
+        "bytes": 82084,
+        "sha256": "23076580e61dd8ca70d66300cef1a581a4b56a27c5a4dff5b897a874426a9cdc"
+      },
+      "crop": {
+        "left": 0,
+        "top": 172,
+        "width": 520,
+        "height": 548
+      },
+      "format": "webp"
+    },
+    "timelistPdf": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-timelist-pdf-2ac9500c19b9.webp",
+      "width": 508,
+      "height": 720,
+      "bytes": 22154,
+      "original": {
+        "file": "public/images/product/timeliste/source/exported_timelist_4_different_entries.png",
+        "width": 508,
+        "height": 720,
+        "bytes": 46476,
+        "sha256": "8fdf63a6374a552838a362a3349e1ce196c60b51ca12c7e7b0cd24f3c9da31c3"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "invoiceForm": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-invoice-form-8831711a4a0c.webp",
+      "width": 840,
+      "height": 720,
+      "bytes": 52880,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_invoice_form_4_different_entries.png",
+        "width": 840,
+        "height": 720,
+        "bytes": 92374,
+        "sha256": "e4946dba25eadc67d4c360481d84173206cba38d48aa381e8f5b8803dee863ab"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "invoiceFormMobile": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-invoice-form-mobile-68ad22496f40.webp",
+      "width": 668,
+      "height": 480,
+      "bytes": 29764,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_invoice_form_4_different_entries.png",
+        "width": 840,
+        "height": 720,
+        "bytes": 92374,
+        "sha256": "e4946dba25eadc67d4c360481d84173206cba38d48aa381e8f5b8803dee863ab"
+      },
+      "crop": {
+        "left": 0,
+        "top": 240,
+        "width": 668,
+        "height": 480
+      },
+      "format": "webp"
+    },
+    "invoicePdf": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-invoice-pdf-f5e18354a415.webp",
+      "width": 508,
+      "height": 720,
+      "bytes": 30270,
+      "original": {
+        "file": "public/images/product/timeliste/source/exported_invoice_4_different_entries.png",
+        "width": 508,
+        "height": 720,
+        "bytes": 58619,
+        "sha256": "6676a1833756d5acd3dbceed56d9eebe440c44d23ba824e490a5bb0eb5dad713"
+      },
+      "crop": null,
+      "format": "webp"
+    }
+  }
+}
