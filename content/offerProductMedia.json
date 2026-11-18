@@ -1,0 +1,234 @@
+{
+  "assets": {
+    "hero": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-hero-3c424f34ca1e.webp",
+      "width": 1090,
+      "height": 650,
+      "bytes": 70056,
+      "original": {
+        "file": "public/images/product/tilbud/source/offer_document_preview_in_documents_menu.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 153575,
+        "sha256": "7dc9733cbec13015482e33423f59bc1197a644f33dd92761696c72ed01fba0fb"
+      },
+      "crop": {
+        "left": 180,
+        "top": 58,
+        "width": 1090,
+        "height": 650
+      },
+      "format": "webp"
+    },
+    "heroMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-hero-mobile-7ef9a11a7c8c.webp",
+      "width": 600,
+      "height": 168,
+      "bytes": 11992,
+      "original": {
+        "file": "public/images/product/tilbud/source/offer_document_preview_in_documents_menu.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 153575,
+        "sha256": "7dc9733cbec13015482e33423f59bc1197a644f33dd92761696c72ed01fba0fb"
+      },
+      "crop": {
+        "left": 660,
+        "top": 260,
+        "width": 600,
+        "height": 168
+      },
+      "format": "webp"
+    },
+    "pdf": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-pdf-085c0b3a1244.webp",
+      "width": 506,
+      "height": 720,
+      "bytes": 20340,
+      "original": {
+        "file": "public/images/product/tilbud/source/exported_tilbud_A4.png",
+        "width": 506,
+        "height": 720,
+        "bytes": 39992,
+        "sha256": "0e47a5edda4d74db87855a4f6917f6e3158d52d8c259a551da71b6b0116ceee9"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "editor": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-editor-efed9bd605e5.webp",
+      "width": 1084,
+      "height": 342,
+      "bytes": 32496,
+      "original": {
+        "file": "public/images/product/tilbud/source/new_offer_form.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 112403,
+        "sha256": "ce29f84d48fcbdfe5c81c245bfcff7c2482d517be172d8b8cb7f35815145c2db"
+      },
+      "crop": {
+        "left": 184,
+        "top": 164,
+        "width": 1084,
+        "height": 342
+      },
+      "format": "webp"
+    },
+    "editorMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-editor-mobile-c86e5ebb7582.webp",
+      "width": 842,
+      "height": 140,
+      "bytes": 10696,
+      "original": {
+        "file": "public/images/product/tilbud/source/new_offer_form.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 112403,
+        "sha256": "ce29f84d48fcbdfe5c81c245bfcff7c2482d517be172d8b8cb7f35815145c2db"
+      },
+      "crop": {
+        "left": 194,
+        "top": 350,
+        "width": 842,
+        "height": 140
+      },
+      "format": "webp"
+    },
+    "invoice": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-invoice-825bce28603f.webp",
+      "width": 1084,
+      "height": 386,
+      "bytes": 35104,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_invoice.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115837,
+        "sha256": "988cbb277437e9a50892ec79258e9e3d9bdc77ea6aadd52951a813871ebd3e1c"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 1084,
+        "height": 386
+      },
+      "format": "webp"
+    },
+    "invoiceMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-invoice-mobile-dc98f21e88fc.webp",
+      "width": 862,
+      "height": 386,
+      "bytes": 25696,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_invoice.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115837,
+        "sha256": "988cbb277437e9a50892ec79258e9e3d9bdc77ea6aadd52951a813871ebd3e1c"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 862,
+        "height": 386
+      },
+      "format": "webp"
+    },
+    "contract": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-793f5eed04dc.webp",
+      "width": 834,
+      "height": 720,
+      "bytes": 56266,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_contract.png",
+        "width": 834,
+        "height": 720,
+        "bytes": 94495,
+        "sha256": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5"
+      },
+      "crop": null,
+      "format": "webp"
+    },
+    "contractMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-mobile-66905c4b86f7.webp",
+      "width": 664,
+      "height": 426,
+      "bytes": 30226,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_contract.png",
+        "width": 834,
+        "height": 720,
+        "bytes": 94495,
+        "sha256": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5"
+      },
+      "crop": {
+        "left": 0,
+        "top": 76,
+        "width": 664,
+        "height": 426
+      },
+      "format": "webp"
+    },
+    "editedContract": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-edited-contract-98807c86e360.webp",
+      "width": 560,
+      "height": 442,
+      "bytes": 26892,
+      "original": {
+        "file": "public/images/product/tilbud/source/contract_from_offer_edited.png",
+        "width": 706,
+        "height": 720,
+        "bytes": 78568,
+        "sha256": "e3567b7b2a17f248d8cc82d8cb52d51c342afc7dc04e0b640cc760fdc0aeb8bb"
+      },
+      "crop": {
+        "left": 0,
+        "top": 94,
+        "width": 560,
+        "height": 442
+      },
+      "format": "webp"
+    },
+    "contractInvoice": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-invoice-7847d3b65141.webp",
+      "width": 1084,
+      "height": 386,
+      "bytes": 35312,
+      "original": {
+        "file": "public/images/product/tilbud/source/invoice_from_contract.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115705,
+        "sha256": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 1084,
+        "height": 386
+      },
+      "format": "webp"
+    },
+    "contractInvoiceMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-invoice-mobile-64fb6553081e.webp",
+      "width": 862,
+      "height": 386,
+      "bytes": 25808,
+      "original": {
+        "file": "public/images/product/tilbud/source/invoice_from_contract.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115705,
+        "sha256": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 862,
+        "height": 386
+      },
+      "format": "webp"
+    }
+  }
+}
