@@ -5,6 +5,9 @@
   --blue: #2563eb;
   --line: #e2e8f0;
   --paper: #f8fafc;
+  --site-ink: var(--ink);
+  --site-muted: var(--muted);
+  --site-line: var(--line);
   background: #fff;
   color: var(--body);
   color-scheme: light;

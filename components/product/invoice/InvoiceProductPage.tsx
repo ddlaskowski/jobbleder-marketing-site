@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar"
+import { SiteHeader } from "@/components/site/SiteChrome"
 import Footer from "@/components/Footer"
 import { invoiceProduct } from "@/content/invoiceProduct"
 import ProductHero from "./ProductHero"
@@ -24,7 +24,7 @@ export default function InvoiceProductPage() {
   return (
     <div className={styles.page}>
       <a href="#produktinnhold" className={styles.skipLink}>Hopp til innhold</a>
-      <Navbar />
+      <SiteHeader />
       <main id="produktinnhold" tabIndex={-1}>
         <ProductHero />
         <ProductValueStrip />
