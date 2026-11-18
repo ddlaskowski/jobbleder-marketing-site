@@ -10,6 +10,7 @@ import FAQAccordion from "@/components/FAQAccordion"
 import DownloadResources from "@/components/DownloadResources"
 import ClusterNavigation from "@/components/ClusterNavigation"
 import Breadcrumbs from "@/components/Breadcrumbs"
+import InvoiceProductPage from "@/components/product/invoice/InvoiceProductPage"
 
 function buildFaqJsonLd(faqs: { q: string; a: string }[]) {
   return {
@@ -59,6 +60,7 @@ export default async function SEOPage({ params }: Props) {
   const { slug } = await params
   const page = getPage(slug)
   if (!page) return notFound()
+  if (slug === "fakturaprogram-gratis") return <InvoiceProductPage />
     const faqJsonLd = page.faqs?.length ? buildFaqJsonLd(page.faqs) : null;
 
   return (

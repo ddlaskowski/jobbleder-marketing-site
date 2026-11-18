@@ -1,0 +1,147 @@
+{
+  "heroKind": "editor",
+  "missing": [],
+  "assets": {
+    "editor": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-editor-80c02f47c4d3.webp",
+      "width": 1917,
+      "height": 906,
+      "bytes": 73136,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      }
+    },
+    "free": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-free-8239cf43dbea.webp",
+      "width": 959,
+      "height": 1251,
+      "bytes": 52268,
+      "original": {
+        "file": "public/images/product/invoice/source/fv_free_watermark.png",
+        "width": 959,
+        "height": 1251,
+        "bytes": 127681,
+        "sha256": "23630541d4de63bae65cb219410102e44106969d0efeca238799dc050132d53e"
+      }
+    },
+    "premiumClear": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-premium-clear-c94ecd44cf6d.webp",
+      "width": 959,
+      "height": 1251,
+      "bytes": 45982,
+      "original": {
+        "file": "public/images/product/invoice/source/fv_premium_clear.png",
+        "width": 959,
+        "height": 1251,
+        "bytes": 109632,
+        "sha256": "de8b21d31182cbf0864d447e9065cf1035ba3c620e3cff053dc8f017bff73399"
+      }
+    },
+    "premiumLogo": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-premium-logo-fe289b390386.webp",
+      "width": 947,
+      "height": 1251,
+      "bytes": 51534,
+      "original": {
+        "file": "public/images/product/invoice/source/fv_premium_logo.png",
+        "width": 947,
+        "height": 1251,
+        "bytes": 131557,
+        "sha256": "8f38ff27ad2c9228483e1784b80cccd873d8ab8fae218804860e14923e0df49a"
+      }
+    },
+    "hero": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-editor-80c02f47c4d3.webp",
+      "width": 1917,
+      "height": 906,
+      "bytes": 73136,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      }
+    },
+    "heroMobile": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-editor-mobile-customer-d8eee62a318a.webp",
+      "width": 400,
+      "height": 145,
+      "bytes": 4148,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      },
+      "crop": {
+        "left": 320,
+        "top": 367,
+        "width": 400,
+        "height": 145
+      }
+    },
+    "processCustomer": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-customer-a819f5c0ca04.webp",
+      "width": 400,
+      "height": 75,
+      "bytes": 2366,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      },
+      "crop": {
+        "left": 320,
+        "top": 367,
+        "width": 400,
+        "height": 75
+      }
+    },
+    "processLines": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-lines-e59165029d4b.webp",
+      "width": 400,
+      "height": 136,
+      "bytes": 3900,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      },
+      "crop": {
+        "left": 332,
+        "top": 662,
+        "width": 400,
+        "height": 136
+      }
+    },
+    "processTotals": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-totals-a06d77a998da.webp",
+      "width": 320,
+      "height": 145,
+      "bytes": 4460,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      },
+      "crop": {
+        "left": 1566,
+        "top": 439,
+        "width": 320,
+        "height": 145
+      }
+    }
+  }
+}
