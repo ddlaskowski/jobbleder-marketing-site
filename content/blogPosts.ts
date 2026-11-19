@@ -1,3 +1,11 @@
+export type BlogProductExampleBlock = {
+  type: "productExample"
+  asset: "mobileRegistrationExtra" | "mobileInvoiceSummary"
+  paragraphs: string[]
+  alt: string
+  caption: string
+}
+
 export type BlogBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
@@ -7,6 +15,9 @@ export type BlogBlock =
   | { type: "note"; text: string }
   | { type: "timelistComparison" }
   | { type: "timelistContents"; heading: string; text: string; items: string[] }
+  | { type: "textLink"; href: string; label: string }
+  | { type: "steps"; items: { title: string; text: string }[] }
+  | BlogProductExampleBlock
 
 export type BlogPost = {
   id: number
@@ -425,66 +436,93 @@ export const blogPosts: BlogPost[] = [
         relatedTopic: "timeliste",
         blocks: [
             {
-            type: "paragraph",
-            text: "Hvis du jobber som håndverker, frilanser eller selvstendig næringsdrivende, er god timeføring viktig. Timelister gir deg bedre oversikt over hva du har gjort, og gjør det enklere å dokumentere arbeidstid overfor kunder.",
+                "type": "paragraph",
+                "text": "God timeføring handler om å kunne forstå arbeidsdagen i etterkant. Før dato, tidsrom, pause og en konkret arbeidsbeskrivelse mens du fortsatt husker oppgaven. Da har du et bedre grunnlag når du skal samle dagene eller forklare arbeidet for kunden."
             },
             {
-            type: "heading",
-            text: "Hva bør en god timeliste inneholde?",
+                "type": "heading",
+                "text": "Før det du trenger senere"
             },
             {
-            type: "paragraph",
-            text: "En timeliste bør gjøre det enkelt å se hva som ble gjort, når det ble gjort og hvor mange timer som ble brukt.",
+                "type": "list",
+                "items": [
+                    "Dato og prosjekt eller oppdrag.",
+                    "Inn- og uttid, og hvor lang pausen var.",
+                    "Om pausen var betalt eller ubetalt.",
+                    "En beskrivelse som sier hva du gjorde, for eksempel «Montering av gipsplater på vegg».",
+                    "Arbeidernavnet når du oppretter timelisten."
+                ]
             },
             {
-            type: "list",
-            items: [
-                "Dato",
-                "Antall timer",
-                "Hva som ble gjort",
-                "Prosjekt eller kunde",
-                "Eventuelle kommentarer",
-            ],
+                "type": "heading",
+                "text": "Eksempel: 08:00–16:00 med pause"
             },
             {
-            type: "heading",
-            text: "Vanlige feil ved timeføring",
+                "type": "paragraph",
+                "text": "Du arbeider fra 08:00 til 16:00 og har 30 minutter ubetalt pause. Tidsrommet er åtte timer; etter pausen blir arbeidstiden sju timer og tretti minutter. Før pausen som et eget felt, slik at det er tydelig hvordan timene henger sammen."
             },
             {
-            type: "list",
-            items: [
-                "Du glemmer å føre timer daglig",
-                "Beskrivelsene blir for uklare",
-                "Datoene mangler eller blir utydelige",
-                "Du har ikke et system for å lagre alt samlet",
-            ],
+                "type": "paragraph",
+                "text": "Beskriv oppgaven i stedet for å skrive bare «arbeid». Kontroller dato og prosjekt før du bruker dagen i et dokument. Når du samler flere dager, bør du også se etter manglende eller dobbeltførte oppføringer."
             },
             {
-            type: "heading",
-            text: "Hvorfor er digital timeføring enklere?",
+                "type": "textLink",
+                "href": "/timeliste-uke",
+                "label": "Slik samler og kontrollerer du en ukentlig timeliste"
             },
             {
-            type: "paragraph",
-            text: "Når du fører timelister digitalt, blir det enklere å oppdatere fortløpende og holde oversikt over flere dager, kunder og prosjekter. Du kan også laste ned PDF når du trenger det.",
+                "type": "heading",
+                "text": "Fra daglig registrering til kontrollert timeliste"
             },
             {
-            type: "link",
-            href: "/timeliste-uke",
-            label: "Les mer om ukentlig timeliste",
+                "type": "steps",
+                "items": [
+                    {
+                        "title": "Registrer og lagre arbeidsdagen.",
+                        "text": "I Jobbleder kan du føre timer, pause og beskrivelse i nettleseren på mobilen. Kontroller feltene og velg Lagre registrering."
+                    },
+                    {
+                        "title": "Velg dagene du vil bruke.",
+                        "text": "Marker lagrede registreringer og velg Importer til timeliste. Ta med de oppføringene som hører til dokumentet du skal lage."
+                    },
+                    {
+                        "title": "Se over dokumentet.",
+                        "text": "Kontroller radene, prosjektet og arbeidernavnet før du lagrer timelisten eller genererer PDF. Du kan også opprette timelisten direkte og fylle inn arbeidsdagene selv."
+                    }
+                ]
             },
             {
-            type: "note",
-            text: "Den største feilen mange gjør er å stole på hukommelsen. Før timer fortløpende, så blir både dokumentasjonen og oversikten mye bedre.",
+                "type": "textLink",
+                "href": "/timeliste-mal#registrer-pa-mobil",
+                "label": "Se registrering av arbeidstimer i mobilnettleseren"
             },
             {
-            type: "cta",
-            text: "Vil du føre timelister raskere og mer oversiktlig? Prøv Jobbleder gratis.",
+                "type": "textLink",
+                "href": "/instruksjoner#importer-arbeidsokter-til-timeliste",
+                "label": "Følg veiledningen for å importere registreringer"
             },
             {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett timeliste gratis",
+                "type": "heading",
+                "text": "Når timene skal brukes videre"
             },
+            {
+                "type": "paragraph",
+                "text": "En kontrollert timeliste kan eksporteres som PDF eller brukes til å opprette en faktura. Gå også gjennom fakturaens kunde, antall og satser før du lager PDF og sender den selv. Dokumentoppretting og konvertering er tilgjengelig i Jobbleder Free."
+            },
+            {
+                "type": "textLink",
+                "href": "/blogg/timeliste-og-faktura",
+                "label": "Fra timeliste til faktura: hva du bør kontrollere"
+            },
+            {
+                "type": "paragraph",
+                "text": "Har arbeidsdagen flere ulike oppgaver, er det nyttig å skille beskrivelsene og markere ekstraarbeid når det gjelder registreringen. Ikke legg inn samme tidsrom flere ganger for den samme oppgaven."
+            },
+            {
+                "type": "textLink",
+                "href": "/blogg/timeliste-for-handverkere",
+                "label": "Se et eksempel med ekstraarbeid og kilometer på oppdrag"
+            }
         ],
     },
     {
@@ -830,48 +868,94 @@ export const blogPosts: BlogPost[] = [
         relatedTopic: "timeliste",
         blocks: [
             {
-            type: "paragraph",
-            text: "For håndverkere er det ofte mange små detaljer i løpet av en arbeidsdag. Uten gode rutiner for timelister kan det bli vanskelig å huske hva som ble gjort, hvor mye tid som gikk med, og hvordan arbeidet skal dokumenteres senere.",
+                "type": "paragraph",
+                "text": "På et oppdrag kan parkettlegging, montering og bortkjøring av avfall være ulike arbeidsoppgaver. Tydelige beskrivelser gjør det enklere å se hva timene gjelder når du skal dokumentere jobben for kunden. Før oppgavene mens du husker dem, med dato, tidsrom og pause."
             },
             {
-            type: "heading",
-            text: "Hvorfor timelister er nyttige i praksis",
+                "type": "heading",
+                "text": "Beskriv oppgaven, ikke bare arbeidsdagen"
             },
             {
-            type: "paragraph",
-            text: "En god timeliste gjør det enklere å holde oversikt over arbeidstid, oppdrag og prosjekter. Den gir også et tydelig grunnlag når du skal forklare jobben for kunden eller bruke timene videre i dokumentarbeid.",
+                "type": "list",
+                "items": [
+                    "«Legging av parkett» forklarer mer enn «arbeid».",
+                    "«Bortkjøring av avfall» skiller transportoppgaven fra arbeidet på byggeplassen.",
+                    "Bruk riktig dato og unngå å føre samme arbeidstid både som vanlig arbeid og ekstraarbeid."
+                ]
             },
             {
-            type: "list",
-            items: [
-                "Bedre oversikt over arbeidstid",
-                "Mindre risiko for å glemme timer",
-                "Tydeligere dokumentasjon overfor kunde",
-                "Mer struktur i hverdagen",
-            ],
+                "type": "heading",
+                "text": "Et eget eksempel med ekstraarbeid og kilometer"
             },
             {
-            type: "heading",
-            text: "Den vanligste feilen",
+                "type": "productExample",
+                "asset": "mobileRegistrationExtra",
+                "paragraphs": [
+                    "Skjermbildet viser en registrering for bortkjøring av avfall: 08:00–10:00, uten pause, med 50 KM og Marker som ekstra valgt. Det er ett eksempel på en oppgave, ikke hele arbeidsdagen eller et ferdig dokument.",
+                    "Du velger selv om registreringen skal markeres som ekstraarbeid. Markeringen er ikke automatisk beregning av overtid. KM-feltet er tilgjengelig når Aktiver KM er slått på under Innstillinger → Standard for timeliste.",
+                    "Kontroller beskrivelsen, tidene, eventuell pause, KM og ekstra-markeringen før du velger Lagre registrering."
+                ],
+                "alt": "Mobilregistrering for bortkjøring av avfall med 50 KM, Marker som ekstra valgt og knappen Lagre registrering",
+                "caption": "Et eget mobileksempel før lagring. Ekstra er valgt, og kilometerfeltet er fylt inn."
             },
             {
-            type: "paragraph",
-            text: "Den største feilen mange gjør er å føre timer for sent. Når du stoler på hukommelsen, blir både beskrivelsene og tidsbruken ofte mindre presise.",
+                "type": "textLink",
+                "href": "/instruksjoner#legg-til-en-arbeidsokt",
+                "label": "Se hvordan du legger til en arbeidsregistrering"
             },
             {
-            type: "link",
-            href: "/timeliste-ansatt",
-            label: "Les mer om timeliste for ansatte",
+                "type": "heading",
+                "text": "Samle de riktige oppgavene under prosjektet"
             },
             {
-            type: "cta",
-            text: "Vil du føre timelister enklere? Bruk Jobbleder direkte i nettleseren.",
+                "type": "steps",
+                "items": [
+                    {
+                        "title": "Velg det som hører til oppdraget.",
+                        "text": "Marker de lagrede registreringene du vil bruke, og velg Importer til timeliste. Kontroller at du har valgt riktige dager og oppgaver."
+                    },
+                    {
+                        "title": "Identifiser timelisten.",
+                        "text": "Velg prosjekt og skriv arbeidernavnet når du oppretter dokumentet. Navnet forteller hvem timene gjelder; du oppretter ikke en ansattkonto."
+                    },
+                    {
+                        "title": "Kontroller før du lager PDF.",
+                        "text": "Se gjennom datoer, pauser, beskrivelser, timer og eventuelle kilometer. Sjekk at ekstraarbeid er markert på de riktige radene før du lagrer eller genererer dokumentet."
+                    }
+                ]
             },
             {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett timeliste gratis",
+                "type": "textLink",
+                "href": "/timeliste-prosjekt",
+                "label": "Dokumenter timer og oppgaver på et bestemt prosjekt"
             },
+            {
+                "type": "paragraph",
+                "text": "Når flere personers arbeid skal dokumenteres, er det viktig at det enkelte dokumentet har riktig arbeidernavn og forståelige arbeidsrader. Jobbleder knytter timene til navnet du skriver inn i timelisten."
+            },
+            {
+                "type": "textLink",
+                "href": "/timeliste-ansatt",
+                "label": "Slik bruker du arbeidernavn i timelisten"
+            },
+            {
+                "type": "heading",
+                "text": "Bruk den gjennomgåtte timelisten videre"
+            },
+            {
+                "type": "paragraph",
+                "text": "Du kan dele PDF-en som dokumentasjon eller bruke timelisten som grunnlag for en faktura. Før fakturaen sendes, må du selv kontrollere kunde, linjer, antall og satser. Lag faktura-PDF-en og send den til kunden selv."
+            },
+            {
+                "type": "textLink",
+                "href": "/blogg/timeliste-og-faktura",
+                "label": "Se hvordan timelisten brukes som fakturagrunnlag"
+            },
+            {
+                "type": "textLink",
+                "href": "/timeliste-mal#registrer-pa-mobil",
+                "label": "Se Jobbleders registreringer i mobilnettleseren"
+            }
         ],
     },
     {
@@ -889,49 +973,97 @@ export const blogPosts: BlogPost[] = [
         relatedTopic: "timeliste",
         blocks: [
             {
-            type: "paragraph",
-            text: "Timeliste og faktura er to forskjellige dokumenter, men de henger tett sammen. Når timene er godt dokumentert, blir det lettere å bygge videre på arbeidet og holde oversikt over hva kunden faktisk skal betale for.",
+                "type": "paragraph",
+                "text": "Timelisten dokumenterer når og hva du har arbeidet med. Fakturaen bruker det kontrollerte grunnlaget sammen med kundeopplysninger, antall og priser. I Jobbleder kan du opprette faktura fra en lagret timeliste, men du må fortsatt gjennomgå innholdet før du sender noe til kunden."
             },
             {
-            type: "heading",
-            text: "Hvorfor god timeføring hjelper senere",
+                "type": "heading",
+                "text": "Fra arbeidsregistrering til faktura, steg for steg"
             },
             {
-            type: "paragraph",
-            text: "Når du fører timer tydelig med dato, beskrivelse og antall timer, har du bedre oversikt over hva som er gjort. Det gjør også hele prosessen mer ryddig senere.",
+                "type": "steps",
+                "items": [
+                    {
+                        "title": "Registrer arbeidet.",
+                        "text": "Før dato, inn- og uttid, pause og arbeidsbeskrivelse i mobilnettleseren. Ta med kilometer når KM er aktivert, og marker ekstraarbeid ved behov. Kontroller feltene og velg Lagre registrering."
+                    },
+                    {
+                        "title": "Velg og importer registreringene.",
+                        "text": "Marker de lagrede oppføringene du vil bruke, og velg Importer til timeliste. Velg prosjekt, skriv arbeidernavnet og knytt til kunde ved behov. Du kan også opprette timelisten direkte uten import."
+                    },
+                    {
+                        "title": "Kontroller og lagre timelisten.",
+                        "text": "Gå gjennom dager, beskrivelser, pauser og summer. Lagre dokumentet når innholdet er riktig. Du kan generere en timeliste-PDF som dokumentasjon; PDF-eksport er et eget valg."
+                    },
+                    {
+                        "title": "Opprett faktura fra dokumentet.",
+                        "text": "Åpne den lagrede timelisten i Dokumenter, og velg Opprett faktura under forhåndsvisningen. Bruk timelistens opplysninger som grunnlag i den nye fakturaen."
+                    },
+                    {
+                        "title": "Kontroller fakturaen før du sender den.",
+                        "text": "Sjekk kunde, prosjekt, datoer, antall, enhetspriser, MVA og summer. Når fakturaen er klar, kan du generere PDF og sende den til kunden selv."
+                    }
+                ]
             },
             {
-            type: "heading",
-            text: "Hva bør stå i timelisten?",
+                "type": "textLink",
+                "href": "/instruksjoner#timeliste-til-faktura",
+                "label": "Følg knappene i veiledningen Timeliste → Faktura"
             },
             {
-            type: "list",
-            items: [
-                "Dato",
-                "Arbeidsbeskrivelse",
-                "Timer brukt",
-                "Prosjekt eller kunde",
-                "Eventuelle tillegg eller kommentarer",
-            ],
+                "type": "heading",
+                "text": "Fire kategorier holdes hver for seg"
             },
             {
-            type: "note",
-            text: "Jo tydeligere timelisten er, desto enklere blir det å forstå arbeidet i etterkant.",
+                "type": "paragraph",
+                "text": "Konverteringen skiller vanlige timer, ekstra timer, vanlige kilometer og ekstra kilometer. I mobileksemplet nedenfor er grunnlaget Timeliste 265, med disse mengdene:"
             },
             {
-            type: "link",
-            href: "/timeliste-prosjekt",
-            label: "Les mer om timeliste per prosjekt",
+                "type": "list",
+                "items": [
+                    "Vanlige timer: 9 timer og 30 minutter.",
+                    "Ekstra timer: 2 timer.",
+                    "Vanlige kilometer: 45 km.",
+                    "Ekstra kilometer: 50 km."
+                ]
             },
             {
-            type: "cta",
-            text: "Vil du samle timeliste og dokumentarbeid i ett system? Prøv Jobbleder gratis.",
+                "type": "productExample",
+                "asset": "mobileInvoiceSummary",
+                "paragraphs": [
+                    "Linjetekstene viser Timeliste 265 og arbeidernavnet Demo. Vanlige timer og ekstra timer ligger på ulike linjer, og det samme gjelder kilometer. Tallene tilhører dette mobileksemplet.",
+                    "Kontroller mengder og enhetspriser mot avtalen for oppdraget. Ekstra-markeringen skiller radene fra vanlig arbeid; den beregner ikke overtid eller lønn."
+                ],
+                "alt": "Mobilforhåndsvisning av fakturalinjer fra Timeliste 265 med vanlige timer, ekstra timer, vanlige kilometer og ekstra kilometer",
+                "caption": "Et eget dokumenteksempel med Timeliste 265 som kilde. Bildet viser fakturalinjer i Jobbleder, ikke et eksportert PDF-dokument."
             },
             {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Kom i gang gratis",
+                "type": "heading",
+                "text": "Et tydelig prosjekt gjør grunnlaget enklere å forstå"
             },
+            {
+                "type": "paragraph",
+                "text": "Arbeidsbeskrivelsen bør vise hva kunden faktisk får dokumentert. Kontroller at timene hører til riktig oppdrag, og at kunde og prosjekt stemmer i både timelisten og fakturaen. En ryddig timeliste erstatter ikke denne gjennomgangen."
+            },
+            {
+                "type": "textLink",
+                "href": "/timeliste-prosjekt",
+                "label": "Se hvordan du dokumenterer timer per prosjekt"
+            },
+            {
+                "type": "paragraph",
+                "text": "Arbeidsregistreringer, timelister, PDF-eksport og konvertering til faktura er med i Free. Free-PDF-er har Jobbleder-vannmerke. Med Premium kan du fjerne merkingen og bruke egen firmalogo."
+            },
+            {
+                "type": "textLink",
+                "href": "/timeliste-mal",
+                "label": "Se Timeliste-verktøyet og dokumenteksemplene"
+            },
+            {
+                "type": "textLink",
+                "href": "/fakturaprogram-gratis",
+                "label": "Les om faktura i Jobbleder"
+            }
         ],
     },
     {

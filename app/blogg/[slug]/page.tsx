@@ -10,6 +10,8 @@ import { blogPosts } from "@/content/blogPosts"
 import RelatedGuides from "@/components/RelatedGuides"
 import TimelistComparison from "@/components/blog/TimelistComparison"
 import TimelistContents from "@/components/blog/TimelistContents"
+import BlogProductExample from "@/components/blog/BlogProductExample"
+import articleStyles from "@/components/blog/blogProductExample.module.css"
 
 
 type Params = { slug: string }
@@ -125,6 +127,18 @@ export default async function BlogPostPage({ params }: Props) {
           <Container>
             <div className="max-w-3xl space-y-8">
               {post.blocks.map((block, index) => {
+                if (block.type === "productExample") {
+                  return <BlogProductExample key={index} {...block} />
+                }
+
+                if (block.type === "textLink") {
+                  return <Link key={index} href={block.href} className={articleStyles.textLink}>{block.label}</Link>
+                }
+
+                if (block.type === "steps") {
+                  return <ol key={index} className={articleStyles.steps}>{block.items.map(item => <li key={item.title}><strong>{item.title}</strong> {item.text}</li>)}</ol>
+                }
+
                 if (block.type === "timelistContents") {
                   return <TimelistContents key={index} heading={block.heading} text={block.text} items={block.items} />
                 }
