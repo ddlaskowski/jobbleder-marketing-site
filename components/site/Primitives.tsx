@@ -20,10 +20,11 @@ export function ResourceLink({ href, children }: { href: string; children: React
 
 export type SiteImage = { src: string; width: number; height: number; alt: string; srcSet?: string }
 
-export function ProductMedia({ image, mobileImage, tabletImage, compact = false, originalSrc, caption, document = false, priority = false, sizes = "(max-width: 1199px) calc(100vw - 48px), 1152px" }: {
-  image: SiteImage; mobileImage?: SiteImage; tabletImage?: SiteImage; compact?: boolean; originalSrc?: string; caption: string; document?: boolean; priority?: boolean; sizes?: string
+export function ProductMedia({ image, mobileImage, tabletImage, compact = false, originalSrc, mobileOriginalSrc, caption, document = false, priority = false, sizes = "(max-width: 1199px) calc(100vw - 48px), 1152px" }: {
+  image: SiteImage; mobileImage?: SiteImage; tabletImage?: SiteImage; compact?: boolean; originalSrc?: string; mobileOriginalSrc?: string; caption: string; document?: boolean; priority?: boolean; sizes?: string
 }) {
   const fullImage = originalSrc ?? image.src
+  const separateOriginals = mobileImage && mobileOriginalSrc && mobileOriginalSrc !== fullImage
   // One description must remain accurate for both art-directed variants.
   const alt = mobileImage ? mobileImage.alt : image.alt
   const mediaStyle = { "--image-width": `${image.width}px`, "--mobile-image-width": `${mobileImage?.width ?? image.width}px` } as CSSProperties
@@ -37,7 +38,10 @@ export function ProductMedia({ image, mobileImage, tabletImage, compact = false,
           <Image src={image.src} width={image.width} height={image.height} alt={alt} className={styles.image} unoptimized loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : undefined} />
         </picture> : <Image src={image.src} width={image.width} height={image.height} alt={alt} className={styles.image} sizes={document ? "(max-width: 367px) calc(100vw - 48px), 320px" : sizes} preload={priority} loading={priority ? undefined : "lazy"} unoptimized={image.src.endsWith(".webp")} />}
       </div>
-      <figcaption className={styles.caption}>{caption} <a href={fullImage}>Åpne hele bildet<span className={styles.srOnly}>: {alt}</span></a></figcaption>
+      <figcaption className={styles.caption}>{caption} {separateOriginals ? <>
+        <a className={compact ? styles.compactDesktopOriginal : styles.desktopOriginal} href={fullImage}>Åpne hele bildet<span className={styles.srOnly}>: {alt}</span></a>
+        <a className={compact ? styles.compactMobileOriginal : styles.mobileOriginal} href={mobileOriginalSrc}>Åpne hele bildet<span className={styles.srOnly}>: {alt}</span></a>
+      </> : <a href={fullImage}>Åpne hele bildet<span className={styles.srOnly}>: {alt}</span></a>}</figcaption>
     </figure>
   )
 }

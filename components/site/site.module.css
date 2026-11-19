@@ -55,6 +55,9 @@
 .document .image { aspect-ratio: 210 / 297; object-fit: contain; }
 .caption { color: var(--site-muted); font-size: .75rem; margin-top: 14px; line-height: 1.6; }
 .caption a { display: inline-block; padding-block: 6px; text-decoration: underline; text-underline-offset: 4px; }
+.caption .mobileOriginal, .caption .compactMobileOriginal { display: none; }
+@media (max-width: 639px) { .caption .desktopOriginal { display: none; } .caption .mobileOriginal { display: inline-block; } }
+@media (max-width: 1023px) { .caption .compactDesktopOriginal { display: none; } .caption .compactMobileOriginal { display: inline-block; } }
 .feature { display: grid; gap: 32px; align-items: center; }
 .feature > * { min-width: 0; }
 .featureCopy h2 { margin-top: 16px; }

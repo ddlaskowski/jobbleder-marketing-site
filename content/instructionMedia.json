@@ -1,0 +1,628 @@
+{
+  "assets": {
+    "invoiceForm": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-editor-80c02f47c4d3.webp",
+      "width": 1917,
+      "height": 906,
+      "bytes": 73136,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      },
+      "reused": true
+    },
+    "invoiceCustomer": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-editor-mobile-customer-d8eee62a318a.webp",
+      "width": 400,
+      "height": 145,
+      "bytes": 4148,
+      "original": {
+        "file": "public/images/product/invoice/source/screenshot_fv_edit.png",
+        "width": 1917,
+        "height": 906,
+        "bytes": 114542,
+        "sha256": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd"
+      },
+      "crop": {
+        "left": 320,
+        "top": 367,
+        "width": 400,
+        "height": 145
+      },
+      "reused": true
+    },
+    "invoicePdf": {
+      "src": "/images/product/invoice/optimized/jobbleder-invoice-free-8239cf43dbea.webp",
+      "width": 959,
+      "height": 1251,
+      "bytes": 52268,
+      "original": {
+        "file": "public/images/product/invoice/source/fv_free_watermark.png",
+        "width": 959,
+        "height": 1251,
+        "bytes": 127681,
+        "sha256": "23630541d4de63bae65cb219410102e44106969d0efeca238799dc050132d53e"
+      },
+      "reused": true
+    },
+    "registrations": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-registrations-b7636e83c465.webp",
+      "width": 1070,
+      "height": 370,
+      "bytes": 35438,
+      "original": {
+        "file": "public/images/product/timeliste/source/work_entries_panel_with_2_entries_marked.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 104952,
+        "sha256": "b5fd3614ebb335599adf0b46bdac874b55a75109fc8064266305f918dc5568aa"
+      },
+      "crop": {
+        "left": 200,
+        "top": 64,
+        "width": 1070,
+        "height": 370
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "registrationsMobile": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-registrations-mobile-1c7e61037ffa.webp",
+      "width": 590,
+      "height": 166,
+      "bytes": 11708,
+      "original": {
+        "file": "public/images/product/timeliste/source/work_entries_panel_with_2_entries_marked.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 104952,
+        "sha256": "b5fd3614ebb335599adf0b46bdac874b55a75109fc8064266305f918dc5568aa"
+      },
+      "crop": {
+        "left": 204,
+        "top": 214,
+        "width": 590,
+        "height": 166
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "timelistPdf": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-timelist-pdf-2ac9500c19b9.webp",
+      "width": 508,
+      "height": 720,
+      "bytes": 22154,
+      "original": {
+        "file": "public/images/product/timeliste/source/exported_timelist_4_different_entries.png",
+        "width": 508,
+        "height": 720,
+        "bytes": 46476,
+        "sha256": "8fdf63a6374a552838a362a3349e1ce196c60b51ca12c7e7b0cd24f3c9da31c3"
+      },
+      "crop": null,
+      "format": "webp",
+      "reused": true
+    },
+    "timelistDocuments": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-hero-6426b7a8e7d6.webp",
+      "width": 624,
+      "height": 646,
+      "bytes": 46052,
+      "original": {
+        "file": "public/images/product/timeliste/source/timelist_4_different_entries_in_documents_menu.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 177017,
+        "sha256": "6ccd2040907ceda33e904ffc7583a1acb7ea2e9f4d7b85076c83e167f49083a2"
+      },
+      "crop": {
+        "left": 646,
+        "top": 54,
+        "width": 624,
+        "height": 646
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "timelistInvoice": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-invoice-form-8831711a4a0c.webp",
+      "width": 840,
+      "height": 720,
+      "bytes": 52880,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_invoice_form_4_different_entries.png",
+        "width": 840,
+        "height": 720,
+        "bytes": 92374,
+        "sha256": "e4946dba25eadc67d4c360481d84173206cba38d48aa381e8f5b8803dee863ab"
+      },
+      "crop": null,
+      "format": "webp",
+      "reused": true
+    },
+    "timelistInvoiceMobile": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-invoice-form-mobile-68ad22496f40.webp",
+      "width": 668,
+      "height": 480,
+      "bytes": 29764,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_invoice_form_4_different_entries.png",
+        "width": 840,
+        "height": 720,
+        "bytes": 92374,
+        "sha256": "e4946dba25eadc67d4c360481d84173206cba38d48aa381e8f5b8803dee863ab"
+      },
+      "crop": {
+        "left": 0,
+        "top": 240,
+        "width": 668,
+        "height": 480
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "timelistInvoicePdf": {
+      "src": "/images/product/timeliste/optimized/jobbleder-timelist-invoice-pdf-f5e18354a415.webp",
+      "width": 508,
+      "height": 720,
+      "bytes": 30270,
+      "original": {
+        "file": "public/images/product/timeliste/source/exported_invoice_4_different_entries.png",
+        "width": 508,
+        "height": 720,
+        "bytes": 58619,
+        "sha256": "6676a1833756d5acd3dbceed56d9eebe440c44d23ba824e490a5bb0eb5dad713"
+      },
+      "crop": null,
+      "format": "webp",
+      "reused": true
+    },
+    "offerEditorMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-editor-mobile-c86e5ebb7582.webp",
+      "width": 842,
+      "height": 140,
+      "bytes": 10696,
+      "original": {
+        "file": "public/images/product/tilbud/source/new_offer_form.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 112403,
+        "sha256": "ce29f84d48fcbdfe5c81c245bfcff7c2482d517be172d8b8cb7f35815145c2db"
+      },
+      "crop": {
+        "left": 194,
+        "top": 350,
+        "width": 842,
+        "height": 140
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "offerDocuments": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-hero-3c424f34ca1e.webp",
+      "width": 1090,
+      "height": 650,
+      "bytes": 70056,
+      "original": {
+        "file": "public/images/product/tilbud/source/offer_document_preview_in_documents_menu.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 153575,
+        "sha256": "7dc9733cbec13015482e33423f59bc1197a644f33dd92761696c72ed01fba0fb"
+      },
+      "crop": {
+        "left": 180,
+        "top": 58,
+        "width": 1090,
+        "height": 650
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "offerInvoice": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-invoice-825bce28603f.webp",
+      "width": 1084,
+      "height": 386,
+      "bytes": 35104,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_invoice.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115837,
+        "sha256": "988cbb277437e9a50892ec79258e9e3d9bdc77ea6aadd52951a813871ebd3e1c"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 1084,
+        "height": 386
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "offerInvoiceMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-invoice-mobile-dc98f21e88fc.webp",
+      "width": 862,
+      "height": 386,
+      "bytes": 25696,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_invoice.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115837,
+        "sha256": "988cbb277437e9a50892ec79258e9e3d9bdc77ea6aadd52951a813871ebd3e1c"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 862,
+        "height": 386
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "offerPdf": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-pdf-085c0b3a1244.webp",
+      "width": 506,
+      "height": 720,
+      "bytes": 20340,
+      "original": {
+        "file": "public/images/product/tilbud/source/exported_tilbud_A4.png",
+        "width": 506,
+        "height": 720,
+        "bytes": 39992,
+        "sha256": "0e47a5edda4d74db87855a4f6917f6e3158d52d8c259a551da71b6b0116ceee9"
+      },
+      "crop": null,
+      "format": "webp",
+      "reused": true
+    },
+    "offerContract": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-793f5eed04dc.webp",
+      "width": 834,
+      "height": 720,
+      "bytes": 56266,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_contract.png",
+        "width": 834,
+        "height": 720,
+        "bytes": 94495,
+        "sha256": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5"
+      },
+      "crop": null,
+      "format": "webp",
+      "reused": true
+    },
+    "offerContractMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-mobile-66905c4b86f7.webp",
+      "width": 664,
+      "height": 426,
+      "bytes": 30226,
+      "original": {
+        "file": "public/images/product/tilbud/source/tilbud_to_contract.png",
+        "width": 834,
+        "height": 720,
+        "bytes": 94495,
+        "sha256": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5"
+      },
+      "crop": {
+        "left": 0,
+        "top": 76,
+        "width": 664,
+        "height": 426
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "editedContract": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-edited-contract-98807c86e360.webp",
+      "width": 560,
+      "height": 442,
+      "bytes": 26892,
+      "original": {
+        "file": "public/images/product/tilbud/source/contract_from_offer_edited.png",
+        "width": 706,
+        "height": 720,
+        "bytes": 78568,
+        "sha256": "e3567b7b2a17f248d8cc82d8cb52d51c342afc7dc04e0b640cc760fdc0aeb8bb"
+      },
+      "crop": {
+        "left": 0,
+        "top": 94,
+        "width": 560,
+        "height": 442
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "contractInvoice": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-invoice-7847d3b65141.webp",
+      "width": 1084,
+      "height": 386,
+      "bytes": 35312,
+      "original": {
+        "file": "public/images/product/tilbud/source/invoice_from_contract.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115705,
+        "sha256": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 1084,
+        "height": 386
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "contractInvoiceMobile": {
+      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-invoice-mobile-64fb6553081e.webp",
+      "width": 862,
+      "height": 386,
+      "bytes": 25808,
+      "original": {
+        "file": "public/images/product/tilbud/source/invoice_from_contract.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 115705,
+        "sha256": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac"
+      },
+      "crop": {
+        "left": 184,
+        "top": 146,
+        "width": 862,
+        "height": 386
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "contractPdf": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-home-contract-document-249c17de7105.webp",
+      "width": 508,
+      "height": 720,
+      "bytes": 37384,
+      "original": {
+        "file": "public/images/product/kontrakt/source/exported_contract_preview.png",
+        "width": 508,
+        "height": 720,
+        "bytes": 73859,
+        "sha256": "f9f3480a06a9e01377203d40082d0e510dc7654c9af6a99c6f696c2d1c80b933"
+      },
+      "crop": null,
+      "format": "webp",
+      "reused": true
+    },
+    "contractPricing": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-home-contract-192687f50086.webp",
+      "width": 638,
+      "height": 141,
+      "bytes": 2452,
+      "original": {
+        "file": "public/images/product/kontrakt/source/payment_base.png",
+        "width": 638,
+        "height": 141,
+        "bytes": 4494,
+        "sha256": "0c664b7c2db219e352cdc7e259432a28f0727efc600d6d47d9cc6edd5311aa5b"
+      },
+      "crop": null,
+      "format": "webp",
+      "reused": true
+    },
+    "contractPricingMobile": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-home-contract-mobile-6413439017d3.webp",
+      "width": 340,
+      "height": 141,
+      "bytes": 1910,
+      "original": {
+        "file": "public/images/product/kontrakt/source/payment_base.png",
+        "width": 638,
+        "height": 141,
+        "bytes": 4494,
+        "sha256": "0c664b7c2db219e352cdc7e259432a28f0727efc600d6d47d9cc6edd5311aa5b"
+      },
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 340,
+        "height": 141
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "contractClauses": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-clauses-e1b447e61a33.webp",
+      "width": 538,
+      "height": 278,
+      "bytes": 23562,
+      "original": {
+        "file": "public/images/product/kontrakt/source/new_contract_form_with_advance_percentage.png",
+        "width": 680,
+        "height": 720,
+        "bytes": 89836,
+        "sha256": "44cd12def8b4fb4eae34bdd02ddd47f11fb1d7dc29c849b6520e5b1a9e3c31b6"
+      },
+      "crop": {
+        "left": 0,
+        "top": 438,
+        "width": 538,
+        "height": 278
+      },
+      "format": "webp",
+      "reused": true
+    },
+    "registrationForm": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-registration-form-4c4d4c2e2ae2.webp",
+      "width": 1070,
+      "height": 306,
+      "bytes": 22916,
+      "original": {
+        "file": "public/images/product/timeliste/source/work_entries_add_new_position_mark_as_extra.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 123857,
+        "sha256": "ee3408d45ff48b4823aef69394f1cf3e93a2d351927949ff0c3fea9fd453cfc1"
+      },
+      "crop": {
+        "left": 200,
+        "top": 176,
+        "width": 1070,
+        "height": 306
+      },
+      "reused": false
+    },
+    "registrationExtra": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-registration-extra-63ebddd47c98.webp",
+      "width": 520,
+      "height": 124,
+      "bytes": 5922,
+      "original": {
+        "file": "public/images/product/timeliste/source/work_entries_add_new_position_mark_as_extra.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 123857,
+        "sha256": "ee3408d45ff48b4823aef69394f1cf3e93a2d351927949ff0c3fea9fd453cfc1"
+      },
+      "crop": {
+        "left": 738,
+        "top": 352,
+        "width": 520,
+        "height": 124
+      },
+      "reused": false
+    },
+    "registrationsSaved": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-registrations-saved-1ef20a66e195.webp",
+      "width": 1070,
+      "height": 366,
+      "bytes": 31204,
+      "original": {
+        "file": "public/images/product/timeliste/source/work_entries_panel_with_2_entries.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 100339,
+        "sha256": "c8fc31defb3e25c8edc5a9ee366d1a6f5630cd91db676bcb182d7bbee216cba3"
+      },
+      "crop": {
+        "left": 200,
+        "top": 64,
+        "width": 1070,
+        "height": 366
+      },
+      "reused": false
+    },
+    "timelistSetup": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-timelist-setup-8e71ebb7456f.webp",
+      "width": 1070,
+      "height": 529,
+      "bytes": 48448,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_timelist_wizard.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 126313,
+        "sha256": "73f1ce6465f149fd97c3490488dd40e259aea0c04b89ea2c0171f35df9351ec2"
+      },
+      "crop": {
+        "left": 200,
+        "top": 76,
+        "width": 1070,
+        "height": 529
+      },
+      "reused": false
+    },
+    "timelistCustomer": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-timelist-customer-518f740d075e.webp",
+      "width": 812,
+      "height": 130,
+      "bytes": 12490,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_timelist_wizard_add_client.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 130853,
+        "sha256": "70260c5984ccc61547a525731689746d6330b029d9a9c85f8c75a2f3af7d5310"
+      },
+      "crop": {
+        "left": 210,
+        "top": 202,
+        "width": 812,
+        "height": 130
+      },
+      "reused": false
+    },
+    "timelistImport": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-timelist-import-345cd94ba109.webp",
+      "width": 714,
+      "height": 720,
+      "bytes": 52728,
+      "original": {
+        "file": "public/images/product/timeliste/source/new_timelist_wizard_with_3_entries_imported_from_work_entires_panel.png",
+        "width": 714,
+        "height": 720,
+        "bytes": 90399,
+        "sha256": "44edf8119b0ae360a4c905fe469adc0d86a8e504f02aa30daa3d3db4c6b7f91d"
+      },
+      "crop": null,
+      "reused": false
+    },
+    "timelistSettings": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-timelist-settings-c8c96fdde783.webp",
+      "width": 850,
+      "height": 377,
+      "bytes": 25660,
+      "original": {
+        "file": "public/images/product/timeliste/source/timelist_settings_add_km_row.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 164318,
+        "sha256": "30016e1cf1342f0de5f29e383e2fcb7df098becdd163b04e4a6d66767ae3ebb6"
+      },
+      "crop": {
+        "left": 410,
+        "top": 192,
+        "width": 850,
+        "height": 377
+      },
+      "reused": false
+    },
+    "offerForm": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-offer-form-107c14b7f6a7.webp",
+      "width": 1084,
+      "height": 450,
+      "bytes": 43522,
+      "original": {
+        "file": "public/images/product/tilbud/source/new_offer_form.png",
+        "width": 1280,
+        "height": 720,
+        "bytes": 112403,
+        "sha256": "ce29f84d48fcbdfe5c81c245bfcff7c2482d517be172d8b8cb7f35815145c2db"
+      },
+      "crop": {
+        "left": 184,
+        "top": 56,
+        "width": 1084,
+        "height": 450
+      },
+      "reused": false
+    },
+    "contractForm": {
+      "src": "/images/product/instructions/optimized/jobbleder-instructions-contract-form-de70574904f4.webp",
+      "width": 840,
+      "height": 720,
+      "bytes": 53140,
+      "original": {
+        "file": "public/images/product/kontrakt/source/new_contract_form_time.png",
+        "width": 840,
+        "height": 720,
+        "bytes": 90346,
+        "sha256": "f5f4c724494977bab002dab398d7094f660fb6fbbb69fb367d5874ca1c98952e"
+      },
+      "crop": null,
+      "reused": false
+    }
+  }
+}

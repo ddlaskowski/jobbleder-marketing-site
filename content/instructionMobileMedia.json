@@ -1,0 +1,266 @@
+{
+  "sourceDirectory": "public/images/product/mobile/source",
+  "compression": "lossless WebP; no resize or crop",
+  "assets": {
+    "mobileRegistrationForm": {
+      "src": "/images/product/mobile/optimized/registration_form_mobile-35f62cf2d7be.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 44472,
+      "original": {
+        "file": "public/images/product/mobile/source/registration_form_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 67231,
+        "sha256": "8605949792a0ce489755275df25a12cfe1d7308a4a7c9d5d8f29625172b2941d"
+      }
+    },
+    "mobileRegistrationExtra": {
+      "src": "/images/product/mobile/optimized/registration_extra_km_save_mobile-4a67065d08f6.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 44152,
+      "original": {
+        "file": "public/images/product/mobile/source/registration_extra_km_save_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 66153,
+        "sha256": "cdb59170b0b2300ff94da3a1306a49dedf8a8080c760c581382ed71108c1d80d"
+      }
+    },
+    "mobileRegistrationsSaved": {
+      "src": "/images/product/mobile/optimized/registrations_saved_mobile-72fede332c79.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 63906,
+      "original": {
+        "file": "public/images/product/mobile/source/registrations_saved_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 89378,
+        "sha256": "d6e82dc63557b779568810c3127ffaa84a2fde53ebe8ec03a25eadbec3bd1cdc"
+      }
+    },
+    "mobileRegistrationsSelected": {
+      "src": "/images/product/mobile/optimized/registrations_selected_import_mobile-9c6dfb417ed0.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 72030,
+      "original": {
+        "file": "public/images/product/mobile/source/registrations_selected_import_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 98974,
+        "sha256": "18ce2ffb8c60d484f20cdf744791baf6daa616c68bf8e2d4ce3196ea8f510b2d"
+      }
+    },
+    "mobileTimelistImport": {
+      "src": "/images/product/mobile/optimized/timelist_import_result_mobile_01-6d9d6b4db8f6.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 54852,
+      "original": {
+        "file": "public/images/product/mobile/source/timelist_import_result_mobile_01.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 76994,
+        "sha256": "7ee87cef140b19271d91ef25dc8d766cd6e5245baadef06bee6fd4d4c7f1bcc1"
+      }
+    },
+    "mobileTimelistRows": {
+      "src": "/images/product/mobile/optimized/timelist_import_result_mobile_02-b3d826797e8e.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 43538,
+      "original": {
+        "file": "public/images/product/mobile/source/timelist_import_result_mobile_02.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 68506,
+        "sha256": "e66bd91a2a658a4527cbc9007d683ac0165f49e36e8396030125f6181e8e7b66"
+      }
+    },
+    "mobileTimelistDocument": {
+      "src": "/images/product/mobile/optimized/timelist_invoice_regular_mobile_01-2091c06e2ae8.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 35022,
+      "original": {
+        "file": "public/images/product/mobile/source/timelist_invoice_regular_mobile_01.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 57939,
+        "sha256": "8346d2218a5e0341183ba54bc450a20ce67745cede12487c52c60dd648d86e1e"
+      }
+    },
+    "mobileTimelistSummary": {
+      "src": "/images/product/mobile/optimized/timelist_invoice_regular_mobile_02-a77b7c05e04f.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 38652,
+      "original": {
+        "file": "public/images/product/mobile/source/timelist_invoice_regular_mobile_02.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 61657,
+        "sha256": "4831e43e3363633247b872dc766ba55e29f2d9b7ed380c0f40c99847eee761c6"
+      }
+    },
+    "mobileTimelistInvoice": {
+      "src": "/images/product/mobile/optimized/timelist_invoice_regular_mobile-aac888f9e45f.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 45380,
+      "original": {
+        "file": "public/images/product/mobile/source/timelist_invoice_regular_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 65346,
+        "sha256": "062409965a9944bf9557a8562126332642b7a01051ba42c839aecc1d6bf6842d"
+      }
+    },
+    "mobileTimelistInvoiceExtra": {
+      "src": "/images/product/mobile/optimized/timelist_invoice_extra_mobile-89d3c1f3e42f.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 42574,
+      "original": {
+        "file": "public/images/product/mobile/source/timelist_invoice_extra_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 63368,
+        "sha256": "3100a152207c3982a7c1049f9f7e875376cd90a1432b55f409b08d52da5009b9"
+      }
+    },
+    "mobileInvoiceSummary": {
+      "src": "/images/product/mobile/optimized/timelist_invoice_summary_mobile-f4b16dce374e.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 40904,
+      "original": {
+        "file": "public/images/product/mobile/source/timelist_invoice_summary_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 69797,
+        "sha256": "95ddb0a045840726b7e2f211dcd06bcb4a4c45bbb6b565aa16af349ffa8a5535"
+      }
+    },
+    "mobileOfferDocument": {
+      "src": "/images/product/mobile/optimized/offer_document_actions_mobile-e6dc31f296e1.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 34196,
+      "original": {
+        "file": "public/images/product/mobile/source/offer_document_actions_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 58001,
+        "sha256": "1df0683b67ebdd2a1260712cd0c46cec66e50dc6091bc8895a648e33427c46f1"
+      }
+    },
+    "mobileContractDocument": {
+      "src": "/images/product/mobile/optimized/contract_document_actions_mobile-7615390c1d96.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 34024,
+      "original": {
+        "file": "public/images/product/mobile/source/contract_document_actions_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 56691,
+        "sha256": "ebd997bca0e899cd6e4edb6493d65d379390a2c96e4b3828ce3e0b7b30a9879e"
+      }
+    },
+    "mobileOfferInvoice": {
+      "src": "/images/product/mobile/optimized/invoice_from_offer_mobile-19b76863d679.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 40668,
+      "original": {
+        "file": "public/images/product/mobile/source/invoice_from_offer_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 57596,
+        "sha256": "2a62235c6e1e2da164f9ddd00f706ca68b372bc23094490d452808c70c6f7bf4"
+      }
+    },
+    "mobileOfferContract": {
+      "src": "/images/product/mobile/optimized/contract_from_offer_mobile-dc96091cddcc.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 44542,
+      "original": {
+        "file": "public/images/product/mobile/source/contract_from_offer_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 65359,
+        "sha256": "544a38ad2c43f995b3f2f480eadf8324451363aa548c01238c83a9779d3f3acd"
+      }
+    },
+    "mobileContractInvoice": {
+      "src": "/images/product/mobile/optimized/invoice_from_contract_mobile-4059b61ae977.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 44312,
+      "original": {
+        "file": "public/images/product/mobile/source/invoice_from_contract_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 64078,
+        "sha256": "b6b51b0eb823475420f49edcf7d065329fc8d5d0f41ddc8be5285c680472e26d"
+      }
+    },
+    "mobileInvoiceCreate": {
+      "src": "/images/product/mobile/optimized/invoice_create_mobile-26b02c459f30.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 44822,
+      "original": {
+        "file": "public/images/product/mobile/source/invoice_create_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 64721,
+        "sha256": "b672830a35c21841bb784ca661b2735a65a77297cc60eff432a2d416e5101ba3"
+      }
+    },
+    "mobileContractCreate": {
+      "src": "/images/product/mobile/optimized/contract_create_mobile_02-d1dd24a06489.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 41870,
+      "original": {
+        "file": "public/images/product/mobile/source/contract_create_mobile_02.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 63285,
+        "sha256": "26fe46576b00b06d609f40df780d5a5ba619a1d4753d06583c33b6740d984715"
+      }
+    },
+    "mobileContractPayment": {
+      "src": "/images/product/mobile/optimized/contract_create_mobile_01-9d95dd5a24ea.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 49682,
+      "original": {
+        "file": "public/images/product/mobile/source/contract_create_mobile_01.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 71144,
+        "sha256": "686047811ae7778f2b7665a7a3e8dbae8fc161c6d14e035f19be7ef55a89e3d9"
+      }
+    },
+    "mobileOfferForm": {
+      "src": "/images/product/mobile/optimized/new_offer_document_edit_mobile-3e7a019b8d5e.webp",
+      "width": 332,
+      "height": 720,
+      "bytes": 42388,
+      "original": {
+        "file": "public/images/product/mobile/source/new_offer_document_edit_mobile.png",
+        "width": 332,
+        "height": 720,
+        "bytes": 61585,
+        "sha256": "cfede2fe0eb2fe93d5002efc1185bcfb84d826d3a6ce6d5039e9c9201b047eb5"
+      }
+    }
+  }
+}
