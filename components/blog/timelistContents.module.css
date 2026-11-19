@@ -1,0 +1,18 @@
+.layout { display: grid; gap: 32px; align-items: center; }
+.layout > * { min-width: 0; }
+.copy { color: #374151; }
+.copy h2 { color: #111827; font-size: 1.5rem; line-height: 1.35; font-weight: 700; }
+.copy p { margin-top: 24px; line-height: 2; }
+.copy ul { margin-top: 24px; list-style: disc; padding-left: 1.5rem; }
+.copy li { line-height: 1.5; }
+.copy li + li { margin-top: 12px; }
+.figure { width: 100%; }
+.image { display: block; width: 100%; height: auto; }
+.figure figcaption { margin-top: 12px; color: #475569; font-size: .75rem; line-height: 1.7; }
+.figure a { display: inline-block; min-height: 44px; padding-block: 10px; text-decoration: underline; text-underline-offset: 3px; }
+.figure a:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 4px; border-radius: 2px; }
+@media (min-width: 768px) {
+  .layout { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+  .copy { grid-column: 2; grid-row: 1; }
+  .figure { grid-column: 1; grid-row: 1; }
+}

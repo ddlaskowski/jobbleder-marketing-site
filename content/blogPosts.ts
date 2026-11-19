@@ -5,6 +5,8 @@ export type BlogBlock =
   | { type: "cta"; text: string }
   | { type: "link"; href: string; label: string }
   | { type: "note"; text: string }
+  | { type: "timelistComparison" }
+  | { type: "timelistContents"; heading: string; text: string; items: string[] }
 
 export type BlogPost = {
   id: number
@@ -65,15 +67,9 @@ export const blogPosts: BlogPost[] = [
             label: "Last ned timeliste for siste uke (PDF)",
             },
             {
-            type: "heading",
-            text: "Hva inneholder en god timeliste?",
-            },
-            {
-            type: "paragraph",
+            type: "timelistContents",
+            heading: "Hva inneholder en god timeliste?",
             text: "En god timeliste bør gjøre det enkelt å dokumentere arbeidstid tydelig. Den bør minst inneholde dato, arbeidstid, pauser, arbeidsbeskrivelse og total antall timer.",
-            },
-            {
-            type: "list",
             items: [
                 "Navn, prosjekt, uke og år",
                 "Dato",
@@ -98,30 +94,7 @@ export const blogPosts: BlogPost[] = [
             ],
             },
             {
-            type: "heading",
-            text: "PDF eller digital timeliste?",
-            },
-            {
-            type: "paragraph",
-            text: "En PDF-mal er nyttig når du vil skrive ut eller fylle ut manuelt. Men hvis du fører timer ofte, er en digital timeliste vanligvis mer praktisk. Da kan du oppdatere fortløpende, lagre timelisten og laste ned PDF når du trenger det.",
-            },
-            {
-            type: "note",
-            text: "Vil du ha mer fleksibilitet? Da kan du bruke digital timeliste i nettleseren og velge selv hvor mange dager timelisten skal dekke.",
-            },
-            {
-            type: "link",
-            href: "/timeliste-mal",
-            label: "Se vår guide til timeliste mal",
-            },
-            {
-            type: "cta",
-            text: "Vil du ha mer kontroll? Prøv digital timeliste i Jobbleder.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett digital timeliste gratis",
+            type: "timelistComparison",
             },
         ],
     },
