@@ -14,6 +14,8 @@ import InvoiceProductPage from "@/components/product/invoice/InvoiceProductPage"
 import TimelistProductPage from "@/components/product/timelist/TimelistProductPage"
 import OfferProductPage from "@/components/product/offer/OfferProductPage"
 import ContractProductPage from "@/components/product/contract/ContractProductPage"
+import SpecializedTimelistPage from "@/components/product/timelist/SpecializedTimelistPage"
+import { isSpecializedTimelist } from "@/content/specializedTimelists"
 
 function buildFaqJsonLd(faqs: { q: string; a: string }[]) {
   return {
@@ -67,6 +69,7 @@ export default async function SEOPage({ params }: Props) {
   if (slug === "timeliste-mal") return <TimelistProductPage />
   if (slug === "tilbud-mal") return <OfferProductPage />
   if (slug === "kontrakt-mal") return <ContractProductPage />
+  if (isSpecializedTimelist(slug)) return <SpecializedTimelistPage slug={slug} />
     const faqJsonLd = page.faqs?.length ? buildFaqJsonLd(page.faqs) : null;
 
   return (
