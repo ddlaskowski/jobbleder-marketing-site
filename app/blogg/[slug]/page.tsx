@@ -52,7 +52,7 @@ export default async function BlogPostPage({ params }: Props) {
       <main className="bg-white">
         <section className="border-b bg-gray-50 py-12">
           <Container>
-            <nav className="text-sm text-gray-500">
+            <nav aria-label="Brødsmuler" className="text-sm text-gray-500">
               <Link href="/" className="hover:text-gray-900">
                 Hjem
               </Link>

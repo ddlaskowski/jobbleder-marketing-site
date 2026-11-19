@@ -82,8 +82,8 @@ export default async function SEOPage({ params }: Props) {
           )}
         <Container>
           <div className="max-w-3xl">
-            <h1 className="text-4xl font-bold text-white">{page.h1}</h1>
-            <p className="mt-4 text-lg text-gray-300">{page.intro}</p>
+            <h1 className="text-4xl font-bold text-foreground">{page.h1}</h1>
+            <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">{page.intro}</p>
 
             <ul className="mt-8 space-y-2">
               {page.bullets.map((b) => (
@@ -119,13 +119,13 @@ export default async function SEOPage({ params }: Props) {
                   <div className="max-w-3xl space-y-12">
                     {page.sections.map((section) => (
                       <div key={section.heading}>
-                        <h2 className="text-2xl font-bold text-white">
+                        <h2 className="text-2xl font-bold text-foreground">
                           {section.heading}
                         </h2>
 
                         <div className="mt-4 space-y-4">
                           {section.paragraphs.map((paragraph, index) => (
-                            <p key={index} className="text-gray-300 leading-8">
+                            <p key={index} className="text-gray-600 dark:text-gray-300 leading-8">
                               {paragraph}
                             </p>
                           ))}

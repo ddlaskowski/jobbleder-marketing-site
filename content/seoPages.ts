@@ -231,7 +231,7 @@ export const seoPages: SEOPage[] = [
       "Før timeliste for ansatte på en enkel måte. Perfekt for små bedrifter og håndverkere som trenger oversikt over arbeidstid.",
     h1: "Timeliste ansatt",
     intro:
-      "Trenger du en enkel løsning for å føre timeliste for ansatte? Jobbleder gjør det lett å registrere arbeidstid og holde oversikt.",
+      "Trenger du en enkel løsning for å føre timeliste for ansatte? I Jobbleder skriver du inn arbeiderens navn i timelisten og fører timene på dette navnet.",
     bullets: [
       "Enkel timeregistrering for ansatte",
       "Oversikt over arbeidstid og oppdrag",
@@ -241,7 +241,7 @@ export const seoPages: SEOPage[] = [
     faqs: [
       {
         q: "Kan jeg bruke Jobbleder for ansatte?",
-        a: "Ja, Jobbleder passer godt for små bedrifter som vil føre timer for ansatte.",
+        a: "Ja. Du skriver inn arbeiderens navn når du oppretter timelisten og fører timene på dette navnet. Dette er navngivning i dokumentet, ikke oppretting av ansattkontoer eller tilgangsstyring.",
       },
       {
         q: "Er det enkelt å holde oversikt over arbeidstid?",
@@ -257,7 +257,7 @@ export const seoPages: SEOPage[] = [
       {
         heading: "Hvorfor føre timeliste for ansatte?",
         paragraphs: [
-          "Når ansatte registrerer arbeidstid systematisk blir det enklere å holde oversikt over timer, oppdrag og ressursbruk.",
+          "Når du oppretter en timeliste, skriver du inn navnet på arbeideren som timene gjelder. Navnet knytter timene til personen i dokumentet; det oppretter ikke en egen ansattkonto.",
           "Dette er spesielt nyttig i små bedrifter der man trenger en enkel, men tydelig løsning.",
         ],
       },

@@ -103,7 +103,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
             type: "paragraph",
-            text: "En PDF-mal er nyttig når du vil skrive ut eller fylle ut manuelt. Men hvis du fører timer ofte, er en digital timeliste vanligvis mer praktisk. Da kan du oppdatere fortløpende, lagre alt automatisk og laste ned PDF når du trenger det.",
+            text: "En PDF-mal er nyttig når du vil skrive ut eller fylle ut manuelt. Men hvis du fører timer ofte, er en digital timeliste vanligvis mer praktisk. Da kan du oppdatere fortløpende, lagre timelisten og laste ned PDF når du trenger det.",
             },
             {
             type: "note",

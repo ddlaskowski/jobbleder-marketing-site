@@ -22,18 +22,18 @@ export default function Breadcrumbs({ slug }: Props) {
   return (
     <section className="pt-6 pb-4">
       <Container>
-        <nav className="text-sm text-gray-400">
-          <Link href="/" className="hover:text-white">
+        <nav aria-label="Brødsmuler" className="text-sm text-gray-600 dark:text-gray-300">
+          <Link href="/" className="hover:text-foreground">
             Hjem
           </Link>
 
           <span className="mx-2">/</span>
 
-          <span className="text-gray-300">{topicName}</span>
+          <span>{topicName}</span>
 
           <span className="mx-2">/</span>
 
-          <span className="text-white">{page.h1}</span>
+          <span aria-current="page" className="text-foreground">{page.h1}</span>
         </nav>
       </Container>
     </section>

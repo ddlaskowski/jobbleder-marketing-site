@@ -5,6 +5,7 @@ import { ApplicationCTA, ProductMedia, REGISTRATION_GUIDANCE, ResourceLink, Sect
 import { seoPages } from "@/content/seoPages"
 import { timelistCategories, timelistFaqs, timelistInvoiceExample, timelistSeoPage } from "@/content/timelistProduct"
 import manifest from "@/content/timelistProductMedia.json"
+import mobileManifest from "@/content/instructionMobileMedia.json"
 import site from "@/components/site/site.module.css"
 import styles from "./timelistProduct.module.css"
 
@@ -25,6 +26,7 @@ export default function TimelistProductPage() {
   const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: timelistFaqs.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) }
   const cluster = seoPages.filter(page => page.topic === "timeliste")
   const relatedSlugs = ["tilbud-mal", "lage-tilbud", "fakturaprogram-gratis", "lage-faktura", "kontrakt-mal", "kontrakt-handverker"]
+  const mobileRegistration = mobileManifest.assets.mobileRegistrationForm
   return <div className={`${site.surface} ${styles.page}`}>
     <a href="#timelisteinnhold" className={site.skip}>Hopp til innhold</a>
     <SiteHeader />
@@ -51,6 +53,26 @@ export default function TimelistProductPage() {
           <div className={styles.downloads}>{timelistSeoPage.downloadResources!.items.map(item => <a key={item.href} href={item.href} target="_blank" className={styles.downloadLink}>{item.label}<span aria-hidden="true">↗</span></a>)}</div>
         </div>
       </Section>
+
+      <section id="registrer-pa-mobil" aria-labelledby="registrer-pa-mobil-title" className={`${site.section} ${styles.mobileRegistration}`}>
+        <SectionContainer>
+          <div className={styles.mobileRegistrationLayout}>
+            <div className={styles.mobileRegistrationCopy}>
+              <p className={site.eyebrow}>REGISTRERINGER · PÅ MOBIL</p>
+              <h2 id="registrer-pa-mobil-title" className={site.title}>Registrer arbeidstimer direkte fra mobilen.</h2>
+              <p className={site.lead}>Ferdig med arbeidsdagen? Registrer timer, pauser og arbeidsbeskrivelse i nettleseren på mobilen. Ta med kilometer når KM er aktivert, og marker ekstraarbeid ved behov.</p>
+              <p>Samle registreringene i en timeliste når du trenger det. Kontroller innholdet før du lager PDF eller bruker timelisten som fakturagrunnlag. Oppretting og konvertering er med i Free.</p>
+              <ResourceLink href="/instruksjoner#legg-til-en-arbeidsokt">Se hvordan du registrerer en arbeidsdag</ResourceLink>
+            </div>
+            <div className={styles.mobileRegistrationVisual}>
+              <ProductMedia image={{ ...mobileRegistration, alt: "En arbeidsregistrering i Jobbleder på mobil med beskrivelse, tidsfelt, pause og knappen Lagre registrering" }}
+                originalSrc={mobileRegistration.original.file.replace(/^public/, "")}
+                caption="Registrering i mobilnettleseren: vanlig arbeid, 30 minutters pause og knappen Lagre registrering."
+                sizes="(max-width: 379px) calc(100vw - 48px), 332px" />
+            </div>
+          </div>
+        </SectionContainer>
+      </section>
 
       <Section id="registreringer" eyebrow="01 / FRA ARBEID TIL OVERSIKT" title="Fra registrert arbeid til en samlet timeliste.">
         <div className={styles.registrationLayout}>

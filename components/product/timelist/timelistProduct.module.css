@@ -30,6 +30,15 @@
 .steps li::marker { color: #1d4ed8; font-weight: 600; }
 .steps strong { color: var(--site-ink); }
 .steps p { margin-top: 6px; }
+.mobileRegistration { background: #eff6ff; border-bottom: 1px solid var(--site-line); }
+.mobileRegistrationLayout { display: grid; gap: 36px; align-items: center; }
+.mobileRegistrationLayout > * { min-width: 0; }
+.mobileRegistrationCopy { max-width: 600px; }
+.mobileRegistrationCopy h2 { margin-block: 16px 24px; }
+.mobileRegistrationCopy > p + p { margin-top: 20px; }
+.mobileRegistrationCopy > a { margin-top: 20px; }
+.mobileRegistrationVisual { width: 100%; max-width: 332px; margin-inline: auto; }
+.mobileRegistrationVisual :global(figcaption) a { min-height: 44px; align-content: center; }
 .categories { display: grid; margin-top: 24px !important; }
 .categories > div { border-top: 1px solid #cbd5e1; padding-block: 16px; }
 .categories dt { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; color: var(--site-ink); font-weight: 600; }
@@ -79,6 +88,7 @@
 .final .actions > a:last-child { color: #bfdbfe; }
 .final .actions > a:first-child { margin-top: 0; }
 @media (min-width: 768px) {
+  .mobileRegistrationLayout { grid-template-columns: minmax(0, 1fr) minmax(260px, 332px); gap: clamp(32px, 5vw, 80px); }
   .downloadLayout { grid-template-columns: 1fr 1fr; gap: 56px; }
   .education { grid-template-columns: 1fr 1fr; }
   .documentLayout { grid-template-columns: 1fr 1fr; align-items: center; gap: 56px; }

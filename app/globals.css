@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --muted-foreground: #4b5563;
 }
 
 
@@ -17,11 +18,18 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --muted-foreground: #99a1af;
   }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {

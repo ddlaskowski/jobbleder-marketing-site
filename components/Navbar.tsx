@@ -16,7 +16,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
+    <nav aria-label="Hovedmeny" className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
       <Container>
         <div className="flex h-16 items-center justify-between">
           <Link
@@ -58,17 +58,17 @@ export default function Navbar() {
             <span className="sr-only">Meny</span>
             <div className="flex h-5 w-6 flex-col justify-between">
               <span
-                className={`block h-0.5 w-6 bg-current transition-transform duration-300 ${
+                className={`block h-0.5 w-6 bg-current transition-transform duration-300 motion-reduce:transition-none ${
                   menuOpen ? "translate-y-2 rotate-45" : ""
                 }`}
               />
               <span
-                className={`block h-0.5 w-6 bg-current transition-opacity duration-300 ${
+                className={`block h-0.5 w-6 bg-current transition-opacity duration-300 motion-reduce:transition-none ${
                   menuOpen ? "opacity-0" : "opacity-100"
                 }`}
               />
               <span
-                className={`block h-0.5 w-6 bg-current transition-transform duration-300 ${
+                className={`block h-0.5 w-6 bg-current transition-transform duration-300 motion-reduce:transition-none ${
                   menuOpen ? "-translate-y-2 -rotate-45" : ""
                 }`}
               />

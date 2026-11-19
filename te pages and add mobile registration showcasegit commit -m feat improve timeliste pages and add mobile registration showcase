@@ -1,0 +1,16 @@
+warning: in the working copy of 'app/globals.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/product/timelist/TimelistProductPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'components/product/timelist/timelistProduct.module.css', LF will be replaced by CRLF the next time Git touches it
+ app/(seo)/[slug]/page.tsx                          |  8 [32m++++[m[31m----[m
+ app/blogg/[slug]/page.tsx                          |  2 [32m+[m[31m-[m
+ app/globals.css                                    |  8 [32m++++++++[m
+ components/Breadcrumbs.tsx                         | 10 [32m+++++[m[31m-----[m
+ components/ClusterNavigation.tsx                   |  4 [32m++[m[31m--[m
+ components/FAQAccordion.tsx                        | 20 [32m+++++++++++[m[31m---------[m
+ components/Footer.tsx                              |  2 [32m+[m[31m-[m
+ components/Navbar.tsx                              | 10 [32m+++++[m[31m-----[m
+ .../product/timelist/TimelistProductPage.tsx       | 22 [32m++++++++++++++++++++++[m
+ .../product/timelist/timelistProduct.module.css    | 10 [32m++++++++++[m
+ content/blogPosts.ts                               |  4 [32m++[m[31m--[m
+ content/seoPages.ts                                |  8 [32m++++[m[31m----[m
+ 12 files changed, 75 insertions(+), 33 deletions(-)

@@ -18,7 +18,7 @@ export default function ClusterNavigation({ currentSlug }: Props) {
   return (
     <section className="pb-10 pt-10">
       <Container>
-        <div className="max-w-3xl rounded-2xl border border-gray-800 bg-gray-900/60 p-6">
+        <div className="max-w-3xl rounded-2xl border border-gray-800 bg-gray-900/80 p-6">
           <h2 className="text-lg font-semibold text-white">
             Relaterte sider om {current.topic}
           </h2>
