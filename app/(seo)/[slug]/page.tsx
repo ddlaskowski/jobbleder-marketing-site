@@ -16,6 +16,7 @@ import OfferProductPage from "@/components/product/offer/OfferProductPage"
 import ContractProductPage from "@/components/product/contract/ContractProductPage"
 import SpecializedTimelistPage from "@/components/product/timelist/SpecializedTimelistPage"
 import { isSpecializedTimelist } from "@/content/specializedTimelists"
+import InvoiceFigure from "@/components/editorial/InvoiceFigure"
 
 function buildFaqJsonLd(faqs: { q: string; a: string }[]) {
   return {
@@ -133,6 +134,18 @@ export default async function SEOPage({ params }: Props) {
                             </p>
                           ))}
                         </div>
+                        {section.invoiceExample && <InvoiceFigure />}
+                        {section.checklists?.map(list => (
+                          <div key={list.heading} className="mt-8">
+                            <h3 className="text-xl font-semibold text-foreground">{list.heading}</h3>
+                            <ul className="mt-4 list-disc space-y-3 pl-6 text-gray-600 dark:text-gray-300 leading-8">
+                              {list.items.map(item => <li key={item}>{item}</li>)}
+                            </ul>
+                          </div>
+                        ))}
+                        {section.links && <ul className="mt-6 space-y-2">{section.links.map(link => (
+                          <li key={link.href}><a href={link.href} className="inline-flex min-h-11 items-center py-2 text-blue-700 dark:text-blue-300 underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-blue-600">{link.label}</a></li>
+                        ))}</ul>}
                       </div>
                     ))}
                   </div>

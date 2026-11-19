@@ -1,0 +1,10 @@
+.figure { width: 100%; max-width: 480px; margin: 32px auto; }
+.line { max-width: 400px; }
+@media (min-width: 1024px) {
+  .figure:not(.line) { max-width: 570px; }
+}
+.image { display: block; width: 100%; height: auto; }
+.figure figcaption { margin-top: 16px; font-size: .875rem; line-height: 1.75; color: var(--muted-foreground); }
+.figure[data-appearance="light"] figcaption { color: #475569; }
+.figure a { display: inline-block; min-height: 44px; padding-block: 10px; text-decoration: underline; text-underline-offset: 4px; }
+.figure a:focus-visible { outline: 3px solid #2563eb; outline-offset: 4px; border-radius: 2px; }

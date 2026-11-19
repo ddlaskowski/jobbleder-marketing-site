@@ -17,6 +17,7 @@ export type BlogBlock =
   | { type: "timelistContents"; heading: string; text: string; items: string[] }
   | { type: "textLink"; href: string; label: string }
   | { type: "steps"; items: { title: string; text: string }[] }
+  | { type: "invoiceFigure"; variant: "document" | "line" }
   | BlogProductExampleBlock
 
 export type BlogPost = {
@@ -265,83 +266,101 @@ export const blogPosts: BlogPost[] = [
         ],
     },
     {
-        id: 5,
-        title: "Hva skal en faktura inneholde?",
-        slug: "innhold-i-faktura",
-        summary:
-            "Lær hva en faktura bør inneholde, og hvordan du lager et ryddig dokument som er lett for kunden å forstå.",
-        category: "Faktura",
-        tags: ["faktura", "MVA", "skatt", "betaling", "krav"],
-        createdAt: "2025-04-23",
-        seoTitle: "Hva skal en faktura inneholde? En enkel oversikt",
-        seoDescription:
-            "Se hva en faktura bør inneholde, og hvordan du lager en tydelig og profesjonell faktura for kunder i Norge.",
-        relatedTopic: "faktura",
-        blocks: [
-            {
-            type: "paragraph",
-            text: "Når du lager en faktura, er det viktig at dokumentet er tydelig og inneholder den informasjonen kunden trenger for å forstå hva som er levert og hva som skal betales. En ryddig faktura gjør hverdagen enklere både for deg og kunden.",
-            },
-            {
-            type: "heading",
-            text: "Dette bør en faktura inneholde",
-            },
-            {
-            type: "list",
-            items: [
-                "Dato for utsendelse",
-                "Fakturanummer",
-                "Navn og adresse på deg og kunden",
-                "Organisasjonsnummer og eventuell MVA-merking",
-                "Beskrivelse av arbeid eller varer",
-                "Pris og totalbeløp",
-                "Betalingsfrist og kontonummer",
-            ],
-            },
-            {
-            type: "heading",
-            text: "Hvorfor er dette viktig?",
-            },
-            {
-            type: "paragraph",
-            text: "Når fakturaen er tydelig bygget opp, blir det enklere å unngå spørsmål, feil og forsinkelser. Kunden forstår raskere hva som er gjort, og du fremstår mer profesjonell.",
-            },
-            {
-            type: "heading",
-            text: "Slik gjør du fakturaen mer profesjonell",
-            },
-            {
-            type: "list",
-            items: [
-                "Bruk klare beskrivelser av arbeidet",
-                "Sørg for at pris og beløp er enkle å lese",
-                "Ta med kontaktinformasjon",
-                "Bruk samme struktur på alle fakturaer",
-            ],
-            },
-            {
-            type: "paragraph",
-            text: "For mange små bedrifter er det lett å gjøre dette digitalt i stedet for å bygge opp dokumentet manuelt hver gang.",
-            },
-            {
-            type: "link",
-            href: "/faktura-krav",
-            label: "Les mer om faktura krav",
-            },
-            {
-            type: "note",
-            text: "En ryddig faktura er ikke bare bedre for kunden – den sparer deg også for tid når du skal følge opp betaling senere.",
-            },
-            {
-            type: "cta",
-            text: "Vil du lage tydelige fakturaer raskere? Prøv Jobbleder gratis i nettleseren.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett faktura gratis",
-            },
-        ],
+      id: 5,
+      title: "Hva skal en faktura inneholde?",
+      slug: "innhold-i-faktura",
+      summary: "Lær hva en faktura bør inneholde, og hvordan du lager et ryddig dokument som er lett for kunden å forstå.",
+      category: "Faktura",
+      tags: [
+        "faktura",
+        "MVA",
+        "skatt",
+        "betaling",
+        "krav"
+      ],
+      createdAt: "2025-04-23",
+      seoTitle: "Hva skal en faktura inneholde? En enkel oversikt",
+      seoDescription: "Se hva en faktura bør inneholde, og hvordan du lager en tydelig og profesjonell faktura for kunder i Norge.",
+      relatedTopic: "faktura",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "En faktura skal gjøre det mulig å forstå hva som er levert og hva kunden skal betale. Det hjelper å lese feltene som svar på tre spørsmål: Hvem gjelder salget, hva er levert, og hvordan er beløpet satt sammen?"
+        },
+        {
+          type: "heading",
+          text: "Dette bør en faktura inneholde"
+        },
+        {
+          type: "paragraph",
+          text: "Start med partene og selve leveransen. Bruk riktige kundeopplysninger, selgers navn og organisasjonsnummer, en beskrivelse av arbeidet og hvilket omfang prisen gjelder. Oppgi også leveringsopplysningene. MVA-merking og andre betingede opplysninger avhenger av virksomheten og salget."
+        },
+        {
+          type: "textLink",
+          href: "/faktura-krav",
+          label: "Se oversikten over lovpålagte og praktiske fakturaopplysninger"
+        },
+        {
+          type: "heading",
+          text: "Tre datoer med ulike oppgaver"
+        },
+        {
+          type: "list",
+          items: [
+            "Fakturadato (dokumentasjonsdato) er datoen på fakturaen. Det er et annet felt enn datoen for leveransen.",
+            "Leveringsdato forteller når varen eller tjenesten ble levert. Ved arbeid over en periode må beskrivelsen av leveransen være tydelig.",
+            "Betalingsforfall forteller når kunden skal betale. Ikke velg en frist bare fordi den står i et annet eksempel; bruk vilkårene som gjelder for salget."
+          ]
+        },
+        {
+          type: "heading",
+          text: "Slik leser du pris og MVA"
+        },
+        {
+          type: "paragraph",
+          text: "I Jobbleders Faktura 110 gjelder én linje legging av parkett. Antall 1 til enhetspris 12 000 kroner gir 12 000 kroner før MVA. Eksemplets MVA-sats er 25 prosent: 3 000 kroner i avgift og 15 000 kroner totalt. Satsen må passe det faktiske salget; eksemplet betyr ikke at alle tjenester skal faktureres med 25 prosent."
+        },
+        {
+          type: "textLink",
+          href: "/faktura-eksempel",
+          label: "Åpne fakturaeksemplet og se feltene i sammenheng"
+        },
+        {
+          type: "heading",
+          text: "Hvorfor er dette viktig?"
+        },
+        {
+          type: "paragraph",
+          text: "Når arbeidsbeskrivelse, omfang og beløp henger sammen, kan kunden kontrollere fakturaen mot det dere har avtalt. En generell tekst som bare sier «arbeid» gir mindre hjelp enn en beskrivelse av oppgaven prisen dekker."
+        },
+        {
+          type: "heading",
+          text: "Slik gjør du fakturaen mer profesjonell"
+        },
+        {
+          type: "list",
+          items: [
+            "Bruk en konkret beskrivelse av arbeidet og en tydelig oppstilling av prisene.",
+            "Skill betalingsforfall fra praktiske betalingsopplysninger som bankkonto og betalingsreferanse.",
+            "Oppgi en kontaktmåte kunden kan bruke ved spørsmål.",
+            "Kontroller navn, datoer og summer før du genererer dokumentet."
+          ]
+        },
+        {
+          type: "textLink",
+          href: "https://www.skatteetaten.no/rettskilder/type/handboker/merverdiavgiftshandboken/gjeldende/M-15/M-15-10/M-15-10.2/",
+          label: "Skatteetaten: krav til innhold og angivelse av partene"
+        },
+        {
+          type: "paragraph",
+          text: "Jobbleder lar deg opprette faktura og eksportere PDF i Free. PDF-en har Jobbleder-vannmerke; Premium gir andre valg for firmalogo og PDF-profil. Du kontrollerer og laster ned fakturaen, og sender den selv til kunden."
+        },
+        {
+          type: "link",
+          href: "https://app.jobbleder.no",
+          label: "Opprett faktura gratis"
+        }
+      ]
     },
     {
         id: 6,
@@ -1067,60 +1086,106 @@ export const blogPosts: BlogPost[] = [
         ],
     },
     {
-        id: 13,
-        title: "Faktura eksempel for små bedrifter – hva bør det vise?",
-        slug: "faktura-eksempel-sma-bedrifter",
-        summary:
-            "Et godt faktura eksempel gjør det enklere å forstå hvordan et ryddig dokument bør se ut for små bedrifter.",
-        category: "Faktura",
-        tags: ["faktura", "faktura eksempel", "små bedrifter", "betaling", "oppsett"],
-        createdAt: "2026-02-25",
-        seoTitle: "Faktura eksempel for små bedrifter",
-        seoDescription:
-            "Se hva et godt faktura eksempel bør vise, og hvordan små bedrifter kan lage tydelige fakturaer.",
-        relatedTopic: "faktura",
-        blocks: [
+      id: 13,
+      title: "Faktura eksempel for små bedrifter – hva bør det vise?",
+      slug: "faktura-eksempel-sma-bedrifter",
+      summary: "Et godt faktura eksempel gjør det enklere å forstå hvordan et ryddig dokument bør se ut for små bedrifter.",
+      category: "Faktura",
+      tags: [
+        "faktura",
+        "faktura eksempel",
+        "små bedrifter",
+        "betaling",
+        "oppsett"
+      ],
+      createdAt: "2026-02-25",
+      seoTitle: "Faktura eksempel for små bedrifter",
+      seoDescription: "Se hva et godt faktura eksempel bør vise, og hvordan små bedrifter kan lage tydelige fakturaer.",
+      relatedTopic: "faktura",
+      blocks: [
+        {
+          type: "paragraph",
+          text: "Tenk deg at en liten håndverksbedrift har utført parkettarbeid til avtalt pris. Kunden skal kunne kontrollere hva prisen gjelder uten å måtte be om en forklaring på hvert beløp. Jobbleders Faktura 110 viser et slikt eksempel med demonstrasjonsdata."
+        },
+        {
+          type: "heading",
+          text: "Hva bør et faktura eksempel vise?"
+        },
+        {
+          type: "list",
+          items: [
+            "Hvem selgeren og kunden er.",
+            "Hva som er levert, og hvilket arbeid eller omfang prisen gjelder.",
+            "Fakturanummer, fakturadato og betalingsforfall.",
+            "Pris før MVA, eventuell MVA og totalbeløpet.",
+            "Tydelige opplysninger om hvordan kunden skal betale."
+          ]
+        },
+        {
+          type: "heading",
+          text: "Parkettarbeid til avtalt pris"
+        },
+        {
+          type: "paragraph",
+          text: "Eksemplets linje «Legging av parkett» har antall 1 og enhetspris 12 000 kroner før MVA. Her er prisen for arbeidet samlet på én linje. Antall 1 er ikke en opplysning om én arbeidstime eller én kvadratmeter; det er enheten som brukes i dette priseksemplet."
+        },
+        {
+          type: "invoiceFigure",
+          variant: "line"
+        },
+        {
+          type: "heading",
+          text: "Fra nettopris til beløpet kunden betaler"
+        },
+        {
+          type: "steps",
+          items: [
             {
-            type: "paragraph",
-            text: "Mange som skal lage faktura for første gang, leter etter et faktura eksempel for å forstå hvordan dokumentet bør bygges opp. Et godt eksempel gjør det lettere å se hva som er viktig og hvordan informasjonen bør presenteres.",
+              title: "Beregn nettobeløpet.",
+              text: "1 × 12 000 kroner = 12 000 kroner før MVA."
             },
             {
-            type: "heading",
-            text: "Hva bør et faktura eksempel vise?",
+              title: "Legg til MVA for dette eksemplet.",
+              text: "25 prosent av 12 000 kroner er 3 000 kroner."
             },
             {
-            type: "list",
-            items: [
-                "Tydelig kundeinformasjon",
-                "Beskrivelse av arbeid eller varer",
-                "Dato og fakturanummer",
-                "Pris og totalbeløp",
-                "Betalingsinformasjon",
-            ],
-            },
-            {
-            type: "heading",
-            text: "Hvorfor oppsettet betyr noe",
-            },
-            {
-            type: "paragraph",
-            text: "Selv når alle opplysningene er med, betyr layout og struktur mye. Et ryddig dokument er enklere å lese og gir et mer profesjonelt inntrykk.",
-            },
-            {
-            type: "link",
-            href: "/faktura-eksempel",
-            label: "Se vår guide til faktura eksempel",
-            },
-            {
-            type: "cta",
-            text: "Vil du lage tydelige fakturaer uten å starte fra bunnen hver gang? Prøv Jobbleder gratis.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett faktura gratis",
-            },
-        ],
+              title: "Kontroller totalen.",
+              text: "12 000 + 3 000 = 15 000 kroner å betale."
+            }
+          ]
+        },
+        {
+          type: "paragraph",
+          text: "Dette er regnestykket i dokumentet, ikke en anbefaling om pris eller MVA-behandling for alle oppdrag. Bruk satsen og opplysningene som gjelder for ditt salg."
+        },
+        {
+          type: "heading",
+          text: "Hvorfor oppsettet betyr noe"
+        },
+        {
+          type: "paragraph",
+          text: "Kunden bør kunne sammenholde arbeidsbeskrivelsen med avtalen og se hvordan nettopris, avgift og total henger sammen. For ditt eget oppdrag bør beskrivelsen gjøre det klart hvilket arbeid avtalt pris dekker, med relevante leveringsopplysninger. Bankkonto og betalingsreferanse hjelper kunden å gjennomføre betalingen."
+        },
+        {
+          type: "textLink",
+          href: "/faktura-eksempel",
+          label: "Se hele Faktura 110 og forklaringen av dokumentfeltene"
+        },
+        {
+          type: "textLink",
+          href: "/faktura-krav",
+          label: "Les hva som er krav og hva som er praktiske tillegg"
+        },
+        {
+          type: "paragraph",
+          text: "I Jobbleder kan du legge inn fakturalinjene, kontrollere summene og generere PDF i Free. Free-PDF-en har Jobbleder-vannmerke. Last ned filen og send den selv til kunden."
+        },
+        {
+          type: "link",
+          href: "https://app.jobbleder.no",
+          label: "Opprett faktura gratis"
+        }
+      ]
     },
     {
         id: 14,

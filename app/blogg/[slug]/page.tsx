@@ -12,6 +12,7 @@ import TimelistComparison from "@/components/blog/TimelistComparison"
 import TimelistContents from "@/components/blog/TimelistContents"
 import BlogProductExample from "@/components/blog/BlogProductExample"
 import articleStyles from "@/components/blog/blogProductExample.module.css"
+import InvoiceFigure from "@/components/editorial/InvoiceFigure"
 
 
 type Params = { slug: string }
@@ -127,6 +128,9 @@ export default async function BlogPostPage({ params }: Props) {
           <Container>
             <div className="max-w-3xl space-y-8">
               {post.blocks.map((block, index) => {
+                if (block.type === "invoiceFigure") {
+                  return <InvoiceFigure key={index} variant={block.variant} appearance="light" />
+                }
                 if (block.type === "productExample") {
                   return <BlogProductExample key={index} {...block} />
                 }
