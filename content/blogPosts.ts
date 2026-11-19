@@ -1,6 +1,6 @@
 export type BlogProductExampleBlock = {
   type: "productExample"
-  asset: "mobileRegistrationExtra" | "mobileInvoiceSummary"
+  asset: "mobileRegistrationExtra" | "mobileInvoiceSummary" | "editedContract" | "mobileContractInvoice" | "mobileOfferInvoice" | "offerDocument" | "contractDocument"
   paragraphs: string[]
   alt: string
   caption: string
@@ -1365,12 +1365,54 @@ export const blogPosts: BlogPost[] = [
         createdAt: "2026-04-07",
         relatedTopic: "oversikt",
         blocks: [
-            { type: "paragraph", text: "En god arbeidsflyt gjør alt enklere..." },
-            { type: "heading", text: "1. Lag tilbud" },
-            { type: "heading", text: "2. Opprett kontrakt" },
-            { type: "heading", text: "3. Utfør arbeid" },
-            { type: "heading", text: "4. Send faktura" },
-            { type: "cta", text: "Vil du ha alt i ett system? Prøv Jobbleder." },
+            { type: "paragraph", text: "Når du tar på deg et oppdrag, trenger kunden først å forstå hva du skal gjøre og hva det vil koste. Deretter må dere avklare avtalen, og til slutt skal fakturaen stemme med det du faktisk krever betaling for. Her følger vi et parkettoppdrag og viser hvordan du kan bruke dokumentopplysningene videre i Jobbleder." },
+            { type: "paragraph", text: "Du velger selv neste handling. To støttede veier er Tilbud → Kontrakt → Faktura og Tilbud → Faktura. Kontrakt er altså ikke et obligatorisk mellomsteg i appen når du vil opprette faktura fra et tilbud." },
+            { type: "heading", text: "Fra forespørsel til tilbud" },
+            { type: "paragraph", text: "Start med å avklare arbeidssted, hva oppdraget omfatter og hva kunden forventer. For parkettarbeid kan du for eksempel beskrive hvilke rom arbeidet gjelder, hvilke forberedelser som inngår og hvem som skaffer materialene. Skill det dere har avtalt fra arbeid som eventuelt kommer i tillegg." },
+            { type: "paragraph", text: "I Jobbleder velger du kunden og oppretter tilbudet med arbeidsbeskrivelse, enhetspris, antall og aktuell MVA. Knytt tilbudet til et prosjekt hvis det er relevant. Kontroller pris, gyldighet og vilkår før du lager PDF og deler dokumentet med kunden. Avklar aksept og endringer med kunden utenfor appen." },
+            { type: "productExample", asset: "offerDocument", paragraphs: [], alt: "Tilbud 29 fra Jobbleder med parkettarbeid, pris 12 000 kroner før MVA og total 15 000 kroner", caption: "Eksempel på et tilbud opprettet i Jobbleder, med arbeidsbeskrivelse, pris og MVA. Tilbud 29 hører til samme demonstrasjonsscenario som kontrakten nedenfor." },
+            { type: "textLink", href: "/tilbud-mal", label: "Se hvordan du lager tilbud i Jobbleder" },
+            { type: "heading", text: "Fra tilbud til kontrakt" },
+            { type: "steps", items: [
+                { title: "Finn riktig tilbud.", text: "Åpne Dokumenter, velg tilbudet og bruk Opprett kontrakt under forhåndsvisningen." },
+                { title: "Kontroller kontraktsgrunnlaget.", text: "Se gjennom kunde, prosjekt, datoer, arbeidsbeskrivelse, prisgrunnlag og vilkår før du lagrer eller genererer dokumentet." },
+                { title: "Tilpass kontrakten selvstendig.", text: "Kontrakten er et eget dokument etter konverteringen. Du kan redigere innhold og vilkår etter avtalen uten å behandle tilbudet og kontrakten som samme dokument. For en lagret kontrakt bruker du Rediger i Dokumenter." },
+            ] },
+            { type: "productExample", asset: "contractDocument", paragraphs: [], alt: "Kontrakt 11 fra Tilbud 29 med parkettarbeid, avtalt pris, betalingsvilkår og tomme signaturfelt", caption: "Kontrakt 11 fra Tilbud 29 med arbeidsbeskrivelse, pris, betalingsvilkår og signaturfelt. Dokumenteksemplet viser vilkårene før redigeringen nedenfor og er ikke en universell juridisk mal." },
+            { type: "textLink", href: "/kontrakt-mal", label: "Les om kontraktsinnhold og valgene i Jobbleder" },
+            { type: "productExample", asset: "editedContract", paragraphs: [
+                "Skjermbildet viser Kontrakt 11 bearbeidet videre fra tilbudseksemplet. Beskrivelsen viser til tilbud 29, mens prisstruktur og betalingsvilkår er tilpasset i kontrakten.",
+                "Gå gjennom dokumentet med kunden. Kontrakten kan lastes ned som PDF, og dere ordner signeringen manuelt. Jobbleder har ikke elektronisk signering. Betalingsvilkårene er tekst og valg du kontrollerer, ikke en automatisk fakturaplan."
+            ], alt: "Kontrakt 11 redigert med referanse til tilbud 29, parkettarbeid, fastpris 12 000 og betalingsvilkår", caption: "Kontrakt 11 etter redigering. Utsnittet viser fastpris og en betalingsplan; det viser ikke automatisk beregning eller oppretting av fakturaer." },
+            { type: "textLink", href: "/instruksjoner#lag-kontrakt-fra-tilbud", label: "Følg tilbud-til-kontrakt-veiledningen steg for steg" },
+            { type: "heading", text: "Fra kontrakt til faktura" },
+            { type: "paragraph", text: "Når du skal lage en faktura med avtalen som grunnlag, åpner du den lagrede kontrakten i Dokumenter og velger Opprett faktura. Appen tar opplysninger videre til fakturaskjemaet. Du må fortsatt kontrollere at grunnlaget passer arbeidet og beløpet som skal faktureres." },
+            { type: "productExample", asset: "mobileContractInvoice", paragraphs: [
+                "Kontroller kildereferansen, kunden og fakturalinjene. Se særlig gjennom arbeidsbeskrivelse, antall, enhetspriser og MVA. Sjekk også datoer og betalingsinformasjon før du velger Lagre eller Generer.",
+                "Mobilbildet viser Faktura 113 med Kontrakt 11 som kilde og en linje for parkettarbeid. Enhetsprisen som vises, er 12 000 kroner. Bildet viser deler av opprettingsskjemaet, ikke en ferdig PDF eller hele oppsummeringen."
+            ], alt: "Faktura 113 i mobilnettleser med Kilde Kontrakt 11, kunde, datoer og parkettlinje med enhetspris 12 000", caption: "Et mobilt eksempel på fakturaoppretting fra Kontrakt 11. Det er ikke dokumentasjon på en automatisk beregnet delbetaling eller den eksakte PDF-eksporten av kontraktsbildet ovenfor." },
+            { type: "paragraph", text: "En betalingsplan i kontrakten oppretter ikke fakturaer automatisk. Du velger selv når du oppretter faktura, og kontrollerer linjer og beløp. Når innholdet stemmer, genererer og laster du ned PDF-en. Du sender fakturaen manuelt til kunden." },
+            { type: "textLink", href: "/instruksjoner#kontrakt-til-faktura", label: "Se handlingene for kontrakt til faktura" },
+            { type: "heading", text: "Et alternativ: Fra tilbud direkte til faktura" },
+            { type: "paragraph", text: "Du kan også bruke tilbudet direkte som fakturagrunnlag. Åpne det aktuelle tilbudet i Dokumenter og velg Opprett faktura. Dette er en egen konvertering; du trenger ikke først å opprette en kontrakt i appen." },
+            { type: "productExample", asset: "mobileOfferInvoice", paragraphs: [
+                "Se gjennom kunden, prosjektet, datoene og opplysningene som følger med fra tilbudet. Oppdater fakturagrunnlaget hvis det dere skal fakturere, avviker fra tilbudet. Konverteringen erstatter ikke denne kontrollen.",
+                "I dette separate mobileksemplet gir én parkettlinje 12 000 kroner før MVA. Med eksemplets sats på 25 prosent er MVA 3 000 kroner og totalen 15 000 kroner. Bruk MVA-behandlingen som gjelder for ditt salg."
+            ], alt: "Fakturalinje og oppsummering på mobil med parkettarbeid, antall 1, netto 12 000, MVA 3 000 og total 15 000", caption: "Linje og oppsummering fra tilbud-til-faktura-eksemplet. Dokumentnummer og kildereferanse vises ikke i utsnittet; dette er et annet eksempel enn Faktura 113 ovenfor." },
+            { type: "textLink", href: "/instruksjoner#tilbud-til-faktura", label: "Følg den direkte veien fra tilbud til faktura" },
+            { type: "heading", text: "Før fakturaen sendes" },
+            { type: "paragraph", text: "Ta en siste gjennomgang av dokumentet før du lager PDF og sender den. En praktisk sjekkliste er:" },
+            { type: "list", items: [
+                "Kunde: gjelder fakturaen riktig kunde, med riktige opplysninger?",
+                "Arbeid: beskriver linjene det som faktisk skal faktureres, og riktig omfang?",
+                "Beløp: stemmer antall, enhetspriser og total med grunnlaget?",
+                "MVA: er behandlingen og satsen riktig for salget?",
+                "Betaling: stemmer betalingsinformasjonen og forfallsdatoen?",
+                "Datoer: er fakturadato og leveringsopplysninger kontrollert?"
+            ] },
+            { type: "textLink", href: "/faktura-krav", label: "Les om fakturakrav og praktiske betalingsopplysninger" },
+            { type: "paragraph", text: "Oppretting av dokumenter, PDF-eksport og disse konverteringene er tilgjengelig i Free. Free-PDF-er har Jobbleder-vannmerke. Premium gir andre valg for firmalogo og PDF-profil; det er ikke nødvendig for dokumentflyten beskrevet her." },
+            { type: "link", href: "/fakturaprogram-gratis", label: "Se fakturaverktøyet i Jobbleder" },
         ],
     },
 ]

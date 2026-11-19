@@ -14,6 +14,11 @@
 .steps strong { color: #111827; }
 .figure a:focus-visible, .textLink:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 4px; border-radius: 2px; }
 .srOnly { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.example.wideExample { display: block; }
+.wideExample .figure { max-width: 560px; margin-top: 24px; }
+.example.documentExample { display: block; }
+.documentExample .figure { max-width: 480px; }
+.documentExample .image { border: 0; border-radius: 0; }
 @media (min-width: 768px) {
   .example { grid-template-columns: minmax(0, 1fr) 248px; }
   .figure { max-width: 248px; }
