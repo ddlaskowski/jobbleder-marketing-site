@@ -175,8 +175,14 @@ export const blogPosts: BlogPost[] = [
             label: 'Les mer om vårt gratis fakturaprogram',
             },
             {
-            type: "note",
-            text: "Hvis du også vil forstå hva en faktura bør inneholde, kan du lese videre om fakturaeksempler og fakturakrav på bloggen vår.",
+            type: "textLink",
+            href: "/faktura-eksempel",
+            label: "Se et utfylt fakturaeksempel og forklaringen av feltene",
+            },
+            {
+            type: "textLink",
+            href: "/faktura-krav",
+            label: "Skill mellom fakturakrav, betingede opplysninger og praktiske tillegg",
             },
             {
             type: "cta",
@@ -632,6 +638,11 @@ export const blogPosts: BlogPost[] = [
             ],
             },
             {
+            type: "textLink",
+            href: "/faktura-krav",
+            label: "Se den mer detaljerte oversikten over fakturakrav og betingede opplysninger",
+            },
+            {
             type: "heading",
             text: "Hvorfor velge et gratis fakturaprogram?",
             },
@@ -655,7 +666,7 @@ export const blogPosts: BlogPost[] = [
                 "Fyll inn kundeinformasjon",
                 "Beskriv arbeidet eller varen",
                 "Legg inn pris og betalingsinformasjon",
-                "Last ned eller send fakturaen videre",
+                "Generer og last ned PDF-en. Send den selv til kunden.",
             ],
             },
             {
@@ -665,7 +676,7 @@ export const blogPosts: BlogPost[] = [
             },
             {
             type: "note",
-            text: "Jo enklere systemet er å bruke, desto større er sjansen for at du faktisk får sendt fakturaen med én gang jobben er ferdig.",
+            text: "Kontroller kunde, datoer, fakturalinjer, MVA og betalingsinformasjon før du genererer PDF-en. Nedlasting og sending til kunden er separate handlinger; du sender filen selv utenfor Jobbleder.",
             },
             {
             type: "cta",
@@ -820,7 +831,12 @@ export const blogPosts: BlogPost[] = [
             },
             {
             type: "paragraph",
-            text: "En faktura sendes etter at jobben er utført, når du skal kreve betaling. Den oppsummerer hva kunden skal betale for og bør være tydelig satt opp.",
+            text: "En faktura dokumenterer det kunden skal betale for varer eller tjenester. Når du fakturerer, må du følge avtalen og reglene som gjelder for leveransen. Ved lengre oppdrag kan det være aktuelt å fakturere underveis, i samsvar med fremdriften. Fakturering på forskudd har egne vilkår og er ikke alltid tillatt.",
+            },
+            {
+            type: "textLink",
+            href: "/faktura-krav",
+            label: "Se fakturaopplysningene og betingelsene du bør kontrollere",
             },
             {
             type: "heading",
@@ -831,7 +847,7 @@ export const blogPosts: BlogPost[] = [
             items: [
                 "Tilbud – før du starter jobben",
                 "Timeliste – underveis, når du vil dokumentere timer",
-                "Faktura – når jobben er ferdig og du skal ha betalt",
+                "Faktura – når det er grunnlag for å fakturere leveransen eller den utførte delen av arbeidet",
             ],
             },
             {
@@ -1301,7 +1317,12 @@ export const blogPosts: BlogPost[] = [
         blocks: [
             {
             type: "paragraph",
-            text: "Mange tenker mest på hvordan fakturaen ser ut, men tidspunktet du sender den på betyr også mye. Jo tidligere du får sendt fakturaen etter at arbeidet er gjort, desto enklere blir det å holde god flyt i oppfølging og betaling.",
+            text: "Mange tenker mest på hvordan fakturaen ser ut, men tidspunktet du sender den på betyr også mye. Ha en rutine for å fakturere når det er grunnlag for det etter avtalen og reglene for leveransen. Ved lengre oppdrag kan fakturering underveis være aktuelt; ikke legg til grunn at du alltid skal vente til hele jobben er ferdig, eller at forskuddsfakturering alltid er tillatt.",
+            },
+            {
+            type: "textLink",
+            href: "/faktura-krav",
+            label: "Kontroller fakturaopplysninger og betingelsene som gjelder salget",
             },
             {
             type: "heading",
@@ -1318,7 +1339,7 @@ export const blogPosts: BlogPost[] = [
             {
             type: "list",
             items: [
-                "Lag faktura så snart jobben er ferdig",
+                "Lag faktura når det er grunnlag for det, i tråd med avtalen og gjeldende regler",
                 "Ha tydelig betalingsfrist",
                 "Bruk faste rutiner for oppfølging",
                 "Sørg for at dokumentet er ryddig og lett å lese",

@@ -8,3 +8,6 @@
 .figure[data-appearance="light"] figcaption { color: #475569; }
 .figure a { display: inline-block; min-height: 44px; padding-block: 10px; text-decoration: underline; text-underline-offset: 4px; }
 .figure a:focus-visible { outline: 3px solid #2563eb; outline-offset: 4px; border-radius: 2px; }
+.figure.hero { max-width: 520px; margin-block: 0; }
+.hero figcaption { color: var(--site-muted); font-size: .75rem; }
+.hero a:focus-visible { outline-color: var(--accent, #2563eb); }

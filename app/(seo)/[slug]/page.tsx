@@ -11,6 +11,9 @@ import DownloadResources from "@/components/DownloadResources"
 import ClusterNavigation from "@/components/ClusterNavigation"
 import Breadcrumbs from "@/components/Breadcrumbs"
 import InvoiceProductPage from "@/components/product/invoice/InvoiceProductPage"
+import InvoiceExamplePage from "@/components/product/invoice/InvoiceExamplePage"
+import InvoiceGuidePage from "@/components/product/invoice/InvoiceGuidePage"
+import InvoiceRequirementsPage from "@/components/product/invoice/InvoiceRequirementsPage"
 import TimelistProductPage from "@/components/product/timelist/TimelistProductPage"
 import OfferProductPage from "@/components/product/offer/OfferProductPage"
 import ContractProductPage from "@/components/product/contract/ContractProductPage"
@@ -70,6 +73,9 @@ export default async function SEOPage({ params }: Props) {
   const page = getPage(slug)
   if (!page) return notFound()
   if (slug === "fakturaprogram-gratis") return <InvoiceProductPage />
+  if (slug === "faktura-eksempel") return <InvoiceExamplePage />
+  if (slug === "lage-faktura") return <InvoiceGuidePage />
+  if (slug === "faktura-krav") return <InvoiceRequirementsPage />
   if (slug === "timeliste-mal") return <TimelistProductPage />
   if (slug === "tilbud-mal") return <OfferProductPage />
   if (slug === "tilbud-eksempel") return <OfferExamplePage />
