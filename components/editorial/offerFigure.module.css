@@ -1,0 +1,13 @@
+.figure { width: 100%; margin: 32px auto; }
+.document { max-width: 506px; }
+.form { max-width: 100%; }
+.image { display: block; width: 100%; height: auto; }
+.figure figcaption { margin-top: 16px; font-size: .875rem; line-height: 1.75; color: var(--muted-foreground); }
+.figure a { display: inline-block; min-height: 44px; padding-block: 10px; text-decoration: underline; text-underline-offset: 4px; }
+.figure a:focus-visible { outline: 3px solid #2563eb; outline-offset: 4px; border-radius: 2px; }
+.form .mobileLink { display: none; }
+@media (max-width: 639px) {
+  .form { max-width: 332px; }
+  .form .desktopLink { display: none; }
+  .form .mobileLink { display: inline-block; }
+}

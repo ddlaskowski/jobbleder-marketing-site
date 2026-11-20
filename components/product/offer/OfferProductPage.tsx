@@ -39,8 +39,8 @@ export default function OfferProductPage() {
 
       <Section id="tilbudseksempel" eyebrow="01 / DOKUMENTET KUNDEN FÅR" title="Et ryddig tilbud. Klart som PDF." alternate>
         <div className={styles.pdfLayout}><div className={styles.pdf}><Media asset="pdf" alt="Tilbud 29 som PDF for legging av parkett, med total 15 000 kroner og Jobbleder-merking" caption="Autentisk eksportert tilbud fra Jobbleder Free. Hele dokumentsiden er bevart." /></div>
-          <div className={styles.copy}><p className={site.lead}>Gi kunden et tydelig grunnlag for å ta stilling til oppdraget. Tilbudet samler kundeopplysninger, prosjekt, beskrivelse, priser og gyldighetsdato.</p>
-            <p>Eksemplet gjelder legging av parkett for Eksempel Eiendom AS. Last ned tilbudet som PDF og del det med kunden på den måten dere foretrekker.</p>
+          <div className={styles.copy}><p className={site.lead}>Gi kunden et tydelig grunnlag for å ta stilling til oppdraget. Tilbudet samler kundeopplysninger, beskrivelse, priser og gyldighetsdato.</p>
+            <p>Eksemplet gjelder legging av parkett for Eksempel Eiendom. Last ned tilbudet som PDF og del det med kunden på den måten dere foretrekker.</p>
             <dl className={styles.totals}><div><dt>Tilbudssum ekskl. MVA</dt><dd>12 000 kr</dd></div><div><dt>MVA 25 %</dt><dd>3 000 kr</dd></div><div><dt>Totalt inkl. MVA</dt><dd>15 000 kr</dd></div></dl>
             <p className={styles.note}>Dette er et utfylt demonstrasjonseksempel, ikke en tom PDF-mal. Beløpene er eksempelverdier. Free-dokumenter har Jobbleder-merking.</p>
           </div></div>

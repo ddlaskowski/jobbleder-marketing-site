@@ -203,66 +203,85 @@ export const blogPosts: BlogPost[] = [
             "Slik lager du et tydelig og profesjonelt tilbud i byggebransjen. Lær hva som bør være med og hvordan du gjør det enklere digitalt.",
         relatedTopic: "tilbud",
         blocks: [
-            {
-            type: "paragraph",
-            text: "Et godt tilbudsdokument kan være forskjellen mellom å vinne og miste en kunde. For håndverkere og små bedrifter i byggebransjen er det viktig å sende tilbud som er tydelige, profesjonelle og lette å forstå.",
-            },
-            {
-            type: "heading",
-            text: "Hva er et godt tilbud?",
-            },
-            {
-            type: "paragraph",
-            text: "Et tilbud er dokumentet du sender til kunden før jobben starter. Det forklarer hva du skal gjøre, hva det vil koste og hvilke vilkår som gjelder. Et godt tilbud gir kunden trygghet og viser at du jobber strukturert.",
-            },
-            {
-            type: "heading",
-            text: "Dette bør et tilbud inneholde",
-            },
-            {
-            type: "list",
-            items: [
-                "Din kontaktinformasjon",
-                "Kundens informasjon",
-                "Beskrivelse av arbeidet",
-                "Pris og eventuelt tidsbruk",
-                "MVA og vilkår",
-            ],
-            },
-            {
-            type: "heading",
-            text: "Hvorfor er tydelighet viktig?",
-            },
-            {
-            type: "paragraph",
-            text: "Jo tydeligere tilbudet er, desto enklere blir det for kunden å forstå hva som faktisk inngår. Det reduserer risikoen for misforståelser og gjør det lettere å sammenligne tilbudet med andre alternativer.",
-            },
-            {
-            type: "heading",
-            text: "Digitalt tilbud gjør arbeidet enklere",
-            },
-            {
-            type: "paragraph",
-            text: "Når du lager tilbud digitalt, slipper du å starte fra bunnen hver gang. Du får en fastere struktur, kan laste ned dokumentet som PDF og jobber mer effektivt i hverdagen.",
-            },
-            {
-            type: "link",
-            href: "/tilbud-mal",
-            label: "Se guide til tilbud mal",
-            },
-            {
-            type: "note",
-            text: "Et profesjonelt tilbud er ofte førsteinntrykket kunden får av bedriften din. Derfor er struktur og klarhet viktig.",
-            },
-            {
-            type: "cta",
-            text: "Lag profesjonelle tilbud raskt i Jobbleder – og konverter dem til faktura senere.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Start gratis",
-            },
+          {
+            "type": "paragraph",
+            "text": "Et tilbud på en byggejobb bør gjøre det mulig å se hva som faktisk skal leveres på arbeidsstedet. For et gulvoppdrag er «legging av parkett» et nyttig utgangspunkt, men ofte for lite til å avklare materialer, underlag, avfall og tilgang til boligen."
+          },
+          {
+            "type": "heading",
+            "text": "Beskriv rommet og mengdene du har vurdert"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ta utgangspunkt i befaringen: hvilke rom gjelder arbeidet, hvilke mål har dere lagt til grunn, og skal det gjøres arbeid ved terskler, dører eller faste innredninger? Skill mellom målte størrelser og mengder som fortsatt må kontrolleres. Forklar enheten bak prisen, slik at kunden forstår om den gjelder en samlet jobb, et areal eller medgått tid."
+          },
+          {
+            "type": "heading",
+            "text": "Avklar materialvalg og klargjøring"
+          },
+          {
+            "type": "paragraph",
+            "text": "Skriv hvem som kjøper parkett, underlag og lister, og avklar aktuelle produktvalg. Hvis kunden leverer materialene, bør dere være enige om hva som skal være på plass før oppstart. Unngå en generell formulering om «materialer» når valg av type eller kvalitet kan påvirke oppdraget."
+          },
+          {
+            "type": "paragraph",
+            "text": "Skill selve leggingen fra riving, flytting av møbler, fjerning av limrester og utbedring av undergulvet. Beskriv også hvem som pakker, bærer ut og leverer avfallet. Hvis en oppgave ikke er med, bør kunden kunne finne dette uten å måtte tolke en kort samlebeskrivelse."
+          },
+          {
+            "type": "heading",
+            "text": "Tilgang og tidsplan er en del av forberedelsen"
+          },
+          {
+            "type": "paragraph",
+            "text": "Avklar parkering, adkomst, arbeidstid, tilgang til strøm og hvor materialene kan lagres. Slike forhold kan påvirke både tidsbruk og rekkefølge. Skill ønsket oppstart fra en bekreftet dato, og forklar hvilke forutsetninger tidsplanen bygger på, for eksempel at rommet er tømt og materialene levert."
+          },
+          {
+            "type": "heading",
+            "text": "Hva viser Tilbud 29, og hva må avklares i tillegg?"
+          },
+          {
+            "type": "paragraph",
+            "text": "Det autentiske Tilbud 29 viser én linje for legging av parkett, antall 1, enhetspris 12 000 kroner før MVA og total 15 000 kroner med eksemplets 25 prosent MVA. Det viser ikke areal, produktvalg, materialansvar, avfallsarbeid eller planlagt byggestart. Disse detaljene kan derfor ikke leses inn i eksemplet."
+          },
+          {
+            "type": "paragraph",
+            "text": "For ditt eget gulvoppdrag kan det være nyttig å avklare nettopp disse forholdene. Rådene her beskriver hva dere bør vurdere, ikke vilkår som allerede står i demonstrasjonsdokumentet eller en universell liste over lovkrav."
+          },
+          {
+            "type": "textLink",
+            "href": "/tilbud-eksempel",
+            "label": "Se hele Tilbud 29 og hvilke opplysninger dokumentet faktisk inneholder"
+          },
+          {
+            "type": "heading",
+            "text": "Bevar kundens valg og endringer underveis"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hvis kunden ønsker en annen parkett eller det avdekkes behov for mer underlagsarbeid, avklar hva endringen betyr for leveransen, prisen og tidsplanen. Ta vare på beskrivelse, dato og kundens svar sammen med den versjonen av tilbudet dere arbeider ut fra. Ikke behandle ekstraarbeid som om det var inkludert eller godkjent uten at dette er avklart."
+          },
+          {
+            "type": "paragraph",
+            "text": "Forbrukerrådet anbefaler tydelig oppdragsbeskrivelse og skriftlig dokumentasjon ved håndverkeroppdrag for privatkunder. Råd om god dokumentasjon er nyttige også ellers, men forbrukerregler og avtaler mellom virksomheter må vurderes hver for seg."
+          },
+          {
+            "type": "heading",
+            "text": "Fra avklart oppdrag til tilbud i Jobbleder"
+          },
+          {
+            "type": "paragraph",
+            "text": "Når arbeidsomfanget er avklart, kan du bruke Jobbleder til å opprette tilbudet med kunde, prosjekt og prislinjer. Gjennomgå PDF-en før du deler den manuelt med kunden. Selve avklaringene og kundens valg må du fortsatt ta vare på; det å opprette dokumentet er ikke kundens aksept."
+          },
+          {
+            "type": "textLink",
+            "href": "/lage-tilbud",
+            "label": "Følg den praktiske veiledningen når du skal fylle ut tilbudet"
+          },
+          {
+            "type": "textLink",
+            "href": "/tilbud-mal",
+            "label": "Se tilbudsverktøyet og mulighetene for videre dokumentarbeid"
+          }
         ],
     },
     {
@@ -376,68 +395,93 @@ export const blogPosts: BlogPost[] = [
             "Her er de vanligste feilene i tilbudsdokumenter – og hva du kan gjøre for å sende tydeligere og mer profesjonelle tilbud.",
         relatedTopic: "tilbud",
         blocks: [
-            {
-            type: "paragraph",
-            text: "Å sende et tilbud virker enkelt, men små feil kan gjøre at kunden mister tillit eller velger noen andre. Et tydelig og profesjonelt tilbud gir et mye bedre førsteinntrykk og øker sjansen for å få jobben.",
-            },
-            {
-            type: "heading",
-            text: "1. For lite informasjon",
-            },
-            {
-            type: "paragraph",
-            text: "Hvis tilbudet er for kort eller uklart, blir det vanskelig for kunden å forstå hva som faktisk inngår. Beskriv arbeidet tydelig og konkret.",
-            },
-            {
-            type: "heading",
-            text: "2. Manglende gyldighetsdato",
-            },
-            {
-            type: "paragraph",
-            text: "Et tilbud bør ha en tydelig gyldighetsperiode. Det skaper forutsigbarhet og gjør det lettere å følge opp senere.",
-            },
-            {
-            type: "heading",
-            text: "3. Utydelig pris eller MVA",
-            },
-            {
-            type: "paragraph",
-            text: "Kunden bør raskt kunne se hva tilbudet koster, om MVA er inkludert, og hva totalprisen blir. Utydelige tall skaper usikkerhet.",
-            },
-            {
-            type: "heading",
-            text: "4. Uprofesjonell presentasjon",
-            },
-            {
-            type: "paragraph",
-            text: "Selv et godt tilbud kan se svakt ut hvis dokumentet er rotete eller vanskelig å lese. Struktur og layout betyr mer enn mange tror.",
-            },
-            {
-            type: "heading",
-            text: "5. Du følger ikke opp tilbudet",
-            },
-            {
-            type: "paragraph",
-            text: "Mange kunder svarer ikke med én gang. En enkel og høflig oppfølging etter noen dager kan være nok til å få dialogen i gang igjen.",
-            },
-            {
-            type: "link",
-            href: "/folle-opp-tilbud",
-            label: "Les hvordan du følger opp tilbud på en god måte",
-            },
-            {
-            type: "note",
-            text: "Ofte er det ikke prisen alene som avgjør. Et ryddig og tydelig tilbud kan være det som gjør at kunden velger deg.",
-            },
-            {
-            type: "cta",
-            text: "Vil du sende mer profesjonelle tilbud? Lag dem enkelt i Jobbleder.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett tilbud gratis",
-            },
+          {
+            "type": "paragraph",
+            "text": "Bruk en kort gjennomgang før du deler tilbudet. Målet er å oppdage hva kunden kan misforstå, og rette det med en konkret opplysning eller avklaring. En manglende detalj betyr ikke automatisk at et tilbud er juridisk ugyldig."
+          },
+          {
+            "type": "heading",
+            "text": "1. Arbeidet er beskrevet for vagt"
+          },
+          {
+            "type": "paragraph",
+            "text": "«Gulvarbeid» sier lite om hvilke rom og oppgaver som inngår. Kunden kan forstå det som både riving og legging, mens du bare har priset leggingen. Uuttalte forutsetninger om et klart underlag gjør forskjellen enda større."
+          },
+          {
+            "type": "paragraph",
+            "text": "Forbedring: beskriv arbeidet og de viktige forutsetningene med konkrete ord. Avklar hvilke rom oppdraget gjelder, hva som skal være klargjort, og hvilke oppgaver som holdes utenfor."
+          },
+          {
+            "type": "heading",
+            "text": "2. Prisgrunnlaget og mengdene er uklare"
+          },
+          {
+            "type": "paragraph",
+            "text": "Et beløp uten forklaring kan oppfattes som fastpris selv om du har ment et anslag eller betaling etter tid. En linje med antall 1 sier heller ikke om prisen gjelder én jobb, én time eller én kvadratmeter. Da blir det vanskelig å forstå regnestykket."
+          },
+          {
+            "type": "paragraph",
+            "text": "Forbedring: skriv hvilket prisgrunnlag dere bruker, forklar mengdene og kontroller sammenhengen mellom antall, enhetspris, aktuell MVA og total. Ikke la kunden gjette hva tallet gjelder."
+          },
+          {
+            "type": "textLink",
+            "href": "/blogg/tilbud-eller-pristilbud",
+            "label": "Les om forskjellen mellom fastpris, prisoverslag og timepris"
+          },
+          {
+            "type": "heading",
+            "text": "3. Materialansvar og utelatte oppgaver er ikke avklart"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hvis det ikke står hvem som skaffer parketten eller håndterer avfallet, kan begge parter tro at den andre ordner det. Det samme gjelder flytting av møbler, lister og utbedring av undergulv."
+          },
+          {
+            "type": "paragraph",
+            "text": "Forbedring: avklar ansvar for materialvalg, levering, klargjøring og bortkjøring. Gjør det synlig hva som er inkludert og hva som eventuelt må avtales separat. Bevar kundens svar sammen med tilbudsgrunnlaget."
+          },
+          {
+            "type": "heading",
+            "text": "4. Tilbudets gyldighet kan forveksles med arbeidsdatoene"
+          },
+          {
+            "type": "paragraph",
+            "text": "En dato uten forklaring kan bli lest som oppstart, ferdigstillelse eller siste svarfrist. Ulike versjoner kan dessuten bli liggende hos kunden uten at det er tydelig hvilken som gjelder."
+          },
+          {
+            "type": "paragraph",
+            "text": "Forbedring: skill tilbudsdato og gyldighet fra tidsplanen for arbeidet. Oppgi hvilken versjon du ber kunden ta stilling til. Kontroller datoene når tilbudet endres, og avklar eventuelle nye forutsetninger før kunden svarer."
+          },
+          {
+            "type": "heading",
+            "text": "5. Endringer og ekstraarbeid blir ikke dokumentert"
+          },
+          {
+            "type": "paragraph",
+            "text": "Et muntlig ønske om andre materialer eller mer arbeid kan bli glemt når dere senere skal finne igjen hva som var avtalt. En endring du gjør i dokumentet alene viser ikke at kunden har godkjent den."
+          },
+          {
+            "type": "paragraph",
+            "text": "Forbedring: beskriv endringen, avklar betydningen for pris og fremdrift, og ta vare på kundens svar. Skill den reviderte avtalen fra det opprinnelige tilbudet. Reglene og rettsvirkningene må vurderes etter avtalen og situasjonen; dette er praktiske råd, ikke en fullstendig juridisk sjekkliste."
+          },
+          {
+            "type": "heading",
+            "text": "Følg opp spørsmål før du går videre"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hvis kunden ikke svarer eller ber om en forklaring, ta en kort, manuell kontakt. I Jobbleder kan du forberede tilbudsdokumentet, men en generert PDF erstatter ikke avklaringen med kunden."
+          },
+          {
+            "type": "textLink",
+            "href": "/blogg/folle-opp-tilbud",
+            "label": "Les hvordan du følger opp tilbud på en god måte"
+          },
+          {
+            "type": "textLink",
+            "href": "/tilbud-eksempel",
+            "label": "Sammenlign feltene og summene med et autentisk tilbudseksempel"
+          }
         ],
     },
     {
@@ -654,66 +698,82 @@ export const blogPosts: BlogPost[] = [
             "Lær hva et tilbudsdokument er, hva som bør være med, og hvordan du lager et profesjonelt tilbud på en enkel måte.",
         relatedTopic: "tilbud",
         blocks: [
-            {
-            type: "paragraph",
-            text: "Når en kunde spør om pris, er tilbudet ofte det første profesjonelle dokumentet du sender. Et godt tilbudsdokument forklarer hva du skal gjøre, hva det vil koste og hvilke vilkår som gjelder.",
-            },
-            {
-            type: "heading",
-            text: "Hva er et tilbudsdokument?",
-            },
-            {
-            type: "paragraph",
-            text: "Et tilbudsdokument beskriver arbeidet eller tjenesten du tilbyr kunden. Det gir en oversikt over pris, innhold og eventuelle betingelser, og hjelper kunden med å ta stilling til om de vil gå videre.",
-            },
-            {
-            type: "heading",
-            text: "Dette bør et tilbud inneholde",
-            },
-            {
-            type: "list",
-            items: [
-                "Firmanavn og kontaktinformasjon",
-                "Kundens navn og informasjon",
-                "Beskrivelse av prosjektet",
-                "Pris og eventuelle tillegg",
-                "Gyldighetsperiode",
-            ],
-            },
-            {
-            type: "heading",
-            text: "Hvorfor er et godt tilbud viktig?",
-            },
-            {
-            type: "paragraph",
-            text: "Et ryddig tilbud gir et bedre førsteinntrykk og gjør det enklere for kunden å forstå hva du faktisk tilbyr. Det kan også gjøre det lettere å unngå misforståelser senere i prosessen.",
-            },
-            {
-            type: "heading",
-            text: "Digitalt tilbud sparer tid",
-            },
-            {
-            type: "paragraph",
-            text: "Når du lager tilbud digitalt, kan du jobbe raskere og bruke en fast struktur hver gang. Det gir mer konsistente dokumenter og mindre manuelt arbeid.",
-            },
-            {
-            type: "link",
-            href: "/lage-tilbud",
-            label: "Les mer om hvordan du lager tilbud",
-            },
-            {
-            type: "note",
-            text: "Et tydelig tilbud handler ikke bare om pris. Det handler også om tillit, struktur og å gjøre beslutningen enklere for kunden.",
-            },
-            {
-            type: "cta",
-            text: "Vil du lage profesjonelle tilbud raskt? Prøv Jobbleder gratis.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett tilbud gratis",
-            },
+          {
+            "type": "paragraph",
+            "text": "Et tilbudsdokument skal være lett å orientere seg i. Kunden bør finne hvem tilbudet gjelder, hva du leverer, hva prisen bygger på og hvilke avklaringer som gjenstår. En konsekvent rekkefølge gjør det også enklere å sammenligne en ny versjon med den forrige."
+          },
+          {
+            "type": "heading",
+            "text": "Begynn med partene og oppdraget"
+          },
+          {
+            "type": "paragraph",
+            "text": "Samle avsenderopplysninger og kundens opplysninger tydelig øverst. Kontroller navn og kontaktinformasjon, og sørg for at det går frem hvilket oppdrag dokumentet gjelder. Bruk en forståelig prosjektbeskrivelse eller henvisning dersom kunden har flere pågående oppdrag."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tilbud 29 viser Demo Company som avsender og Eksempel Eiendom som kunde. Prosjektet Renovering av leilighet er valgt i appskjemaet, men prosjektnavnet står ikke som eget felt i den viste PDF-en. Kontroller derfor dokumentet kunden faktisk får, fremfor å anta at alle opplysninger i appen er skrevet ut."
+          },
+          {
+            "type": "heading",
+            "text": "La arbeidsbeskrivelse og priser kunne leses sammen"
+          },
+          {
+            "type": "paragraph",
+            "text": "Gi hver linje en konkret beskrivelse, og bruk mengder med en forståelig betydning. Plasser antall og enhetspris slik at kunden kan se sammenhengen med linjebeløpet. Del opp ulike leveranser når en samlelinje ville gjort innholdet uklart."
+          },
+          {
+            "type": "paragraph",
+            "text": "I Tilbud 29 er beskrivelsen Legging av parkett, antallet 1 og enhetsprisen 12 000 kroner før MVA. Antallet sier ikke i seg selv noe om areal eller antall arbeidstimer. Kunden trenger en forklaring som passer det virkelige oppdraget."
+          },
+          {
+            "type": "heading",
+            "text": "Skill MVA og total fra detaljene på linjene"
+          },
+          {
+            "type": "paragraph",
+            "text": "Oppsummeringen bør gjøre det enkelt å finne beløpet før MVA, aktuell MVA og det kunden totalt skal betale. Tilbud 29 viser 12 000 kroner netto, 3 000 kroner MVA og 15 000 kroner totalt. Satsen 25 prosent tilhører eksemplet; kontroller behandlingen som gjelder for salget ditt."
+          },
+          {
+            "type": "heading",
+            "text": "Gi datoer og forutsetninger en tydelig plass"
+          },
+          {
+            "type": "paragraph",
+            "text": "Skill tilbudsdato og gyldighet fra en eventuell tidsplan for arbeidet. I demonstrasjonsdokumentet er datoene 18.11.2026 og 02.12.2026 tilbudets utstedelse og gyldighet, ikke oppstart og ferdigstillelse. Et nytt tilbud trenger egne relevante datoer."
+          },
+          {
+            "type": "paragraph",
+            "text": "Samle viktige avklaringer om materialer, inkluderte oppgaver, avgrensinger og eventuelle betalingsvilkår der kunden kan finne dem. Dette er praktiske dokumentasjonsråd, ikke en påstand om et universelt lovpålagt format. Det viste Tilbud 29 har ikke detaljerte material- eller endringsvilkår; de skal ikke tilskrives eksemplet."
+          },
+          {
+            "type": "textLink",
+            "href": "/tilbud-eksempel",
+            "label": "Se dokumentets oppsett og forklaringen av de faktiske feltene"
+          },
+          {
+            "type": "heading",
+            "text": "Les gjennom dokumentet som om du var kunden"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Er avsender, kunde og oppdrag riktig identifisert?",
+              "Kan arbeidsomfanget forstås uten muntlige tilleggsforklaringer?",
+              "Henger antall, enhetspriser, MVA og total sammen?",
+              "Er gyldighet og eventuelle arbeidstidspunkter tydelig skilt?",
+              "Er avtalt innhold og senere avklaringer gjengitt riktig i denne versjonen?"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Jobbleder gir deg en fast struktur for tilbudslinjer og PDF. Se likevel gjennom den genererte filen før du deler den manuelt. En ryddig struktur erstatter ikke avklaringene med kunden eller vurderingen av hvilke regler som gjelder for oppdraget."
+          },
+          {
+            "type": "textLink",
+            "href": "/lage-tilbud",
+            "label": "Gå videre til stegene for å opprette og kontrollere tilbudet i Jobbleder"
+          }
         ],
     },
     {
@@ -812,64 +872,102 @@ export const blogPosts: BlogPost[] = [
             "Slik følger du opp et sendt tilbud på en profesjonell måte og øker sjansen for å få respons fra kunden.",
         relatedTopic: "tilbud",
         blocks: [
-            {
-            type: "paragraph",
-            text: "Du har brukt tid på å lage et godt tilbud, men det er ikke alltid nok å bare sende det og vente. Mange kunder trenger litt tid, og ofte også en høflig oppfølging før de tar en beslutning.",
-            },
-            {
-            type: "heading",
-            text: "Hvorfor oppfølging er viktig",
-            },
-            {
-            type: "paragraph",
-            text: "Når du følger opp et tilbud på en rolig og profesjonell måte, viser du at du er tilgjengelig, strukturert og interessert i oppdraget. Det kan være akkurat det som skal til for å få svar.",
-            },
-            {
-            type: "heading",
-            text: "Når bør du følge opp?",
-            },
-            {
-            type: "paragraph",
-            text: "En god tommelfingerregel er å vente et par dager etter at tilbudet er sendt. I mange tilfeller passer det fint å følge opp etter 2 til 4 dager, avhengig av type jobb og hvor omfattende tilbudet er.",
-            },
-            {
-            type: "heading",
-            text: "Hvordan følge opp på en god måte",
-            },
-            {
-            type: "paragraph",
-            text: "Hold meldingen kort, tydelig og vennlig. Målet er ikke å presse kunden, men å minne på tilbudet og åpne for spørsmål.",
-            },
-            {
-            type: "note",
-            text: "Et enkelt spørsmål som «Har du fått sett på tilbudet?» er ofte mer enn nok for å starte dialogen igjen.",
-            },
-            {
-            type: "heading",
-            text: "Hvis kunden ikke svarer",
-            },
-            {
-            type: "paragraph",
-            text: "Hvis du ikke får svar første gang, kan du sende én siste høflig påminnelse etter omtrent en uke. Deretter er det ofte best å la saken ligge, slik at oppfølgingen fortsatt oppleves profesjonell.",
-            },
-            {
-            type: "paragraph",
-            text: "En god oppfølging handler om timing, tydelighet og tone. Det viktigste er at kunden føler at det er enkelt å svare deg.",
-            },
-            {
-            type: "link",
-            href: "/hvordan-folge-opp-tilbud",
-            label: "Les mer om oppfølging av tilbud",
-            },
-            {
-            type: "cta",
-            text: "Vil du lage og følge opp tilbud enklere? Bruk Jobbleder til å holde orden på tilbudene dine.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett tilbud gratis",
-            },
+          {
+            "type": "paragraph",
+            "text": "En god oppfølging hjelper kunden med å forstå tilbudet og svare når de er klare. Ta utgangspunkt i det dere har avtalt om videre kontakt. Meldingen bør avklare et behov, ikke skape press eller late som om kunden allerede har sagt ja."
+          },
+          {
+            "type": "heading",
+            "text": "Sjekk mottak og gi tid til gjennomgang"
+          },
+          {
+            "type": "paragraph",
+            "text": "Kontroller at du har sendt riktig dokument til riktig adresse. Hvis mottaket er usikkert, kan du spørre om tilbudet kom frem eller tilby å sende det på nytt. Ikke legg til grunn at en sendt fil er lest eller forstått."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gi kunden rimelig tid ut fra oppdragets størrelse og eventuell avtalt svarfrist. Et kort gulvoppdrag og en større renovering trenger ikke samme rytme. Avtal gjerne når du kan ta kontakt igjen, fremfor å følge en fast automatisk tidsplan."
+          },
+          {
+            "type": "heading",
+            "text": "Første oppfølging: kort og åpen"
+          },
+          {
+            "type": "paragraph",
+            "text": "Et eksempel på en melding du selv kan sende:"
+          },
+          {
+            "type": "paragraph",
+            "text": "«Hei, Anne! Jeg følger opp tilbudet på parkettarbeidet som jeg sendte tidligere. Har det kommet frem, og er det noe du ønsker at jeg forklarer nærmere? Ta gjerne kontakt når du har fått sett på det. Hilsen Per.»"
+          },
+          {
+            "type": "paragraph",
+            "text": "Tilpass navn, jobb og formulering til den faktiske kontakten. Det er nok med én tydelig invitasjon til spørsmål; du trenger ikke gjenta hele tilbudet eller legge inn en kunstig frist."
+          },
+          {
+            "type": "heading",
+            "text": "Når kunden ber om en avklaring"
+          },
+          {
+            "type": "paragraph",
+            "text": "Svar på det konkrete spørsmålet først. Hvis kunden er usikker på underlagsarbeid, forklar hva tilbudet omfatter før du foreslår neste steg. Dersom avklaringen innebærer mer arbeid eller andre materialer, diskuter pris og tidsplan før dere går videre."
+          },
+          {
+            "type": "paragraph",
+            "text": "Et eksempel etter at kunden har spurt om undergulvet:"
+          },
+          {
+            "type": "paragraph",
+            "text": "«Hei, Anne! Takk for spørsmålet om undergulvet. Tilbudet gjelder selve parkettleggingen og forutsetter at underlaget er klargjort. Skal vi avklare hva som trengs før jeg eventuelt oppdaterer omfang, pris og tidsplan? Jeg sender deg i så fall et revidert tilbud til gjennomgang. Hilsen Per.»"
+          },
+          {
+            "type": "heading",
+            "text": "Ta vare på avklaringen og den riktige versjonen"
+          },
+          {
+            "type": "paragraph",
+            "text": "Oppsummer det dere blir enige om skriftlig, og ta vare på kundens svar sammen med tilbudet. Hvis du lager en ny versjon, gjør det klart hva som er endret og hvilken versjon kunden skal vurdere. En oppdatert fil er ikke i seg selv dokumentasjon på aksept."
+          },
+          {
+            "type": "paragraph",
+            "text": "Et akseptert tilbud kan danne en bindende avtale uten separat signert kontrakt, avhengig av innhold, aksept, omstendigheter og gjeldende regler. Ved uavklarte svar bør dere få klarhet i hva dere faktisk er enige om. Forbrukeravtaler og avtaler mellom virksomheter må ikke behandles som identiske."
+          },
+          {
+            "type": "textLink",
+            "href": "/blogg/tilbud-vs-kontrakt",
+            "label": "Les om tilbud, kundens aksept og et separat kontraktsdokument"
+          },
+          {
+            "type": "heading",
+            "text": "Når kunden trenger mer tid eller ikke svarer"
+          },
+          {
+            "type": "paragraph",
+            "text": "Spør om det passer å følge opp igjen, eller avslutt dialogen høflig hvis kunden ikke ønsker å gå videre. Ved utløpt gyldighet eller endrede forutsetninger bør dere avklare grunnlaget på nytt. Ikke behandle taushet som en praktisk bekreftelse på at du kan starte jobben."
+          },
+          {
+            "type": "textLink",
+            "href": "/hvordan-folge-opp-tilbud",
+            "label": "Se den korte oversikten over oppfølging av et sendt tilbud"
+          },
+          {
+            "type": "heading",
+            "text": "Dokumentet i Jobbleder, kundekontakten hos deg"
+          },
+          {
+            "type": "paragraph",
+            "text": "Jobbleder støtter oppretting av tilbud og generering av PDF. Du deler filen og følger opp kunden manuelt. Rutinen og meldingsforslagene over beskriver ikke automatiske e-poster, påminnelser, åpningssporing eller en akseptportal i appen. Kundens svar må du selv ta vare på."
+          },
+          {
+            "type": "textLink",
+            "href": "/instruksjoner#opprett-tilbud",
+            "label": "Se hvordan du oppretter tilbudsdokumentet i Jobbleder"
+          },
+          {
+            "type": "textLink",
+            "href": "/blogg/fra-tilbud-til-kontrakt-og-faktura",
+            "label": "Se dokumentveiene videre når oppdraget skal følges opp med kontrakt eller faktura"
+          }
         ],
     },
     {
@@ -1260,49 +1358,81 @@ export const blogPosts: BlogPost[] = [
             "Slik lager du et tydelig tilbud eller pristilbud som er lett for kunden å forstå og ta stilling til.",
         relatedTopic: "tilbud",
         blocks: [
-            {
-            type: "paragraph",
-            text: "Når en kunde ber om pris, forventer de ofte et dokument som er lett å lese og enkelt å forstå. Enten du kaller det tilbud eller pristilbud, er målet det samme: å gjøre beslutningen enklere for kunden.",
-            },
-            {
-            type: "heading",
-            text: "Hva kunden ser etter",
-            },
-            {
-            type: "list",
-            items: [
-                "Hva som faktisk inngår",
-                "Hva det vil koste",
-                "Om det finnes tillegg eller forbehold",
-                "Hvor lenge tilbudet gjelder",
-            ],
-            },
-            {
-            type: "heading",
-            text: "Hvorfor tydelighet vinner",
-            },
-            {
-            type: "paragraph",
-            text: "Et utydelig tilbud skaper spørsmål. Et tydelig tilbud gjør det lettere for kunden å si ja, fordi de raskt forstår hva de får og hva de skal forholde seg til.",
-            },
-            {
-            type: "note",
-            text: "Mange gode tilbud taper ikke på pris, men på at de er for uklare eller for svake i presentasjonen.",
-            },
-            {
-            type: "link",
-            href: "/tilbud-eksempel",
-            label: "Se vår guide til tilbud eksempel",
-            },
-            {
-            type: "cta",
-            text: "Vil du lage tydelige og profesjonelle tilbud raskt? Prøv Jobbleder gratis.",
-            },
-            {
-            type: "link",
-            href: "https://app.jobbleder.no",
-            label: "Opprett tilbud gratis",
-            },
+          {
+            "type": "paragraph",
+            "text": "Ordet pristilbud sier ikke alene hvordan sluttprisen skal beregnes. Det viktigste er at kunden forstår om dere avtaler en fast sum, et prisoverslag eller betaling etter medgått tid. Skriv prisgrunnlaget sammen med beskrivelsen av arbeidet, slik at beløpet ikke kan leses løsrevet fra omfanget."
+          },
+          {
+            "type": "heading",
+            "text": "Fastpris: en sum for et avgrenset arbeid"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ved fastpris avtaler dere en bestemt sum for arbeidet som er beskrevet. Presiser derfor både hva som er med, og hvilke forutsetninger summen bygger på. Et uklart omfang blir ikke tydeligere av at det står fastpris ved beløpet."
+          },
+          {
+            "type": "paragraph",
+            "text": "Et illustrerende gulveksempel: «Fastpris 15 000 kroner inkludert MVA for legging av parkett i stuen. Kunden leverer parketten. Underlaget skal være klargjort; riving av gammelt gulv er ikke med.» Dette er en tenkt prisbeskrivelse, ikke en fullstendig avtaletekst eller en gjengivelse av Tilbud 29."
+          },
+          {
+            "type": "heading",
+            "text": "Prisoverslag: et anslag med et tydelig grunnlag"
+          },
+          {
+            "type": "paragraph",
+            "text": "Et prisoverslag angir forventet pris for et beskrevet arbeid. Forklar hva du har vurdert, og hva som fortsatt er usikkert. Det bør ikke behandles som en uforpliktende startpris eller som fri adgang til å øke beløpet."
+          },
+          {
+            "type": "paragraph",
+            "text": "Et tenkt eksempel er et prisoverslag på 8 000 kroner inkludert MVA for klargjøring av et undergulv etter befaring, samtidig som enkelte områder ennå ikke er tilgjengelige for undersøkelse. Beskriv hvilke arbeider og mengder anslaget bygger på, og hva dere må avklare dersom tilstanden viser seg å være annerledes. Et forbehold er ikke i seg selv en avklaring av hva kunden skal betale ekstra."
+          },
+          {
+            "type": "heading",
+            "text": "Timepris: skill sats fra tidsbruk og materialer"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ved arbeid etter medgått tid må kunden forstå både timesatsen og hva som kommer i tillegg. Forklar hvordan timer skal dokumenteres, hvordan materialer prises, og om reise eller andre kostnader er med. Et anslått timeantall er ikke det samme som en avtalt fast totalpris."
+          },
+          {
+            "type": "paragraph",
+            "text": "Et tenkt eksempel er tilpasning av gulvlister til 900 kroner per time inkludert MVA. Fire timer gir 3 600 kroner for arbeidet, mens seks timer gir 5 400 kroner. Materialer kommer bare i tillegg slik dere har avtalt. Beløpene illustrerer regnestykket; de er ikke Jobbleder-priser eller en anbefalt bransjesats."
+          },
+          {
+            "type": "heading",
+            "text": "Avklar usikkerheten før dere velger prisgrunnlag"
+          },
+          {
+            "type": "paragraph",
+            "text": "Materialkvalitet, mål, underlag og endret arbeidsomfang kan påvirke kostnadene. Skill mellom usikkerheten du allerede kjenner, og arbeid kunden bestiller senere. Avklar hva som inngår før dere starter, og dokumenter endringer i arbeid, pris og fremdrift sammen med kundens svar."
+          },
+          {
+            "type": "paragraph",
+            "text": "Forbrukerrådets veiledning om håndverkertjenester skiller mellom fastpris og prisoverslag i forbrukerforhold. Slike forbrukerregler skal ikke overføres ukritisk til avtaler mellom virksomheter. Vurder den konkrete avtalen og reglene som gjelder, fremfor å bruke én generell regel for alle tilbud."
+          },
+          {
+            "type": "textLink",
+            "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/sjekkliste-handverker/",
+            "label": "Les Forbrukerrådets veiledning om pris og avklaringer med håndverker"
+          },
+          {
+            "type": "textLink",
+            "href": "/blogg/tilbud-vs-kontrakt",
+            "label": "Se hvordan tilbud, aksept og skriftlig avtale henger sammen"
+          },
+          {
+            "type": "heading",
+            "text": "Vis prisgrunnlaget tydelig i dokumentet"
+          },
+          {
+            "type": "paragraph",
+            "text": "Jobbleder lar deg beskrive og prise tilbudslinjene med antall, enhetspris og aktuell MVA. Kunden må likevel få en forståelig forklaring på hva beløpet gjelder. Et felt eller en generert PDF avklarer ikke alene hvilke prisvilkår dere er enige om."
+          },
+          {
+            "type": "textLink",
+            "href": "/tilbud-eksempel",
+            "label": "Se antall, enhetspris, MVA og total i det autentiske tilbudseksemplet"
+          }
         ],
     },
     {
@@ -1315,20 +1445,45 @@ export const blogPosts: BlogPost[] = [
         createdAt: "2026-04-07",
         relatedTopic: "kontrakt",
         blocks: [
-            { type: "paragraph", text: "Mange blander tilbud og kontrakt..." },
+            { type: "paragraph", text: "Når en kunde ber om pris på en jobb, starter du gjerne med et tilbud. Senere kan det være nyttig å samle vilkårene i en egen skriftlig kontrakt. Men avtalen mellom dere kan allerede være inngått før et slikt dokument er signert. Her ser vi på forskjellen med et parkettoppdrag som eksempel." },
             { type: "heading", text: "Hva er et tilbud?" },
-            { type: "paragraph", text: "Tilbud sendes før arbeid starter..." },
+            { type: "paragraph", text: "Et tilbud beskriver arbeidet du foreslår å utføre, prisen og forutsetningene for oppdraget. Kunden skal kunne forstå hva som inngår, hva som eventuelt kommer i tillegg, og hvor lenge tilbudet gjelder." },
+            { type: "paragraph", text: "Tenk deg at du tilbyr å legge 20 m² parkett i en stue. I dette illustrasjonseksemplet er prisen 15 000 kroner inkludert MVA for selve leggingen. Kunden skaffer parketten, og tilbudet forutsetter at rommet er tømt og underlaget klargjort. Fjerning av gammelt gulv er ikke inkludert. Tilbudet oppgir også planlagt oppstart, forventet ferdigstillelse og en dato for når kunden må svare." },
+            { type: "paragraph", text: "Før kunden aksepterer, bør dere avklare om dette faktisk dekker jobben. Hvis underlaget må utbedres eller kunden ønsker nye gulvlister, må omfang, pris og tidsplan avklares før slikt arbeid settes i gang." },
+            { type: "textLink", href: "/tilbud-mal", label: "Se hvordan du lager et tilbud med arbeidsbeskrivelse og pris i Jobbleder" },
             { type: "heading", text: "Hva er en kontrakt?" },
-            { type: "paragraph", text: "Kontrakten er en bindende avtale..." },
-            { type: "heading", text: "Når bruker du hva?" },
+            { type: "paragraph", text: "Ordet kontrakt brukes både om en avtale og om dokumentet som beskriver den. En separat skriftlig kontrakt kan samle det dere er enige om: arbeidets omfang, pris, materialansvar, datoer og betalingsvilkår. Da blir det lettere å finne tilbake til de samme opplysningene underveis." },
+            { type: "paragraph", text: "Skill derfor mellom tilbudsdokumentet, kundens aksept, avtalen som kan følge av aksepten, og et eget kontraktsdokument. Å opprette et dokument i et program er ikke i seg selv dokumentasjon på at kunden har akseptert innholdet." },
+            { type: "heading", text: "Hva skjer når kunden aksepterer tilbudet?" },
+            { type: "paragraph", text: "Et tilbud som kunden aksepterer, kan danne en bindende avtale, avhengig av omstendighetene og reglene som gjelder for oppdraget. Du bør derfor ikke legge til grunn at dere står uten avtale frem til en separat kontrakt er signert." },
+            { type: "paragraph", text: "Ta vare på tilbudet og kundens svar. Hvis kunden sier ja, men samtidig ønsker andre materialer eller mer arbeid, bør dere avklare hva dere faktisk er enige om og dokumentere endringene. I parketteksemplet bør det være tydelig om svaret gjelder bare leggingen eller også arbeid som ikke var med i tilbudet." },
+            { type: "paragraph", text: "Et oppdrag for en privatkunde og en avtale mellom to virksomheter kan være underlagt ulike regler. Forbrukerregler om håndverkertjenester skal ikke uten videre brukes på B2B-oppdrag. Ved usikkerhet om en konkret avtale bør du få relevant juridisk veiledning." },
+            { type: "heading", text: "Når er en separat skriftlig kontrakt nyttig?" },
+            { type: "paragraph", text: "Selv om dere allerede har kommet til enighet, kan et eget kontraktsdokument gjøre avtalen enklere å følge opp. Det er særlig nyttig når arbeidet går over tid, flere leveranser henger sammen, eller ansvar og betaling må beskrives nærmere." },
+            { type: "paragraph", text: "For parkettoppdraget kan kontrakten samle tilbudet og senere avklaringer om underlag, tilgang til boligen og materiallevering. Kontroller at dokumentet gjengir det dere faktisk har avtalt. Nye eller endrede vilkår må avklares med kunden; en endring du gjør i dokumentet, er ikke i seg selv kundens godkjenning." },
+            { type: "paragraph", text: "Forbrukerrådet anbefaler skriftlig kontrakt ved bruk av håndverker fordi den gjør det enklere å dokumentere enigheten. Behovet for god dokumentasjon må skilles fra spørsmålet om det allerede er inngått en bindende avtale." },
+            { type: "textLink", href: "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/", label: "Les Forbrukerrådets råd om skriftlig kontrakt med håndverker" },
+            { type: "heading", text: "Hva bør du avklare før arbeidet starter?" },
+            { type: "paragraph", text: "Bruk tilbudet og eventuelle senere avklaringer som utgangspunkt for en praktisk gjennomgang med kunden:" },
             {
             type: "list",
             items: [
-                "Tilbud – før avtale",
-                "Kontrakt – når avtalen er bekreftet",
+                "Arbeid og omfang: hvilke rom, mengder og oppgaver inngår, og hva er holdt utenfor?",
+                "Materialer: hvem kjøper og leverer dem, og hvem har ansvar for klargjøringen?",
+                "Pris: er grunnlaget fastpris, timepris eller et overslag, og hvordan er aktuell MVA oppgitt?",
+                "Tid: når skal dere starte, når forventes jobben ferdig, og hvilke forutsetninger gjelder?",
+                "Endringer: hvordan skal dere avklare og dokumentere ekstraarbeid, pris og påvirkning på fremdriften?",
+                "Betaling: hva er avtalt om fakturering og betalingsfrist?",
             ],
             },
-            { type: "cta", text: "Vil du gjøre tilbud om til kontrakt? Prøv Jobbleder." },
+            { type: "paragraph", text: "Dette er en praktisk sjekkliste, ikke en uttømmende liste over lovkrav. Tilpass avklaringene til arbeidet, kundetypen og reglene som gjelder." },
+            { type: "heading", text: "Hvordan støtter Jobbleder dokumentarbeidet?" },
+            { type: "paragraph", text: "I Jobbleder kan du opprette tilbudet og generere en PDF. Du kan deretter velge å opprette en kontrakt fra tilbudet og redigere kontrakten videre som et selvstendig dokument. Se gjennom innholdet og avklar det med kunden før dere ordner eventuell signering utenfor appen." },
+            { type: "textLink", href: "/kontrakt-mal", label: "Se hvilke kontraktsopplysninger du kan tilpasse i Jobbleder" },
+            { type: "paragraph", text: "Når du skal lage faktura, kan du bruke enten tilbudet eller kontrakten som grunnlag. Begge veiene støttes: Tilbud → Faktura og Tilbud → Kontrakt → Faktura. Du starter konverteringen selv og kontrollerer kunde, linjer, beløp, MVA, datoer og betalingsinformasjon før du genererer PDF-en og sender den manuelt." },
+            { type: "paragraph", text: "Dokumentoppretting, PDF-eksport og disse konverteringene er tilgjengelige i Free. Free-PDF-er har Jobbleder-merking. Premium fjerner merkingen og lar deg bruke egen firmalogo; det er ikke nødvendig for dokumentflyten." },
+            { type: "paragraph", text: "Kundedialog, aksept og signering skjer utenfor den dokumenterte appflyten. Jobbleder tilbyr ikke elektronisk signering eller automatisk aksept, utsending eller oppfølging av tilbud." },
+            { type: "textLink", href: "/blogg/fra-tilbud-til-kontrakt-og-faktura", label: "Følg arbeidsflyten fra tilbud til kontrakt og faktura med ekte dokumenteksempler" },
         ],
     },
     {

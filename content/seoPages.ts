@@ -17,6 +17,7 @@ export type SEOSection = {
   checklists?: { heading: string; items: string[] }[]
   links?: { href: string; label: string }[]
   invoiceExample?: boolean
+  offerExample?: "document" | "form"
 }
 
 export type SEOPage = {
@@ -418,25 +419,72 @@ export const seoPages: SEOPage[] = [
     ],
     sections: [
       {
-        heading: "Hvorfor er det viktig å lage et tydelig tilbud?",
+        heading: "1. Velg kunden og riktig prosjekt",
         paragraphs: [
-          "Et tydelig tilbud gjør det enklere for kunden å forstå hva som inngår i arbeidet og hva det vil koste.",
-          "Det skaper også et mer profesjonelt inntrykk og reduserer risikoen for misforståelser senere.",
+          "Åpne Opprett og velg Tilbud i Jobbleder. Velg kunden som skal få tilbudet, og knytt til et prosjekt hvis det er relevant. Kontroller kundeopplysningene før du går videre.",
+          "Vi bruker Tilbud 29 som eksempel: kunden er Eksempel Eiendom, og prosjektet heter Renovering av leilighet i skjemaet. Prosjektvalget vises i appen, men er ikke skrevet ut som eget felt på PDF-eksemplet.",
         ],
       },
       {
-        heading: "Hvordan lage tilbud på en enkel måte",
+        heading: "2. Beskriv arbeidet kunden skal ta stilling til",
         paragraphs: [
-          "Den enkleste måten å lage tilbud på er å bruke en fast struktur med de viktigste feltene på plass.",
-          "Da sparer du tid og sørger for at dokumentene dine ser ryddige og profesjonelle ut hver gang.",
+          "Legg inn en tydelig arbeidsbeskrivelse på tilbudslinjen. I Tilbud 29 står det Legging av parkett. For ditt eget oppdrag bør du også avklare hvilke rom, oppgaver og forberedelser prisen omfatter.",
+          "Skjermbildet viser feltene du fyller ut. Det er en visning fra Jobbleder i nettleseren, ikke en ferdig PDF eller en egen mobilapp.",
+        ],
+        offerExample: "form",
+      },
+      {
+        heading: "3. Legg inn antall og enhetspris",
+        paragraphs: [
+          "Tilbudslinjen i eksemplet har antall 1 og enhetspris 12 000 kroner før MVA. Det gir 1 × 12 000 = 12 000 kroner netto. Legg til flere rader dersom ulike deler av arbeidet bør beskrives og prises hver for seg.",
+          "Antallet gjelder linjen slik den er lagt inn. Tilbud 29 oppgir ikke et areal eller et timeantall; ikke les dette inn i eksemplet. Bruk mengder og beskrivelser som kunden forstår i ditt eget tilbud.",
         ],
       },
       {
-        heading: "Fordeler med digital tilbudsløsning",
+        heading: "4. Avklar materialer og arbeid som ikke inngår",
         paragraphs: [
-          "En digital løsning gjør det lettere å opprette, lagre og laste ned tilbud når du trenger det.",
-          "For små bedrifter betyr dette mindre manuelt arbeid og bedre oversikt i hverdagen.",
+          "Bli enige om hvem som skaffer parketten, om underlaget må klargjøres, og om for eksempel fjerning av gammelt gulv eller montering av lister er inkludert. Ta vare på avklaringene skriftlig sammen med tilbudet.",
+          "Dette er råd til ditt eget tilbud. Slike materialvilkår og avgrensinger er ikke spesifisert i det viste PDF-dokumentet fra Tilbud 29. Ikke forutsett at kunden oppfatter dem på samme måte som deg.",
         ],
+      },
+      {
+        heading: "5. Kontroller MVA og totalbeløpet",
+        paragraphs: [
+          "Velg MVA-behandlingen som gjelder for salget ditt, og kontroller oppsummeringen. I Tilbud 29 er eksempelsatsen 25 prosent: 12 000 kroner netto gir 3 000 kroner i MVA og 15 000 kroner totalt. Satsen er ikke en regel for alle tilbud eller virksomheter.",
+        ],
+      },
+      {
+        heading: "6. Sett datoer og tilbudets gyldighet",
+        paragraphs: [
+          "Kontroller Utstedt og Gyldig til. I demonstrasjonen er datoene 18.11.2026 og 02.12.2026. For et nytt tilbud velger du datoer som passer oppdraget; ikke kopier eksempelverdiene ukritisk.",
+          "Avklar også ønsket oppstart og forventet ferdigstillelse med kunden der det er relevant. Disse arbeidstidspunktene er ikke det samme som tilbudsdato og gyldighet, og de vises ikke i Tilbud 29-PDF-en.",
+        ],
+      },
+      {
+        heading: "7. Se gjennom tilbudet før du genererer dokumentet",
+        paragraphs: [
+          "Kontroller kunde, arbeidsbeskrivelse, mengder, priser, MVA, datoer og total. Se særlig etter om det er tydelig hva som er med i prisen. Avklar uklarheter før du deler tilbudet.",
+        ],
+        links: [{ href: "/tilbud-eksempel", label: "Se hele Tilbud 29 og forklaringen av dokumentet" }],
+      },
+      {
+        heading: "8. Lag PDF og del tilbudet med kunden",
+        paragraphs: [
+          "Velg Lagre eller Generer i Jobbleder. Generer og last ned PDF-en når innholdet stemmer, og del den manuelt med kunden, for eksempel som vedlegg i en e-post du sender selv. Appen sender ikke tilbudet eller registrerer kundens aksept automatisk.",
+          "Oppretting av tilbud og PDF-eksport er tilgjengelig i Free, med Jobbleder-merking på dokumentet. Premium fjerner merkingen og lar deg bruke egen firmalogo. PDF-en lages i appen; denne nettsiden tilbyr ikke en tom tilbudsmal for nedlasting.",
+        ],
+        links: [
+          { href: "/instruksjoner#opprett-tilbud", label: "Følg instruksjonene for å opprette et tilbud i Jobbleder" },
+          { href: "/tilbud-mal", label: "Utforsk tilbudsverktøyet og dokumentflyten" },
+        ],
+      },
+      {
+        heading: "Avklar aksept og eventuelle endringer",
+        paragraphs: [
+          "Et akseptert tilbud kan danne grunnlag for en bindende avtale, avhengig av innholdet, svaret, omstendighetene og reglene som gjelder. Ikke legg til grunn at en separat signert kontrakt alltid er nødvendig. Ta vare på kundens svar og avklar endringer i omfang eller pris.",
+          "Dette er praktiske råd, ikke en universell liste over lovpålagte tilbudsfelt. Forbrukeravtaler og oppdrag mellom virksomheter kan være underlagt ulike regler.",
+        ],
+        links: [{ href: "/blogg/tilbud-vs-kontrakt", label: "Les om forskjellen på tilbud, aksept og kontrakt" }],
       },
     ],
     topic: "tilbud",
@@ -471,24 +519,65 @@ export const seoPages: SEOPage[] = [
     ],
     sections: [
       {
-        heading: "Hvorfor bruke et tilbud eksempel?",
+        heading: "Tilbud 29: et ferdig dokument fra Jobbleder",
         paragraphs: [
-          "Et eksempel gjør det lettere å forstå hvordan et godt tilbud bør bygges opp og hvilke opplysninger som er viktige.",
-          "Dette er spesielt nyttig når du vil lage et ryddig dokument uten å starte helt fra bunnen.",
+          "Her ser du et autentisk tilbud for legging av parkett: 12 000 kroner før MVA, 3 000 kroner i MVA og 15 000 kroner totalt. Hele den eksporterte A4-siden er med, slik at du kan se dokumentets faktiske oppsett.",
+          "Dette er et utfylt demonstrasjonseksempel fra Jobbleder Free, ikke en blank PDF-mal. Du oppretter ditt eget tilbud og genererer PDF-en inne i Jobbleder.",
+        ],
+        offerExample: "document",
+      },
+      {
+        heading: "Kunde og prosjekt: hva dokumentet faktisk viser",
+        paragraphs: [
+          "Demo Company er avsender, og Eksempel Eiendom er kunde i Tilbud 29. Dokumentet viser kontakt- og organisasjonsopplysninger for begge parter. Opplysningene er demonstrasjonsdata og skal ikke brukes som dine egne.",
+          "I opprettingsskjemaet er tilbudet knyttet til prosjektet Renovering av leilighet. Prosjektnavnet er ikke et eget synlig felt i denne PDF-en. Skill derfor mellom opplysninger du ser i appen og opplysninger kunden faktisk får i dokumentet.",
         ],
       },
       {
-        heading: "Hva bør et godt tilbud eksempel vise?",
+        heading: "Arbeidsbeskrivelsen: legging av parkett",
         paragraphs: [
-          "Et godt tilbud eksempel bør vise tydelig beskrivelse av arbeid, pris, dato og eventuelle vilkår.",
-          "Når strukturen er ryddig blir det enklere for kunden å forstå innholdet og ta en beslutning.",
+          "Tilbudet har én linje med beskrivelsen Legging av parkett. Det viser hvilken type arbeid eksemplet gjelder, men angir ikke rom, areal, materialansvar eller arbeid som er holdt utenfor prisen.",
+          "I et eget tilbud er det nyttig å avklare omfanget mer konkret. Hvilke gulv gjelder jobben, og hva skal være klargjort? Dette er anbefalinger til oppdraget ditt, ikke ekstra vilkår som finnes i dokumentbildet.",
         ],
       },
       {
-        heading: "Fra eksempel til eget tilbud",
+        heading: "Antall og enhetspris",
         paragraphs: [
-          "Når du har sett et godt eksempel blir det lettere å bygge opp egne tilbud raskt og profesjonelt.",
-          "Med Jobbleder kan du lage slike dokumenter direkte i nettleseren og laste dem ned som PDF.",
+          "Linjen har antall 1 og enhetspris 12 000 kroner før MVA. Beregningen er dermed 1 × 12 000 = 12 000 kroner netto. Antall 1 er antallet på tilbudslinjen; dokumentet oppgir ikke antall kvadratmeter eller timer.",
+        ],
+      },
+      {
+        heading: "MVA og total: slik henger tallene sammen",
+        paragraphs: [
+          "Med eksemplets MVA-sats på 25 prosent blir MVA-beløpet 3 000 kroner. Nettobeløpet 12 000 kroner pluss MVA 3 000 kroner gir 15 000 kroner totalt. Dokumentet viser både totalbeløpet og MVA-grunnlaget.",
+          "25 prosent gjelder dette demonstrasjonseksemplet. Kontroller MVA-behandlingen som gjelder for ditt eget salg; ikke bruk satsen som en universell regel.",
+        ],
+      },
+      {
+        heading: "Tilbudsdato og gyldighet",
+        paragraphs: [
+          "Tilbud 29 er datert 18.11.2026 og viser Gyldig gjennom: 02.12.2026. Dette er tilbudets datoer i demonstrasjonen, ikke planlagt oppstart eller ferdigstillelse av parkettarbeidet.",
+          "Datoene viser hvordan gyldighet presenteres i dokumentet. Et nytt tilbud må ha datoer og vilkår som passer det aktuelle oppdraget.",
+        ],
+      },
+      {
+        heading: "Forutsetninger du bør avklare i et eget tilbud",
+        paragraphs: [
+          "Avklar hvem som leverer materialer, hvilke forberedelser som inngår, og hvordan eventuelt ekstraarbeid skal avklares. Et enkelt dokumenteksempel kan ikke erstatte disse avklaringene. Tilbud 29 viser ikke detaljerte material-, betalings- eller endringsvilkår.",
+          "Dette er praktiske anbefalinger, ikke en uttømmende liste over obligatoriske felter eller en garanti for at dokumentet dekker alle juridiske krav.",
+        ],
+        links: [{ href: "/lage-tilbud", label: "Slik forbereder og kontrollerer du ditt eget tilbud, steg for steg" }],
+      },
+      {
+        heading: "Når kunden har tatt stilling til tilbudet",
+        paragraphs: [
+          "Et akseptert tilbud kan danne grunnlag for en bindende avtale. Virkningen avhenger av innhold, aksept, omstendigheter og gjeldende regler; det er ikke alltid nødvendig med en separat signert kontrakt. Forbrukeravtaler og avtaler mellom virksomheter kan ha ulike regler.",
+          "Avklar kundens svar og eventuelle endringer utenfor appen. I Jobbleder kan du selv opprette en kontrakt fra tilbudet og redigere den videre, eller bruke tilbudet direkte som grunnlag for faktura. Du kan også opprette faktura fra kontrakten. Kontroller hvert nytt dokument; ingen av disse handlingene sender dokumenter eller registrerer aksept automatisk.",
+          "Forbrukerrådet anbefaler skriftlig kontrakt ved bruk av håndverker for å dokumentere hva partene er enige om. En anbefaling om skriftlig dokumentasjon må skilles fra spørsmålet om det allerede er inngått en avtale.",
+        ],
+        links: [
+          { href: "/blogg/fra-tilbud-til-kontrakt-og-faktura", label: "Se begge veier videre fra tilbudet med ekte dokumenteksempler" },
+          { href: "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/", label: "Les Forbrukerrådets råd om skriftlig kontrakt" },
         ],
       },
     ],

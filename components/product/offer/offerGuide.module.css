@@ -1,0 +1,22 @@
+.heading { margin-top: 16px; white-space: pre-line; }
+.steps { list-style: none; padding: 0; display: grid; gap: 32px; margin-top: 36px; }
+.steps > li, .communication > div, .responses > div { min-width: 0; border-top: 1px solid var(--site-line); padding-top: 24px; }
+.editor { max-width: 1084px; margin: 36px auto 0; }
+.editor > figure { margin: 0 auto; }
+.split, .routineGrid { display: grid; gap: 32px; }
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline li { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 16px; padding-block: 24px; border-top: 1px solid var(--site-line); }
+.timeline li:first-child { padding-top: 0; border-top: 0; }
+.number { color: var(--accent); font-size: .75rem; padding-top: 3px; }
+.timeline p, .responses p { margin-top: 14px; }
+.communication, .responses { display: grid; gap: 32px 56px; margin-top: 36px; }
+.qualification { color: var(--site-muted); font-size: .875rem; line-height: 1.8; margin-top: 28px; }
+.workflowCopy { margin-top: 18px; }
+@media (min-width: 768px) {
+  .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 40px; }
+  .communication, .responses, .split { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 56px; }
+}
+@media (min-width: 1024px) {
+  .steps:has(> li:nth-child(3)) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .routineGrid { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 80px; }
+}

@@ -17,6 +17,9 @@ import ContractProductPage from "@/components/product/contract/ContractProductPa
 import SpecializedTimelistPage from "@/components/product/timelist/SpecializedTimelistPage"
 import { isSpecializedTimelist } from "@/content/specializedTimelists"
 import InvoiceFigure from "@/components/editorial/InvoiceFigure"
+import OfferFigure from "@/components/editorial/OfferFigure"
+import OfferExamplePage from "@/components/product/offer/OfferExamplePage"
+import OfferGuidePage from "@/components/product/offer/OfferGuidePage"
 
 function buildFaqJsonLd(faqs: { q: string; a: string }[]) {
   return {
@@ -69,6 +72,8 @@ export default async function SEOPage({ params }: Props) {
   if (slug === "fakturaprogram-gratis") return <InvoiceProductPage />
   if (slug === "timeliste-mal") return <TimelistProductPage />
   if (slug === "tilbud-mal") return <OfferProductPage />
+  if (slug === "tilbud-eksempel") return <OfferExamplePage />
+  if (slug === "lage-tilbud" || slug === "hvordan-folge-opp-tilbud") return <OfferGuidePage slug={slug} />
   if (slug === "kontrakt-mal") return <ContractProductPage />
   if (isSpecializedTimelist(slug)) return <SpecializedTimelistPage slug={slug} />
     const faqJsonLd = page.faqs?.length ? buildFaqJsonLd(page.faqs) : null;
@@ -135,6 +140,7 @@ export default async function SEOPage({ params }: Props) {
                           ))}
                         </div>
                         {section.invoiceExample && <InvoiceFigure />}
+                        {section.offerExample && <OfferFigure variant={section.offerExample} />}
                         {section.checklists?.map(list => (
                           <div key={list.heading} className="mt-8">
                             <h3 className="text-xl font-semibold text-foreground">{list.heading}</h3>
