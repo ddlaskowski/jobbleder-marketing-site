@@ -3,22 +3,23 @@ import type { Metadata } from "next"
 import Tracker from "@/components/Tracker";
 import { SITE_ORIGIN, siteUrl } from "@/lib/siteUrl"
 
+const siteTitle = "Jobbleder – Faktura, kontrakt, timeliste og tilbud på minutter"
+const siteDescription = "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter."
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_ORIGIN),
   title: {
-    default: "Jobbleder – Faktura, kontrakt, timeliste og tilbud på minutter",
+    default: siteTitle,
     template: "%s | Jobbleder",
   },
-  description:
-    "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
+  description: siteDescription,
     icons: {
       icon: "/favicon.png",
       apple: "/apple-touch-icon.png",
     },
   openGraph: {
-    title: "Jobbleder",
-    description:
-      "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren.",
+    title: siteTitle,
+    description: siteDescription,
     url: siteUrl("/"),
     siteName: "Jobbleder",
     locale: "no_NO",
@@ -26,9 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jobbleder",
-    description:
-      "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren.",
+    title: siteTitle,
+    description: siteDescription,
   },
 
 }
@@ -54,11 +54,6 @@ export default function RootLayout({
     url: siteUrl("/"),
     description:
       "Lag faktura, kontrakt, timeliste og tilbud enkelt i nettleseren. Jobbleder er laget for håndverkere og små bedrifter.",
-     potentialAction: {
-      "@type": "SearchAction",
-      target: `${siteUrl("/blogg")}?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
   }
   return (
     <html lang="no">

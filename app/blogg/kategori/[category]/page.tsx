@@ -1,4 +1,5 @@
-import type { Metadata } from "next"
+import type { Metadata, ResolvingMetadata } from "next"
+import { socialMetadata } from "@/lib/socialMetadata"
 import { siteUrl } from "@/lib/siteUrl"
 import { notFound } from "next/navigation"
 import Navbar from "@/components/Navbar"
@@ -34,7 +35,7 @@ export function generateStaticParams(): Params[] {
   }))
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props, parent: ResolvingMetadata): Promise<Metadata> {
   const { category } = await params
   const normalized = normalizeCategory(category)
 
@@ -50,6 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: siteUrl(`/blogg/kategori/${normalized}`),
     },
+    ...await socialMetadata(`${displayCategory} | Blogg`, `Artikler og guider om ${displayCategory.toLowerCase()} for brukere av Jobbleder.`, `/blogg/kategori/${normalized}`, parent),
   }
 }
 
@@ -74,7 +76,7 @@ export default async function BlogCategoryPage({ params }: Props) {
     <>
       <Navbar />
 
-      <main className="bg-white">
+      <main id="legacy-innhold" tabIndex={-1} className="bg-white">
         <section className="border-b bg-gray-50 py-16">
           <Container>
             <div className="max-w-3xl">

@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <strong>Jobbleder</strong>
           <p className="text-sm text-[color:var(--site-muted,var(--muted-foreground))]">
-            Faktura, timelister og tilbud.
+            Faktura, timelister, tilbud og kontrakt.
           </p>
         </div>
 

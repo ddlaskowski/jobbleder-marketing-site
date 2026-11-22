@@ -7,6 +7,7 @@ import manifest from "@/content/instructionMedia.json"
 import mobileManifest from "@/content/instructionMobileMedia.json"
 import { seoPages } from "@/content/seoPages"
 import InstructionAnchors from "./InstructionAnchors"
+import ContractMedia from "@/components/product/contract/ContractMedia"
 import site from "@/components/site/site.module.css"
 import styles from "./instructions.module.css"
 
@@ -36,6 +37,7 @@ function Guide({ guide, title }: { guide: InstructionGuide; title: string }) {
             <div className={styles.phoneGallery}>{step.mobileExample.images.map(item => <Media key={item.asset} item={item} phone />)}</div>
           </details></div>}
           {step.media && <Media item={step.media} />}
+          {step.contractVisual && <ContractMedia variant={step.contractVisual} omitOnMobile />}
         </div>
       </li>)}</ol>
       {part.note && <p className={styles.note}>{part.note}</p>}

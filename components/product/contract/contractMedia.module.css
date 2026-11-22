@@ -1,0 +1,12 @@
+.figure { --site-muted: #475569; --site-paper: #f8fafc; width: 100%; max-width: var(--contract-media-width); margin: 28px auto; }
+.onPage { --site-muted: var(--muted-foreground, #475569); }
+.figure > figure { max-width: var(--image-width, 100%); }
+.figure figcaption a { display: inline-flex; align-items: center; min-height: 44px; }
+.figure a:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 4px; border-radius: 2px; }
+/* Preserve source detail: responsive downscaling is allowed, enlargement is not. */
+@media (max-width: 639px) {
+  /* Owner-approved omission: tiny form/document sources cannot yield readable mobile crops. */
+  .desktopOnly { display: none; }
+  .mobile { max-width: var(--contract-mobile-width); }
+  .figure.mobile > figure { max-width: var(--mobile-image-width, 100%); }
+}

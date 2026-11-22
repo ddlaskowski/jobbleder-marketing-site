@@ -1,4 +1,5 @@
-.page {
+/* Keep the page theme above the shared surface, regardless of CSS chunk order. */
+.page.page {
   --canvas: #101827;
   --paper: #172337;
   --accent: #93c5fd;

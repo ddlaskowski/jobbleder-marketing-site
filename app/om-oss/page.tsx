@@ -1,17 +1,22 @@
-import type { Metadata } from "next"
+import type { Metadata, ResolvingMetadata } from "next"
+import { socialMetadata } from "@/lib/socialMetadata"
 import { siteUrl } from "@/lib/siteUrl"
 import Link from "next/link"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import Container from "@/components/Container"
 
-export const metadata: Metadata = {
+const pageMetadata = {
   title: "Om Jobbleder",
   description:
     "Les mer om Jobbleder og hvorfor løsningen er laget for håndverkere og små bedrifter i Norge.",
   alternates: {
     canonical: siteUrl("/om-oss"),
   },
+} satisfies Metadata
+
+export async function generateMetadata(_props: unknown, parent: ResolvingMetadata): Promise<Metadata> {
+  return { ...pageMetadata, ...await socialMetadata(pageMetadata.title, pageMetadata.description, "/om-oss", parent) }
 }
 
 export default function OmOssPage() {
@@ -19,7 +24,7 @@ export default function OmOssPage() {
     <>
       <Navbar />
 
-      <main className="bg-white">
+      <main id="legacy-innhold" tabIndex={-1} className="bg-white">
         <section className="border-b bg-gray-50 py-16">
           <Container>
             <div className="max-w-3xl">
@@ -40,8 +45,8 @@ export default function OmOssPage() {
                   Hva er Jobbleder?
                 </h2>
                 <p className="mt-4 leading-8 text-gray-700">
-                  Jobbleder er en nettbasert løsning for å lage faktura, timeliste
-                  og tilbud på en enkel og oversiktlig måte. Målet er å gjøre
+                  Jobbleder er en nettbasert løsning for å lage faktura, timeliste,
+                  tilbud og kontrakt på en enkel og oversiktlig måte. Målet er å gjøre
                   dokumentarbeid lettere i hverdagen, uten kompliserte systemer
                   eller unødvendig oppsett.
                 </p>
@@ -59,7 +64,7 @@ export default function OmOssPage() {
                 <p className="mt-4 leading-8 text-gray-700">
                   Jobbleder er først og fremst laget for håndverkere og små
                   bedrifter i Norge. Løsningen passer godt for deg som trenger en
-                  enkel måte å holde orden på tilbud, timelister og fakturaer uten å
+                  enkel måte å holde orden på tilbud, timelister, fakturaer og kontrakter uten å
                   bruke tid på store og tunge systemer.
                 </p>
                 <p className="mt-4 leading-8 text-gray-700">
@@ -108,7 +113,7 @@ export default function OmOssPage() {
                 Klar til å prøve Jobbleder?
               </h2>
               <p className="mt-4 leading-8 text-gray-600">
-                Opprett faktura, timeliste og tilbud direkte i nettleseren – enkelt,
+                Opprett faktura, timeliste, tilbud og kontrakt direkte i nettleseren – enkelt,
                 raskt og oversiktlig.
               </p>
 

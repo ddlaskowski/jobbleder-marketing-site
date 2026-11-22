@@ -1,0 +1,38 @@
+.page[data-contract-guide] {
+  --site-ink: #f1f5f9;
+  --site-body: #d5dfec;
+  --site-muted: #b6c4d7;
+  --site-line: #3a4a61;
+  --site-paper: var(--paper);
+  --muted-foreground: #b6c4d7;
+  background: var(--canvas);
+  color: var(--site-body);
+  color-scheme: dark;
+  overflow-wrap: anywhere;
+}
+.lead { max-width: 62ch; }
+.learningGoals, .topicList { list-style: none; margin: 16px 0 0; padding: 0; }
+.learningGoals li { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 12px; padding-block: 14px; border-top: 1px solid var(--site-line); font-size: .9375rem; }
+.learningGoals li > span, .topicList a > span { color: var(--accent); font-size: .75rem; padding-top: 3px; }
+.topicList li { border-top: 1px solid var(--site-line); }
+.topicList a { display: grid; grid-template-columns: 24px minmax(0, 1fr); gap: 12px; align-items: start; min-height: 44px; padding-block: 12px; font-size: .875rem; color: var(--site-body); text-decoration: underline; text-underline-offset: 4px; }
+.reading { max-width: 820px; margin-inline: auto; }
+.reading > h2 { margin-bottom: 24px; }
+.anatomy { display: grid; gap: 24px; }
+.sectionCopy { min-width: 0; }
+.sectionCopy > p { max-width: 78ch; margin-top: 20px; line-height: 1.85; }
+.sectionCopy > p:first-child { margin-top: 0; }
+.sectionCopy [data-contract-visual] a:focus-visible { outline-color: var(--accent); }
+.contextLinks { list-style: none; margin: 24px 0 0; padding: 0; }
+.checklist { margin-top: 28px; }
+.checklist ul { padding-left: 24px; margin-top: 16px; }
+.checklist li { margin-block: 10px; }
+.quickChecklist ul { display: grid; gap: 0 32px; list-style: none; padding: 0; margin: 24px 0 0; }
+.quickChecklist li { border-top: 1px solid var(--site-line); padding-block: 16px; }
+.contractResources { display: grid; gap: 24px 40px; padding: 0; margin: 24px 0 0; list-style: none; }
+.contractResources li { min-width: 0; border-top: 1px solid var(--site-line); padding-top: 8px; }
+.contractResources li > p { color: var(--site-muted); font-size: .875rem; margin-top: 8px; }
+.currentLabel { color: var(--site-ink); font-size: .6875rem; border: 1px solid var(--site-line); border-radius: 4px; padding: 2px 6px; white-space: nowrap; }
+.relatedDescription { color: var(--site-muted); font-size: .8125rem; margin-bottom: 12px; }
+@media (min-width: 768px) { .quickChecklist ul, .contractResources { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1024px) { .anatomy { grid-template-columns: minmax(0, .7fr) minmax(0, 1.6fr); gap: 64px; } .page .anatomy > h2 { font-size: 1.75rem; line-height: 1.3; } }

@@ -1,3 +1,5 @@
+import type { ContractVisual } from "./contractProductVisuals"
+
 export type BlogProductExampleBlock = {
   type: "productExample"
   asset: "mobileRegistrationExtra" | "mobileInvoiceSummary" | "editedContract" | "mobileContractInvoice" | "mobileOfferInvoice" | "offerDocument" | "contractDocument"
@@ -7,6 +9,7 @@ export type BlogProductExampleBlock = {
 }
 
 export type BlogBlock =
+  | { type: "contractVisual"; variant: ContractVisual }
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
   | { type: "list"; items: string[] }
@@ -1500,6 +1503,9 @@ export const blogPosts: BlogPost[] = [
             { type: "paragraph", text: "Dette er en praktisk sjekkliste, ikke en uttømmende liste over lovkrav. Tilpass avklaringene til arbeidet, kundetypen og reglene som gjelder." },
             { type: "heading", text: "Hvordan støtter Jobbleder dokumentarbeidet?" },
             { type: "paragraph", text: "I Jobbleder kan du opprette tilbudet og generere en PDF. Du kan deretter velge å opprette en kontrakt fra tilbudet og redigere kontrakten videre som et selvstendig dokument. Se gjennom innholdet og avklar det med kunden før dere ordner eventuell signering utenfor appen." },
+            { type: "contractVisual", variant: "offerAction" },
+            { type: "paragraph",text: "Jobbleder har egne standardvilkår for privatkunder og bedriftsavtaler, med forslag til kontraktstype som du kan overstyre. Kontroller valget, arbeidsbeskrivelsen, prisgrunnlaget og vilkårene. Standardvilkårene avventer uavhengig juridisk gjennomgang; konvertering er ikke en juridisk vurdering av avtalen." },
+            { type: "textLink",href: "/hva-skal-en-kontrakt-inneholde",label: "Bruk sjekklisten for innhold og avklaringer i kontrakten" },
             { type: "textLink", href: "/kontrakt-mal", label: "Se hvilke kontraktsopplysninger du kan tilpasse i Jobbleder" },
             { type: "paragraph", text: "Når du skal lage faktura, kan du bruke enten tilbudet eller kontrakten som grunnlag. Begge veiene støttes: Tilbud → Faktura og Tilbud → Kontrakt → Faktura. Du starter konverteringen selv og kontrollerer kunde, linjer, beløp, MVA, datoer og betalingsinformasjon før du genererer PDF-en og sender den manuelt." },
             { type: "paragraph", text: "Dokumentoppretting, PDF-eksport og disse konverteringene er tilgjengelige i Free. Free-PDF-er har Jobbleder-merking. Premium fjerner merkingen og lar deg bruke egen firmalogo; det er ikke nødvendig for dokumentflyten." },
@@ -1511,31 +1517,40 @@ export const blogPosts: BlogPost[] = [
         id: 17,
         title: "Når trenger du kontrakt som håndverker?",
         slug: "nar-trenger-du-kontrakt",
-        summary: "Se når du bør bruke kontrakt og hvorfor det er viktig i byggebransjen.",
+        summary: "Se når et eget kontraktsdokument er nyttig, hva du bør avklare med kunden og forskjellen på privatkunde og bedrift.",
         category: "Kontrakt",
         tags: ["kontrakt", "håndverker"],
         createdAt: "2026-04-07",
         relatedTopic: "kontrakt",
         blocks: [
-            { type: "paragraph", text: "Mange jobber uten kontrakt..." },
-            { type: "heading", text: "Når bør du bruke kontrakt?" },
-            {
-            type: "list",
-            items: [
-                "Større jobber",
-                "Langvarige prosjekter",
-                "Når pris må dokumenteres",
-            ],
-            },
-            { type: "note", text: "Kontrakt gir trygghet for begge parter." },
-            { type: "cta", text: "Opprett kontrakt enkelt i Jobbleder." },
+            { type: "paragraph",text: "Du kan ha inngått en avtale selv om dere ikke har laget et separat kontraktsdokument. Spørsmålet er derfor både hva dere er enige om, og hvordan dere skal dokumentere det. Et skriftlig grunnlag er særlig nyttig når omfang, ansvar eller tidsplan trenger en nærmere forklaring." },
+            { type: "heading",text: "Når er et eget dokument særlig nyttig?" },
+            { type: "list",items: ["Når flere arbeidsoppgaver eller leveranser henger sammen.","Når materialer og forberedelser er fordelt mellom deg og kunden.","Når pris, delbetalinger eller tidsplan har flere forutsetninger.","Når kunden ønsker endringer etter at tilbudet er gitt."] },
+            { type: "paragraph",text: "Tenk deg at du skal legge parkett, og kunden bestiller materialene. Før oppstart oppdager dere at underlaget må utbedres. Avklar hvem som skal gjøre det, hva arbeidet koster og om ferdigstillelsen påvirkes. Dokumenter avklaringen i stedet for å anta at «gulvlegging» allerede dekker alt." },
+            { type: "heading",text: "Et lite oppdrag kan også trenge tydelige avklaringer" },
+            { type: "paragraph",text: "Størrelsen alene avgjør ikke hva som er viktig å avtale. Ved en mindre malerjobb kan valg av flater, grunnarbeid og materialer være avgjørende. En kort og konkret arbeidsbeskrivelse kan være mer nyttig enn mange generelle formuleringer." },
+            { type: "textLink",href: "/kontrakt-handverker",label: "Se praktiske avklaringer for håndverksoppdrag" },
+            { type: "heading",text: "Har kunden allerede akseptert tilbudet?" },
+            { type: "paragraph",text: "Et akseptert tilbud kan allerede danne grunnlag for en avtale, avhengig av innhold, omstendigheter og reglene som gjelder. Et eget kontraktsdokument kan samle senere avklaringer, men er ikke automatisk et vilkår for at avtalen er bindende. Særregler og avtalte forbehold må vurderes." },
+            { type: "textLink",href: "/blogg/tilbud-vs-kontrakt",label: "Les om tilbud, kundens svar og et eget kontraktsdokument" },
+            { type: "heading",text: "Privatkunde og bedrift må vurderes hver for seg" },
+            { type: "paragraph",text: "Kontroller hvem kunden er og hva oppdraget gjelder. Forbrukerrådets veiledning om håndverkertjenester er rettet mot forbrukerforhold. Reglene skal ikke automatisk legges til grunn for en avtale mellom virksomheter. Oppføring av ny bolig krever også en egen vurdering." },
+            { type: "paragraph",text: "Forbrukerrådet anbefaler skriftlig kontrakt for å dokumentere hva partene er enige om. Dette er et råd om dokumentasjon, ikke en påstand om at alle avtaler må signeres for å være bindende." },
+            { type: "textLink",href: "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",label: "Les Forbrukerrådets råd om skriftlig dokumentasjon" },
+            { type: "heading",text: "Slik kan Jobbleder hjelpe med forberedelsen" },
+            { type: "paragraph",text: "I Jobbleder kan du velge privatkunde eller bedrift, beskrive oppdraget med flere arbeidsrader og en valgfri detaljbeskrivelse, og angi pris, tidsplan og betalingsvilkår. Du kan starte selv eller bruke et eksisterende tilbud som grunnlag. Kontroller kontraktstypeforslaget før du lager PDF-en." },
+            { type: "contractVisual", variant: "work" },
+            { type: "note",text: "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov." },
+            { type: "paragraph",text: "Du gjennomgår og deler dokumentet selv og ordner eventuell signering utenfor appen. Jobbleder har ikke elektronisk signering. Dokumentoppretting og konvertering er med i Free; Premium gir andre valg for firmalogo og Jobbleder-merking." },
+            { type: "textLink",href: "/hva-skal-en-kontrakt-inneholde",label: "Gå gjennom sjekklisten før du bruker dokumentet" },
+            { type: "link",href: "/kontrakt-mal",label: "Se hvordan Jobbleder hjelper deg å forberede kontrakten" },
         ],
     },
     {
         id: 18,
         title: "Fra tilbud til kontrakt og faktura – slik fungerer det",
         slug: "fra-tilbud-til-kontrakt-og-faktura",
-        summary: "Se hvordan hele prosessen fungerer fra første tilbud til betaling.",
+        summary: "Se hvordan du bruker et tilbud som grunnlag for kontrakt og faktura, og hva du må kontrollere før dokumentene deles.",
         category: "Oversikt",
         tags: ["workflow", "tilbud", "kontrakt", "faktura"],
         createdAt: "2026-04-07",
@@ -1546,7 +1561,8 @@ export const blogPosts: BlogPost[] = [
             { type: "heading", text: "Fra forespørsel til tilbud" },
             { type: "paragraph", text: "Start med å avklare arbeidssted, hva oppdraget omfatter og hva kunden forventer. For parkettarbeid kan du for eksempel beskrive hvilke rom arbeidet gjelder, hvilke forberedelser som inngår og hvem som skaffer materialene. Skill det dere har avtalt fra arbeid som eventuelt kommer i tillegg." },
             { type: "paragraph", text: "I Jobbleder velger du kunden og oppretter tilbudet med arbeidsbeskrivelse, enhetspris, antall og aktuell MVA. Knytt tilbudet til et prosjekt hvis det er relevant. Kontroller pris, gyldighet og vilkår før du lager PDF og deler dokumentet med kunden. Avklar aksept og endringer med kunden utenfor appen." },
-            { type: "productExample", asset: "offerDocument", paragraphs: [], alt: "Tilbud 29 fra Jobbleder med parkettarbeid, pris 12 000 kroner før MVA og total 15 000 kroner", caption: "Eksempel på et tilbud opprettet i Jobbleder, med arbeidsbeskrivelse, pris og MVA. Tilbud 29 hører til samme demonstrasjonsscenario som kontrakten nedenfor." },
+            { type: "paragraph", text: "Parkettoppdraget over er et tenkt teksteksempel. Skjermbildene nedenfor viser et annet, konkret oppdrag: Tilbud 30 og kontrakten med dette tilbudet som grunnlag. Fakturaeksemplet bruker Kontrakt 16 som kilde." },
+            { type: "contractVisual", variant: "offerOverview" },
             { type: "textLink", href: "/tilbud-mal", label: "Se hvordan du lager tilbud i Jobbleder" },
             { type: "heading", text: "Fra tilbud til kontrakt" },
             { type: "steps", items: [
@@ -1554,19 +1570,18 @@ export const blogPosts: BlogPost[] = [
                 { title: "Kontroller kontraktsgrunnlaget.", text: "Se gjennom kunde, prosjekt, datoer, arbeidsbeskrivelse, prisgrunnlag og vilkår før du lagrer eller genererer dokumentet." },
                 { title: "Tilpass kontrakten selvstendig.", text: "Kontrakten er et eget dokument etter konverteringen. Du kan redigere innhold og vilkår etter avtalen uten å behandle tilbudet og kontrakten som samme dokument. For en lagret kontrakt bruker du Rediger i Dokumenter." },
             ] },
-            { type: "productExample", asset: "contractDocument", paragraphs: [], alt: "Kontrakt 11 fra Tilbud 29 med parkettarbeid, avtalt pris, betalingsvilkår og tomme signaturfelt", caption: "Kontrakt 11 fra Tilbud 29 med arbeidsbeskrivelse, pris, betalingsvilkår og signaturfelt. Dokumenteksemplet viser vilkårene før redigeringen nedenfor og er ikke en universell juridisk mal." },
+            { type: "paragraph",text: "Med Jobbleder kontrollerer du om kunden er privatperson eller virksomhet, og velger riktig kontraktstype. Gjennomgå arbeidsbeskrivelsen, eventuell detaljtekst, pris med eller uten MVA og forskjellen mellom estimert ferdigstillelse og avtalt frist. En betalingsplan beskriver vilkårene dere avtaler." },
+            { type: "note",text: "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov." },
+            { type: "contractVisual", variant: "offer" },
             { type: "textLink", href: "/kontrakt-mal", label: "Les om kontraktsinnhold og valgene i Jobbleder" },
-            { type: "productExample", asset: "editedContract", paragraphs: [
-                "Skjermbildet viser Kontrakt 11 bearbeidet videre fra tilbudseksemplet. Beskrivelsen viser til tilbud 29, mens prisstruktur og betalingsvilkår er tilpasset i kontrakten.",
-                "Gå gjennom dokumentet med kunden. Kontrakten kan lastes ned som PDF, og dere ordner signeringen manuelt. Jobbleder har ikke elektronisk signering. Betalingsvilkårene er tekst og valg du kontrollerer, ikke en automatisk fakturaplan."
-            ], alt: "Kontrakt 11 redigert med referanse til tilbud 29, parkettarbeid, fastpris 12 000 og betalingsvilkår", caption: "Kontrakt 11 etter redigering. Utsnittet viser fastpris og en betalingsplan; det viser ikke automatisk beregning eller oppretting av fakturaer." },
+            { type: "textLink",href: "/kontrakt-eksempel",label: "Forstå kontraktsdokumentets oppbygning før du bruker det" },
+            { type: "paragraph", text: "I Jobbleder kan kontrakten redigeres og PDF-en genereres på nytt; dette gir ikke en revisjonshistorikk eller kundens godkjenning av endringene." },
+            { type: "paragraph", text: "Gå gjennom dokumentet med kunden. Kontrakten kan lastes ned som PDF, og dere ordner signeringen manuelt. Jobbleder har ikke elektronisk signering. Betalingsvilkårene er tekst og valg du kontrollerer, ikke en automatisk fakturaplan." },
             { type: "textLink", href: "/instruksjoner#lag-kontrakt-fra-tilbud", label: "Følg tilbud-til-kontrakt-veiledningen steg for steg" },
             { type: "heading", text: "Fra kontrakt til faktura" },
             { type: "paragraph", text: "Når du skal lage en faktura med avtalen som grunnlag, åpner du den lagrede kontrakten i Dokumenter og velger Opprett faktura. Appen tar opplysninger videre til fakturaskjemaet. Du må fortsatt kontrollere at grunnlaget passer arbeidet og beløpet som skal faktureres." },
-            { type: "productExample", asset: "mobileContractInvoice", paragraphs: [
-                "Kontroller kildereferansen, kunden og fakturalinjene. Se særlig gjennom arbeidsbeskrivelse, antall, enhetspriser og MVA. Sjekk også datoer og betalingsinformasjon før du velger Lagre eller Generer.",
-                "Mobilbildet viser Faktura 113 med Kontrakt 11 som kilde og en linje for parkettarbeid. Enhetsprisen som vises, er 12 000 kroner. Bildet viser deler av opprettingsskjemaet, ikke en ferdig PDF eller hele oppsummeringen."
-            ], alt: "Faktura 113 i mobilnettleser med Kilde Kontrakt 11, kunde, datoer og parkettlinje med enhetspris 12 000", caption: "Et mobilt eksempel på fakturaoppretting fra Kontrakt 11. Det er ikke dokumentasjon på en automatisk beregnet delbetaling eller den eksakte PDF-eksporten av kontraktsbildet ovenfor." },
+            { type: "paragraph", text: "Kontroller kildereferansen, kunden og fakturalinjene. Se særlig gjennom arbeidsbeskrivelse, antall, enhetspriser og MVA. Sjekk også datoer og betalingsinformasjon før du velger Lagre eller Generer." },
+            { type: "contractVisual", variant: "invoice" },
             { type: "paragraph", text: "En betalingsplan i kontrakten oppretter ikke fakturaer automatisk. Du velger selv når du oppretter faktura, og kontrollerer linjer og beløp. Når innholdet stemmer, genererer og laster du ned PDF-en. Du sender fakturaen manuelt til kunden." },
             { type: "textLink", href: "/instruksjoner#kontrakt-til-faktura", label: "Se handlingene for kontrakt til faktura" },
             { type: "heading", text: "Et alternativ: Fra tilbud direkte til faktura" },

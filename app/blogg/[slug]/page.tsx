@@ -1,4 +1,5 @@
-import type { Metadata } from "next"
+import type { Metadata, ResolvingMetadata } from "next"
+import { socialMetadata } from "@/lib/socialMetadata"
 import { siteUrl } from "@/lib/siteUrl"
 import { notFound } from "next/navigation"
 import Link from "next/link"
@@ -13,6 +14,7 @@ import TimelistContents from "@/components/blog/TimelistContents"
 import BlogProductExample from "@/components/blog/BlogProductExample"
 import articleStyles from "@/components/blog/blogProductExample.module.css"
 import InvoiceFigure from "@/components/editorial/InvoiceFigure"
+import ContractMedia from "@/components/product/contract/ContractMedia"
 
 
 type Params = { slug: string }
@@ -29,7 +31,7 @@ export function generateStaticParams(): Params[] {
   return blogPosts.map((post) => ({ slug: post.slug }))
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props, parent: ResolvingMetadata): Promise<Metadata> {
   const { slug } = await params
   const post = getPost(slug)
 
@@ -41,6 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: siteUrl(`/blogg/${post.slug}`),
     },
+    ...await socialMetadata(post.seoTitle ?? post.title, post.seoDescription ?? post.summary, `/blogg/${post.slug}`, parent, { fileBasedOpenGraph: true }),
   }
 }
 
@@ -54,7 +57,7 @@ export default async function BlogPostPage({ params }: Props) {
     <>
       <Navbar />
 
-      <main className="bg-white">
+      <main id="legacy-innhold" tabIndex={-1} className="bg-white">
         <section className="border-b bg-gray-50 py-12">
           <Container>
             <nav aria-label="Brødsmuler" className="text-sm text-gray-500">
@@ -128,6 +131,9 @@ export default async function BlogPostPage({ params }: Props) {
           <Container>
             <div className="max-w-3xl space-y-8">
               {post.blocks.map((block, index) => {
+                if (block.type === "contractVisual") {
+                  return <ContractMedia key={index} variant={block.variant} />
+                }
                 if (block.type === "invoiceFigure") {
                   return <InvoiceFigure key={index} variant={block.variant} appearance="light" />
                 }

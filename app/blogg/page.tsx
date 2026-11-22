@@ -1,4 +1,5 @@
-import type { Metadata } from "next"
+import type { Metadata, ResolvingMetadata } from "next"
+import { socialMetadata } from "@/lib/socialMetadata"
 import { siteUrl } from "@/lib/siteUrl"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
@@ -8,14 +9,18 @@ import { blogPosts } from "@/content/blogPosts"
 import BlogCategoryNav from "@/components/BlogCategoryNav"
 
 
-export const metadata: Metadata = {
-  title: "Blogg om faktura, tilbud, timelister og kontrakter | Jobbleder",
+const pageMetadata = {
+  title: "Blogg om faktura, tilbud, timelister og kontrakter",
   description:
   
     "Artikler og guider om faktura, tilbud, timelister og kontrakter for håndverkere og små bedrifter i Norge.",
   alternates: {
     canonical: siteUrl("/blogg"),
   },
+} satisfies Metadata
+
+export async function generateMetadata(_props: unknown, parent: ResolvingMetadata): Promise<Metadata> {
+  return { ...pageMetadata, ...await socialMetadata(pageMetadata.title, pageMetadata.description, "/blogg", parent) }
 }
 
 export default function BloggPage() {
@@ -28,7 +33,7 @@ export default function BloggPage() {
     <>
       <Navbar />
 
-      <main className="bg-white">
+      <main id="legacy-innhold" tabIndex={-1} className="bg-white">
         <section className="border-b bg-gray-50 py-16">
           <Container>
             <div className="max-w-3xl">

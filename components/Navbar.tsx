@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Container from "@/components/Container"
+import SkipLink from "@/components/SkipLink"
 
 const navLinks = [
   { href: "/", label: "Hjem" },
@@ -16,6 +17,8 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
+    <>
+    <SkipLink />
     <nav aria-label="Hovedmeny" className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
       <Container>
         <div className="flex h-16 items-center justify-between">
@@ -102,5 +105,6 @@ export default function Navbar() {
         )}
       </Container>
     </nav>
+    </>
   )
 }

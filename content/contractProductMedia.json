@@ -1,297 +1,288 @@
 {
   "assets": {
-    "pdf": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-home-contract-document-249c17de7105.webp",
-      "width": 508,
-      "height": 720,
-      "bytes": 37384,
+    "hero": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-hero-cbbb9ad4befa.webp",
+      "width": 534,
+      "height": 260,
+      "bytes": 19084,
       "original": {
-        "file": "public/images/product/kontrakt/source/exported_contract_preview.png",
-        "width": 508,
+        "file": "public/images/product/kontrakt/source/contract-2-b2c-form.png",
+        "width": 534,
         "height": 720,
-        "bytes": 73859,
-        "sha256": "f9f3480a06a9e01377203d40082d0e510dc7654c9af6a99c6f696c2d1c80b933"
-      },
-      "crop": null,
-      "format": "webp",
-      "reused": true
-    },
-    "offer": {
-      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-793f5eed04dc.webp",
-      "width": 834,
-      "height": 720,
-      "bytes": 56266,
-      "original": {
-        "file": "public/images/product/tilbud/source/tilbud_to_contract.png",
-        "width": 834,
-        "height": 720,
-        "bytes": 94495,
-        "sha256": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5"
-      },
-      "crop": null,
-      "format": "webp",
-      "reused": true
-    },
-    "offerMobile": {
-      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-mobile-66905c4b86f7.webp",
-      "width": 664,
-      "height": 426,
-      "bytes": 30226,
-      "original": {
-        "file": "public/images/product/tilbud/source/tilbud_to_contract.png",
-        "width": 834,
-        "height": 720,
-        "bytes": 94495,
-        "sha256": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5"
-      },
-      "crop": {
-        "left": 0,
-        "top": 76,
-        "width": 664,
-        "height": 426
-      },
-      "format": "webp",
-      "reused": true
-    },
-    "invoice": {
-      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-invoice-7847d3b65141.webp",
-      "width": 1084,
-      "height": 386,
-      "bytes": 35312,
-      "original": {
-        "file": "public/images/product/tilbud/source/invoice_from_contract.png",
-        "width": 1280,
-        "height": 720,
-        "bytes": 115705,
-        "sha256": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac"
-      },
-      "crop": {
-        "left": 184,
-        "top": 146,
-        "width": 1084,
-        "height": 386
-      },
-      "format": "webp",
-      "reused": true
-    },
-    "invoiceMobile": {
-      "src": "/images/product/tilbud/optimized/jobbleder-offer-contract-invoice-mobile-64fb6553081e.webp",
-      "width": 862,
-      "height": 386,
-      "bytes": 25808,
-      "original": {
-        "file": "public/images/product/tilbud/source/invoice_from_contract.png",
-        "width": 1280,
-        "height": 720,
-        "bytes": 115705,
-        "sha256": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac"
-      },
-      "crop": {
-        "left": 184,
-        "top": 146,
-        "width": 862,
-        "height": 386
-      },
-      "format": "webp",
-      "reused": true
-    },
-    "pricing": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-home-contract-192687f50086.webp",
-      "width": 638,
-      "height": 141,
-      "bytes": 2452,
-      "original": {
-        "file": "public/images/product/kontrakt/source/payment_base.png",
-        "width": 638,
-        "height": 141,
-        "bytes": 4494,
-        "sha256": "0c664b7c2db219e352cdc7e259432a28f0727efc600d6d47d9cc6edd5311aa5b"
-      },
-      "crop": null,
-      "format": "webp",
-      "reused": true
-    },
-    "pricingMobile": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-home-contract-mobile-6413439017d3.webp",
-      "width": 340,
-      "height": 141,
-      "bytes": 1910,
-      "original": {
-        "file": "public/images/product/kontrakt/source/payment_base.png",
-        "width": 638,
-        "height": 141,
-        "bytes": 4494,
-        "sha256": "0c664b7c2db219e352cdc7e259432a28f0727efc600d6d47d9cc6edd5311aa5b"
+        "bytes": 76893,
+        "sha256": "9a65c858430e6e0a3e71d6721445272a19703c480c7228976bd082acdbf896ca"
       },
       "crop": {
         "left": 0,
         "top": 0,
-        "width": 340,
-        "height": 141
+        "width": 534,
+        "height": 260
       },
-      "format": "webp",
-      "reused": true
-    },
-    "hero": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-hero-11f4f7338a0b.webp",
-      "width": 668,
-      "height": 422,
-      "bytes": 28740,
-      "original": {
-        "file": "public/images/product/kontrakt/source/new_contract_form_time.png",
-        "width": 840,
-        "height": 720,
-        "bytes": 90346,
-        "sha256": "f5f4c724494977bab002dab398d7094f660fb6fbbb69fb367d5874ca1c98952e"
-      },
-      "crop": {
-        "left": 0,
-        "top": 84,
-        "width": 668,
-        "height": 422
-      },
+      "functionality": "B2C creation header, type, customer, project, dates, title and summary",
       "format": "webp",
       "reused": false
     },
-    "heroMobile": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-hero-mobile-b5101a336cae.webp",
-      "width": 332,
-      "height": 74,
-      "bytes": 2948,
+    "b2b": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-b2b-9a2b3b4668e7.webp",
+      "width": 430,
+      "height": 200,
+      "bytes": 12318,
       "original": {
-        "file": "public/images/product/kontrakt/source/new_contract_form_time.png",
-        "width": 840,
+        "file": "public/images/product/kontrakt/source/contract-2-b2b-form.png",
+        "width": 430,
         "height": 720,
-        "bytes": 90346,
-        "sha256": "f5f4c724494977bab002dab398d7094f660fb6fbbb69fb367d5874ca1c98952e"
+        "bytes": 65224,
+        "sha256": "a17b970e6e90896773e427aa42e403431d06722adeca20a47b110e88909c730a"
       },
       "crop": {
-        "left": 334,
-        "top": 396,
-        "width": 332,
-        "height": 74
+        "left": 0,
+        "top": 0,
+        "width": 430,
+        "height": 200
       },
+      "functionality": "B2B creation header, customer, project, dates, job context and summary",
+      "format": "webp",
+      "reused": false
+    },
+    "work": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-work-02fb97838ded.webp",
+      "width": 425,
+      "height": 228,
+      "bytes": 15544,
+      "original": {
+        "file": "public/images/product/kontrakt/source/contract-2-b2c-form.png",
+        "width": 534,
+        "height": 720,
+        "bytes": 76893,
+        "sha256": "9a65c858430e6e0a3e71d6721445272a19703c480c7228976bd082acdbf896ca"
+      },
+      "crop": {
+        "left": 0,
+        "top": 260,
+        "width": 425,
+        "height": 228
+      },
+      "functionality": "Structured scope rows and optional detailed work description",
+      "format": "webp",
+      "reused": false
+    },
+    "pricing": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-pricing-c40023acaa65.webp",
+      "width": 425,
+      "height": 99,
+      "bytes": 4838,
+      "original": {
+        "file": "public/images/product/kontrakt/source/contract-2-b2c-form.png",
+        "width": 534,
+        "height": 720,
+        "bytes": 76893,
+        "sha256": "9a65c858430e6e0a3e71d6721445272a19703c480c7228976bd082acdbf896ca"
+      },
+      "crop": {
+        "left": 0,
+        "top": 490,
+        "width": 425,
+        "height": 99
+      },
+      "functionality": "Price structure, VAT, fixed price, payment deadline and materials in context",
       "format": "webp",
       "reused": false
     },
     "payments": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-payments-f96f107da0be.webp",
-      "width": 652,
-      "height": 154,
-      "bytes": 5594,
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-payments-d3df25846030.webp",
+      "width": 341,
+      "height": 199,
+      "bytes": 10230,
       "original": {
-        "file": "public/images/product/kontrakt/source/payment_methods.png",
-        "width": 652,
-        "height": 154,
-        "bytes": 9917,
-        "sha256": "741be217c8ae57d64484ad17c6e098612110224315751cd5948400e5ce09a375"
-      },
-      "crop": null,
-      "format": "webp",
-      "reused": false
-    },
-    "paymentsMobile": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-payments-mobile-b3e033dbf6b6.webp",
-      "width": 340,
-      "height": 154,
-      "bytes": 4024,
-      "original": {
-        "file": "public/images/product/kontrakt/source/payment_methods.png",
-        "width": 652,
-        "height": 154,
-        "bytes": 9917,
-        "sha256": "741be217c8ae57d64484ad17c6e098612110224315751cd5948400e5ce09a375"
-      },
-      "crop": {
-        "left": 0,
-        "top": 0,
-        "width": 340,
-        "height": 154
-      },
-      "format": "webp",
-      "reused": false
-    },
-    "advance": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-advance-1e0f477eb7e3.webp",
-      "width": 538,
-      "height": 58,
-      "bytes": 3778,
-      "original": {
-        "file": "public/images/product/kontrakt/source/new_contract_form_with_advance_percentage.png",
-        "width": 680,
+        "file": "public/images/product/kontrakt/source/contract-2-b2b-form.png",
+        "width": 430,
         "height": 720,
-        "bytes": 89836,
-        "sha256": "44cd12def8b4fb4eae34bdd02ddd47f11fb1d7dc29c849b6520e5b1a9e3c31b6"
+        "bytes": 65224,
+        "sha256": "a17b970e6e90896773e427aa42e403431d06722adeca20a47b110e88909c730a"
       },
       "crop": {
         "left": 0,
-        "top": 350,
-        "width": 538,
-        "height": 58
+        "top": 418,
+        "width": 341,
+        "height": 199
       },
-      "format": "webp",
-      "reused": false
-    },
-    "progress": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-progress-b47e4e1c1c86.webp",
-      "width": 560,
-      "height": 120,
-      "bytes": 8672,
-      "original": {
-        "file": "public/images/product/tilbud/source/contract_from_offer_edited.png",
-        "width": 706,
-        "height": 720,
-        "bytes": 78568,
-        "sha256": "e3567b7b2a17f248d8cc82d8cb52d51c342afc7dc04e0b640cc760fdc0aeb8bb"
-      },
-      "crop": {
-        "left": 0,
-        "top": 386,
-        "width": 560,
-        "height": 120
-      },
-      "format": "webp",
-      "reused": false
-    },
-    "clauses": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-clauses-e1b447e61a33.webp",
-      "width": 538,
-      "height": 278,
-      "bytes": 23562,
-      "original": {
-        "file": "public/images/product/kontrakt/source/new_contract_form_with_advance_percentage.png",
-        "width": 680,
-        "height": 720,
-        "bytes": 89836,
-        "sha256": "44cd12def8b4fb4eae34bdd02ddd47f11fb1d7dc29c849b6520e5b1a9e3c31b6"
-      },
-      "crop": {
-        "left": 0,
-        "top": 438,
-        "width": 538,
-        "height": 278
-      },
+      "functionality": "Price/payment fields, all three schedule rows and materials",
       "format": "webp",
       "reused": false
     },
     "materials": {
-      "src": "/images/product/kontrakt/optimized/jobbleder-contract-materials-be1c1b83a11e.webp",
-      "width": 340,
-      "height": 142,
-      "bytes": 2630,
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-materials-ac7fc43e9269.webp",
+      "width": 425,
+      "height": 185,
+      "bytes": 9014,
       "original": {
-        "file": "public/images/product/kontrakt/source/material_costs.png",
-        "width": 640,
-        "height": 142,
-        "bytes": 6279,
-        "sha256": "e346a385a826e90e8773fac778dece0c0f66abd749f58df3dab7832812d333d1"
+        "file": "public/images/product/kontrakt/source/contract-2-b2c-form.png",
+        "width": 534,
+        "height": 720,
+        "bytes": 76893,
+        "sha256": "9a65c858430e6e0a3e71d6721445272a19703c480c7228976bd082acdbf896ca"
+      },
+      "crop": {
+        "left": 0,
+        "top": 535,
+        "width": 425,
+        "height": 185
+      },
+      "functionality": "Payment and materials with the complete surrounding clause controls",
+      "format": "webp",
+      "reused": false
+    },
+    "savedB2C": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-saved-b2-c-b8ceec4e775e.webp",
+      "width": 487,
+      "height": 359,
+      "bytes": 15456,
+      "original": {
+        "file": "public/images/product/kontrakt/source/contract-2-b2c-in-documents.png",
+        "width": 487,
+        "height": 720,
+        "bytes": 78256,
+        "sha256": "4354209fc5be278cc01e3f8b4c0ebb75bfe1a4e93b62fa8fed0f1fe6d9108800"
       },
       "crop": {
         "left": 0,
         "top": 0,
-        "width": 340,
-        "height": 142
+        "width": 487,
+        "height": 359
       },
+      "functionality": "Contract 15, customer/project, B2C type and scope",
+      "format": "webp",
+      "reused": false
+    },
+    "savedB2B": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-saved-b2-b-df3ee5ae9f1d.webp",
+      "width": 358,
+      "height": 289,
+      "bytes": 11218,
+      "original": {
+        "file": "public/images/product/kontrakt/source/contract-2-b2b-in-documents.png",
+        "width": 358,
+        "height": 720,
+        "bytes": 66122,
+        "sha256": "78234b4b07105c516de9230ee9d2d71debee69345e7e636e0ca8e2db8c39bf5f"
+      },
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 358,
+        "height": 289
+      },
+      "functionality": "Contract 16, company/project, B2B type and scope",
+      "format": "webp",
+      "reused": false
+    },
+    "offerAction": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-offer-action-45c573d688c0.webp",
+      "width": 840,
+      "height": 714,
+      "bytes": 56702,
+      "original": {
+        "file": "public/images/product/kontrakt/source/offer-to-contract.png",
+        "width": 850,
+        "height": 720,
+        "bytes": 78532,
+        "sha256": "0cd936393ade8c16cb249565f28f814c155cc65f1514d39f299a30e090162a37"
+      },
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 840,
+        "height": 714
+      },
+      "functionality": "Offer 30 identity, work, totals and complete create-contract action row",
+      "format": "webp",
+      "reused": false
+    },
+    "offerOverview": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-offer-overview-e2387e1b3c82.webp",
+      "width": 840,
+      "height": 540,
+      "bytes": 48788,
+      "original": {
+        "file": "public/images/product/kontrakt/source/offer-to-contract.png",
+        "width": 850,
+        "height": 720,
+        "bytes": 78532,
+        "sha256": "0cd936393ade8c16cb249565f28f814c155cc65f1514d39f299a30e090162a37"
+      },
+      "crop": {
+        "left": 0,
+        "top": 0,
+        "width": 840,
+        "height": 540
+      },
+      "functionality": "Source Offer 30, work rows and original offer totals",
+      "format": "webp",
+      "reused": false
+    },
+    "offer": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-offer-ca69d638cd2f.webp",
+      "width": 434,
+      "height": 510,
+      "bytes": 32690,
+      "original": {
+        "file": "public/images/product/kontrakt/source/contract-2-from-offer.png",
+        "width": 546,
+        "height": 720,
+        "bytes": 79214,
+        "sha256": "89467e19224b4eb8113a566ce6801528b77a1bbc7f8915efb127b151250b2540"
+      },
+      "crop": {
+        "left": 0,
+        "top": 68,
+        "width": 434,
+        "height": 510
+      },
+      "functionality": "Contract 17 customer/work context and complete Offer 30 price reference",
+      "format": "webp",
+      "reused": false
+    },
+    "invoice": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-invoice-326624105cfc.webp",
+      "width": 725,
+      "height": 253,
+      "bytes": 20122,
+      "original": {
+        "file": "public/images/product/kontrakt/source/contract-2-invoice-conversion.png",
+        "width": 851,
+        "height": 403,
+        "bytes": 63028,
+        "sha256": "f4563a540384a5a51f8475bd20da07fe6ca23befad93da0cfb68cb095c7115b5"
+      },
+      "crop": {
+        "left": 120,
+        "top": 105,
+        "width": 725,
+        "height": 253
+      },
+      "functionality": "Editable invoice, Kontrakt 16 source and owner-corrected totals",
+      "format": "webp",
+      "reused": false
+    },
+    "invoiceMobile": {
+      "src": "/images/product/kontrakt/optimized/jobbleder-contract-2-invoice-mobile-a038f2aeef10.webp",
+      "width": 162,
+      "height": 341,
+      "bytes": 12236,
+      "original": {
+        "file": "public/images/product/kontrakt/source/contract-2-invoice-conversion-mobile.png",
+        "width": 162,
+        "height": 720,
+        "bytes": 40991,
+        "sha256": "cdf219f3046684a473a284322741138f9fff062c052c1a0da3b12cd310813a51"
+      },
+      "crop": {
+        "left": 0,
+        "top": 301,
+        "width": 162,
+        "height": 341
+      },
+      "functionality": "Genuine mobile invoice: full Lines heading, editable line, VAT and summary",
       "format": "webp",
       "reused": false
     }

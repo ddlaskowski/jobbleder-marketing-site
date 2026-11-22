@@ -24,7 +24,7 @@ export default async function Image({ params }: Props) {
   const { slug } = await params
   const page = getPage(slug)
 
-  const title = page?.h1 ?? "Jobbleder"
+  const title = page?.topic === "kontrakt" ? page.title : page?.h1 ?? "Jobbleder"
   const description =
     page?.description ??
     "Guider og maler for faktura, timeliste og tilbud."

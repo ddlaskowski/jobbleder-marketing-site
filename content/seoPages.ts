@@ -935,209 +935,429 @@ export const seoPages: SEOPage[] = [
     topic: "faktura"
   },
   {
-    slug: "kontrakt-mal",
-    title: "Kontrakt mal – enkel kontrakt for håndverkere (gratis)",
-    topic: "kontrakt",
-    isPillar: true,
-    description:
-      "Gratis kontrakt mal for håndverkere og små bedrifter. Lag kontrakt raskt og sikre avtalen med kunden.",
-    h1: "Kontrakt mal (gratis)",
-    intro:
-      "Trenger du en enkel kontrakt mal? Med Jobbleder kan du opprette kontrakt raskt og bruke den som grunnlag for arbeid og faktura.",
-    bullets: [
-      "Gratis kontrakt mal for håndverkere",
-      "Lag kontrakt på minutter",
-      "Bruk tilbud som grunnlag",
-      "Konverter kontrakt til faktura",
+    "slug": "kontrakt-mal",
+    "topic": "kontrakt",
+    "isPillar": true,
+    "title": "Kontrakt mal – lag kontrakt gratis med Jobbleder",
+    "description": "Lag kontrakt for privatkunder og bedrifter gratis med Jobbleder. Beskriv arbeidet, avtal pris, sett opp betalingsplan og last ned kontrakten som PDF.",
+    "h1": "Kontrakt mal (gratis)",
+    "intro": "En kontraktsmal gir deg en struktur for å beskrive oppdraget. I Jobbleder fyller du inn partene, arbeidet, prisen og vilkårene før du lager et norsk PDF-dokument som må gjennomgås.",
+    "bullets": [
+      "Beskriv oppdraget med egne arbeidsrader",
+      "Velg kontraktstype for privatkunde eller bedrift",
+      "Avklar pris, materialer, betaling og datoer",
+      "Gjennomgå innhold og vilkår før eventuell signering"
     ],
-    faqs: [
+    "ctaLabel": "Opprett en kontrakt",
+    "faqs": [
       {
-        q: "Hva er en kontrakt?",
-        a: "En kontrakt er en avtale mellom deg og kunden som beskriver arbeid, pris og vilkår.",
+        "q": "Hva er en kontraktsmal?",
+        "a": "En kontraktsmal er en struktur for opplysninger og vilkår som må tilpasses den konkrete avtalen. Den erstatter ikke avklaringer med kunden eller vurdering av hvilke regler som gjelder."
       },
       {
-        q: "Må jeg ha kontrakt som håndverker?",
-        a: "Det anbefales sterkt for å unngå misforståelser og sikre tydelige avtaler.",
+        "q": "Må avtalen være skriftlig?",
+        "a": "En avtale kan være bindende uten et separat signert kontraktsdokument. Hva som gjelder, avhenger blant annet av avtaletypen og eventuelle formkrav eller forbehold. Skriftlig dokumentasjon gjør det enklere å vise hva dere har avtalt."
       },
       {
-        q: "Kan jeg lage kontrakt gratis?",
-        a: "Ja, du kan opprette kontrakt gratis i Jobbleder.",
-      },
+        "q": "Kan jeg lage kontrakt gratis?",
+        "a": "Ja. Dokumentoppretting, PDF-eksport og dokumentkonvertering er tilgjengelig i Free. Free-PDF-er har Jobbleder-merking. Premium gir valg for å fjerne merkingen og bruke egen firmalogo."
+      }
     ],
-    ctaLabel: "Opprett kontrakt",
-    sections: [
+    "sections": [
       {
-        heading: "Hva er en kontrakt?",
-        paragraphs: [
-          "En kontrakt er en skriftlig avtale mellom deg og kunden som beskriver hva som skal leveres, til hvilken pris og på hvilke vilkår.",
-          "For håndverkere er kontrakten et viktig dokument som skaper tydelighet før arbeidet starter.",
+        "heading": "En mal er et utgangspunkt for avtalen",
+        "paragraphs": [
+          "Kontrakt kan bety både avtalen mellom dere og dokumentet som beskriver den. Et skriftlig dokument gjør det lettere å finne igjen omfang, pris og ansvar, men selve dokumentopprettingen er ikke kundens aksept.",
+          "Begynn med hva dere faktisk er enige om. En mal må tilpasses arbeidet og kundetypen; mer tekst er ikke nødvendigvis bedre dokumentasjon."
         ],
+        "links": [
+          {
+            "href": "/blogg/tilbud-vs-kontrakt",
+            "label": "Les om forskjellen mellom tilbud, aksept og kontrakt"
+          }
+        ]
       },
       {
-        heading: "Hvorfor bruke kontrakt?",
-        paragraphs: [
-          "En kontrakt reduserer risiko for misforståelser og gir begge parter trygghet.",
-          "Den gjør det også enklere å følge opp arbeid, betaling og eventuelle endringer.",
+        "heading": "Dokumenter hva jobben omfatter",
+        "paragraphs": [
+          "Beskriv leveransen, arbeidsstedet, materialene og det som ikke inngår. Oppgi prisgrunnlaget og avklar hva som må skje før arbeidet kan starte.",
+          "I Jobbleder kan du bruke en jobbtittel, flere arbeidsrader og en valgfri detaljbeskrivelse. Avsnitt, enkle overskrifter og lister gir plass til forklaringer i en PDF over flere sider."
         ],
+        "links": [
+          {
+            "href": "/hva-skal-en-kontrakt-inneholde",
+            "label": "Se en praktisk sjekkliste for kontraktsinnhold"
+          }
+        ]
       },
       {
-        heading: "Hva bør en kontrakt inneholde?",
-        paragraphs: [
-          "En god kontrakt bør inneholde beskrivelse av arbeid, pris, tidsramme og vilkår.",
-          "Jo tydeligere kontrakten er, desto enklere blir samarbeidet med kunden.",
+        "heading": "Privatkunde og bedrift trenger riktig utgangspunkt",
+        "paragraphs": [
+          "Jobbleder foreslår kontraktstype, og du kan velge typen manuelt. Det finnes egne standardvilkår for privatkunder (B2C) og avtaler mellom virksomheter (B2B). Kontroller forslaget før du går videre.",
+          "Forbrukerregler for håndverkertjenester skal ikke uten videre brukes på avtaler mellom virksomheter. Jobbleder er heller ikke en egen kontraktsløsning for oppføring av ny bolig under bustadoppføringslova."
         ],
+        "links": [
+          {
+            "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",
+            "label": "Les Forbrukerrådets veiledning om bruk av håndverker"
+          }
+        ]
       },
       {
-        heading: "Fra tilbud til kontrakt",
-        paragraphs: [
-          "Når kunden godkjenner tilbudet, kan det gjøres om til en kontrakt.",
-          "Dette sikrer at avtalen er tydelig før arbeidet starter.",
+        "heading": "Gjennomgå dokumentet før du bruker det",
+        "paragraphs": [
+          "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov.",
+          "Kontroller at tekst, beløp, datoer og vedlegg beskriver samme avtale. Kontrakten kan redigeres og PDF-en genereres på nytt, men dette er ikke en revisjonshistorikk eller kundens godkjenning av endringer."
         ],
-      },
-    ],
+        "links": [
+          {
+            "href": "/kontrakt-eksempel",
+            "label": "Forstå strukturen i et kontraktsdokument"
+          },
+          {
+            "href": "/kontrakt-handverker",
+            "label": "Forbered en kontrakt for håndverksoppdraget"
+          }
+        ]
+      }
+    ]
   },
   {
-    slug: "kontrakt-handverker",
-    title: "Kontrakt håndverker – trygg avtale med kunde",
-    topic: "kontrakt",
-    description:
-      "Lag kontrakt som håndverker og sikre tydelige avtaler med kunden. Enkel løsning for små bedrifter i Norge.",
-    h1: "Kontrakt håndverker",
-    intro:
-      "Som håndverker er det viktig å ha en tydelig kontrakt med kunden. Det skaper trygghet og reduserer risiko for misforståelser.",
-    bullets: [
-      "Tydelig avtale med kunden",
-      "Beskriv arbeid og pris",
-      "Unngå misforståelser",
-      "Bruk kontrakt som grunnlag for faktura",
+    "slug": "kontrakt-handverker",
+    "topic": "kontrakt",
+    "title": "Kontrakt for håndverkere – omfang, pris og vilkår",
+    "description": "Forbered kontrakt for maler-, snekker-, gulv- og oppussingsarbeid. Avklar omfang, materialer, pris og tidsplan for privatkunder eller bedrifter.",
+    "h1": "Kontrakt for håndverkere",
+    "intro": "En praktisk kontrakt begynner med en presis beskrivelse av jobben. Avklar leveransen med kunden før du fyller ut dokumentet, enten du maler, legger gulv, flislegger eller utfører snekker- og oppussingsarbeid.",
+    "bullets": [
+      "Beskriv både arbeidet og det som ikke er med",
+      "Fordel materialansvar og forberedelser",
+      "Avklar pris, betalingsvilkår og tidsplan",
+      "Velg riktig utgangspunkt for privatkunde eller bedrift"
     ],
-    faqs: [
+    "ctaLabel": "Opprett en kontrakt",
+    "faqs": [
       {
-        q: "Trenger håndverkere kontrakt?",
-        a: "Ja, det anbefales for å sikre tydelige avtaler og unngå konflikter.",
+        "q": "Når er et eget kontraktsdokument nyttig?",
+        "a": "Særlig når jobben går over tid, omfatter flere leveranser eller krever tydelige avklaringer om materialer, pris og endringer. Dokumentasjon er nyttig også ved mindre oppdrag; størrelsen alene avgjør ikke hvilke regler som gjelder."
       },
       {
-        q: "Hva bør en kontrakt inneholde?",
-        a: "Beskrivelse av arbeid, pris, tidsramme og vilkår.",
+        "q": "Kan jeg bruke samme vilkår for privatkunder og bedrifter?",
+        "a": "Ikke uten å vurdere avtaleforholdet. Jobbleder har separate B2C- og B2B-standardvilkår, men de avventer uavhengig juridisk gjennomgang. Kontroller kundetypen og få juridisk hjelp ved behov."
       },
       {
-        q: "Kan jeg lage kontrakt digitalt?",
-        a: "Ja, med Jobbleder kan du lage kontrakt raskt i nettleseren.",
+        "q": "Kan jeg bruke et eksisterende tilbud?",
+        "a": "Ja. Du kan opprette kontrakt fra et tilbud i Jobbleder og redigere kontrakten selvstendig. Kontroller at tilbudet og eventuelle senere avklaringer er riktig gjengitt; konverteringen er ikke kundens aksept."
       },
+      {
+        "q": "Sender Jobbleder kontrakten til kunden?",
+        "a": "Du genererer og laster ned PDF-en og deler den selv. Gjennomgå dokumentet før eventuell signering. Jobbleder har ikke elektronisk signering eller en digital godkjenningsflyt."
+      }
     ],
-    ctaLabel: "Opprett kontrakt",
-    sections: [
+    "sections": [
       {
-        heading: "Hvorfor kontrakt er viktig for håndverkere",
-        paragraphs: [
-          "En kontrakt gjør det klart hva som er avtalt mellom deg og kunden før arbeidet starter.",
-          "Dette reduserer risiko for uenigheter og gir et mer profesjonelt samarbeid.",
-        ],
+        "heading": "Start med leveransen, ikke standardteksten",
+        "paragraphs": [
+          "For en malerjobb kan du beskrive hvilke rom og flater som skal behandles, nødvendig grunnarbeid og hvilken overflate dere har avtalt. For en snekkerjobb bør det være tydelig hva som skal bygges eller monteres.",
+          "Et tenkt gulvoppdrag kan beskrives slik: «Legging av parkett i stuen. Kunden leverer parketten og tømmer rommet. Fjerning av gammelt gulv og utbedring av underlaget er ikke inkludert.» Dette er et eksempel på omfang, ikke en ferdig avtaletekst."
+        ]
       },
       {
-        heading: "Hva bør en håndverkerkontrakt inneholde?",
-        paragraphs: [
-          "Kontrakten bør beskrive arbeid, pris, fremdrift og eventuelle vilkår.",
-          "Jo tydeligere avtalen er, desto enklere blir gjennomføringen av prosjektet.",
-        ],
+        "heading": "Fordel materialer, metoder og forberedelser",
+        "paragraphs": [
+          "Avklar hvem som bestiller og leverer materialene, hvordan arbeidsstedet skal være klargjort, og hvilke utførelsesmetoder som er avtalt. Ved flislegging kan underlag, flistype og nødvendige avklaringer før oppstart være viktige.",
+          "Bruk flere arbeidsrader for adskilte oppgaver. En detaljbeskrivelse kan forklare forutsetninger og avgrensninger som ikke får plass i en kort linje. Arbeidsbeskrivelsesordboken i Jobbleder er et hjelpemiddel; kontroller at teksten passer din jobb."
+        ]
       },
       {
-        heading: "Fra kontrakt til faktura",
-        paragraphs: [
-          "Når arbeidet er utført kan kontrakten brukes som grunnlag for faktura.",
-          "Dette gjør prosessen mer strukturert og oversiktlig.",
-        ],
+        "heading": "Avklar pris og betaling før oppstart",
+        "paragraphs": [
+          "Velg fastpris, timepris eller et eksisterende tilbud som prisgrunnlag. Vær tydelig på om beløpene er inkludert eller ekskludert MVA, og hva prisen omfatter.",
+          "En fremdriftsbasert betalingsplan kan beskrive prosentvise delbetalinger. Forklar hva som utløser hver betaling og hvilken betalingsfrist dere avtaler. Planen er ikke automatisk fakturering, og betalingsvalg i programmet avgjør ikke når det er lov å fakturere."
+        ]
       },
-    ],
+      {
+        "heading": "Skill et anslag fra en avtalt frist",
+        "paragraphs": [
+          "Oppgi planlagt oppstart og skill estimert ferdigstillelse fra en avtalt kontraktsfrist. Beskriv forutsetninger som tilgang, kundens leveranser eller avklaringer som må være på plass.",
+          "Avklar hvordan dere skal håndtere tilleggsarbeid, endret pris og påvirkning på tidsplanen. Ikke la en ny arbeidsoppgave bli stående uten en avklaring fordi resten av kontrakten allerede er laget."
+        ]
+      },
+      {
+        "heading": "Privatkunde eller bedriftskunde?",
+        "paragraphs": [
+          "Kontroller hvem som er avtalepart og hva oppdraget gjelder. Forbrukerrådet har veiledning om håndverkertjenester for privatkunder; den skal ikke uten videre overføres til B2B-avtaler.",
+          "Jobbleder foreslår kontraktstype og lar deg velge manuelt mellom B2C og B2B. Separate standardvilkår er et utgangspunkt, ikke en juridisk vurdering av oppdraget. Løsningen er ikke tilrettelagt som en egen kontrakt for oppføring av ny bolig."
+        ],
+        "links": [
+          {
+            "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",
+            "label": "Les råd for håndverksarbeid hos privatkunder"
+          },
+          {
+            "href": "/blogg/nar-trenger-du-kontrakt",
+            "label": "Les når et eget kontraktsdokument er særlig nyttig"
+          }
+        ]
+      },
+      {
+        "heading": "Lag dokumentet og kontroller resultatet",
+        "paragraphs": [
+          "Velg kunde og eventuelt prosjekt i Jobbleder. Fyll inn jobbtittel, arbeidsrader, datoer og vilkår. Du kan starte selv eller bygge videre på et tilbud. Gjennomgå deretter PDF-en, også sidebryting og sammenhengen mellom tekst og beløp.",
+          "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov.",
+          "Etter gjennomgangen deler du dokumentet selv og ordner eventuell signering utenfor appen. Senere kan kontrakten brukes som fakturagrunnlag: du starter konverteringen og kontrollerer den nye fakturaen før du sender den manuelt."
+        ],
+        "links": [
+          {
+            "href": "/instruksjoner#opprett-kontrakt",
+            "label": "Følg trinnene for å opprette kontrakt"
+          },
+          {
+            "href": "/instruksjoner#lag-kontrakt-fra-tilbud",
+            "label": "Bruk tilbud som kontraktsgrunnlag"
+          },
+          {
+            "href": "/instruksjoner#kontrakt-til-faktura",
+            "label": "Se hvordan kontrakten blir fakturagrunnlag"
+          }
+        ]
+      }
+    ]
   },
   {
-    slug: "kontrakt-eksempel",
-    title: "Kontrakt eksempel – slik kan en avtale se ut",
-    topic: "kontrakt",
-    description:
-      "Se kontrakt eksempel og lær hvordan en tydelig avtale kan bygges opp for håndverkere og små bedrifter.",
-    h1: "Kontrakt eksempel",
-    intro:
-      "Et kontrakt eksempel gjør det enklere å forstå hvordan en avtale bør settes opp og hvilke opplysninger som er viktige.",
-    bullets: [
-      "Se struktur på en kontrakt",
-      "Lær hva som bør være med",
-      "Bruk som inspirasjon",
-      "Lag kontrakt digitalt",
+    "slug": "kontrakt-eksempel",
+    "topic": "kontrakt",
+    "title": "Kontrakt eksempel – se hvordan en kontrakt bygges opp",
+    "description": "Se hvordan et kontraktsdokument kan bygges opp med parter, arbeid, pris, tidsplan og vilkår. En pedagogisk gjennomgang, ikke en juridisk godkjent mal.",
+    "h1": "Kontrakt eksempel",
+    "intro": "Her går vi gjennom hvordan et utfylt kontraktsdokument kan bygges opp. Punktene forklarer hva du bør se etter, men er ikke en ferdig avtale som kan signeres. Oppdaterte B2C- og B2B-dokumenteksempler fra Jobbleder er foreløpig ikke publisert her.",
+    "bullets": [
+      "Forstå forskjellen mellom partene, leveransen og vilkårene",
+      "Se hvordan beskrivelser og betaling kan gjøres tydeligere",
+      "Skill pedagogiske eksempler fra juridisk gjennomgåtte maler",
+      "Bruk gjennomgangen til å kontrollere ditt eget dokument"
     ],
-    faqs: [
+    "ctaLabel": "Prøv Jobbleder",
+    "faqs": [
       {
-        q: "Hva viser et kontrakt eksempel?",
-        a: "Det viser hvordan arbeid, pris og vilkår kan settes opp i et dokument.",
+        "q": "Er dette en ferdig kontraktsmal til signering?",
+        "a": "Nei. Dette er en pedagogisk gjennomgang av dokumentets oppbygning. Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang, og dokumenter må vurderes for det konkrete oppdraget."
       },
       {
-        q: "Kan jeg bruke et eksempel som mal?",
-        a: "Ja, det er et godt utgangspunkt.",
+        "q": "Hvor finner jeg et eksempel på en kontrakts-PDF?",
+        "a": "Oppdaterte eksempler for privatkunde og bedrift er ikke publisert på denne siden ennå. Eldre produktbilder andre steder på nettstedet er ikke dokumentasjon på dagens B2C- og B2B-vilkår."
       },
       {
-        q: "Kan jeg lage kontrakt i Jobbleder?",
-        a: "Ja, enkelt direkte i nettleseren.",
+        "q": "Er B2C- og B2B-eksempler utbyttbare?",
+        "a": "Nei. Kundetype, oppdrag og regelverk kan være forskjellige. Et eksempel kan forklare strukturen uten at vilkårene passer en annen avtale."
       },
+      {
+        "q": "Kan Jobbleder lage en kontrakt over flere sider?",
+        "a": "Ja. Jobbleder støtter flere arbeidsrader, valgfrie detaljbeskrivelser med avsnitt og enkel formatering, og PDF-er over flere sider. Du må kontrollere det ferdige dokumentet."
+      }
     ],
-    ctaLabel: "Lag kontrakt",
-    sections: [
+    "sections": [
       {
-        heading: "Hvordan ser en god kontrakt ut?",
-        paragraphs: [
-          "En god kontrakt er tydelig strukturert og lett å forstå.",
-          "Den bør gi en klar oversikt over hva som er avtalt.",
+        "heading": "1. Partene i avtalen",
+        "paragraphs": [
+          "Dokumentet bør gjøre det klart hvem som bestiller, og hvem som utfører arbeidet. Kontroller navn og kontaktopplysninger, og relevante firmaopplysninger når en part er en virksomhet.",
+          "I Jobbleder velger du kontraktstype for privatkunde eller bedrift. Et automatisk forslag må kontrolleres; det erstatter ikke vurderingen av hvem som faktisk inngår avtalen."
+        ]
+      },
+      {
+        "heading": "2. Arbeidsbeskrivelse",
+        "paragraphs": [
+          "En jobbtittel gir oversikt, mens arbeidsrader og en detaljert beskrivelse forklarer leveransen. I et tenkt parkettoppdrag bør det for eksempel stå hvilke rom jobben gjelder og om klargjøring eller riving inngår.",
+          "I Jobbleder kan beskrivelsen ha avsnitt, enkle overskrifter og lister i PDF-en. Det gjør lange forklaringer lettere å lese, men innholdet må fortsatt være presist."
+        ]
+      },
+      {
+        "heading": "3. Tidsperiode",
+        "paragraphs": [
+          "Skill planlagt oppstart og estimert ferdigstillelse fra en konkret avtalt frist. Beskriv eventuelle forutsetninger, som tilgang til arbeidsstedet eller materiallevering.",
+          "En forventet dato skal ikke uten videre leses som en annen type forpliktelse enn det partene har avtalt."
+        ]
+      },
+      {
+        "heading": "4. Pris og betaling",
+        "paragraphs": [
+          "Vis om grunnlaget er fastpris, timepris eller et bestemt tilbud, og gjør det tydelig om prisene inkluderer MVA. Kontroller referanser, beløp og betalingsfrist.",
+          "En betalingsplan kan fordele betalingen på prosenter og beskrive hva hver del gjelder. Dette er avtalte vilkår, ikke en plan som automatisk oppretter eller sender fakturaer."
+        ]
+      },
+      {
+        "heading": "5. Materialer og partenes plikter",
+        "paragraphs": [
+          "Beskriv hvem som leverer materialer og hvem som skal gjøre nødvendige forberedelser. Avklar også praktiske forhold som tilgang, rydding og kundens egne leveranser.",
+          "I eksemplet med parkett bør «kunden leverer parketten» skilles fra hvem som skal levere underlag, lister eller annet tilbehør."
+        ]
+      },
+      {
+        "heading": "6. Endringer og tilleggsarbeid",
+        "paragraphs": [
+          "Forklar hvordan nye ønsker skal avklares og dokumenteres, inkludert pris og virkning på fremdriften. Arbeid som ikke er med i den opprinnelige beskrivelsen, bør være lett å identifisere.",
+          "At du redigerer kontrakten og lager en ny PDF, betyr ikke at kunden har akseptert de nye vilkårene."
+        ]
+      },
+      {
+        "heading": "7. Forsinkelse og ferdigstillelse",
+        "paragraphs": [
+          "Dokumentet bør gjøre forventninger og avtalte frister forståelige. Beskriv hvordan partene skal varsle om forhold som kan påvirke gjennomføringen.",
+          "Hvilke konsekvenser en forsinkelse får, avhenger av avtalen og reglene for oppdraget. Gjennomgangen her fastsetter ikke dagbøter eller andre rettigheter."
+        ]
+      },
+      {
+        "heading": "8. Mangler og reklamasjon",
+        "paragraphs": [
+          "Les reklamasjonsteksten i lys av kundetypen og oppdraget. Forbrukerrådets veiledning gjelder forbrukerforhold og skal ikke brukes som en generell regel for bedriftsavtaler.",
+          "En avtalt B2B-reklamasjonsperiode på 24 måneder er ikke en universell lovbestemt frist. Få den konkrete formuleringen vurdert før du bruker den."
         ],
+        "links": [
+          {
+            "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/misfornoyd-med-handverkeren/",
+            "label": "Les Forbrukerrådets informasjon om mangler ved håndverksarbeid"
+          }
+        ]
       },
       {
-        heading: "Hva kan du lære av et eksempel?",
-        paragraphs: [
-          "Et eksempel gjør det enklere å lage egne kontrakter raskt.",
-          "Du slipper å starte fra blankt ark.",
-        ],
+        "heading": "9. Avbestilling og opphør",
+        "paragraphs": [
+          "Se etter hvordan avbestilling eller avslutning av oppdraget er omtalt, og hva som er sagt om arbeid som allerede er utført.",
+          "Ikke anta at avbestilling, angrerett og heving betyr det samme. Hva partene kan kreve, må vurderes for den aktuelle avtalen; eksemplet gir ingen generell rett til kostnadsfri avbestilling."
+        ]
       },
-    ],
+      {
+        "heading": "10. Lovgrunnlag og tvister",
+        "paragraphs": [
+          "Kontroller at lovhenvisninger og eventuelle vilkår om tvisteløsning passer avtaleforholdet. Håndverkertjenesteloven skal ikke automatisk legges til grunn for avtaler mellom virksomheter.",
+          "Jobbleder foreslår kontraktstype, men gir verken juridisk rådgivning, automatisk kontroll av lovkrav eller automatisk innarbeiding av Norsk Standard. Løsningen er ikke en egen nyboligkontrakt."
+        ]
+      },
+      {
+        "heading": "11. Signaturer og siste gjennomgang",
+        "paragraphs": [
+          "Sammenlign dokumentet med det dere faktisk har avtalt. Kontroller alle sider og eventuelle vedlegg, og avklar uenighet før eventuell signering. Jobbleder har ikke elektronisk signering.",
+          "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov."
+        ],
+        "links": [
+          {
+            "href": "/kontrakt-handverker",
+            "label": "Se hvordan du forbereder et håndverksoppdrag"
+          },
+          {
+            "href": "/kontrakt-mal",
+            "label": "Utforsk kontraktsverktøyet og hva du kan fylle inn"
+          }
+        ]
+      }
+    ]
   },
   {
-    slug: "hva-skal-en-kontrakt-inneholde",
-    title: "Hva skal en kontrakt inneholde?",
-    topic: "kontrakt",
-    description:
-      "Se hva en kontrakt bør inneholde og hvordan du lager en tydelig avtale med kunden.",
-    h1: "Hva skal en kontrakt inneholde?",
-    intro:
-      "En god kontrakt gjør det enkelt å forstå hva som er avtalt mellom deg og kunden.",
-    bullets: [
-      "Beskrivelse av arbeid",
-      "Pris og betaling",
-      "Tidsramme",
-      "Vilkår",
+    "slug": "hva-skal-en-kontrakt-inneholde",
+    "topic": "kontrakt",
+    "title": "Hva skal en kontrakt inneholde? Praktisk sjekkliste",
+    "description": "En praktisk gjennomgang av parter, arbeid, pris, betaling, tidsplan og endringer i en tjenestekontrakt. Skill anbefalinger fra lovkrav.",
+    "h1": "Hva skal en kontrakt inneholde?",
+    "intro": "En godt forberedt tjenestekontrakt bør gjøre leveransen og ansvaret forståelig for begge parter. Listen nedenfor er praktiske anbefalinger, ikke en uttømmende oversikt over obligatoriske lovkrav.",
+    "bullets": [
+      "Identifiser partene og oppdraget",
+      "Beskriv leveransen og avgrensningene",
+      "Avklar pris, betaling og tidsplan",
+      "Vurder vilkårene ut fra kundetype og arbeid"
     ],
-    faqs: [
+    "ctaLabel": "Se hvordan Jobbleder fungerer",
+    "faqs": [
       {
-        q: "Hva er viktig i en kontrakt?",
-        a: "Tydelig beskrivelse av arbeid, pris og vilkår.",
+        "q": "Er alle punktene lovpålagte?",
+        "a": "Nei. Dette er en praktisk sjekkliste. Obligatoriske opplysninger og ufravikelige regler må vurderes ut fra avtaleforholdet og arbeidet. Listen er ikke en garanti for at dokumentet dekker alle krav."
       },
       {
-        q: "Hvorfor er kontrakt viktig?",
-        a: "For å unngå misforståelser.",
+        "q": "Må kunden signere før en avtale kan være bindende?",
+        "a": "Ikke nødvendigvis. En avtale kan være inngått uten et separat signert dokument, men særregler og forbehold kan ha betydning. Skill spørsmålet om binding fra nytten av å dokumentere det dere er enige om."
       },
-    ],
-    ctaLabel: "Opprett kontrakt",
-    sections: [
       {
-        heading: "De viktigste elementene",
-        paragraphs: [
-          "En kontrakt bør inneholde arbeid, pris og vilkår.",
-          "Dette gir en tydelig avtale.",
+        "q": "Gjelder håndverkertjenesteloven for alle kontrakter?",
+        "a": "Nei. Forbrukerregler om håndverkertjenester skal ikke automatisk brukes på B2B-avtaler eller alle typer byggearbeid. Kontroller reglene for det konkrete oppdraget og få juridisk hjelp ved behov."
+      },
+      {
+        "q": "Kan en mal erstatte juridisk rådgivning?",
+        "a": "Nei. En mal hjelper deg å strukturere dokumentet, men avgjør ikke hvilke vilkår som passer avtalen. Jobbleders standardvilkår avventer uavhengig juridisk gjennomgang."
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Hvem inngår avtalen, og hva skal leveres?",
+        "paragraphs": [
+          "Start med partene, arbeidsstedet og en beskrivelse av oppdraget. Ta med avgrensninger: hvilke rom, flater eller leveranser gjelder arbeidet, og hva er uttrykkelig ikke inkludert?",
+          "Et generelt ord som «oppussing» sier lite om hvem som skal rive, klargjøre eller rydde. En konkret beskrivelse gjør det lettere å kontrollere at begge har forstått samme leveranse."
+        ]
+      },
+      {
+        "heading": "Hvordan fordeles ansvar og materialer?",
+        "paragraphs": [
+          "Avklar hvem som bestiller og leverer materialer, hvilke forberedelser kunden skal gjøre, og hvilke forutsetninger utførelsen bygger på. Beskriv avtalte metoder eller kvaliteter når de er viktige for resultatet.",
+          "Ved en sammensatt jobb kan flere arbeidsrader og en detaljbeskrivelse skille oppgavene. I Jobbleder kan beskrivelsen også inneholde avsnitt, overskrifter og lister i PDF-en."
+        ]
+      },
+      {
+        "heading": "Hva er avtalt om pris og betaling?",
+        "paragraphs": [
+          "Skill mellom fastpris, timepris og prisgrunnlag fra et tilbud. Angi hva beløpene gjelder og hvordan MVA er presentert. Ikke legg til grunn at et bestemt prosentpåslag eller en prisoverslagsregel gjelder for alle avtaler.",
+          "Beskriv betalingsfrist og eventuell fremdriftsbasert plan med prosentvise delbetalinger. Avklar hva hver del gjelder. En slik plan avgjør ikke alene når det er adgang til å utstede faktura."
+        ]
+      },
+      {
+        "heading": "Når skal arbeidet utføres?",
+        "paragraphs": [
+          "Oppgi planlagt oppstart og skill en estimert ferdigstillelsesdato fra en avtalt frist. Forklar avhengigheter som materialleveranser, kundens avklaringer eller tilgang til arbeidsstedet.",
+          "Avklar hvordan endringer og forsinkelser skal kommuniseres. Unngå at en forventet dato og en bindende kontraktsfrist brukes om hverandre."
+        ]
+      },
+      {
+        "heading": "Hvordan håndteres endringer og avslutning?",
+        "paragraphs": [
+          "Beskriv hvordan tilleggsarbeid, pris og endret fremdrift skal avklares. Ta vare på dokumentasjonen av det partene blir enige om. En oppdatert PDF er ikke i seg selv den andre partens godkjenning.",
+          "Vilkår om mangler, reklamasjon, avbestilling, opphør og tvister må passe avtaleforholdet. Ikke kopier bestemte frister eller sanksjoner fra en annen type kontrakt uten å få dem vurdert."
+        ]
+      },
+      {
+        "heading": "Privatkunde og bedriftskunde er forskjellige utgangspunkt",
+        "paragraphs": [
+          "Forbrukerrådet anbefaler skriftlig kontrakt ved bruk av håndverker. Rådene om blant annet oppdrag, betaling og ansvar er nyttige ved forberedelsen, men dette er noe annet enn en fullstendig juridisk vurdering.",
+          "Forbrukerregler kan ikke uten videre overføres til B2B. En avtalt reklamasjonsperiode på 24 måneder mellom virksomheter må ikke presenteres som en generell lovbestemt frist. Oppføring av ny bolig krever en egen vurdering; Jobbleder er ikke en dedikert nyboligkontraktsløsning."
         ],
+        "links": [
+          {
+            "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/sjekkliste-handverker/",
+            "label": "Les Forbrukerrådets sjekkliste for håndverksoppdrag"
+          },
+          {
+            "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/misfornoyd-med-handverkeren/",
+            "label": "Se informasjon om reklamasjon i forbrukerforhold"
+          }
+        ]
       },
       {
-        heading: "Hvorfor tydelig struktur er viktig",
-        paragraphs: [
-          "Jo tydeligere kontrakten er, desto enklere blir samarbeidet.",
-          "Det gir trygghet for begge parter.",
+        "heading": "Kontroller hele dokumentet før bruk",
+        "paragraphs": [
+          "Se gjennom parter, beskrivelser, beløp, datoer, vilkår og vedlegg samlet. Dette er særlig viktig når opplysninger er hentet fra et tilbud eller kontrakten er redigert etter en tidligere PDF.",
+          "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov."
         ],
-      },
-    ],
+        "links": [
+          {
+            "href": "/kontrakt-eksempel",
+            "label": "Forstå oppbygningen av et kontraktsdokument"
+          },
+          {
+            "href": "/kontrakt-handverker",
+            "label": "Bruk sjekklisten i et praktisk håndverksoppdrag"
+          },
+          {
+            "href": "/kontrakt-mal",
+            "label": "Se hvordan Jobbleder strukturerer kontraktsopplysningene"
+          }
+        ]
+      }
+    ]
   }
 ]

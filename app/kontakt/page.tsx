@@ -1,25 +1,30 @@
-import type { Metadata } from "next";
+import type { Metadata, ResolvingMetadata } from "next";
+import { socialMetadata } from "@/lib/socialMetadata"
 import { siteUrl } from "@/lib/siteUrl"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Container from "@/components/Container";
 import ContactForm from "@/components/ContactForm";
 
-export const metadata: Metadata = {
+const pageMetadata = {
   title: "Kontakt",
   description:
     "Kontakt oss hvis du har spørsmål om Jobbleder, faktura, kontrakt, timelister eller tilbud.",
   alternates: {
     canonical: siteUrl("/kontakt"),
   },
-};
+} satisfies Metadata;
+
+export async function generateMetadata(_props: unknown, parent: ResolvingMetadata): Promise<Metadata> {
+  return { ...pageMetadata, ...await socialMetadata(pageMetadata.title, pageMetadata.description, "/kontakt", parent) }
+}
 
 export default function KontaktPage() {
   return (
     <>
       <Navbar />
 
-      <main className="bg-white">
+      <main id="legacy-innhold" tabIndex={-1} className="bg-white">
         <section className="border-b bg-gray-50 py-16">
           <Container>
             <div className="max-w-3xl">

@@ -1,6 +1,6 @@
 "use client";
 
-import { FormEvent, useState } from "react";
+import { FormEvent, useRef, useState } from "react";
 
 type FormState = {
   name: string;
@@ -22,34 +22,66 @@ export default function ContactForm() {
   const [form, setForm] = useState<FormState>(initialState);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const [invalidFields, setInvalidFields] = useState<(keyof FormState)[]>([]);
   const [success, setSuccess] = useState(false);
+  const formRef = useRef<HTMLFormElement>(null);
+
+  function fieldError(fields: (keyof FormState)[], message: string) {
+    setError(message);
+    setInvalidFields(fields);
+    setSuccess(false);
+    // Commit the description/invalid state before moving focus to its control.
+    requestAnimationFrame(() => {
+      const control = formRef.current?.elements.namedItem(fields[0]);
+      if (control instanceof HTMLElement) control.focus();
+    });
+  }
 
   function updateField<K extends keyof FormState>(key: K, value: FormState[K]) {
     setForm((prev) => ({ ...prev, [key]: value }));
+    if (!invalidFields.includes(key)) return;
+    const next = { ...form, [key]: value };
+    const emailControl = formRef.current?.elements.namedItem("email");
+    const corrected = invalidFields.length > 1
+      ? Boolean(next.email.trim() || next.mobile.trim())
+      : key === "accept" ? next.accept
+      : key === "email" ? emailControl instanceof HTMLInputElement && emailControl.validity.valid
+      : Boolean(String(next[key]).trim());
+    if (corrected) {
+      setError("");
+      setInvalidFields([]);
+    }
+  }
+
+  function errorAttributes(field: keyof FormState) {
+    return invalidFields.includes(field)
+      ? { "aria-invalid": true as const, "aria-describedby": "contact-error" }
+      : {};
   }
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError("");
+    setInvalidFields([]);
     setSuccess(false);
 
     if (!form.name.trim()) {
-      setError("Skriv inn navn.");
+      fieldError(["name"], "Skriv inn navn.");
       return;
     }
 
     if (!form.message.trim()) {
-      setError("Skriv inn melding.");
+      fieldError(["message"], "Skriv inn melding.");
       return;
     }
 
     if (!form.email.trim() && !form.mobile.trim()) {
-      setError("Legg inn e-post eller telefonnummer.");
+      fieldError(["email", "mobile"], "Legg inn e-post eller telefonnummer.");
       return;
     }
 
     if (!form.accept) {
-      setError("Du må godta behandlingen av personopplysninger.");
+      fieldError(["accept"], "Du må godta behandlingen av personopplysninger.");
       return;
     }
 
@@ -87,13 +119,21 @@ export default function ContactForm() {
         Har du spørsmål om Jobbleder? Send oss en melding.
       </p>
 
-      <form onSubmit={handleSubmit} className="mt-6 space-y-4">
+      <form ref={formRef} onSubmit={handleSubmit} onInvalid={(event) => {
+        const control = event.target as HTMLInputElement;
+        if (control.name === "email") {
+          event.preventDefault();
+          fieldError(["email"], control.validationMessage);
+        }
+      }} className="mt-6 space-y-4">
         <div>
           <label htmlFor="name" className="mb-2 block text-sm font-medium text-gray-800">
             Navn
           </label>
           <input
             id="name"
+            name="name"
+            {...errorAttributes("name")}
             type="text"
             value={form.name}
             onChange={(e) => updateField("name", e.target.value)}
@@ -108,6 +148,8 @@ export default function ContactForm() {
           </label>
           <input
             id="email"
+            name="email"
+            {...errorAttributes("email")}
             type="email"
             value={form.email}
             onChange={(e) => updateField("email", e.target.value)}
@@ -122,6 +164,8 @@ export default function ContactForm() {
           </label>
           <input
             id="mobile"
+            name="mobile"
+            {...errorAttributes("mobile")}
             type="tel"
             value={form.mobile}
             onChange={(e) => updateField("mobile", e.target.value)}
@@ -136,6 +180,8 @@ export default function ContactForm() {
           </label>
           <textarea
             id="message"
+            name="message"
+            {...errorAttributes("message")}
             rows={6}
             value={form.message}
             onChange={(e) => updateField("message", e.target.value)}
@@ -147,6 +193,9 @@ export default function ContactForm() {
         <label className="flex items-start gap-3 text-sm text-gray-700">
           <input
             type="checkbox"
+            id="accept"
+            name="accept"
+            {...errorAttributes("accept")}
             checked={form.accept}
             onChange={(e) => updateField("accept", e.target.checked)}
             className="mt-1"
@@ -157,13 +206,13 @@ export default function ContactForm() {
         </label>
 
         {error && (
-          <div className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+          <div id="contact-error" role={invalidFields.length ? undefined : "alert"} className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
             {error}
           </div>
         )}
 
         {success && (
-          <div className="rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
+          <div role="status" className="rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
             Takk for meldingen! Vi kontakter deg snart.
           </div>
         )}

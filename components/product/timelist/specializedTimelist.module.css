@@ -67,7 +67,9 @@
   .related ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (prefers-color-scheme: dark) {
-  .page { --canvas: #101827; --paper: #172337; --accent: #93c5fd; --site-ink: #f1f5f9; --site-body: #d5dfec; --site-muted: #b6c4d7; --site-line: #3a4a61; --site-paper: #172337; background: var(--canvas); color: var(--site-body); color-scheme: dark; }
+  /* Keep the dark page theme above the shared surface, regardless of CSS chunk order. */
+  .page.page { --canvas: #101827; --paper: #172337; --accent: #93c5fd; --site-ink: #f1f5f9; --site-body: #d5dfec; --site-muted: #b6c4d7; --site-line: #3a4a61; --site-paper: #172337; background: var(--canvas); color: var(--site-body); color-scheme: dark; }
+  .page > a[href="#timelisteinnhold"] { color: var(--canvas); }
   .page header, .page footer, .page header details > div, .page header details nav { background: var(--canvas); }
   .page header details a:hover { background: var(--paper); color: var(--site-ink); }
   .page :global([class*="eyebrow"]) { color: var(--accent); }

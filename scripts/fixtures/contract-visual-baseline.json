@@ -1,0 +1,3365 @@
+{
+  "hashes": {
+    "public/images/product/docflow/source/docflow_cropped.png": "77d80a3be71c29e689e14fe63bda901880f83b1b0e8626a3e92733f7bc777866",
+    "public/images/product/docflow/source/jobbleder_docflow.png": "faaad50c687dd56425089edb97c91b1d9991b35c651430977402e553e70f8442",
+    "public/images/product/invoice/source/fv_free_watermark.png": "23630541d4de63bae65cb219410102e44106969d0efeca238799dc050132d53e",
+    "public/images/product/invoice/source/fv_premium_clear.png": "de8b21d31182cbf0864d447e9065cf1035ba3c620e3cff053dc8f017bff73399",
+    "public/images/product/invoice/source/fv_premium_logo.png": "8f38ff27ad2c9228483e1784b80cccd873d8ab8fae218804860e14923e0df49a",
+    "public/images/product/invoice/source/screenshot_fv_edit.png": "b7399cdfdebc5aa009b80bcaf0af598cad1bf65971984370f2af30e0ae5d54cd",
+    "public/images/product/kontrakt/source/contract-2-b2b-form.png": "a17b970e6e90896773e427aa42e403431d06722adeca20a47b110e88909c730a",
+    "public/images/product/kontrakt/source/contract-2-b2b-form_mobile.png": "0560b4d63c752490cbc53c029e25b67ac0cf533076588efbbd33ea59e721ed08",
+    "public/images/product/kontrakt/source/contract-2-b2b-in-documents.png": "78234b4b07105c516de9230ee9d2d71debee69345e7e636e0ca8e2db8c39bf5f",
+    "public/images/product/kontrakt/source/contract-2-b2b-in-documents_mobile.png": "3cf7f0c7c0eaf722f48b3a8f125a98494fbb817215010187237b4bccc0833a58",
+    "public/images/product/kontrakt/source/contract-2-b2c-form.png": "9a65c858430e6e0a3e71d6721445272a19703c480c7228976bd082acdbf896ca",
+    "public/images/product/kontrakt/source/contract-2-b2c-form_mobile.png": "b39bd3952cdfa65fc03c023269aa57610a120ec440598c51fdd7b9e4957310ed",
+    "public/images/product/kontrakt/source/contract-2-b2c-in-documents.png": "4354209fc5be278cc01e3f8b4c0ebb75bfe1a4e93b62fa8fed0f1fe6d9108800",
+    "public/images/product/kontrakt/source/contract-2-b2c-in-documents_mobile.png": "939db4c8bf535b2fd4e30d3a95d3ddfbff796cd1bd1acbc58cb3a18421be8aa9",
+    "public/images/product/kontrakt/source/contract-2-from-offer-mobile.png": "40dbda87127202b2c1ed110e34a13e6fdc4759c428f945e5e40cde59f51681f0",
+    "public/images/product/kontrakt/source/contract-2-from-offer.png": "89467e19224b4eb8113a566ce6801528b77a1bbc7f8915efb127b151250b2540",
+    "public/images/product/kontrakt/source/contract-2-invoice-conversion-mobile.png": "cdf219f3046684a473a284322741138f9fff062c052c1a0da3b12cd310813a51",
+    "public/images/product/kontrakt/source/contract-2-invoice-conversion.png": "f4563a540384a5a51f8475bd20da07fe6ca23befad93da0cfb68cb095c7115b5",
+    "public/images/product/kontrakt/source/contract_from_offer_edited.png": "e3567b7b2a17f248d8cc82d8cb52d51c342afc7dc04e0b640cc760fdc0aeb8bb",
+    "public/images/product/kontrakt/source/exported_contract_preview.png": "f9f3480a06a9e01377203d40082d0e510dc7654c9af6a99c6f696c2d1c80b933",
+    "public/images/product/kontrakt/source/invoice_from_contract.png": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac",
+    "public/images/product/kontrakt/source/material_costs.png": "e346a385a826e90e8773fac778dece0c0f66abd749f58df3dab7832812d333d1",
+    "public/images/product/kontrakt/source/new_contract_form.png": "e296a779eb71310fb127b8dcb140b11ba8cfe873a7be49a46c9741c12b9c0ca2",
+    "public/images/product/kontrakt/source/new_contract_form_time.png": "f5f4c724494977bab002dab398d7094f660fb6fbbb69fb367d5874ca1c98952e",
+    "public/images/product/kontrakt/source/new_contract_form_with_advance_percentage.png": "44cd12def8b4fb4eae34bdd02ddd47f11fb1d7dc29c849b6520e5b1a9e3c31b6",
+    "public/images/product/kontrakt/source/offer-to-contract.png": "0cd936393ade8c16cb249565f28f814c155cc65f1514d39f299a30e090162a37",
+    "public/images/product/kontrakt/source/payment_base.png": "0c664b7c2db219e352cdc7e259432a28f0727efc600d6d47d9cc6edd5311aa5b",
+    "public/images/product/kontrakt/source/payment_methods.png": "741be217c8ae57d64484ad17c6e098612110224315751cd5948400e5ce09a375",
+    "public/images/product/kontrakt/source/suggestions.png": "ac6af15b73d35dd6cdac367a8e5b160846f3f24b92180ff6610f08acb47cb394",
+    "public/images/product/kontrakt/source/tilbud_to_contract.png": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5",
+    "public/images/product/kreditnota/source/new_creditnota_form.png": "4057f7eefba6706b7bcbe9e21e4cc37f50b0c374a74fa426354d3466d3393f2f",
+    "public/images/product/mobile/source/contract_create_mobile_01.png": "686047811ae7778f2b7665a7a3e8dbae8fc161c6d14e035f19be7ef55a89e3d9",
+    "public/images/product/mobile/source/contract_create_mobile_02.png": "26fe46576b00b06d609f40df780d5a5ba619a1d4753d06583c33b6740d984715",
+    "public/images/product/mobile/source/contract_document_actions_mobile.png": "ebd997bca0e899cd6e4edb6493d65d379390a2c96e4b3828ce3e0b7b30a9879e",
+    "public/images/product/mobile/source/contract_from_offer_mobile.png": "544a38ad2c43f995b3f2f480eadf8324451363aa548c01238c83a9779d3f3acd",
+    "public/images/product/mobile/source/invoice_create_mobile.png": "b672830a35c21841bb784ca661b2735a65a77297cc60eff432a2d416e5101ba3",
+    "public/images/product/mobile/source/invoice_from_contract_mobile.png": "b6b51b0eb823475420f49edcf7d065329fc8d5d0f41ddc8be5285c680472e26d",
+    "public/images/product/mobile/source/invoice_from_offer_mobile.png": "2a62235c6e1e2da164f9ddd00f706ca68b372bc23094490d452808c70c6f7bf4",
+    "public/images/product/mobile/source/new_contract_document_edit_mobile.png": "1c4c5217c6f712061da651550edf4f5584e2fcc534b3e809cae8c09f836ad4c7",
+    "public/images/product/mobile/source/new_offer_document_edit_mobile.png": "cfede2fe0eb2fe93d5002efc1185bcfb84d826d3a6ce6d5039e9c9201b047eb5",
+    "public/images/product/mobile/source/offer_document_actions_mobile.png": "1df0683b67ebdd2a1260712cd0c46cec66e50dc6091bc8895a648e33427c46f1",
+    "public/images/product/mobile/source/registrations_saved_mobile.png": "d6e82dc63557b779568810c3127ffaa84a2fde53ebe8ec03a25eadbec3bd1cdc",
+    "public/images/product/mobile/source/registrations_selected_import_mobile.png": "18ce2ffb8c60d484f20cdf744791baf6daa616c68bf8e2d4ce3196ea8f510b2d",
+    "public/images/product/mobile/source/registration_extra_km_save_mobile.png": "cdb59170b0b2300ff94da3a1306a49dedf8a8080c760c581382ed71108c1d80d",
+    "public/images/product/mobile/source/registration_form_mobile.png": "8605949792a0ce489755275df25a12cfe1d7308a4a7c9d5d8f29625172b2941d",
+    "public/images/product/mobile/source/timelist_import_result_mobile_01.png": "7ee87cef140b19271d91ef25dc8d766cd6e5245baadef06bee6fd4d4c7f1bcc1",
+    "public/images/product/mobile/source/timelist_import_result_mobile_02.png": "e66bd91a2a658a4527cbc9007d683ac0165f49e36e8396030125f6181e8e7b66",
+    "public/images/product/mobile/source/timelist_invoice_extra_mobile.png": "3100a152207c3982a7c1049f9f7e875376cd90a1432b55f409b08d52da5009b9",
+    "public/images/product/mobile/source/timelist_invoice_regular_mobile.png": "062409965a9944bf9557a8562126332642b7a01051ba42c839aecc1d6bf6842d",
+    "public/images/product/mobile/source/timelist_invoice_regular_mobile_01.png": "8346d2218a5e0341183ba54bc450a20ce67745cede12487c52c60dd648d86e1e",
+    "public/images/product/mobile/source/timelist_invoice_regular_mobile_02.png": "4831e43e3363633247b872dc766ba55e29f2d9b7ed380c0f40c99847eee761c6",
+    "public/images/product/mobile/source/timelist_invoice_summary_mobile.png": "95ddb0a045840726b7e2f211dcd06bcb4a4c45bbb6b565aa16af349ffa8a5535",
+    "public/images/product/tilbud/source/contract_from_offer_edited.png": "e3567b7b2a17f248d8cc82d8cb52d51c342afc7dc04e0b640cc760fdc0aeb8bb",
+    "public/images/product/tilbud/source/exported_tilbud_A4.png": "0e47a5edda4d74db87855a4f6917f6e3158d52d8c259a551da71b6b0116ceee9",
+    "public/images/product/tilbud/source/exported_tilbud_A5.png": "4681a8aa8b485fd066dc943c6636d66717478f57e5a645a6b7596d8b4c847f53",
+    "public/images/product/tilbud/source/invoice_from_contract.png": "e7c3e017c129eea93e17f10968fae46a6cb8d5ea0ab4ecdaeb1985dd6e925dac",
+    "public/images/product/tilbud/source/new_offer_form.png": "ce29f84d48fcbdfe5c81c245bfcff7c2482d517be172d8b8cb7f35815145c2db",
+    "public/images/product/tilbud/source/offer_document_preview_in_documents_menu.png": "7dc9733cbec13015482e33423f59bc1197a644f33dd92761696c72ed01fba0fb",
+    "public/images/product/tilbud/source/tilbud_to_contract.png": "ec097b8f9b9b90ff854c4bcee195a7e3baa4e069e2708d4e5f89cf01395574d5",
+    "public/images/product/tilbud/source/tilbud_to_invoice.png": "988cbb277437e9a50892ec79258e9e3d9bdc77ea6aadd52951a813871ebd3e1c",
+    "public/images/product/timeliste/source/client_card_add_timelist_by_client_name_.png": "92176e802325d59753bf1015c2b08159985a34369a46ac72a5825ba525ff71e6",
+    "public/images/product/timeliste/source/documents_menu_preview_timelist_document.png": "202cb06dd4da60b6210ad0e0470558636a9faf67dcced1a416ed864a7feb2198",
+    "public/images/product/timeliste/source/documents_menu_preview_timelist_with_extra_km.png": "24f63e4db89adeec73c2a17ff7e61cd9fec94c99acdbc248cad0e5ec0fae275e",
+    "public/images/product/timeliste/source/exported_invoice_4_different_entries.png": "6676a1833756d5acd3dbceed56d9eebe440c44d23ba824e490a5bb0eb5dad713",
+    "public/images/product/timeliste/source/exported_timelist_4_different_entries.png": "8fdf63a6374a552838a362a3349e1ce196c60b51ca12c7e7b0cd24f3c9da31c3",
+    "public/images/product/timeliste/source/exported_timelist_with_1_entry.png": "e32ccf009e138484050d0d412c925d423d78372f14ddfa7966aa0a7b6aa237e8",
+    "public/images/product/timeliste/source/exported_timelist_with_3_entires.png": "67a7b30295bdecb8a04e91ce7af9501b7f9a508df6d4f564acc0db3546237847",
+    "public/images/product/timeliste/source/exported_timelist_with_extra_km.png": "5da4dae51ec98f0c9e3d07cbed520a9354bab814e325008cec342bbf5afa9672",
+    "public/images/product/timeliste/source/new_invoice_form_4_different_entries.png": "e4946dba25eadc67d4c360481d84173206cba38d48aa381e8f5b8803dee863ab",
+    "public/images/product/timeliste/source/new_timelist_form_4_different_entries.png": "23076580e61dd8ca70d66300cef1a581a4b56a27c5a4dff5b897a874426a9cdc",
+    "public/images/product/timeliste/source/new_timelist_wizard.png": "73f1ce6465f149fd97c3490488dd40e259aea0c04b89ea2c0171f35df9351ec2",
+    "public/images/product/timeliste/source/new_timelist_wizard_add_client.png": "70260c5984ccc61547a525731689746d6330b029d9a9c85f8c75a2f3af7d5310",
+    "public/images/product/timeliste/source/new_timelist_wizard_with_3_entries_imported_from_work_entires_panel.png": "44edf8119b0ae360a4c905fe469adc0d86a8e504f02aa30daa3d3db4c6b7f91d",
+    "public/images/product/timeliste/source/one_click_invoice_from_timelist.png": "80f735dacf0b36ecbafd8e0e788e594cd2f2772724bcec4dd488b76ee5a07881",
+    "public/images/product/timeliste/source/project_card_timelist_count_by_name.png": "652087eb2bde875870a7ccd848486679cf22c975f77a1cfb5a0ac779f90a022b",
+    "public/images/product/timeliste/source/registrations_saved_mobile.png": "d6e82dc63557b779568810c3127ffaa84a2fde53ebe8ec03a25eadbec3bd1cdc",
+    "public/images/product/timeliste/source/registrations_selected_import_mobile.png": "18ce2ffb8c60d484f20cdf744791baf6daa616c68bf8e2d4ce3196ea8f510b2d",
+    "public/images/product/timeliste/source/registration_extra_km_save_mobile.png": "cdb59170b0b2300ff94da3a1306a49dedf8a8080c760c581382ed71108c1d80d",
+    "public/images/product/timeliste/source/registration_form_mobile.png": "8605949792a0ce489755275df25a12cfe1d7308a4a7c9d5d8f29625172b2941d",
+    "public/images/product/timeliste/source/suggestions_of_work_description.png": "26e6d2a97e9e83edcfe6aa5c152007c018c1c646f181a08d236a05f4f527b1de",
+    "public/images/product/timeliste/source/timelist_4_different_entries_in_documents_menu.png": "6ccd2040907ceda33e904ffc7583a1acb7ea2e9f4d7b85076c83e167f49083a2",
+    "public/images/product/timeliste/source/timelist_import_result_mobile_01.png": "7ee87cef140b19271d91ef25dc8d766cd6e5245baadef06bee6fd4d4c7f1bcc1",
+    "public/images/product/timeliste/source/timelist_import_result_mobile_02.png": "e66bd91a2a658a4527cbc9007d683ac0165f49e36e8396030125f6181e8e7b66",
+    "public/images/product/timeliste/source/timelist_invoice_extra_mobile.png": "3100a152207c3982a7c1049f9f7e875376cd90a1432b55f409b08d52da5009b9",
+    "public/images/product/timeliste/source/timelist_invoice_regular_mobile.png": "062409965a9944bf9557a8562126332642b7a01051ba42c839aecc1d6bf6842d",
+    "public/images/product/timeliste/source/timelist_invoice_summary_mobile.png": "95ddb0a045840726b7e2f211dcd06bcb4a4c45bbb6b565aa16af349ffa8a5535",
+    "public/images/product/timeliste/source/timelist_settings_add_km_row.png": "30016e1cf1342f0de5f29e383e2fcb7df098becdd163b04e4a6d66767ae3ebb6",
+    "public/images/product/timeliste/source/work_entries_add_new_position.png": "646889013f9f0d072dc67bae699dd24fa2fcfa24e95724a15842f384928ce8d6",
+    "public/images/product/timeliste/source/work_entries_add_new_position_mark_as_extra.png": "ee3408d45ff48b4823aef69394f1cf3e93a2d351927949ff0c3fea9fd453cfc1",
+    "public/images/product/timeliste/source/work_entries_panel.png": "e4e465bdeadb9652ad7230bab35a2a1a350497cfbbdf7947a90f75861a78f13a",
+    "public/images/product/timeliste/source/work_entries_panel_with_2_entries.png": "c8fc31defb3e25c8edc5a9ee366d1a6f5630cd91db676bcb182d7bbee216cba3",
+    "public/images/product/timeliste/source/work_entries_panel_with_2_entries_marked.png": "b5fd3614ebb335599adf0b46bdac874b55a75109fc8064266305f918dc5568aa",
+    "public/images/product/timeliste/source/work_entries_with_km_value.png": "48589bde733a60301042ae7b49df0aaead3a50ccf2f960ad791af056e25ad10a"
+  },
+  "seoPages": [
+    {
+      "slug": "timeliste-mal",
+      "title": "Timeliste mal – gratis og enkel timeliste (PDF / nett)",
+      "topic": "timeliste",
+      "isPillar": true,
+      "description": "Gratis timeliste mal for håndverkere og små bedrifter. Lag timeliste raskt, last ned som PDF og få full oversikt.",
+      "h1": "Timeliste mal (gratis)",
+      "intro": "Trenger du en enkel timeliste mal? Jobbleder lar deg føre timer raskt og lagre timelisten som PDF.",
+      "bullets": [
+        "Gratis å bruke (ingen installasjon)",
+        "Perfekt for håndverkere og små bedrifter",
+        "Last ned som PDF og send til kunde",
+        "Full oversikt per uke og prosjekt"
+      ],
+      "faqs": [
+        {
+          "q": "Er timeliste-malen gratis?",
+          "a": "Ja, du kan bruke Jobbleder gratis."
+        },
+        {
+          "q": "Kan jeg laste ned timelisten som PDF?",
+          "a": "Ja, du kan laste ned og dele PDF."
+        },
+        {
+          "q": "Passer dette for håndverkere?",
+          "a": "Ja, Jobbleder er laget for håndverkere i Norge."
+        }
+      ],
+      "ctaLabel": "Start gratis",
+      "downloadResources": {
+        "title": "Last ned gratis timeliste",
+        "description": "Velg mellom en tom timeliste-mal for manuell utfylling eller en ferdig datert versjon for de siste 7 dagene.",
+        "items": [
+          {
+            "label": "Last ned tom timeliste (PDF)",
+            "href": "/downloads/timeliste-mal-jobbleder.pdf"
+          },
+          {
+            "label": "Last ned timeliste siste 7 dager (PDF)",
+            "href": "https://laskowskicreative.no/api/jobbleder/user/documents/oneweek-timelist"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "heading": "Hva er en timeliste?",
+          "paragraphs": [
+            "En timeliste er en enkel oversikt over arbeidstid, oppdrag og datoer. Den brukes ofte av håndverkere, små bedrifter og selvstendige som trenger kontroll på timer og dokumentasjon.",
+            "Når timene er registrert riktig blir det enklere å følge fremdrift, dokumentere arbeid og bruke timelisten som grunnlag for videre fakturaarbeid."
+          ]
+        },
+        {
+          "heading": "Når bør du bruke en timeliste?",
+          "paragraphs": [
+            "En timeliste er nyttig når du jobber med prosjekter, kunder eller oppdrag der det er viktig å holde oversikt over tidsbruk. Dette gjelder spesielt i håndverksbransjen, hvor arbeidstid ofte må dokumenteres tydelig.",
+            "Med en god timeliste blir det enklere å følge opp timer uke for uke og sørge for at ingenting blir glemt."
+          ]
+        },
+        {
+          "heading": "Fordeler med digital timeliste",
+          "paragraphs": [
+            "En digital timeliste er raskere å oppdatere enn papir og gir deg bedre oversikt. Du kan registrere timer fortløpende, laste ned som PDF og bruke timelisten senere i dokumentarbeid.",
+            "For små bedrifter betyr dette mindre manuelt arbeid og bedre struktur i hverdagen."
+          ]
+        },
+        {
+          "heading": "PDF eller nettbasert timeliste?",
+          "paragraphs": [
+            "Noen foretrekker en tom timeliste i PDF-format som kan fylles ut manuelt, mens andre ønsker en nettbasert løsning som gjør registrering raskere og mer oversiktlig.",
+            "Jobbleder gir deg begge deler: du kan laste ned timeliste som PDF, men også bruke løsningen digitalt i nettleseren."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "timeliste-mal-pdf",
+      "title": "Timeliste mal PDF – gratis timeliste for håndverkere",
+      "topic": "timeliste",
+      "description": "Gratis timeliste mal PDF for håndverkere og små bedrifter. Før timer enkelt og last ned timelisten som PDF.",
+      "h1": "Timeliste mal PDF",
+      "intro": "Ser du etter en enkel timeliste mal i PDF-format? Med Jobbleder kan du føre timer raskt og laste ned timelisten som PDF.",
+      "bullets": [
+        "Gratis timeliste i nettleseren",
+        "Last ned som PDF på sekunder",
+        "Passer for håndverkere og små bedrifter",
+        "Full oversikt per uke og prosjekt"
+      ],
+      "faqs": [
+        {
+          "q": "Kan jeg laste ned timelisten som PDF?",
+          "a": "Ja, du kan laste ned timelisten som PDF direkte i Jobbleder."
+        },
+        {
+          "q": "Er timeliste mal PDF gratis?",
+          "a": "Ja, Jobbleder kan brukes gratis."
+        },
+        {
+          "q": "Må jeg installere noe?",
+          "a": "Nei, alt fungerer direkte i nettleseren."
+        }
+      ],
+      "ctaLabel": "Start gratis",
+      "downloadResources": {
+        "title": "Last ned timeliste PDF",
+        "description": "Her kan du laste ned både en tom timeliste-mal og en ferdig datert timeliste for de siste 7 dagene.",
+        "items": [
+          {
+            "label": "Last ned tom timeliste (PDF)",
+            "href": "/downloads/timeliste-mal-jobbleder.pdf"
+          },
+          {
+            "label": "Last ned timeliste siste 7 dager (PDF)",
+            "href": "https://laskowskicreative.no/api/jobbleder/user/documents/oneweek-timelist"
+          }
+        ]
+      },
+      "sections": [
+        {
+          "heading": "Hva er en timeliste mal PDF?",
+          "paragraphs": [
+            "En timeliste mal PDF er en ferdig strukturert mal som gjør det enkelt å registrere arbeidstid. Den passer godt for håndverkere og små bedrifter som ønsker en utskriftsvennlig løsning.",
+            "PDF-formatet er spesielt nyttig når du vil fylle ut timelisten manuelt eller sende den videre som dokumentasjon."
+          ]
+        },
+        {
+          "heading": "Hvem passer en PDF-timeliste for?",
+          "paragraphs": [
+            "En PDF-timeliste passer godt for deg som vil ha en enkel mal uten å bruke kompliserte systemer. Den er nyttig for både ansatte, selvstendige og små bedrifter.",
+            "For mange er dette et godt første steg før man går over til en mer digital og automatisert løsning."
+          ]
+        },
+        {
+          "heading": "Fordeler med å laste ned timeliste som PDF",
+          "paragraphs": [
+            "Når du laster ned timelisten som PDF får du et format som er lett å skrive ut, lagre og dele. Det gjør det enkelt å sende dokumentasjon til kunder eller bruke det internt i bedriften.",
+            "PDF er også nyttig når du vil ha en fast mal med samme oppsett hver uke."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "timeliste-uke",
+      "title": "Timeliste uke – få oversikt over arbeidstid per uke",
+      "topic": "timeliste",
+      "description": "Lag ukentlig timeliste for ansatte, prosjekter eller egne oppdrag. Enkel oversikt og PDF-nedlasting.",
+      "h1": "Timeliste uke",
+      "intro": "En ukentlig timeliste gjør det enklere å følge arbeidstid, prosjekter og fremdrift. Jobbleder gir deg full oversikt uke for uke.",
+      "bullets": [
+        "Registrer timer uke for uke",
+        "Perfekt for små bedrifter og håndverkere",
+        "Se oversikt per prosjekt og kunde",
+        "Last ned ukentlig timeliste som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Kan jeg føre timer per uke?",
+          "a": "Ja, Jobbleder gjør det enkelt å registrere og samle timer uke for uke."
+        },
+        {
+          "q": "Kan jeg bruke ukentlig timeliste for prosjekter?",
+          "a": "Ja, du kan bruke løsningen for både prosjekter og kunder."
+        },
+        {
+          "q": "Kan timelisten lastes ned?",
+          "a": "Ja, du kan laste ned timelisten som PDF."
+        }
+      ],
+      "ctaLabel": "Opprett timeliste",
+      "sections": [
+        {
+          "heading": "Hvorfor bruke ukentlig timeliste?",
+          "paragraphs": [
+            "En ukentlig timeliste gir bedre oversikt over arbeidstid og gjør det enklere å følge fremdrift gjennom hele uken.",
+            "For små bedrifter og håndverkere er dette en enkel måte å sikre at timer blir registrert løpende og ikke glemt."
+          ]
+        },
+        {
+          "heading": "Timeliste uke for prosjekter og kunder",
+          "paragraphs": [
+            "Når du fører timer uke for uke blir det lettere å se hvor mye tid som går til hvert prosjekt eller kunde.",
+            "Dette gir bedre kontroll og kan også brukes som grunnlag for videre dokumentasjon og faktura."
+          ]
+        },
+        {
+          "heading": "Fordeler med digital ukentlig timeliste",
+          "paragraphs": [
+            "En digital løsning gjør det enklere å oppdatere timene fortløpende og hente ut PDF når du trenger det.",
+            "Det sparer tid sammenlignet med manuelle skjemaer og gir bedre struktur i arbeidshverdagen."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "timeliste-ansatt",
+      "title": "Timeliste ansatt – enkel registrering av arbeidstid",
+      "topic": "timeliste",
+      "description": "Før timeliste for ansatte på en enkel måte. Perfekt for små bedrifter og håndverkere som trenger oversikt over arbeidstid.",
+      "h1": "Timeliste ansatt",
+      "intro": "Trenger du en enkel løsning for å føre timeliste for ansatte? I Jobbleder skriver du inn arbeiderens navn i timelisten og fører timene på dette navnet.",
+      "bullets": [
+        "Enkel timeregistrering for ansatte",
+        "Oversikt over arbeidstid og oppdrag",
+        "Passer for små bedrifter",
+        "Last ned som PDF ved behov"
+      ],
+      "faqs": [
+        {
+          "q": "Kan jeg bruke Jobbleder for ansatte?",
+          "a": "Ja. Du skriver inn arbeiderens navn når du oppretter timelisten og fører timene på dette navnet. Dette er navngivning i dokumentet, ikke oppretting av ansattkontoer eller tilgangsstyring."
+        },
+        {
+          "q": "Er det enkelt å holde oversikt over arbeidstid?",
+          "a": "Ja, løsningen er laget for å være rask og enkel i bruk."
+        },
+        {
+          "q": "Kan ansatte sine timer lagres som PDF?",
+          "a": "Ja, du kan laste ned timelister som PDF."
+        }
+      ],
+      "ctaLabel": "Start gratis",
+      "sections": [
+        {
+          "heading": "Hvorfor føre timeliste for ansatte?",
+          "paragraphs": [
+            "Når du oppretter en timeliste, skriver du inn navnet på arbeideren som timene gjelder. Navnet knytter timene til personen i dokumentet; det oppretter ikke en egen ansattkonto.",
+            "Dette er spesielt nyttig i små bedrifter der man trenger en enkel, men tydelig løsning."
+          ]
+        },
+        {
+          "heading": "Bedre kontroll over arbeidstid",
+          "paragraphs": [
+            "En god timeliste for ansatte gjør det lettere å følge med på hvor mye tid som brukes og hvilke oppgaver som er utført.",
+            "Det gir også bedre dokumentasjon hvis timene senere skal brukes som grunnlag for videre administrasjon."
+          ]
+        },
+        {
+          "heading": "Digital løsning i stedet for papir",
+          "paragraphs": [
+            "Papirskjemaer kan fort bli rotete eller forsvinne. En digital timeliste gjør registreringen enklere og mer oversiktlig.",
+            "Med Jobbleder kan du også laste ned timelister som PDF når du trenger det."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "timeliste-prosjekt",
+      "title": "Timeliste prosjekt – før timer per prosjekt og kunde",
+      "topic": "timeliste",
+      "description": "Lag timeliste per prosjekt og få bedre oversikt over arbeidstid, kunder og oppdrag. Last ned som PDF.",
+      "h1": "Timeliste prosjekt",
+      "intro": "Når du fører timer per prosjekt blir det enklere å følge fremdrift, kundearbeid og fakturagrunnlag. Jobbleder gjør dette enkelt.",
+      "bullets": [
+        "Registrer timer per prosjekt",
+        "Bedre oversikt over kunder og oppdrag",
+        "Bruk timelisten som grunnlag for faktura",
+        "Last ned og del som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Kan jeg føre timer per prosjekt?",
+          "a": "Ja, Jobbleder gjør det enkelt å registrere arbeidstid per prosjekt."
+        },
+        {
+          "q": "Kan prosjekt-timelister brukes til faktura?",
+          "a": "Ja, timelister kan brukes som grunnlag for videre dokumentarbeid."
+        },
+        {
+          "q": "Passer dette for håndverkere?",
+          "a": "Ja, løsningen er laget med håndverkere og små bedrifter i tankene."
+        }
+      ],
+      "ctaLabel": "Opprett timeliste",
+      "sections": [
+        {
+          "heading": "Hvorfor føre timer per prosjekt?",
+          "paragraphs": [
+            "Når timer registreres per prosjekt får du bedre kontroll over tidsbruk, fremdrift og hvilke oppdrag som tar mest ressurser.",
+            "Dette gjør det lettere å dokumentere arbeid og skape bedre oversikt for både bedrift og kunde."
+          ]
+        },
+        {
+          "heading": "Timeliste prosjekt gir bedre fakturagrunnlag",
+          "paragraphs": [
+            "Når timene er knyttet til konkrete prosjekter blir det enklere å bruke dem som grunnlag for videre dokumentarbeid.",
+            "Det reduserer risikoen for at arbeidstid blir glemt eller feilvurdert."
+          ]
+        },
+        {
+          "heading": "Passer godt for håndverkere og små bedrifter",
+          "paragraphs": [
+            "Håndverkere jobber ofte på flere oppdrag samtidig. Derfor er prosjektbasert timeliste en enkel måte å holde kontroll på hver jobb.",
+            "Med Jobbleder kan du føre timer raskt og laste ned oversikten som PDF."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "tilbud-mal",
+      "title": "Tilbud mal – skriv et profesjonelt tilbud (gratis)",
+      "topic": "tilbud",
+      "isPillar": true,
+      "description": "Tilbud mal for små bedrifter og håndverkere. Lag tilbud raskt og konverter til faktura når kunden sier ja.",
+      "h1": "Tilbud mal (gratis)",
+      "intro": "Lag et profesjonelt tilbud med riktig struktur. Når tilbudet er akseptert kan du gjøre det om til faktura.",
+      "bullets": [
+        "Ryddig mal med feltene du trenger",
+        "Lag tilbud på minutter",
+        "Konverter tilbud til faktura",
+        "Last ned og send som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Hva bør et tilbud inneholde?",
+          "a": "Kontaktinfo, beskrivelse, pris, vilkår og dato."
+        },
+        {
+          "q": "Kan jeg lage faktura fra tilbudet?",
+          "a": "Ja, med ett klikk i Jobbleder."
+        },
+        {
+          "q": "Er det gratis?",
+          "a": "Ja, du kan opprette tilbud gratis."
+        }
+      ],
+      "ctaLabel": "Opprett tilbud",
+      "sections": [
+        {
+          "heading": "Hva er et tilbud?",
+          "paragraphs": [
+            "Et tilbud er et dokument som beskriver hva du skal levere, til hvilken pris og på hvilke vilkår. Det brukes ofte av håndverkere og små bedrifter før arbeidet starter.",
+            "Et godt tilbud gjør det enklere for kunden å forstå hva som inngår og gir et mer profesjonelt førsteinntrykk."
+          ]
+        },
+        {
+          "heading": "Hvorfor bruke en tilbud mal?",
+          "paragraphs": [
+            "En tilbud mal gjør det enklere å lage tilbud raskt og med en ryddig struktur. Du slipper å starte fra blankt ark hver gang.",
+            "For små bedrifter betyr dette mindre administrasjon og mer konsistente dokumenter."
+          ]
+        },
+        {
+          "heading": "Hva bør et godt tilbud inneholde?",
+          "paragraphs": [
+            "Et godt tilbud bør tydelig forklare hva som skal leveres, pris, eventuelle betingelser og hvor lenge tilbudet er gyldig.",
+            "Jo tydeligere dokumentet er, desto enklere blir det for kunden å ta stilling til det."
+          ]
+        },
+        {
+          "heading": "Fra tilbud til faktura",
+          "paragraphs": [
+            "Når kunden aksepterer tilbudet, er neste steg ofte å gjøre det om til faktura eller bruke det som grunnlag for videre dokumentarbeid.",
+            "Jobbleder gjør det enklere å holde denne prosessen samlet i én løsning."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lage-tilbud",
+      "title": "Lage tilbud – hvordan skrive et godt tilbud",
+      "description": "Lær hvordan du lager et ryddig og profesjonelt tilbud. Enkelt for håndverkere og små bedrifter i Norge.",
+      "h1": "Lage tilbud",
+      "intro": "Å lage tilbud trenger ikke være komplisert. Med riktig struktur blir det enklere å sende et profesjonelt tilbud som kunden forstår.",
+      "bullets": [
+        "Lag tilbud direkte i nettleseren",
+        "Bruk en tydelig og profesjonell struktur",
+        "Perfekt for håndverkere og små bedrifter",
+        "Last ned tilbud som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Hvordan lager jeg et tilbud?",
+          "a": "Du beskriver arbeidet, legger inn pris, eventuelle vilkår og sender tilbudet i en ryddig struktur."
+        },
+        {
+          "q": "Hva bør et tilbud inneholde?",
+          "a": "Et tilbud bør inneholde beskrivelse av arbeid, pris, dato og eventuelle betingelser."
+        },
+        {
+          "q": "Kan jeg lage tilbud gratis i Jobbleder?",
+          "a": "Ja, Jobbleder kan brukes gratis til å opprette tilbud."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Velg kunden og riktig prosjekt",
+          "paragraphs": [
+            "Åpne Opprett og velg Tilbud i Jobbleder. Velg kunden som skal få tilbudet, og knytt til et prosjekt hvis det er relevant. Kontroller kundeopplysningene før du går videre.",
+            "Vi bruker Tilbud 29 som eksempel: kunden er Eksempel Eiendom, og prosjektet heter Renovering av leilighet i skjemaet. Prosjektvalget vises i appen, men er ikke skrevet ut som eget felt på PDF-eksemplet."
+          ]
+        },
+        {
+          "heading": "2. Beskriv arbeidet kunden skal ta stilling til",
+          "paragraphs": [
+            "Legg inn en tydelig arbeidsbeskrivelse på tilbudslinjen. I Tilbud 29 står det Legging av parkett. For ditt eget oppdrag bør du også avklare hvilke rom, oppgaver og forberedelser prisen omfatter.",
+            "Skjermbildet viser feltene du fyller ut. Det er en visning fra Jobbleder i nettleseren, ikke en ferdig PDF eller en egen mobilapp."
+          ],
+          "offerExample": "form"
+        },
+        {
+          "heading": "3. Legg inn antall og enhetspris",
+          "paragraphs": [
+            "Tilbudslinjen i eksemplet har antall 1 og enhetspris 12 000 kroner før MVA. Det gir 1 × 12 000 = 12 000 kroner netto. Legg til flere rader dersom ulike deler av arbeidet bør beskrives og prises hver for seg.",
+            "Antallet gjelder linjen slik den er lagt inn. Tilbud 29 oppgir ikke et areal eller et timeantall; ikke les dette inn i eksemplet. Bruk mengder og beskrivelser som kunden forstår i ditt eget tilbud."
+          ]
+        },
+        {
+          "heading": "4. Avklar materialer og arbeid som ikke inngår",
+          "paragraphs": [
+            "Bli enige om hvem som skaffer parketten, om underlaget må klargjøres, og om for eksempel fjerning av gammelt gulv eller montering av lister er inkludert. Ta vare på avklaringene skriftlig sammen med tilbudet.",
+            "Dette er råd til ditt eget tilbud. Slike materialvilkår og avgrensinger er ikke spesifisert i det viste PDF-dokumentet fra Tilbud 29. Ikke forutsett at kunden oppfatter dem på samme måte som deg."
+          ]
+        },
+        {
+          "heading": "5. Kontroller MVA og totalbeløpet",
+          "paragraphs": [
+            "Velg MVA-behandlingen som gjelder for salget ditt, og kontroller oppsummeringen. I Tilbud 29 er eksempelsatsen 25 prosent: 12 000 kroner netto gir 3 000 kroner i MVA og 15 000 kroner totalt. Satsen er ikke en regel for alle tilbud eller virksomheter."
+          ]
+        },
+        {
+          "heading": "6. Sett datoer og tilbudets gyldighet",
+          "paragraphs": [
+            "Kontroller Utstedt og Gyldig til. I demonstrasjonen er datoene 18.11.2026 og 02.12.2026. For et nytt tilbud velger du datoer som passer oppdraget; ikke kopier eksempelverdiene ukritisk.",
+            "Avklar også ønsket oppstart og forventet ferdigstillelse med kunden der det er relevant. Disse arbeidstidspunktene er ikke det samme som tilbudsdato og gyldighet, og de vises ikke i Tilbud 29-PDF-en."
+          ]
+        },
+        {
+          "heading": "7. Se gjennom tilbudet før du genererer dokumentet",
+          "paragraphs": [
+            "Kontroller kunde, arbeidsbeskrivelse, mengder, priser, MVA, datoer og total. Se særlig etter om det er tydelig hva som er med i prisen. Avklar uklarheter før du deler tilbudet."
+          ],
+          "links": [
+            {
+              "href": "/tilbud-eksempel",
+              "label": "Se hele Tilbud 29 og forklaringen av dokumentet"
+            }
+          ]
+        },
+        {
+          "heading": "8. Lag PDF og del tilbudet med kunden",
+          "paragraphs": [
+            "Velg Lagre eller Generer i Jobbleder. Generer og last ned PDF-en når innholdet stemmer, og del den manuelt med kunden, for eksempel som vedlegg i en e-post du sender selv. Appen sender ikke tilbudet eller registrerer kundens aksept automatisk.",
+            "Oppretting av tilbud og PDF-eksport er tilgjengelig i Free, med Jobbleder-merking på dokumentet. Premium fjerner merkingen og lar deg bruke egen firmalogo. PDF-en lages i appen; denne nettsiden tilbyr ikke en tom tilbudsmal for nedlasting."
+          ],
+          "links": [
+            {
+              "href": "/instruksjoner#opprett-tilbud",
+              "label": "Følg instruksjonene for å opprette et tilbud i Jobbleder"
+            },
+            {
+              "href": "/tilbud-mal",
+              "label": "Utforsk tilbudsverktøyet og dokumentflyten"
+            }
+          ]
+        },
+        {
+          "heading": "Avklar aksept og eventuelle endringer",
+          "paragraphs": [
+            "Et akseptert tilbud kan danne grunnlag for en bindende avtale, avhengig av innholdet, svaret, omstendighetene og reglene som gjelder. Ikke legg til grunn at en separat signert kontrakt alltid er nødvendig. Ta vare på kundens svar og avklar endringer i omfang eller pris.",
+            "Dette er praktiske råd, ikke en universell liste over lovpålagte tilbudsfelt. Forbrukeravtaler og oppdrag mellom virksomheter kan være underlagt ulike regler."
+          ],
+          "links": [
+            {
+              "href": "/blogg/tilbud-vs-kontrakt",
+              "label": "Les om forskjellen på tilbud, aksept og kontrakt"
+            }
+          ]
+        }
+      ],
+      "topic": "tilbud"
+    },
+    {
+      "slug": "tilbud-eksempel",
+      "title": "Tilbud eksempel – se hvordan et godt tilbud kan se ut",
+      "description": "Se et tilbud eksempel og lær hvordan et ryddig og profesjonelt tilbud kan bygges opp for små bedrifter og håndverkere.",
+      "h1": "Tilbud eksempel",
+      "intro": "Et godt tilbud eksempel gjør det lettere å forstå hvordan et tilbud bør se ut og hvilke opplysninger som bør være med.",
+      "bullets": [
+        "Se hvordan et profesjonelt tilbud kan bygges opp",
+        "Nyttig for håndverkere og små bedrifter",
+        "Bruk eksempelet som inspirasjon til egne tilbud",
+        "Lag tilbud digitalt og last ned som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Hva viser et tilbud eksempel?",
+          "a": "Et tilbud eksempel viser hvordan innhold, pris og beskrivelse kan settes opp i et ryddig dokument."
+        },
+        {
+          "q": "Kan jeg bruke et eksempel som mal?",
+          "a": "Ja, et godt eksempel kan være et nyttig utgangspunkt når du lager egne tilbud."
+        },
+        {
+          "q": "Kan jeg lage slike tilbud i Jobbleder?",
+          "a": "Ja, Jobbleder gjør det enkelt å lage tilbud med profesjonell struktur."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Tilbud 29: et ferdig dokument fra Jobbleder",
+          "paragraphs": [
+            "Her ser du et autentisk tilbud for legging av parkett: 12 000 kroner før MVA, 3 000 kroner i MVA og 15 000 kroner totalt. Hele den eksporterte A4-siden er med, slik at du kan se dokumentets faktiske oppsett.",
+            "Dette er et utfylt demonstrasjonseksempel fra Jobbleder Free, ikke en blank PDF-mal. Du oppretter ditt eget tilbud og genererer PDF-en inne i Jobbleder."
+          ],
+          "offerExample": "document"
+        },
+        {
+          "heading": "Kunde og prosjekt: hva dokumentet faktisk viser",
+          "paragraphs": [
+            "Demo Company er avsender, og Eksempel Eiendom er kunde i Tilbud 29. Dokumentet viser kontakt- og organisasjonsopplysninger for begge parter. Opplysningene er demonstrasjonsdata og skal ikke brukes som dine egne.",
+            "I opprettingsskjemaet er tilbudet knyttet til prosjektet Renovering av leilighet. Prosjektnavnet er ikke et eget synlig felt i denne PDF-en. Skill derfor mellom opplysninger du ser i appen og opplysninger kunden faktisk får i dokumentet."
+          ]
+        },
+        {
+          "heading": "Arbeidsbeskrivelsen: legging av parkett",
+          "paragraphs": [
+            "Tilbudet har én linje med beskrivelsen Legging av parkett. Det viser hvilken type arbeid eksemplet gjelder, men angir ikke rom, areal, materialansvar eller arbeid som er holdt utenfor prisen.",
+            "I et eget tilbud er det nyttig å avklare omfanget mer konkret. Hvilke gulv gjelder jobben, og hva skal være klargjort? Dette er anbefalinger til oppdraget ditt, ikke ekstra vilkår som finnes i dokumentbildet."
+          ]
+        },
+        {
+          "heading": "Antall og enhetspris",
+          "paragraphs": [
+            "Linjen har antall 1 og enhetspris 12 000 kroner før MVA. Beregningen er dermed 1 × 12 000 = 12 000 kroner netto. Antall 1 er antallet på tilbudslinjen; dokumentet oppgir ikke antall kvadratmeter eller timer."
+          ]
+        },
+        {
+          "heading": "MVA og total: slik henger tallene sammen",
+          "paragraphs": [
+            "Med eksemplets MVA-sats på 25 prosent blir MVA-beløpet 3 000 kroner. Nettobeløpet 12 000 kroner pluss MVA 3 000 kroner gir 15 000 kroner totalt. Dokumentet viser både totalbeløpet og MVA-grunnlaget.",
+            "25 prosent gjelder dette demonstrasjonseksemplet. Kontroller MVA-behandlingen som gjelder for ditt eget salg; ikke bruk satsen som en universell regel."
+          ]
+        },
+        {
+          "heading": "Tilbudsdato og gyldighet",
+          "paragraphs": [
+            "Tilbud 29 er datert 18.11.2026 og viser Gyldig gjennom: 02.12.2026. Dette er tilbudets datoer i demonstrasjonen, ikke planlagt oppstart eller ferdigstillelse av parkettarbeidet.",
+            "Datoene viser hvordan gyldighet presenteres i dokumentet. Et nytt tilbud må ha datoer og vilkår som passer det aktuelle oppdraget."
+          ]
+        },
+        {
+          "heading": "Forutsetninger du bør avklare i et eget tilbud",
+          "paragraphs": [
+            "Avklar hvem som leverer materialer, hvilke forberedelser som inngår, og hvordan eventuelt ekstraarbeid skal avklares. Et enkelt dokumenteksempel kan ikke erstatte disse avklaringene. Tilbud 29 viser ikke detaljerte material-, betalings- eller endringsvilkår.",
+            "Dette er praktiske anbefalinger, ikke en uttømmende liste over obligatoriske felter eller en garanti for at dokumentet dekker alle juridiske krav."
+          ],
+          "links": [
+            {
+              "href": "/lage-tilbud",
+              "label": "Slik forbereder og kontrollerer du ditt eget tilbud, steg for steg"
+            }
+          ]
+        },
+        {
+          "heading": "Når kunden har tatt stilling til tilbudet",
+          "paragraphs": [
+            "Et akseptert tilbud kan danne grunnlag for en bindende avtale. Virkningen avhenger av innhold, aksept, omstendigheter og gjeldende regler; det er ikke alltid nødvendig med en separat signert kontrakt. Forbrukeravtaler og avtaler mellom virksomheter kan ha ulike regler.",
+            "Avklar kundens svar og eventuelle endringer utenfor appen. I Jobbleder kan du selv opprette en kontrakt fra tilbudet og redigere den videre, eller bruke tilbudet direkte som grunnlag for faktura. Du kan også opprette faktura fra kontrakten. Kontroller hvert nytt dokument; ingen av disse handlingene sender dokumenter eller registrerer aksept automatisk.",
+            "Forbrukerrådet anbefaler skriftlig kontrakt ved bruk av håndverker for å dokumentere hva partene er enige om. En anbefaling om skriftlig dokumentasjon må skilles fra spørsmålet om det allerede er inngått en avtale."
+          ],
+          "links": [
+            {
+              "href": "/blogg/fra-tilbud-til-kontrakt-og-faktura",
+              "label": "Se begge veier videre fra tilbudet med ekte dokumenteksempler"
+            },
+            {
+              "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",
+              "label": "Les Forbrukerrådets råd om skriftlig kontrakt"
+            }
+          ]
+        }
+      ],
+      "topic": "tilbud"
+    },
+    {
+      "slug": "fakturaprogram-gratis",
+      "title": "Fakturaprogram gratis – lag faktura enkelt i Norge",
+      "topic": "faktura",
+      "isPillar": true,
+      "description": "Fakturaprogram gratis for håndverkere og små bedrifter. Lag faktura raskt i nettleseren og last ned som PDF.",
+      "h1": "Fakturaprogram gratis",
+      "intro": "Ser du etter et gratis fakturaprogram? Med Jobbleder kan du lage profesjonelle fakturaer på minutter – direkte i nettleseren.",
+      "bullets": [
+        "Gratis å bruke – ingen installasjon",
+        "Laget for håndverkere og små bedrifter i Norge",
+        "Faktura, timeliste og tilbud i samme verktøy",
+        "Last ned og send som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Er Jobbleder et gratis fakturaprogram?",
+          "a": "Ja, du kan bruke Jobbleder gratis."
+        },
+        {
+          "q": "Kan jeg sende faktura som PDF?",
+          "a": "Ja, du kan laste ned faktura som PDF og sende den."
+        },
+        {
+          "q": "Må jeg installere noe?",
+          "a": "Nei, alt fungerer i nettleseren."
+        }
+      ],
+      "ctaLabel": "Start gratis",
+      "sections": [
+        {
+          "heading": "Hva er et fakturaprogram?",
+          "paragraphs": [
+            "Et fakturaprogram er et verktøy som gjør det enklere å opprette, organisere og sende fakturaer. I stedet for å lage alt manuelt får du en fastere struktur og en raskere arbeidsflyt.",
+            "For håndverkere og små bedrifter betyr dette mindre administrasjon og bedre kontroll over dokumentene."
+          ]
+        },
+        {
+          "heading": "Fordeler med et gratis fakturaprogram",
+          "paragraphs": [
+            "Et gratis fakturaprogram gjør det lettere å komme i gang uten store kostnader. Du kan opprette profesjonelle fakturaer og få bedre oversikt med en gang.",
+            "Dette er spesielt nyttig for små bedrifter som vil jobbe enklere og mer effektivt."
+          ]
+        },
+        {
+          "heading": "Hvem passer Jobbleder for?",
+          "paragraphs": [
+            "Jobbleder passer godt for håndverkere, små bedrifter og andre som trenger en enkel måte å lage faktura, tilbud og timelister på.",
+            "Løsningen er laget for å være lett å bruke direkte i nettleseren, uten komplisert oppsett."
+          ]
+        },
+        {
+          "heading": "Hvorfor velge en nettbasert løsning?",
+          "paragraphs": [
+            "Når fakturaprogrammet fungerer i nettleseren, slipper du installasjon og kan jobbe raskt fra hvor som helst.",
+            "Det gir en enklere hverdag og gjør det lettere å holde orden på dokumentene."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hvordan-folge-opp-tilbud",
+      "title": "Hvordan følge opp tilbud – få flere svar fra kunder",
+      "description": "Lær hvordan du følger opp et sendt tilbud på en profesjonell måte og øker sjansen for å få svar fra kunden.",
+      "h1": "Hvordan følge opp tilbud",
+      "intro": "Å sende tilbud er bare første steg. En god oppfølging kan gjøre stor forskjell når du vil øke sjansen for respons og aksept fra kunden.",
+      "bullets": [
+        "Lær hvordan du følger opp tilbud profesjonelt",
+        "Få bedre respons fra kunder",
+        "Perfekt for små bedrifter og håndverkere",
+        "Bruk enkle rutiner for oppfølging"
+      ],
+      "faqs": [
+        {
+          "q": "Hvorfor er det viktig å følge opp et tilbud?",
+          "a": "Fordi mange kunder trenger en påminnelse før de tar en beslutning eller svarer."
+        },
+        {
+          "q": "Når bør jeg følge opp et tilbud?",
+          "a": "Ofte er det lurt å følge opp etter noen dager, avhengig av type jobb og situasjon."
+        },
+        {
+          "q": "Hvordan kan jeg følge opp profesjonelt?",
+          "a": "Vær kort, tydelig og vennlig. Spør om kunden har spørsmål og om de har rukket å se på tilbudet."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Hvorfor oppfølging av tilbud er viktig",
+          "paragraphs": [
+            "Mange tilbud blir ikke besvart med en gang. Det betyr ikke nødvendigvis at kunden ikke er interessert.",
+            "En enkel og profesjonell oppfølging kan være nok til å få samtalen i gang igjen."
+          ]
+        },
+        {
+          "heading": "Når bør du følge opp tilbudet?",
+          "paragraphs": [
+            "Tidspunktet avhenger av typen oppdrag, men ofte er det naturlig å følge opp etter noen dager.",
+            "Det viktigste er å vise interesse uten å virke påtrengende."
+          ]
+        },
+        {
+          "heading": "Hvordan skrive en god oppfølging",
+          "paragraphs": [
+            "En god oppfølging bør være kort og tydelig. Du kan for eksempel spørre om kunden har fått sett på tilbudet og om det er noe de ønsker avklart.",
+            "Dette skaper en profesjonell dialog og øker sjansen for respons."
+          ]
+        }
+      ],
+      "topic": "tilbud"
+    },
+    {
+      "slug": "lage-faktura",
+      "title": "Lage faktura – hvordan skrive en faktura enkelt",
+      "description": "Lær hvordan du lager en faktura enkelt og riktig. Jobbleder gjør det raskt å opprette faktura i nettleseren.",
+      "h1": "Lage faktura",
+      "intro": "Å lage faktura trenger ikke være komplisert. Med riktig oppsett kan du skrive en profesjonell faktura raskt og enkelt.",
+      "bullets": [
+        "Lag faktura direkte i nettleseren",
+        "Enkel løsning for håndverkere og små bedrifter",
+        "Ryddig oppsett med feltene du trenger",
+        "Last ned og send som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Hvordan lager jeg en faktura?",
+          "a": "Du fyller inn kundeinformasjon, beskriver arbeidet, legger inn pris og genererer fakturaen."
+        },
+        {
+          "q": "Kan jeg lage faktura gratis?",
+          "a": "Ja, Jobbleder kan brukes gratis til å opprette faktura."
+        },
+        {
+          "q": "Kan jeg laste ned faktura som PDF?",
+          "a": "Ja, du kan laste ned faktura som PDF og sende den videre."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Hva trenger en faktura?",
+          "paragraphs": [
+            "En faktura bør inneholde tydelig informasjon om hvem som sender fakturaen, hvem som er kunde, hva som er levert og hva beløpet gjelder.",
+            "Når fakturaen er ryddig og korrekt blir det enklere både for deg og kunden å holde oversikt."
+          ]
+        },
+        {
+          "heading": "Hvordan lage faktura enkelt",
+          "paragraphs": [
+            "Den enkleste måten å lage faktura på er å bruke en digital løsning med ferdig struktur. Da slipper du å bygge opp dokumentet manuelt hver gang.",
+            "Jobbleder gjør det enkelt å opprette faktura direkte i nettleseren og laste den ned som PDF."
+          ]
+        },
+        {
+          "heading": "Hvorfor bruke et fakturaprogram?",
+          "paragraphs": [
+            "Et fakturaprogram sparer tid og reduserer feil. Du får bedre kontroll over dokumentene og en mer profesjonell arbeidsflyt.",
+            "For små bedrifter og håndverkere betyr dette mindre administrasjon og mer fokus på selve arbeidet."
+          ]
+        }
+      ],
+      "topic": "faktura"
+    },
+    {
+      "slug": "faktura-eksempel",
+      "title": "Faktura eksempel – se hvordan en faktura kan se ut",
+      "description": "Se et enkelt faktura eksempel og lær hvordan en profesjonell faktura bør bygges opp for små bedrifter og håndverkere.",
+      "h1": "Faktura eksempel",
+      "intro": "Et faktura eksempel gjør det lettere å forstå hvordan en faktura bør se ut og hvilke opplysninger som bør være med.",
+      "bullets": [
+        "Se hvordan en ryddig faktura kan bygges opp",
+        "Perfekt for små bedrifter og håndverkere",
+        "Bruk eksempelet som utgangspunkt for egne fakturaer",
+        "Lag faktura digitalt og last ned som PDF"
+      ],
+      "faqs": [
+        {
+          "q": "Hva viser et faktura eksempel?",
+          "a": "Et faktura eksempel viser hvordan informasjon, priser og beskrivelser kan settes opp i en tydelig faktura."
+        },
+        {
+          "q": "Kan jeg bruke eksempelet som mal?",
+          "a": "Du kan bruke eksemplet til å forstå oppsettet. Bildet er ikke en blank eller redigerbar fakturamal. Når du lager din egen faktura, må du bruke egne opplysninger, riktig nummerering og opplysninger som passer salget."
+        },
+        {
+          "q": "Kan jeg lage slike fakturaer i Jobbleder?",
+          "a": "Ja, Jobbleder gjør det enkelt å lage profesjonelle fakturaer i samme stil."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Hvorfor se på et faktura eksempel?",
+          "paragraphs": [
+            "Her ser du Faktura 110, opprettet i Jobbleder med demonstrasjonsdata. Den viser hvordan selger, kunde, arbeidsbeskrivelse og betalingsinformasjon kan samles i et dokument.",
+            "Eksemplet gjelder én linje med parkettarbeid til 12 000 kroner før MVA. Med 25 prosent MVA i dette eksemplet blir avgiften 3 000 kroner og totalen 15 000 kroner."
+          ],
+          "invoiceExample": true
+        },
+        {
+          "heading": "Hva bør et godt faktura eksempel vise?",
+          "paragraphs": [
+            "Les dokumentet fra opplysningene om partene til arbeidslinjen og summene. Skill mellom det du ser i dette eksemplet, og opplysningene ditt eget salg krever."
+          ],
+          "checklists": [
+            {
+              "heading": "Slik leser du Faktura 110",
+              "items": [
+                "Selger og kunde: Demo Company står som selger, og Eksempel Eiendom som kunde. Navn, adresser og organisasjonsopplysninger viser hvem dokumentet gjelder.",
+                "Nummer og datoer: fakturanummeret er 110. Fakturadatoen er 18. november 2026 og forfallsdatoen 2. desember 2026. Datoene er eksempelverdier, ikke en fast betalingsfrist for alle fakturaer.",
+                "Arbeid og pris: Legging av parkett er beskrivelsen. Antall 1 multiplisert med enhetspris 12 000 kroner gir et nettobeløp på 12 000 kroner.",
+                "MVA og total: 12 000 × 25 prosent gir 3 000 kroner i MVA. Beløpet kunden skal betale i dette eksemplet, er 15 000 kroner.",
+                "Betalingsinformasjon: dokumentet viser bankkonto, forfallsdato og beskjed om å merke betalingen med fakturanummeret."
+              ]
+            }
+          ],
+          "links": [
+            {
+              "href": "/faktura-krav",
+              "label": "Les om fakturakrav og betingede opplysninger"
+            },
+            {
+              "href": "/blogg/faktura-eksempel-sma-bedrifter",
+              "label": "Se regnestykket i et småbedriftseksempel"
+            }
+          ]
+        },
+        {
+          "heading": "Fra eksempel til ferdig faktura",
+          "paragraphs": [
+            "Bildet illustrerer et generert dokument, ikke en blank PDF du kan fylle ut. MVA-behandling, leveringsopplysninger og øvrige krav må vurderes for ditt salg; dokumentbildet er ikke en universell fasit for lovkrav.",
+            "I Jobbleder legger du inn egne kundeopplysninger og fakturalinjer, kontrollerer beløpene og genererer PDF. Du laster ned fakturaen og sender den manuelt. Oppretting og eksport er tilgjengelig i Free, med Jobbleder-vannmerke på PDF-en."
+          ],
+          "links": [
+            {
+              "href": "/instruksjoner#opprett-faktura",
+              "label": "Følg opprettingen av en faktura steg for steg"
+            }
+          ]
+        }
+      ],
+      "topic": "faktura"
+    },
+    {
+      "slug": "faktura-krav",
+      "title": "Faktura krav – hva må en faktura inneholde?",
+      "description": "Lær hvilke opplysninger en faktura bør inneholde og hvordan du lager en ryddig faktura for kunder i Norge.",
+      "h1": "Faktura krav",
+      "intro": "Når du lager faktura er det viktig at dokumentet er tydelig og inneholder de nødvendige opplysningene. Da blir det enklere å holde orden og unngå misforståelser.",
+      "bullets": [
+        "Få oversikt over hva en faktura bør inneholde",
+        "Lag ryddige og profesjonelle fakturaer",
+        "Passer for små bedrifter og håndverkere",
+        "Bruk Jobbleder for å lage faktura enkelt"
+      ],
+      "faqs": [
+        {
+          "q": "Hva må en faktura inneholde?",
+          "a": "En faktura skal blant annet ha fakturanummer, fakturadato, opplysninger om selger og kjøper, hva som er levert og i hvilket omfang, leveringsopplysninger, beløp, eventuell MVA og betalingsforfall. Enkelte opplysninger avhenger av virksomheten og salget. Bankkonto og betalingsreferanse er praktiske tillegg."
+        },
+        {
+          "q": "Hvorfor er tydelige fakturakrav viktige?",
+          "a": "Tydelige opplysninger gjør det enklere å forstå fakturaen og reduserer risikoen for feil og spørsmål fra kunden."
+        },
+        {
+          "q": "Kan Jobbleder hjelpe meg å lage ryddige fakturaer?",
+          "a": "Ja, Jobbleder gjør det enklere å sette opp faktura med en ryddig struktur."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Hvorfor er det viktig å kjenne til faktura krav?",
+          "paragraphs": [
+            "En faktura dokumenterer et salg. Kunden skal kunne forstå hvem som har levert, hva betalingen gjelder og når den forfaller. Opplysningene må også gi et grunnlag for å kontrollere salget.",
+            "Oversikten nedenfor bygger på Altinns og Skatteetatens veiledning om vanlige fakturaer. Noen krav avhenger av selskapsform, MVA-registrering og hva du selger."
+          ],
+          "links": [
+            {
+              "href": "https://info.altinn.no/starte-og-drive/regnskap-og-revisjon/regnskap/faktura-salgsdokumentasjon/",
+              "label": "Altinn: opplysninger i en faktura"
+            },
+            {
+              "href": "https://www.skatteetaten.no/bedrift-og-organisasjon/starte-og-drive/rutiner-regnskap-og-kassasystem/gode-rutiner-for-daglig-drift/inntekter/",
+              "label": "Skatteetaten: fakturering og inntekter"
+            }
+          ]
+        },
+        {
+          "heading": "Vanlige opplysninger i en faktura",
+          "paragraphs": [
+            "Skill mellom opplysninger som inngår i kravene til fakturaen, og praktiske tillegg som gjør det enklere å betale eller stille spørsmål."
+          ],
+          "checklists": [
+            {
+              "heading": "Lovpålagte opplysninger",
+              "items": [
+                "Fakturanummer: bruk et fakturaprogram med maskinelt tildelte nummer i en kontrollerbar nummerserie som ikke enkelt kan overstyres, eller forhåndsnummererte fakturablanketter fra trykkeri.",
+                "Fakturadato (dokumentasjonsdato): datoen på fakturaen må skilles fra leveringsdato og betalingsforfall.",
+                "Selger: navn og organisasjonsnummer. Organisasjonsnummeret skal etterfølges av MVA når selger er registrert i Merverdiavgiftsregisteret. Registreringen må være godkjent før du fakturerer med MVA.",
+                "Kjøper: navn og adresse eller organisasjonsnummer. En privatkunde trenger ikke et organisasjonsnummer.",
+                "Varer eller tjenester: beskriv hva som er levert og omfanget, for eksempel antall eller hvilke arbeider avtalt pris dekker.",
+                "Levering: oppgi tidspunkt og sted for leveransen. For arbeid hos kunden kan arbeidsstedet være et annet enn fakturaadressen.",
+                "Beløp og MVA: vis pris, eventuell merverdiavgift og totalbeløp. MVA-beløpet skal angis i norske kroner. Ulike satser og ulik avgiftsbehandling må skilles tydelig.",
+                "Betalingsforfall: oppgi når betalingen forfaller. Det betyr ikke at alle fakturaer skal ha en betalingsfrist på 14 dager.",
+                "Betingede opplysninger: AS og ASA skal også oppgi Foretaksregisteret; dette gjelder også relevante NUF registrert der. Det kan gjelde ytterligere krav avhengig av virksomheten og salget."
+              ]
+            },
+            {
+              "heading": "Praktiske opplysninger",
+              "items": [
+                "Bankkonto: gjør det tydelig hvilken konto kunden skal betale til når dere bruker bankoverføring.",
+                "Betalingsreferanse: forklar gjerne at kunden skal merke betalingen med fakturanummeret. KID er ikke et universelt krav til enhver faktura.",
+                "Kontaktinformasjon: en e-postadresse eller kontaktperson gjør det enklere å avklare spørsmål om fakturaen."
+              ]
+            }
+          ],
+          "links": [
+            {
+              "href": "/faktura-eksempel",
+              "label": "Se feltene i et fakturaeksempel"
+            }
+          ]
+        },
+        {
+          "heading": "Slik gjør et fakturaprogram jobben enklere",
+          "paragraphs": [
+            "I Jobbleder kan du velge kunde og legge inn fakturalinjer med beskrivelse, enhetspris, antall og MVA. Kontroller opplysningene og summene før du lager PDF-en. Last ned filen og send den selv til kunden.",
+            "Oppretting, PDF-eksport og dokumentkonvertering er tilgjengelig i Free. Free-PDF-er har Jobbleder-vannmerke. Premium gir valg for egen firmalogo eller en ren PDF uten Jobbleder-merking."
+          ],
+          "links": [
+            {
+              "href": "/instruksjoner#opprett-faktura",
+              "label": "Slik oppretter du en faktura i Jobbleder"
+            }
+          ]
+        },
+        {
+          "heading": "Hvis du må korrigere en sendt faktura",
+          "paragraphs": [
+            "En kreditnota brukes til å korrigere en tidligere faktura og skal vise hvilken faktura den gjelder. Ikke behandle en allerede sendt faktura som et dokument du bare skriver om. Ved retting kan det være nødvendig med kreditnota og en ny, korrigert faktura."
+          ],
+          "links": [
+            {
+              "href": "/instruksjoner#rette-en-faktura",
+              "label": "Se veiledningen for å rette en faktura"
+            },
+            {
+              "href": "/instruksjoner#opprett-kreditnota",
+              "label": "Se hvordan du oppretter kreditnota"
+            }
+          ]
+        }
+      ],
+      "topic": "faktura"
+    },
+    {
+      "slug": "kontrakt-mal",
+      "topic": "kontrakt",
+      "isPillar": true,
+      "title": "Kontrakt mal – lag kontrakt gratis med Jobbleder",
+      "description": "Lag kontrakt for privatkunder og bedrifter gratis med Jobbleder. Beskriv arbeidet, avtal pris, sett opp betalingsplan og last ned kontrakten som PDF.",
+      "h1": "Kontrakt mal (gratis)",
+      "intro": "En kontraktsmal gir deg en struktur for å beskrive oppdraget. I Jobbleder fyller du inn partene, arbeidet, prisen og vilkårene før du lager et norsk PDF-dokument som må gjennomgås.",
+      "bullets": [
+        "Beskriv oppdraget med egne arbeidsrader",
+        "Velg kontraktstype for privatkunde eller bedrift",
+        "Avklar pris, materialer, betaling og datoer",
+        "Gjennomgå innhold og vilkår før eventuell signering"
+      ],
+      "ctaLabel": "Opprett en kontrakt",
+      "faqs": [
+        {
+          "q": "Hva er en kontraktsmal?",
+          "a": "En kontraktsmal er en struktur for opplysninger og vilkår som må tilpasses den konkrete avtalen. Den erstatter ikke avklaringer med kunden eller vurdering av hvilke regler som gjelder."
+        },
+        {
+          "q": "Må avtalen være skriftlig?",
+          "a": "En avtale kan være bindende uten et separat signert kontraktsdokument. Hva som gjelder, avhenger blant annet av avtaletypen og eventuelle formkrav eller forbehold. Skriftlig dokumentasjon gjør det enklere å vise hva dere har avtalt."
+        },
+        {
+          "q": "Kan jeg lage kontrakt gratis?",
+          "a": "Ja. Dokumentoppretting, PDF-eksport og dokumentkonvertering er tilgjengelig i Free. Free-PDF-er har Jobbleder-merking. Premium gir valg for å fjerne merkingen og bruke egen firmalogo."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "En mal er et utgangspunkt for avtalen",
+          "paragraphs": [
+            "Kontrakt kan bety både avtalen mellom dere og dokumentet som beskriver den. Et skriftlig dokument gjør det lettere å finne igjen omfang, pris og ansvar, men selve dokumentopprettingen er ikke kundens aksept.",
+            "Begynn med hva dere faktisk er enige om. En mal må tilpasses arbeidet og kundetypen; mer tekst er ikke nødvendigvis bedre dokumentasjon."
+          ],
+          "links": [
+            {
+              "href": "/blogg/tilbud-vs-kontrakt",
+              "label": "Les om forskjellen mellom tilbud, aksept og kontrakt"
+            }
+          ]
+        },
+        {
+          "heading": "Dokumenter hva jobben omfatter",
+          "paragraphs": [
+            "Beskriv leveransen, arbeidsstedet, materialene og det som ikke inngår. Oppgi prisgrunnlaget og avklar hva som må skje før arbeidet kan starte.",
+            "I Jobbleder kan du bruke en jobbtittel, flere arbeidsrader og en valgfri detaljbeskrivelse. Avsnitt, enkle overskrifter og lister gir plass til forklaringer i en PDF over flere sider."
+          ],
+          "links": [
+            {
+              "href": "/hva-skal-en-kontrakt-inneholde",
+              "label": "Se en praktisk sjekkliste for kontraktsinnhold"
+            }
+          ]
+        },
+        {
+          "heading": "Privatkunde og bedrift trenger riktig utgangspunkt",
+          "paragraphs": [
+            "Jobbleder foreslår kontraktstype, og du kan velge typen manuelt. Det finnes egne standardvilkår for privatkunder (B2C) og avtaler mellom virksomheter (B2B). Kontroller forslaget før du går videre.",
+            "Forbrukerregler for håndverkertjenester skal ikke uten videre brukes på avtaler mellom virksomheter. Jobbleder er heller ikke en egen kontraktsløsning for oppføring av ny bolig under bustadoppføringslova."
+          ],
+          "links": [
+            {
+              "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",
+              "label": "Les Forbrukerrådets veiledning om bruk av håndverker"
+            }
+          ]
+        },
+        {
+          "heading": "Gjennomgå dokumentet før du bruker det",
+          "paragraphs": [
+            "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov.",
+            "Kontroller at tekst, beløp, datoer og vedlegg beskriver samme avtale. Kontrakten kan redigeres og PDF-en genereres på nytt, men dette er ikke en revisjonshistorikk eller kundens godkjenning av endringer."
+          ],
+          "links": [
+            {
+              "href": "/kontrakt-eksempel",
+              "label": "Forstå strukturen i et kontraktsdokument"
+            },
+            {
+              "href": "/kontrakt-handverker",
+              "label": "Forbered en kontrakt for håndverksoppdraget"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kontrakt-handverker",
+      "topic": "kontrakt",
+      "title": "Kontrakt for håndverkere – omfang, pris og vilkår",
+      "description": "Forbered kontrakt for maler-, snekker-, gulv- og oppussingsarbeid. Avklar omfang, materialer, pris og tidsplan for privatkunder eller bedrifter.",
+      "h1": "Kontrakt for håndverkere",
+      "intro": "En praktisk kontrakt begynner med en presis beskrivelse av jobben. Avklar leveransen med kunden før du fyller ut dokumentet, enten du maler, legger gulv, flislegger eller utfører snekker- og oppussingsarbeid.",
+      "bullets": [
+        "Beskriv både arbeidet og det som ikke er med",
+        "Fordel materialansvar og forberedelser",
+        "Avklar pris, betalingsvilkår og tidsplan",
+        "Velg riktig utgangspunkt for privatkunde eller bedrift"
+      ],
+      "ctaLabel": "Opprett en kontrakt",
+      "faqs": [
+        {
+          "q": "Når er et eget kontraktsdokument nyttig?",
+          "a": "Særlig når jobben går over tid, omfatter flere leveranser eller krever tydelige avklaringer om materialer, pris og endringer. Dokumentasjon er nyttig også ved mindre oppdrag; størrelsen alene avgjør ikke hvilke regler som gjelder."
+        },
+        {
+          "q": "Kan jeg bruke samme vilkår for privatkunder og bedrifter?",
+          "a": "Ikke uten å vurdere avtaleforholdet. Jobbleder har separate B2C- og B2B-standardvilkår, men de avventer uavhengig juridisk gjennomgang. Kontroller kundetypen og få juridisk hjelp ved behov."
+        },
+        {
+          "q": "Kan jeg bruke et eksisterende tilbud?",
+          "a": "Ja. Du kan opprette kontrakt fra et tilbud i Jobbleder og redigere kontrakten selvstendig. Kontroller at tilbudet og eventuelle senere avklaringer er riktig gjengitt; konverteringen er ikke kundens aksept."
+        },
+        {
+          "q": "Sender Jobbleder kontrakten til kunden?",
+          "a": "Du genererer og laster ned PDF-en og deler den selv. Gjennomgå dokumentet før eventuell signering. Jobbleder har ikke elektronisk signering eller en digital godkjenningsflyt."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Start med leveransen, ikke standardteksten",
+          "paragraphs": [
+            "For en malerjobb kan du beskrive hvilke rom og flater som skal behandles, nødvendig grunnarbeid og hvilken overflate dere har avtalt. For en snekkerjobb bør det være tydelig hva som skal bygges eller monteres.",
+            "Et tenkt gulvoppdrag kan beskrives slik: «Legging av parkett i stuen. Kunden leverer parketten og tømmer rommet. Fjerning av gammelt gulv og utbedring av underlaget er ikke inkludert.» Dette er et eksempel på omfang, ikke en ferdig avtaletekst."
+          ]
+        },
+        {
+          "heading": "Fordel materialer, metoder og forberedelser",
+          "paragraphs": [
+            "Avklar hvem som bestiller og leverer materialene, hvordan arbeidsstedet skal være klargjort, og hvilke utførelsesmetoder som er avtalt. Ved flislegging kan underlag, flistype og nødvendige avklaringer før oppstart være viktige.",
+            "Bruk flere arbeidsrader for adskilte oppgaver. En detaljbeskrivelse kan forklare forutsetninger og avgrensninger som ikke får plass i en kort linje. Arbeidsbeskrivelsesordboken i Jobbleder er et hjelpemiddel; kontroller at teksten passer din jobb."
+          ]
+        },
+        {
+          "heading": "Avklar pris og betaling før oppstart",
+          "paragraphs": [
+            "Velg fastpris, timepris eller et eksisterende tilbud som prisgrunnlag. Vær tydelig på om beløpene er inkludert eller ekskludert MVA, og hva prisen omfatter.",
+            "En fremdriftsbasert betalingsplan kan beskrive prosentvise delbetalinger. Forklar hva som utløser hver betaling og hvilken betalingsfrist dere avtaler. Planen er ikke automatisk fakturering, og betalingsvalg i programmet avgjør ikke når det er lov å fakturere."
+          ]
+        },
+        {
+          "heading": "Skill et anslag fra en avtalt frist",
+          "paragraphs": [
+            "Oppgi planlagt oppstart og skill estimert ferdigstillelse fra en avtalt kontraktsfrist. Beskriv forutsetninger som tilgang, kundens leveranser eller avklaringer som må være på plass.",
+            "Avklar hvordan dere skal håndtere tilleggsarbeid, endret pris og påvirkning på tidsplanen. Ikke la en ny arbeidsoppgave bli stående uten en avklaring fordi resten av kontrakten allerede er laget."
+          ]
+        },
+        {
+          "heading": "Privatkunde eller bedriftskunde?",
+          "paragraphs": [
+            "Kontroller hvem som er avtalepart og hva oppdraget gjelder. Forbrukerrådet har veiledning om håndverkertjenester for privatkunder; den skal ikke uten videre overføres til B2B-avtaler.",
+            "Jobbleder foreslår kontraktstype og lar deg velge manuelt mellom B2C og B2B. Separate standardvilkår er et utgangspunkt, ikke en juridisk vurdering av oppdraget. Løsningen er ikke tilrettelagt som en egen kontrakt for oppføring av ny bolig."
+          ],
+          "links": [
+            {
+              "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",
+              "label": "Les råd for håndverksarbeid hos privatkunder"
+            },
+            {
+              "href": "/blogg/nar-trenger-du-kontrakt",
+              "label": "Les når et eget kontraktsdokument er særlig nyttig"
+            }
+          ]
+        },
+        {
+          "heading": "Lag dokumentet og kontroller resultatet",
+          "paragraphs": [
+            "Velg kunde og eventuelt prosjekt i Jobbleder. Fyll inn jobbtittel, arbeidsrader, datoer og vilkår. Du kan starte selv eller bygge videre på et tilbud. Gjennomgå deretter PDF-en, også sidebryting og sammenhengen mellom tekst og beløp.",
+            "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov.",
+            "Etter gjennomgangen deler du dokumentet selv og ordner eventuell signering utenfor appen. Senere kan kontrakten brukes som fakturagrunnlag: du starter konverteringen og kontrollerer den nye fakturaen før du sender den manuelt."
+          ],
+          "links": [
+            {
+              "href": "/instruksjoner#opprett-kontrakt",
+              "label": "Følg trinnene for å opprette kontrakt"
+            },
+            {
+              "href": "/instruksjoner#lag-kontrakt-fra-tilbud",
+              "label": "Bruk tilbud som kontraktsgrunnlag"
+            },
+            {
+              "href": "/instruksjoner#kontrakt-til-faktura",
+              "label": "Se hvordan kontrakten blir fakturagrunnlag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kontrakt-eksempel",
+      "topic": "kontrakt",
+      "title": "Kontrakt eksempel – se hvordan en kontrakt bygges opp",
+      "description": "Se hvordan et kontraktsdokument kan bygges opp med parter, arbeid, pris, tidsplan og vilkår. En pedagogisk gjennomgang, ikke en juridisk godkjent mal.",
+      "h1": "Kontrakt eksempel",
+      "intro": "Her går vi gjennom hvordan et utfylt kontraktsdokument kan bygges opp. Punktene forklarer hva du bør se etter, men er ikke en ferdig avtale som kan signeres. Oppdaterte B2C- og B2B-dokumenteksempler fra Jobbleder er foreløpig ikke publisert her.",
+      "bullets": [
+        "Forstå forskjellen mellom partene, leveransen og vilkårene",
+        "Se hvordan beskrivelser og betaling kan gjøres tydeligere",
+        "Skill pedagogiske eksempler fra juridisk gjennomgåtte maler",
+        "Bruk gjennomgangen til å kontrollere ditt eget dokument"
+      ],
+      "ctaLabel": "Prøv Jobbleder",
+      "faqs": [
+        {
+          "q": "Er dette en ferdig kontraktsmal til signering?",
+          "a": "Nei. Dette er en pedagogisk gjennomgang av dokumentets oppbygning. Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang, og dokumenter må vurderes for det konkrete oppdraget."
+        },
+        {
+          "q": "Hvor finner jeg et eksempel på en kontrakts-PDF?",
+          "a": "Oppdaterte eksempler for privatkunde og bedrift er ikke publisert på denne siden ennå. Eldre produktbilder andre steder på nettstedet er ikke dokumentasjon på dagens B2C- og B2B-vilkår."
+        },
+        {
+          "q": "Er B2C- og B2B-eksempler utbyttbare?",
+          "a": "Nei. Kundetype, oppdrag og regelverk kan være forskjellige. Et eksempel kan forklare strukturen uten at vilkårene passer en annen avtale."
+        },
+        {
+          "q": "Kan Jobbleder lage en kontrakt over flere sider?",
+          "a": "Ja. Jobbleder støtter flere arbeidsrader, valgfrie detaljbeskrivelser med avsnitt og enkel formatering, og PDF-er over flere sider. Du må kontrollere det ferdige dokumentet."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Partene i avtalen",
+          "paragraphs": [
+            "Dokumentet bør gjøre det klart hvem som bestiller, og hvem som utfører arbeidet. Kontroller navn og kontaktopplysninger, og relevante firmaopplysninger når en part er en virksomhet.",
+            "I Jobbleder velger du kontraktstype for privatkunde eller bedrift. Et automatisk forslag må kontrolleres; det erstatter ikke vurderingen av hvem som faktisk inngår avtalen."
+          ]
+        },
+        {
+          "heading": "2. Arbeidsbeskrivelse",
+          "paragraphs": [
+            "En jobbtittel gir oversikt, mens arbeidsrader og en detaljert beskrivelse forklarer leveransen. I et tenkt parkettoppdrag bør det for eksempel stå hvilke rom jobben gjelder og om klargjøring eller riving inngår.",
+            "I Jobbleder kan beskrivelsen ha avsnitt, enkle overskrifter og lister i PDF-en. Det gjør lange forklaringer lettere å lese, men innholdet må fortsatt være presist."
+          ]
+        },
+        {
+          "heading": "3. Tidsperiode",
+          "paragraphs": [
+            "Skill planlagt oppstart og estimert ferdigstillelse fra en konkret avtalt frist. Beskriv eventuelle forutsetninger, som tilgang til arbeidsstedet eller materiallevering.",
+            "En forventet dato skal ikke uten videre leses som en annen type forpliktelse enn det partene har avtalt."
+          ]
+        },
+        {
+          "heading": "4. Pris og betaling",
+          "paragraphs": [
+            "Vis om grunnlaget er fastpris, timepris eller et bestemt tilbud, og gjør det tydelig om prisene inkluderer MVA. Kontroller referanser, beløp og betalingsfrist.",
+            "En betalingsplan kan fordele betalingen på prosenter og beskrive hva hver del gjelder. Dette er avtalte vilkår, ikke en plan som automatisk oppretter eller sender fakturaer."
+          ]
+        },
+        {
+          "heading": "5. Materialer og partenes plikter",
+          "paragraphs": [
+            "Beskriv hvem som leverer materialer og hvem som skal gjøre nødvendige forberedelser. Avklar også praktiske forhold som tilgang, rydding og kundens egne leveranser.",
+            "I eksemplet med parkett bør «kunden leverer parketten» skilles fra hvem som skal levere underlag, lister eller annet tilbehør."
+          ]
+        },
+        {
+          "heading": "6. Endringer og tilleggsarbeid",
+          "paragraphs": [
+            "Forklar hvordan nye ønsker skal avklares og dokumenteres, inkludert pris og virkning på fremdriften. Arbeid som ikke er med i den opprinnelige beskrivelsen, bør være lett å identifisere.",
+            "At du redigerer kontrakten og lager en ny PDF, betyr ikke at kunden har akseptert de nye vilkårene."
+          ]
+        },
+        {
+          "heading": "7. Forsinkelse og ferdigstillelse",
+          "paragraphs": [
+            "Dokumentet bør gjøre forventninger og avtalte frister forståelige. Beskriv hvordan partene skal varsle om forhold som kan påvirke gjennomføringen.",
+            "Hvilke konsekvenser en forsinkelse får, avhenger av avtalen og reglene for oppdraget. Gjennomgangen her fastsetter ikke dagbøter eller andre rettigheter."
+          ]
+        },
+        {
+          "heading": "8. Mangler og reklamasjon",
+          "paragraphs": [
+            "Les reklamasjonsteksten i lys av kundetypen og oppdraget. Forbrukerrådets veiledning gjelder forbrukerforhold og skal ikke brukes som en generell regel for bedriftsavtaler.",
+            "En avtalt B2B-reklamasjonsperiode på 24 måneder er ikke en universell lovbestemt frist. Få den konkrete formuleringen vurdert før du bruker den."
+          ],
+          "links": [
+            {
+              "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/misfornoyd-med-handverkeren/",
+              "label": "Les Forbrukerrådets informasjon om mangler ved håndverksarbeid"
+            }
+          ]
+        },
+        {
+          "heading": "9. Avbestilling og opphør",
+          "paragraphs": [
+            "Se etter hvordan avbestilling eller avslutning av oppdraget er omtalt, og hva som er sagt om arbeid som allerede er utført.",
+            "Ikke anta at avbestilling, angrerett og heving betyr det samme. Hva partene kan kreve, må vurderes for den aktuelle avtalen; eksemplet gir ingen generell rett til kostnadsfri avbestilling."
+          ]
+        },
+        {
+          "heading": "10. Lovgrunnlag og tvister",
+          "paragraphs": [
+            "Kontroller at lovhenvisninger og eventuelle vilkår om tvisteløsning passer avtaleforholdet. Håndverkertjenesteloven skal ikke automatisk legges til grunn for avtaler mellom virksomheter.",
+            "Jobbleder foreslår kontraktstype, men gir verken juridisk rådgivning, automatisk kontroll av lovkrav eller automatisk innarbeiding av Norsk Standard. Løsningen er ikke en egen nyboligkontrakt."
+          ]
+        },
+        {
+          "heading": "11. Signaturer og siste gjennomgang",
+          "paragraphs": [
+            "Sammenlign dokumentet med det dere faktisk har avtalt. Kontroller alle sider og eventuelle vedlegg, og avklar uenighet før eventuell signering. Jobbleder har ikke elektronisk signering.",
+            "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov."
+          ],
+          "links": [
+            {
+              "href": "/kontrakt-handverker",
+              "label": "Se hvordan du forbereder et håndverksoppdrag"
+            },
+            {
+              "href": "/kontrakt-mal",
+              "label": "Utforsk kontraktsverktøyet og hva du kan fylle inn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "hva-skal-en-kontrakt-inneholde",
+      "topic": "kontrakt",
+      "title": "Hva skal en kontrakt inneholde? Praktisk sjekkliste",
+      "description": "En praktisk gjennomgang av parter, arbeid, pris, betaling, tidsplan og endringer i en tjenestekontrakt. Skill anbefalinger fra lovkrav.",
+      "h1": "Hva skal en kontrakt inneholde?",
+      "intro": "En godt forberedt tjenestekontrakt bør gjøre leveransen og ansvaret forståelig for begge parter. Listen nedenfor er praktiske anbefalinger, ikke en uttømmende oversikt over obligatoriske lovkrav.",
+      "bullets": [
+        "Identifiser partene og oppdraget",
+        "Beskriv leveransen og avgrensningene",
+        "Avklar pris, betaling og tidsplan",
+        "Vurder vilkårene ut fra kundetype og arbeid"
+      ],
+      "ctaLabel": "Se hvordan Jobbleder fungerer",
+      "faqs": [
+        {
+          "q": "Er alle punktene lovpålagte?",
+          "a": "Nei. Dette er en praktisk sjekkliste. Obligatoriske opplysninger og ufravikelige regler må vurderes ut fra avtaleforholdet og arbeidet. Listen er ikke en garanti for at dokumentet dekker alle krav."
+        },
+        {
+          "q": "Må kunden signere før en avtale kan være bindende?",
+          "a": "Ikke nødvendigvis. En avtale kan være inngått uten et separat signert dokument, men særregler og forbehold kan ha betydning. Skill spørsmålet om binding fra nytten av å dokumentere det dere er enige om."
+        },
+        {
+          "q": "Gjelder håndverkertjenesteloven for alle kontrakter?",
+          "a": "Nei. Forbrukerregler om håndverkertjenester skal ikke automatisk brukes på B2B-avtaler eller alle typer byggearbeid. Kontroller reglene for det konkrete oppdraget og få juridisk hjelp ved behov."
+        },
+        {
+          "q": "Kan en mal erstatte juridisk rådgivning?",
+          "a": "Nei. En mal hjelper deg å strukturere dokumentet, men avgjør ikke hvilke vilkår som passer avtalen. Jobbleders standardvilkår avventer uavhengig juridisk gjennomgang."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Hvem inngår avtalen, og hva skal leveres?",
+          "paragraphs": [
+            "Start med partene, arbeidsstedet og en beskrivelse av oppdraget. Ta med avgrensninger: hvilke rom, flater eller leveranser gjelder arbeidet, og hva er uttrykkelig ikke inkludert?",
+            "Et generelt ord som «oppussing» sier lite om hvem som skal rive, klargjøre eller rydde. En konkret beskrivelse gjør det lettere å kontrollere at begge har forstått samme leveranse."
+          ]
+        },
+        {
+          "heading": "Hvordan fordeles ansvar og materialer?",
+          "paragraphs": [
+            "Avklar hvem som bestiller og leverer materialer, hvilke forberedelser kunden skal gjøre, og hvilke forutsetninger utførelsen bygger på. Beskriv avtalte metoder eller kvaliteter når de er viktige for resultatet.",
+            "Ved en sammensatt jobb kan flere arbeidsrader og en detaljbeskrivelse skille oppgavene. I Jobbleder kan beskrivelsen også inneholde avsnitt, overskrifter og lister i PDF-en."
+          ]
+        },
+        {
+          "heading": "Hva er avtalt om pris og betaling?",
+          "paragraphs": [
+            "Skill mellom fastpris, timepris og prisgrunnlag fra et tilbud. Angi hva beløpene gjelder og hvordan MVA er presentert. Ikke legg til grunn at et bestemt prosentpåslag eller en prisoverslagsregel gjelder for alle avtaler.",
+            "Beskriv betalingsfrist og eventuell fremdriftsbasert plan med prosentvise delbetalinger. Avklar hva hver del gjelder. En slik plan avgjør ikke alene når det er adgang til å utstede faktura."
+          ]
+        },
+        {
+          "heading": "Når skal arbeidet utføres?",
+          "paragraphs": [
+            "Oppgi planlagt oppstart og skill en estimert ferdigstillelsesdato fra en avtalt frist. Forklar avhengigheter som materialleveranser, kundens avklaringer eller tilgang til arbeidsstedet.",
+            "Avklar hvordan endringer og forsinkelser skal kommuniseres. Unngå at en forventet dato og en bindende kontraktsfrist brukes om hverandre."
+          ]
+        },
+        {
+          "heading": "Hvordan håndteres endringer og avslutning?",
+          "paragraphs": [
+            "Beskriv hvordan tilleggsarbeid, pris og endret fremdrift skal avklares. Ta vare på dokumentasjonen av det partene blir enige om. En oppdatert PDF er ikke i seg selv den andre partens godkjenning.",
+            "Vilkår om mangler, reklamasjon, avbestilling, opphør og tvister må passe avtaleforholdet. Ikke kopier bestemte frister eller sanksjoner fra en annen type kontrakt uten å få dem vurdert."
+          ]
+        },
+        {
+          "heading": "Privatkunde og bedriftskunde er forskjellige utgangspunkt",
+          "paragraphs": [
+            "Forbrukerrådet anbefaler skriftlig kontrakt ved bruk av håndverker. Rådene om blant annet oppdrag, betaling og ansvar er nyttige ved forberedelsen, men dette er noe annet enn en fullstendig juridisk vurdering.",
+            "Forbrukerregler kan ikke uten videre overføres til B2B. En avtalt reklamasjonsperiode på 24 måneder mellom virksomheter må ikke presenteres som en generell lovbestemt frist. Oppføring av ny bolig krever en egen vurdering; Jobbleder er ikke en dedikert nyboligkontraktsløsning."
+          ],
+          "links": [
+            {
+              "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/sjekkliste-handverker/",
+              "label": "Les Forbrukerrådets sjekkliste for håndverksoppdrag"
+            },
+            {
+              "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/misfornoyd-med-handverkeren/",
+              "label": "Se informasjon om reklamasjon i forbrukerforhold"
+            }
+          ]
+        },
+        {
+          "heading": "Kontroller hele dokumentet før bruk",
+          "paragraphs": [
+            "Se gjennom parter, beskrivelser, beløp, datoer, vilkår og vedlegg samlet. Dette er særlig viktig når opplysninger er hentet fra et tilbud eller kontrakten er redigert etter en tidligere PDF.",
+            "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov."
+          ],
+          "links": [
+            {
+              "href": "/kontrakt-eksempel",
+              "label": "Forstå oppbygningen av et kontraktsdokument"
+            },
+            {
+              "href": "/kontrakt-handverker",
+              "label": "Bruk sjekklisten i et praktisk håndverksoppdrag"
+            },
+            {
+              "href": "/kontrakt-mal",
+              "label": "Se hvordan Jobbleder strukturerer kontraktsopplysningene"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": 9,
+      "title": "Timeliste mal (PDF) – gratis nedlasting uten innlogging",
+      "slug": "gratis-timeliste-mal",
+      "summary": "Last ned gratis timeliste mal PDF uten innlogging. Velg mellom tom mal eller siste uke – og oppdag når digital timeliste kan være et bedre valg.",
+      "category": "Timeliste",
+      "tags": [
+        "timeliste mal",
+        "timeliste mal pdf",
+        "gratis",
+        "timeregistrering",
+        "håndverker"
+      ],
+      "createdAt": "2025-07-23",
+      "seoTitle": "Gratis timeliste mal (PDF) – last ned uten innlogging",
+      "seoDescription": "Last ned gratis timeliste mal PDF uten innlogging. Velg mellom tom timeliste og ferdig datert timeliste for siste uke.",
+      "relatedTopic": "timeliste",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trenger du en enkel timeliste mal du kan bruke med én gang? Her kan du laste ned en gratis timeliste mal som PDF – helt uten innlogging. Dette passer godt for håndverkere, selvstendig næringsdrivende, frilansere og små bedrifter som vil føre timer raskt og enkelt."
+        },
+        {
+          "type": "heading",
+          "text": "Last ned timeliste mal PDF gratis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Du kan velge mellom to praktiske varianter:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tom timeliste-mal (PDF) – blank mal for manuell utfylling",
+            "Timeliste for siste uke (PDF) – datoene er ferdig fylt inn"
+          ]
+        },
+        {
+          "type": "link",
+          "href": "/downloads/timeliste-mal-jobbleder.pdf",
+          "label": "Last ned tom timeliste-mal (PDF)"
+        },
+        {
+          "type": "link",
+          "href": "https://laskowskicreative.no/api/jobbleder/user/documents/oneweek-timelist",
+          "label": "Last ned timeliste for siste uke (PDF)"
+        },
+        {
+          "type": "timelistContents",
+          "heading": "Hva inneholder en god timeliste?",
+          "text": "En god timeliste bør gjøre det enkelt å dokumentere arbeidstid tydelig. Den bør minst inneholde dato, arbeidstid, pauser, arbeidsbeskrivelse og total antall timer.",
+          "items": [
+            "Navn, prosjekt, uke og år",
+            "Dato",
+            "Inn og ut",
+            "Pause",
+            "Timer",
+            "Arbeidsbeskrivelse",
+            "Totalt antall timer"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Slik bruker du timeliste-malen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Last ned PDF-en",
+            "Fyll inn timer og arbeidsbeskrivelse hver dag",
+            "Summer total tid",
+            "Send til kunde eller bruk som dokumentasjon ved fakturering"
+          ]
+        },
+        {
+          "type": "timelistComparison"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Gratis fakturaprogram for håndverkere – her er et enkelt alternativ",
+      "slug": "gratis-fakturaprogram-handverkere",
+      "summary": "Ser du etter et gratis fakturaprogram for håndverkere? Her er et enkelt alternativ for deg som vil lage faktura raskt uten kompliserte systemer.",
+      "category": "Faktura",
+      "tags": [
+        "gratis",
+        "faktura",
+        "håndverker",
+        "webapp",
+        "logo"
+      ],
+      "createdAt": "2025-04-22",
+      "seoTitle": "Gratis fakturaprogram for håndverkere – enkelt og nettbasert",
+      "seoDescription": "Opprett faktura raskt med et gratis fakturaprogram for håndverkere. Enkel løsning direkte i nettleseren.",
+      "relatedTopic": "faktura",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Som håndverker er tiden din verdifull. Du bruker den best på å gjøre jobben – ikke på tungvint papirarbeid. Derfor er det viktig med et fakturaprogram som gjør fakturering rask og oversiktlig, uten at det trenger å koste mye eller kreve komplisert oppsett."
+        },
+        {
+          "type": "heading",
+          "text": "Hva betyr egentlig gratis fakturaprogram?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mange løsninger markedsføres som gratis, men har ofte begrensninger som gjør dem lite praktiske i hverdagen."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Begrenset antall fakturaer per måned",
+            "Mangler lagring eller historikk",
+            "Krever oppgradering for viktige funksjoner"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Et enklere alternativ for håndverkere"
+        },
+        {
+          "type": "paragraph",
+          "text": "Med Jobbleder kan du lage faktura direkte i nettleseren. Løsningen er laget for små bedrifter og håndverkere som trenger et enkelt system for faktura, tilbud og timelister samlet på ett sted."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lag faktura raskt",
+            "Hold orden på kunder og prosjekter",
+            "Last ned PDF når dokumentet er klart",
+            "Bruk samme system for tilbud og timeliste"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor velge en nettbasert løsning?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Når fakturaprogrammet fungerer i nettleseren, slipper du installasjon og kan jobbe både fra PC og mobil. Det gjør det enklere å holde oversikt også når du er ute på oppdrag."
+        },
+        {
+          "type": "link",
+          "href": "/fakturaprogram-gratis",
+          "label": "Les mer om vårt gratis fakturaprogram"
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-eksempel",
+          "label": "Se et utfylt fakturaeksempel og forklaringen av feltene"
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-krav",
+          "label": "Skill mellom fakturakrav, betingede opplysninger og praktiske tillegg"
+        },
+        {
+          "type": "cta",
+          "text": "Vil du komme i gang raskt? Opprett faktura gratis i Jobbleder."
+        },
+        {
+          "type": "link",
+          "href": "https://app.jobbleder.no",
+          "label": "Start gratis"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Hvordan lage et profesjonelt tilbud i byggebransjen",
+      "slug": "lage-tilbud-byggebransjen",
+      "summary": "Lær hvordan du lager et profesjonelt tilbud i byggebransjen og hva som bør være med for å gi kunden et godt førsteinntrykk.",
+      "category": "Tilbud",
+      "tags": [
+        "tilbud",
+        "byggebransjen",
+        "kunde",
+        "pristilbud",
+        "PDF"
+      ],
+      "createdAt": "2025-04-20",
+      "seoTitle": "Hvordan lage et profesjonelt tilbud i byggebransjen",
+      "seoDescription": "Slik lager du et tydelig og profesjonelt tilbud i byggebransjen. Lær hva som bør være med og hvordan du gjør det enklere digitalt.",
+      "relatedTopic": "tilbud",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Et tilbud på en byggejobb bør gjøre det mulig å se hva som faktisk skal leveres på arbeidsstedet. For et gulvoppdrag er «legging av parkett» et nyttig utgangspunkt, men ofte for lite til å avklare materialer, underlag, avfall og tilgang til boligen."
+        },
+        {
+          "type": "heading",
+          "text": "Beskriv rommet og mengdene du har vurdert"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ta utgangspunkt i befaringen: hvilke rom gjelder arbeidet, hvilke mål har dere lagt til grunn, og skal det gjøres arbeid ved terskler, dører eller faste innredninger? Skill mellom målte størrelser og mengder som fortsatt må kontrolleres. Forklar enheten bak prisen, slik at kunden forstår om den gjelder en samlet jobb, et areal eller medgått tid."
+        },
+        {
+          "type": "heading",
+          "text": "Avklar materialvalg og klargjøring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skriv hvem som kjøper parkett, underlag og lister, og avklar aktuelle produktvalg. Hvis kunden leverer materialene, bør dere være enige om hva som skal være på plass før oppstart. Unngå en generell formulering om «materialer» når valg av type eller kvalitet kan påvirke oppdraget."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skill selve leggingen fra riving, flytting av møbler, fjerning av limrester og utbedring av undergulvet. Beskriv også hvem som pakker, bærer ut og leverer avfallet. Hvis en oppgave ikke er med, bør kunden kunne finne dette uten å måtte tolke en kort samlebeskrivelse."
+        },
+        {
+          "type": "heading",
+          "text": "Tilgang og tidsplan er en del av forberedelsen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avklar parkering, adkomst, arbeidstid, tilgang til strøm og hvor materialene kan lagres. Slike forhold kan påvirke både tidsbruk og rekkefølge. Skill ønsket oppstart fra en bekreftet dato, og forklar hvilke forutsetninger tidsplanen bygger på, for eksempel at rommet er tømt og materialene levert."
+        },
+        {
+          "type": "heading",
+          "text": "Hva viser Tilbud 29, og hva må avklares i tillegg?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Det autentiske Tilbud 29 viser én linje for legging av parkett, antall 1, enhetspris 12 000 kroner før MVA og total 15 000 kroner med eksemplets 25 prosent MVA. Det viser ikke areal, produktvalg, materialansvar, avfallsarbeid eller planlagt byggestart. Disse detaljene kan derfor ikke leses inn i eksemplet."
+        },
+        {
+          "type": "paragraph",
+          "text": "For ditt eget gulvoppdrag kan det være nyttig å avklare nettopp disse forholdene. Rådene her beskriver hva dere bør vurdere, ikke vilkår som allerede står i demonstrasjonsdokumentet eller en universell liste over lovkrav."
+        },
+        {
+          "type": "textLink",
+          "href": "/tilbud-eksempel",
+          "label": "Se hele Tilbud 29 og hvilke opplysninger dokumentet faktisk inneholder"
+        },
+        {
+          "type": "heading",
+          "text": "Bevar kundens valg og endringer underveis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hvis kunden ønsker en annen parkett eller det avdekkes behov for mer underlagsarbeid, avklar hva endringen betyr for leveransen, prisen og tidsplanen. Ta vare på beskrivelse, dato og kundens svar sammen med den versjonen av tilbudet dere arbeider ut fra. Ikke behandle ekstraarbeid som om det var inkludert eller godkjent uten at dette er avklart."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbrukerrådet anbefaler tydelig oppdragsbeskrivelse og skriftlig dokumentasjon ved håndverkeroppdrag for privatkunder. Råd om god dokumentasjon er nyttige også ellers, men forbrukerregler og avtaler mellom virksomheter må vurderes hver for seg."
+        },
+        {
+          "type": "heading",
+          "text": "Fra avklart oppdrag til tilbud i Jobbleder"
+        },
+        {
+          "type": "paragraph",
+          "text": "Når arbeidsomfanget er avklart, kan du bruke Jobbleder til å opprette tilbudet med kunde, prosjekt og prislinjer. Gjennomgå PDF-en før du deler den manuelt med kunden. Selve avklaringene og kundens valg må du fortsatt ta vare på; det å opprette dokumentet er ikke kundens aksept."
+        },
+        {
+          "type": "textLink",
+          "href": "/lage-tilbud",
+          "label": "Følg den praktiske veiledningen når du skal fylle ut tilbudet"
+        },
+        {
+          "type": "textLink",
+          "href": "/tilbud-mal",
+          "label": "Se tilbudsverktøyet og mulighetene for videre dokumentarbeid"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Hva skal en faktura inneholde?",
+      "slug": "innhold-i-faktura",
+      "summary": "Lær hva en faktura bør inneholde, og hvordan du lager et ryddig dokument som er lett for kunden å forstå.",
+      "category": "Faktura",
+      "tags": [
+        "faktura",
+        "MVA",
+        "skatt",
+        "betaling",
+        "krav"
+      ],
+      "createdAt": "2025-04-23",
+      "seoTitle": "Hva skal en faktura inneholde? En enkel oversikt",
+      "seoDescription": "Se hva en faktura bør inneholde, og hvordan du lager en tydelig og profesjonell faktura for kunder i Norge.",
+      "relatedTopic": "faktura",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En faktura skal gjøre det mulig å forstå hva som er levert og hva kunden skal betale. Det hjelper å lese feltene som svar på tre spørsmål: Hvem gjelder salget, hva er levert, og hvordan er beløpet satt sammen?"
+        },
+        {
+          "type": "heading",
+          "text": "Dette bør en faktura inneholde"
+        },
+        {
+          "type": "paragraph",
+          "text": "Start med partene og selve leveransen. Bruk riktige kundeopplysninger, selgers navn og organisasjonsnummer, en beskrivelse av arbeidet og hvilket omfang prisen gjelder. Oppgi også leveringsopplysningene. MVA-merking og andre betingede opplysninger avhenger av virksomheten og salget."
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-krav",
+          "label": "Se oversikten over lovpålagte og praktiske fakturaopplysninger"
+        },
+        {
+          "type": "heading",
+          "text": "Tre datoer med ulike oppgaver"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Fakturadato (dokumentasjonsdato) er datoen på fakturaen. Det er et annet felt enn datoen for leveransen.",
+            "Leveringsdato forteller når varen eller tjenesten ble levert. Ved arbeid over en periode må beskrivelsen av leveransen være tydelig.",
+            "Betalingsforfall forteller når kunden skal betale. Ikke velg en frist bare fordi den står i et annet eksempel; bruk vilkårene som gjelder for salget."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Slik leser du pris og MVA"
+        },
+        {
+          "type": "paragraph",
+          "text": "I Jobbleders Faktura 110 gjelder én linje legging av parkett. Antall 1 til enhetspris 12 000 kroner gir 12 000 kroner før MVA. Eksemplets MVA-sats er 25 prosent: 3 000 kroner i avgift og 15 000 kroner totalt. Satsen må passe det faktiske salget; eksemplet betyr ikke at alle tjenester skal faktureres med 25 prosent."
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-eksempel",
+          "label": "Åpne fakturaeksemplet og se feltene i sammenheng"
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor er dette viktig?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Når arbeidsbeskrivelse, omfang og beløp henger sammen, kan kunden kontrollere fakturaen mot det dere har avtalt. En generell tekst som bare sier «arbeid» gir mindre hjelp enn en beskrivelse av oppgaven prisen dekker."
+        },
+        {
+          "type": "heading",
+          "text": "Slik gjør du fakturaen mer profesjonell"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bruk en konkret beskrivelse av arbeidet og en tydelig oppstilling av prisene.",
+            "Skill betalingsforfall fra praktiske betalingsopplysninger som bankkonto og betalingsreferanse.",
+            "Oppgi en kontaktmåte kunden kan bruke ved spørsmål.",
+            "Kontroller navn, datoer og summer før du genererer dokumentet."
+          ]
+        },
+        {
+          "type": "textLink",
+          "href": "https://www.skatteetaten.no/rettskilder/type/handboker/merverdiavgiftshandboken/gjeldende/M-15/M-15-10/M-15-10.2/",
+          "label": "Skatteetaten: krav til innhold og angivelse av partene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jobbleder lar deg opprette faktura og eksportere PDF i Free. PDF-en har Jobbleder-vannmerke; Premium gir andre valg for firmalogo og PDF-profil. Du kontrollerer og laster ned fakturaen, og sender den selv til kunden."
+        },
+        {
+          "type": "link",
+          "href": "https://app.jobbleder.no",
+          "label": "Opprett faktura gratis"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Topp 5 feil å unngå når du sender tilbud",
+      "slug": "feil-med-tilbud",
+      "summary": "Små feil i tilbudet kan koste deg jobben. Her er fem vanlige feil – og hvordan du kan unngå dem.",
+      "category": "Tilbud",
+      "tags": [
+        "feil",
+        "tilbud",
+        "kunde",
+        "forbedring",
+        "oppsett"
+      ],
+      "createdAt": "2025-04-24",
+      "seoTitle": "Topp 5 feil å unngå når du sender tilbud",
+      "seoDescription": "Her er de vanligste feilene i tilbudsdokumenter – og hva du kan gjøre for å sende tydeligere og mer profesjonelle tilbud.",
+      "relatedTopic": "tilbud",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Bruk en kort gjennomgang før du deler tilbudet. Målet er å oppdage hva kunden kan misforstå, og rette det med en konkret opplysning eller avklaring. En manglende detalj betyr ikke automatisk at et tilbud er juridisk ugyldig."
+        },
+        {
+          "type": "heading",
+          "text": "1. Arbeidet er beskrevet for vagt"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Gulvarbeid» sier lite om hvilke rom og oppgaver som inngår. Kunden kan forstå det som både riving og legging, mens du bare har priset leggingen. Uuttalte forutsetninger om et klart underlag gjør forskjellen enda større."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbedring: beskriv arbeidet og de viktige forutsetningene med konkrete ord. Avklar hvilke rom oppdraget gjelder, hva som skal være klargjort, og hvilke oppgaver som holdes utenfor."
+        },
+        {
+          "type": "heading",
+          "text": "2. Prisgrunnlaget og mengdene er uklare"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et beløp uten forklaring kan oppfattes som fastpris selv om du har ment et anslag eller betaling etter tid. En linje med antall 1 sier heller ikke om prisen gjelder én jobb, én time eller én kvadratmeter. Da blir det vanskelig å forstå regnestykket."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbedring: skriv hvilket prisgrunnlag dere bruker, forklar mengdene og kontroller sammenhengen mellom antall, enhetspris, aktuell MVA og total. Ikke la kunden gjette hva tallet gjelder."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/tilbud-eller-pristilbud",
+          "label": "Les om forskjellen mellom fastpris, prisoverslag og timepris"
+        },
+        {
+          "type": "heading",
+          "text": "3. Materialansvar og utelatte oppgaver er ikke avklart"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hvis det ikke står hvem som skaffer parketten eller håndterer avfallet, kan begge parter tro at den andre ordner det. Det samme gjelder flytting av møbler, lister og utbedring av undergulv."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbedring: avklar ansvar for materialvalg, levering, klargjøring og bortkjøring. Gjør det synlig hva som er inkludert og hva som eventuelt må avtales separat. Bevar kundens svar sammen med tilbudsgrunnlaget."
+        },
+        {
+          "type": "heading",
+          "text": "4. Tilbudets gyldighet kan forveksles med arbeidsdatoene"
+        },
+        {
+          "type": "paragraph",
+          "text": "En dato uten forklaring kan bli lest som oppstart, ferdigstillelse eller siste svarfrist. Ulike versjoner kan dessuten bli liggende hos kunden uten at det er tydelig hvilken som gjelder."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbedring: skill tilbudsdato og gyldighet fra tidsplanen for arbeidet. Oppgi hvilken versjon du ber kunden ta stilling til. Kontroller datoene når tilbudet endres, og avklar eventuelle nye forutsetninger før kunden svarer."
+        },
+        {
+          "type": "heading",
+          "text": "5. Endringer og ekstraarbeid blir ikke dokumentert"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et muntlig ønske om andre materialer eller mer arbeid kan bli glemt når dere senere skal finne igjen hva som var avtalt. En endring du gjør i dokumentet alene viser ikke at kunden har godkjent den."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbedring: beskriv endringen, avklar betydningen for pris og fremdrift, og ta vare på kundens svar. Skill den reviderte avtalen fra det opprinnelige tilbudet. Reglene og rettsvirkningene må vurderes etter avtalen og situasjonen; dette er praktiske råd, ikke en fullstendig juridisk sjekkliste."
+        },
+        {
+          "type": "heading",
+          "text": "Følg opp spørsmål før du går videre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hvis kunden ikke svarer eller ber om en forklaring, ta en kort, manuell kontakt. I Jobbleder kan du forberede tilbudsdokumentet, men en generert PDF erstatter ikke avklaringen med kunden."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/folle-opp-tilbud",
+          "label": "Les hvordan du følger opp tilbud på en god måte"
+        },
+        {
+          "type": "textLink",
+          "href": "/tilbud-eksempel",
+          "label": "Sammenlign feltene og summene med et autentisk tilbudseksempel"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Hvordan føre timelister effektivt – spesielt for selvstendig næringsdrivende",
+      "slug": "effektiv-timeliste",
+      "summary": "Slik fører du timelister mer effektivt og får bedre oversikt over arbeidstid, prosjekter og dokumentasjon.",
+      "category": "Timeliste",
+      "tags": [
+        "timeliste",
+        "timeføring",
+        "dokumentasjon",
+        "selvstendig",
+        "bygg"
+      ],
+      "createdAt": "2025-04-24",
+      "seoTitle": "Hvordan føre timelister effektivt",
+      "seoDescription": "Lær hvordan du fører timelister effektivt og hva en god timeliste bør inneholde for bedre oversikt og dokumentasjon.",
+      "relatedTopic": "timeliste",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "God timeføring handler om å kunne forstå arbeidsdagen i etterkant. Før dato, tidsrom, pause og en konkret arbeidsbeskrivelse mens du fortsatt husker oppgaven. Da har du et bedre grunnlag når du skal samle dagene eller forklare arbeidet for kunden."
+        },
+        {
+          "type": "heading",
+          "text": "Før det du trenger senere"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dato og prosjekt eller oppdrag.",
+            "Inn- og uttid, og hvor lang pausen var.",
+            "Om pausen var betalt eller ubetalt.",
+            "En beskrivelse som sier hva du gjorde, for eksempel «Montering av gipsplater på vegg».",
+            "Arbeidernavnet når du oppretter timelisten."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Eksempel: 08:00–16:00 med pause"
+        },
+        {
+          "type": "paragraph",
+          "text": "Du arbeider fra 08:00 til 16:00 og har 30 minutter ubetalt pause. Tidsrommet er åtte timer; etter pausen blir arbeidstiden sju timer og tretti minutter. Før pausen som et eget felt, slik at det er tydelig hvordan timene henger sammen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beskriv oppgaven i stedet for å skrive bare «arbeid». Kontroller dato og prosjekt før du bruker dagen i et dokument. Når du samler flere dager, bør du også se etter manglende eller dobbeltførte oppføringer."
+        },
+        {
+          "type": "textLink",
+          "href": "/timeliste-uke",
+          "label": "Slik samler og kontrollerer du en ukentlig timeliste"
+        },
+        {
+          "type": "heading",
+          "text": "Fra daglig registrering til kontrollert timeliste"
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Registrer og lagre arbeidsdagen.",
+              "text": "I Jobbleder kan du føre timer, pause og beskrivelse i nettleseren på mobilen. Kontroller feltene og velg Lagre registrering."
+            },
+            {
+              "title": "Velg dagene du vil bruke.",
+              "text": "Marker lagrede registreringer og velg Importer til timeliste. Ta med de oppføringene som hører til dokumentet du skal lage."
+            },
+            {
+              "title": "Se over dokumentet.",
+              "text": "Kontroller radene, prosjektet og arbeidernavnet før du lagrer timelisten eller genererer PDF. Du kan også opprette timelisten direkte og fylle inn arbeidsdagene selv."
+            }
+          ]
+        },
+        {
+          "type": "textLink",
+          "href": "/timeliste-mal#registrer-pa-mobil",
+          "label": "Se registrering av arbeidstimer i mobilnettleseren"
+        },
+        {
+          "type": "textLink",
+          "href": "/instruksjoner#importer-arbeidsokter-til-timeliste",
+          "label": "Følg veiledningen for å importere registreringer"
+        },
+        {
+          "type": "heading",
+          "text": "Når timene skal brukes videre"
+        },
+        {
+          "type": "paragraph",
+          "text": "En kontrollert timeliste kan eksporteres som PDF eller brukes til å opprette en faktura. Gå også gjennom fakturaens kunde, antall og satser før du lager PDF og sender den selv. Dokumentoppretting og konvertering er tilgjengelig i Jobbleder Free."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/timeliste-og-faktura",
+          "label": "Fra timeliste til faktura: hva du bør kontrollere"
+        },
+        {
+          "type": "paragraph",
+          "text": "Har arbeidsdagen flere ulike oppgaver, er det nyttig å skille beskrivelsene og markere ekstraarbeid når det gjelder registreringen. Ikke legg inn samme tidsrom flere ganger for den samme oppgaven."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/timeliste-for-handverkere",
+          "label": "Se et eksempel med ekstraarbeid og kilometer på oppdrag"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Hvordan lage en faktura gratis på nett?",
+      "slug": "hvordan-lage-gratis-faktura",
+      "summary": "Lær hvordan du kan lage en profesjonell faktura gratis på nett, uten nedlasting og uten kompliserte systemer.",
+      "category": "Faktura",
+      "tags": [
+        "faktura",
+        "gratis fakturaprogram",
+        "faktura på nett",
+        "småbedrift",
+        "håndverker"
+      ],
+      "createdAt": "2025-07-23",
+      "seoTitle": "Hvordan lage en faktura gratis på nett",
+      "seoDescription": "Slik lager du en profesjonell faktura gratis på nett. Enkel oversikt over hva en faktura bør inneholde og hvordan du kommer i gang.",
+      "relatedTopic": "faktura",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Å lage en faktura skal ikke være komplisert eller koste deg mer tid enn nødvendig. Enten du er håndverker, driver enkeltpersonforetak eller tar små oppdrag ved siden av, trenger du en enkel måte å fakturere på uten tunge systemer og unødvendige kostnader."
+        },
+        {
+          "type": "heading",
+          "text": "Hva må en faktura inneholde?"
+        },
+        {
+          "type": "paragraph",
+          "text": "En tydelig faktura bør inneholde den viktigste informasjonen kunden trenger for å forstå hva som er levert og hva som skal betales."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Firmanavn og organisasjonsnummer",
+            "Kundeinformasjon",
+            "Fakturanummer og dato",
+            "Forfallsdato",
+            "Beskrivelse av tjeneste eller produkt",
+            "Totalsum og eventuell MVA"
+          ]
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-krav",
+          "label": "Se den mer detaljerte oversikten over fakturakrav og betingede opplysninger"
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor velge et gratis fakturaprogram?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Du slipper dyre lisenskostnader",
+            "Du kan jobbe direkte i nettleseren",
+            "Du genererer PDF raskt",
+            "Du samler dokumentene på ett sted"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Slik lager du en faktura enkelt"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Opprett en ny faktura",
+            "Fyll inn kundeinformasjon",
+            "Beskriv arbeidet eller varen",
+            "Legg inn pris og betalingsinformasjon",
+            "Generer og last ned PDF-en. Send den selv til kunden."
+          ]
+        },
+        {
+          "type": "link",
+          "href": "/lage-faktura",
+          "label": "Les mer om hvordan du lager faktura"
+        },
+        {
+          "type": "note",
+          "text": "Kontroller kunde, datoer, fakturalinjer, MVA og betalingsinformasjon før du genererer PDF-en. Nedlasting og sending til kunden er separate handlinger; du sender filen selv utenfor Jobbleder."
+        },
+        {
+          "type": "cta",
+          "text": "Vil du lage faktura gratis på nett? Prøv Jobbleder direkte i nettleseren."
+        },
+        {
+          "type": "link",
+          "href": "https://app.jobbleder.no",
+          "label": "Start gratis"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Hva er et tilbudsdokument og hvordan lager du ett?",
+      "slug": "lage-tilbudsdokument",
+      "summary": "Lær hva et tilbudsdokument er, hva det bør inneholde, og hvordan du lager et tydelig og profesjonelt tilbud.",
+      "category": "Tilbud",
+      "tags": [
+        "tilbud",
+        "tilbudsdokument",
+        "hvordan skrive tilbud",
+        "gratis tilbud",
+        "småbedrift"
+      ],
+      "createdAt": "2025-07-23",
+      "seoTitle": "Hva er et tilbudsdokument og hvordan lager du ett?",
+      "seoDescription": "Lær hva et tilbudsdokument er, hva som bør være med, og hvordan du lager et profesjonelt tilbud på en enkel måte.",
+      "relatedTopic": "tilbud",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Et tilbudsdokument skal være lett å orientere seg i. Kunden bør finne hvem tilbudet gjelder, hva du leverer, hva prisen bygger på og hvilke avklaringer som gjenstår. En konsekvent rekkefølge gjør det også enklere å sammenligne en ny versjon med den forrige."
+        },
+        {
+          "type": "heading",
+          "text": "Begynn med partene og oppdraget"
+        },
+        {
+          "type": "paragraph",
+          "text": "Samle avsenderopplysninger og kundens opplysninger tydelig øverst. Kontroller navn og kontaktinformasjon, og sørg for at det går frem hvilket oppdrag dokumentet gjelder. Bruk en forståelig prosjektbeskrivelse eller henvisning dersom kunden har flere pågående oppdrag."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tilbud 29 viser Demo Company som avsender og Eksempel Eiendom som kunde. Prosjektet Renovering av leilighet er valgt i appskjemaet, men prosjektnavnet står ikke som eget felt i den viste PDF-en. Kontroller derfor dokumentet kunden faktisk får, fremfor å anta at alle opplysninger i appen er skrevet ut."
+        },
+        {
+          "type": "heading",
+          "text": "La arbeidsbeskrivelse og priser kunne leses sammen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gi hver linje en konkret beskrivelse, og bruk mengder med en forståelig betydning. Plasser antall og enhetspris slik at kunden kan se sammenhengen med linjebeløpet. Del opp ulike leveranser når en samlelinje ville gjort innholdet uklart."
+        },
+        {
+          "type": "paragraph",
+          "text": "I Tilbud 29 er beskrivelsen Legging av parkett, antallet 1 og enhetsprisen 12 000 kroner før MVA. Antallet sier ikke i seg selv noe om areal eller antall arbeidstimer. Kunden trenger en forklaring som passer det virkelige oppdraget."
+        },
+        {
+          "type": "heading",
+          "text": "Skill MVA og total fra detaljene på linjene"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppsummeringen bør gjøre det enkelt å finne beløpet før MVA, aktuell MVA og det kunden totalt skal betale. Tilbud 29 viser 12 000 kroner netto, 3 000 kroner MVA og 15 000 kroner totalt. Satsen 25 prosent tilhører eksemplet; kontroller behandlingen som gjelder for salget ditt."
+        },
+        {
+          "type": "heading",
+          "text": "Gi datoer og forutsetninger en tydelig plass"
+        },
+        {
+          "type": "paragraph",
+          "text": "Skill tilbudsdato og gyldighet fra en eventuell tidsplan for arbeidet. I demonstrasjonsdokumentet er datoene 18.11.2026 og 02.12.2026 tilbudets utstedelse og gyldighet, ikke oppstart og ferdigstillelse. Et nytt tilbud trenger egne relevante datoer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Samle viktige avklaringer om materialer, inkluderte oppgaver, avgrensinger og eventuelle betalingsvilkår der kunden kan finne dem. Dette er praktiske dokumentasjonsråd, ikke en påstand om et universelt lovpålagt format. Det viste Tilbud 29 har ikke detaljerte material- eller endringsvilkår; de skal ikke tilskrives eksemplet."
+        },
+        {
+          "type": "textLink",
+          "href": "/tilbud-eksempel",
+          "label": "Se dokumentets oppsett og forklaringen av de faktiske feltene"
+        },
+        {
+          "type": "heading",
+          "text": "Les gjennom dokumentet som om du var kunden"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Er avsender, kunde og oppdrag riktig identifisert?",
+            "Kan arbeidsomfanget forstås uten muntlige tilleggsforklaringer?",
+            "Henger antall, enhetspriser, MVA og total sammen?",
+            "Er gyldighet og eventuelle arbeidstidspunkter tydelig skilt?",
+            "Er avtalt innhold og senere avklaringer gjengitt riktig i denne versjonen?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jobbleder gir deg en fast struktur for tilbudslinjer og PDF. Se likevel gjennom den genererte filen før du deler den manuelt. En ryddig struktur erstatter ikke avklaringene med kunden eller vurderingen av hvilke regler som gjelder for oppdraget."
+        },
+        {
+          "type": "textLink",
+          "href": "/lage-tilbud",
+          "label": "Gå videre til stegene for å opprette og kontrollere tilbudet i Jobbleder"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Faktura, timeliste og tilbud – hva er forskjellen og når bruker du dem?",
+      "slug": "forskjell-faktura-tilbud-timeliste",
+      "summary": "Usikker på forskjellen mellom faktura, timeliste og tilbud? Her får du en enkel oversikt over når du bruker hvert dokument.",
+      "category": "Oversikt",
+      "tags": [
+        "faktura",
+        "tilbud",
+        "timeliste",
+        "forskjell",
+        "dokument"
+      ],
+      "createdAt": "2025-04-21",
+      "seoTitle": "Forskjellen på faktura, tilbud og timeliste",
+      "seoDescription": "Her er en enkel forklaring på forskjellen mellom faktura, tilbud og timeliste – og når du bør bruke dem.",
+      "relatedTopic": "oversikt",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hvis du er ny som selvstendig næringsdrivende, eller bare vil få bedre kontroll på dokumentene dine, kan det være vanskelig å vite når du skal sende faktura, når du bør lage tilbud, og når timeliste er nyttig."
+        },
+        {
+          "type": "paragraph",
+          "text": "Her får du en enkel oversikt over hva som skiller disse dokumentene – og når de vanligvis brukes."
+        },
+        {
+          "type": "heading",
+          "text": "Hva er et tilbud?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tilbud sendes vanligvis før jobben starter. Det beskriver hva du kan gjøre for kunden, hva det vil koste og hvilke vilkår som gjelder."
+        },
+        {
+          "type": "heading",
+          "text": "Hva er en timeliste?"
+        },
+        {
+          "type": "paragraph",
+          "text": "En timeliste er en oversikt over hvor mange timer som er brukt, og ofte også hva som ble gjort. Den er nyttig både som egen dokumentasjon og som grunnlag for videre arbeid."
+        },
+        {
+          "type": "heading",
+          "text": "Hva er en faktura?"
+        },
+        {
+          "type": "paragraph",
+          "text": "En faktura dokumenterer det kunden skal betale for varer eller tjenester. Når du fakturerer, må du følge avtalen og reglene som gjelder for leveransen. Ved lengre oppdrag kan det være aktuelt å fakturere underveis, i samsvar med fremdriften. Fakturering på forskudd har egne vilkår og er ikke alltid tillatt."
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-krav",
+          "label": "Se fakturaopplysningene og betingelsene du bør kontrollere"
+        },
+        {
+          "type": "heading",
+          "text": "Hvordan henger de sammen?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tilbud – før du starter jobben",
+            "Timeliste – underveis, når du vil dokumentere timer",
+            "Faktura – når det er grunnlag for å fakturere leveransen eller den utførte delen av arbeidet"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For mange små bedrifter og håndverkere er det nyttig å ha alle disse dokumenttypene samlet i ett system. Da blir det enklere å holde oversikt og jobbe mer strukturert."
+        },
+        {
+          "type": "link",
+          "href": "/instruksjoner",
+          "label": "Se instruksjoner for hvordan Jobbleder fungerer"
+        },
+        {
+          "type": "note",
+          "text": "Når du forstår forskjellen på disse dokumentene, blir det mye enklere å bygge gode rutiner rundt både salg, dokumentasjon og fakturering."
+        },
+        {
+          "type": "cta",
+          "text": "Vil du lage faktura, timeliste og tilbud i ett system? Prøv Jobbleder gratis."
+        },
+        {
+          "type": "link",
+          "href": "https://app.jobbleder.no",
+          "label": "Kom i gang gratis"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hvordan følge opp et sendt tilbud og lande flere jobber",
+      "slug": "folle-opp-tilbud",
+      "summary": "Lær hvordan du følger opp et sendt tilbud på en profesjonell måte og øker sjansen for å få svar fra kunden.",
+      "category": "Tilbud",
+      "tags": [
+        "oppfølging",
+        "kundekontakt",
+        "tilbud",
+        "salg"
+      ],
+      "createdAt": "2025-04-23",
+      "seoTitle": "Hvordan følge opp et sendt tilbud og lande flere jobber",
+      "seoDescription": "Slik følger du opp et sendt tilbud på en profesjonell måte og øker sjansen for å få respons fra kunden.",
+      "relatedTopic": "tilbud",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "En god oppfølging hjelper kunden med å forstå tilbudet og svare når de er klare. Ta utgangspunkt i det dere har avtalt om videre kontakt. Meldingen bør avklare et behov, ikke skape press eller late som om kunden allerede har sagt ja."
+        },
+        {
+          "type": "heading",
+          "text": "Sjekk mottak og gi tid til gjennomgang"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontroller at du har sendt riktig dokument til riktig adresse. Hvis mottaket er usikkert, kan du spørre om tilbudet kom frem eller tilby å sende det på nytt. Ikke legg til grunn at en sendt fil er lest eller forstått."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gi kunden rimelig tid ut fra oppdragets størrelse og eventuell avtalt svarfrist. Et kort gulvoppdrag og en større renovering trenger ikke samme rytme. Avtal gjerne når du kan ta kontakt igjen, fremfor å følge en fast automatisk tidsplan."
+        },
+        {
+          "type": "heading",
+          "text": "Første oppfølging: kort og åpen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et eksempel på en melding du selv kan sende:"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Hei, Anne! Jeg følger opp tilbudet på parkettarbeidet som jeg sendte tidligere. Har det kommet frem, og er det noe du ønsker at jeg forklarer nærmere? Ta gjerne kontakt når du har fått sett på det. Hilsen Per.»"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tilpass navn, jobb og formulering til den faktiske kontakten. Det er nok med én tydelig invitasjon til spørsmål; du trenger ikke gjenta hele tilbudet eller legge inn en kunstig frist."
+        },
+        {
+          "type": "heading",
+          "text": "Når kunden ber om en avklaring"
+        },
+        {
+          "type": "paragraph",
+          "text": "Svar på det konkrete spørsmålet først. Hvis kunden er usikker på underlagsarbeid, forklar hva tilbudet omfatter før du foreslår neste steg. Dersom avklaringen innebærer mer arbeid eller andre materialer, diskuter pris og tidsplan før dere går videre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et eksempel etter at kunden har spurt om undergulvet:"
+        },
+        {
+          "type": "paragraph",
+          "text": "«Hei, Anne! Takk for spørsmålet om undergulvet. Tilbudet gjelder selve parkettleggingen og forutsetter at underlaget er klargjort. Skal vi avklare hva som trengs før jeg eventuelt oppdaterer omfang, pris og tidsplan? Jeg sender deg i så fall et revidert tilbud til gjennomgang. Hilsen Per.»"
+        },
+        {
+          "type": "heading",
+          "text": "Ta vare på avklaringen og den riktige versjonen"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppsummer det dere blir enige om skriftlig, og ta vare på kundens svar sammen med tilbudet. Hvis du lager en ny versjon, gjør det klart hva som er endret og hvilken versjon kunden skal vurdere. En oppdatert fil er ikke i seg selv dokumentasjon på aksept."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et akseptert tilbud kan danne en bindende avtale uten separat signert kontrakt, avhengig av innhold, aksept, omstendigheter og gjeldende regler. Ved uavklarte svar bør dere få klarhet i hva dere faktisk er enige om. Forbrukeravtaler og avtaler mellom virksomheter må ikke behandles som identiske."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/tilbud-vs-kontrakt",
+          "label": "Les om tilbud, kundens aksept og et separat kontraktsdokument"
+        },
+        {
+          "type": "heading",
+          "text": "Når kunden trenger mer tid eller ikke svarer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spør om det passer å følge opp igjen, eller avslutt dialogen høflig hvis kunden ikke ønsker å gå videre. Ved utløpt gyldighet eller endrede forutsetninger bør dere avklare grunnlaget på nytt. Ikke behandle taushet som en praktisk bekreftelse på at du kan starte jobben."
+        },
+        {
+          "type": "textLink",
+          "href": "/hvordan-folge-opp-tilbud",
+          "label": "Se den korte oversikten over oppfølging av et sendt tilbud"
+        },
+        {
+          "type": "heading",
+          "text": "Dokumentet i Jobbleder, kundekontakten hos deg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jobbleder støtter oppretting av tilbud og generering av PDF. Du deler filen og følger opp kunden manuelt. Rutinen og meldingsforslagene over beskriver ikke automatiske e-poster, påminnelser, åpningssporing eller en akseptportal i appen. Kundens svar må du selv ta vare på."
+        },
+        {
+          "type": "textLink",
+          "href": "/instruksjoner#opprett-tilbud",
+          "label": "Se hvordan du oppretter tilbudsdokumentet i Jobbleder"
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/fra-tilbud-til-kontrakt-og-faktura",
+          "label": "Se dokumentveiene videre når oppdraget skal følges opp med kontrakt eller faktura"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Timeliste for håndverkere – hvorfor gode rutiner sparer deg for tid",
+      "slug": "timeliste-for-handverkere",
+      "summary": "Gode rutiner for timelister gjør det enklere å dokumentere arbeidstid, holde oversikt og bruke timer som grunnlag for videre arbeid.",
+      "category": "Timeliste",
+      "tags": [
+        "timeliste",
+        "håndverker",
+        "arbeidstid",
+        "timeføring",
+        "prosjekt"
+      ],
+      "createdAt": "2026-02-10",
+      "seoTitle": "Timeliste for håndverkere – hvorfor gode rutiner er viktige",
+      "seoDescription": "Slik bruker håndverkere timelister for bedre oversikt, dokumentasjon og enklere arbeidshverdag.",
+      "relatedTopic": "timeliste",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "På et oppdrag kan parkettlegging, montering og bortkjøring av avfall være ulike arbeidsoppgaver. Tydelige beskrivelser gjør det enklere å se hva timene gjelder når du skal dokumentere jobben for kunden. Før oppgavene mens du husker dem, med dato, tidsrom og pause."
+        },
+        {
+          "type": "heading",
+          "text": "Beskriv oppgaven, ikke bare arbeidsdagen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "«Legging av parkett» forklarer mer enn «arbeid».",
+            "«Bortkjøring av avfall» skiller transportoppgaven fra arbeidet på byggeplassen.",
+            "Bruk riktig dato og unngå å føre samme arbeidstid både som vanlig arbeid og ekstraarbeid."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Et eget eksempel med ekstraarbeid og kilometer"
+        },
+        {
+          "type": "productExample",
+          "asset": "mobileRegistrationExtra",
+          "paragraphs": [
+            "Skjermbildet viser en registrering for bortkjøring av avfall: 08:00–10:00, uten pause, med 50 KM og Marker som ekstra valgt. Det er ett eksempel på en oppgave, ikke hele arbeidsdagen eller et ferdig dokument.",
+            "Du velger selv om registreringen skal markeres som ekstraarbeid. Markeringen er ikke automatisk beregning av overtid. KM-feltet er tilgjengelig når Aktiver KM er slått på under Innstillinger → Standard for timeliste.",
+            "Kontroller beskrivelsen, tidene, eventuell pause, KM og ekstra-markeringen før du velger Lagre registrering."
+          ],
+          "alt": "Mobilregistrering for bortkjøring av avfall med 50 KM, Marker som ekstra valgt og knappen Lagre registrering",
+          "caption": "Et eget mobileksempel før lagring. Ekstra er valgt, og kilometerfeltet er fylt inn."
+        },
+        {
+          "type": "textLink",
+          "href": "/instruksjoner#legg-til-en-arbeidsokt",
+          "label": "Se hvordan du legger til en arbeidsregistrering"
+        },
+        {
+          "type": "heading",
+          "text": "Samle de riktige oppgavene under prosjektet"
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Velg det som hører til oppdraget.",
+              "text": "Marker de lagrede registreringene du vil bruke, og velg Importer til timeliste. Kontroller at du har valgt riktige dager og oppgaver."
+            },
+            {
+              "title": "Identifiser timelisten.",
+              "text": "Velg prosjekt og skriv arbeidernavnet når du oppretter dokumentet. Navnet forteller hvem timene gjelder; du oppretter ikke en ansattkonto."
+            },
+            {
+              "title": "Kontroller før du lager PDF.",
+              "text": "Se gjennom datoer, pauser, beskrivelser, timer og eventuelle kilometer. Sjekk at ekstraarbeid er markert på de riktige radene før du lagrer eller genererer dokumentet."
+            }
+          ]
+        },
+        {
+          "type": "textLink",
+          "href": "/timeliste-prosjekt",
+          "label": "Dokumenter timer og oppgaver på et bestemt prosjekt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Når flere personers arbeid skal dokumenteres, er det viktig at det enkelte dokumentet har riktig arbeidernavn og forståelige arbeidsrader. Jobbleder knytter timene til navnet du skriver inn i timelisten."
+        },
+        {
+          "type": "textLink",
+          "href": "/timeliste-ansatt",
+          "label": "Slik bruker du arbeidernavn i timelisten"
+        },
+        {
+          "type": "heading",
+          "text": "Bruk den gjennomgåtte timelisten videre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Du kan dele PDF-en som dokumentasjon eller bruke timelisten som grunnlag for en faktura. Før fakturaen sendes, må du selv kontrollere kunde, linjer, antall og satser. Lag faktura-PDF-en og send den til kunden selv."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/timeliste-og-faktura",
+          "label": "Se hvordan timelisten brukes som fakturagrunnlag"
+        },
+        {
+          "type": "textLink",
+          "href": "/timeliste-mal#registrer-pa-mobil",
+          "label": "Se Jobbleders registreringer i mobilnettleseren"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Timeliste og faktura – hvordan henger de sammen?",
+      "slug": "timeliste-og-faktura",
+      "summary": "Lær hvordan timelister og faktura henger sammen, og hvorfor god timeføring gjør videre dokumentarbeid enklere.",
+      "category": "Timeliste",
+      "tags": [
+        "timeliste",
+        "faktura",
+        "timeføring",
+        "dokumentasjon",
+        "arbeidstid"
+      ],
+      "createdAt": "2026-02-15",
+      "seoTitle": "Timeliste og faktura – slik henger de sammen",
+      "seoDescription": "Slik bruker du timeliste som grunnlag for tydeligere og enklere fakturaarbeid.",
+      "relatedTopic": "timeliste",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Timelisten dokumenterer når og hva du har arbeidet med. Fakturaen bruker det kontrollerte grunnlaget sammen med kundeopplysninger, antall og priser. I Jobbleder kan du opprette faktura fra en lagret timeliste, men du må fortsatt gjennomgå innholdet før du sender noe til kunden."
+        },
+        {
+          "type": "heading",
+          "text": "Fra arbeidsregistrering til faktura, steg for steg"
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Registrer arbeidet.",
+              "text": "Før dato, inn- og uttid, pause og arbeidsbeskrivelse i mobilnettleseren. Ta med kilometer når KM er aktivert, og marker ekstraarbeid ved behov. Kontroller feltene og velg Lagre registrering."
+            },
+            {
+              "title": "Velg og importer registreringene.",
+              "text": "Marker de lagrede oppføringene du vil bruke, og velg Importer til timeliste. Velg prosjekt, skriv arbeidernavnet og knytt til kunde ved behov. Du kan også opprette timelisten direkte uten import."
+            },
+            {
+              "title": "Kontroller og lagre timelisten.",
+              "text": "Gå gjennom dager, beskrivelser, pauser og summer. Lagre dokumentet når innholdet er riktig. Du kan generere en timeliste-PDF som dokumentasjon; PDF-eksport er et eget valg."
+            },
+            {
+              "title": "Opprett faktura fra dokumentet.",
+              "text": "Åpne den lagrede timelisten i Dokumenter, og velg Opprett faktura under forhåndsvisningen. Bruk timelistens opplysninger som grunnlag i den nye fakturaen."
+            },
+            {
+              "title": "Kontroller fakturaen før du sender den.",
+              "text": "Sjekk kunde, prosjekt, datoer, antall, enhetspriser, MVA og summer. Når fakturaen er klar, kan du generere PDF og sende den til kunden selv."
+            }
+          ]
+        },
+        {
+          "type": "textLink",
+          "href": "/instruksjoner#timeliste-til-faktura",
+          "label": "Følg knappene i veiledningen Timeliste → Faktura"
+        },
+        {
+          "type": "heading",
+          "text": "Fire kategorier holdes hver for seg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Konverteringen skiller vanlige timer, ekstra timer, vanlige kilometer og ekstra kilometer. I mobileksemplet nedenfor er grunnlaget Timeliste 265, med disse mengdene:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Vanlige timer: 9 timer og 30 minutter.",
+            "Ekstra timer: 2 timer.",
+            "Vanlige kilometer: 45 km.",
+            "Ekstra kilometer: 50 km."
+          ]
+        },
+        {
+          "type": "productExample",
+          "asset": "mobileInvoiceSummary",
+          "paragraphs": [
+            "Linjetekstene viser Timeliste 265 og arbeidernavnet Demo. Vanlige timer og ekstra timer ligger på ulike linjer, og det samme gjelder kilometer. Tallene tilhører dette mobileksemplet.",
+            "Kontroller mengder og enhetspriser mot avtalen for oppdraget. Ekstra-markeringen skiller radene fra vanlig arbeid; den beregner ikke overtid eller lønn."
+          ],
+          "alt": "Mobilforhåndsvisning av fakturalinjer fra Timeliste 265 med vanlige timer, ekstra timer, vanlige kilometer og ekstra kilometer",
+          "caption": "Et eget dokumenteksempel med Timeliste 265 som kilde. Bildet viser fakturalinjer i Jobbleder, ikke et eksportert PDF-dokument."
+        },
+        {
+          "type": "heading",
+          "text": "Et tydelig prosjekt gjør grunnlaget enklere å forstå"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arbeidsbeskrivelsen bør vise hva kunden faktisk får dokumentert. Kontroller at timene hører til riktig oppdrag, og at kunde og prosjekt stemmer i både timelisten og fakturaen. En ryddig timeliste erstatter ikke denne gjennomgangen."
+        },
+        {
+          "type": "textLink",
+          "href": "/timeliste-prosjekt",
+          "label": "Se hvordan du dokumenterer timer per prosjekt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arbeidsregistreringer, timelister, PDF-eksport og konvertering til faktura er med i Free. Free-PDF-er har Jobbleder-vannmerke. Med Premium kan du fjerne merkingen og bruke egen firmalogo."
+        },
+        {
+          "type": "textLink",
+          "href": "/timeliste-mal",
+          "label": "Se Timeliste-verktøyet og dokumenteksemplene"
+        },
+        {
+          "type": "textLink",
+          "href": "/fakturaprogram-gratis",
+          "label": "Les om faktura i Jobbleder"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Faktura eksempel for små bedrifter – hva bør det vise?",
+      "slug": "faktura-eksempel-sma-bedrifter",
+      "summary": "Et godt faktura eksempel gjør det enklere å forstå hvordan et ryddig dokument bør se ut for små bedrifter.",
+      "category": "Faktura",
+      "tags": [
+        "faktura",
+        "faktura eksempel",
+        "små bedrifter",
+        "betaling",
+        "oppsett"
+      ],
+      "createdAt": "2026-02-25",
+      "seoTitle": "Faktura eksempel for små bedrifter",
+      "seoDescription": "Se hva et godt faktura eksempel bør vise, og hvordan små bedrifter kan lage tydelige fakturaer.",
+      "relatedTopic": "faktura",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tenk deg at en liten håndverksbedrift har utført parkettarbeid til avtalt pris. Kunden skal kunne kontrollere hva prisen gjelder uten å måtte be om en forklaring på hvert beløp. Jobbleders Faktura 110 viser et slikt eksempel med demonstrasjonsdata."
+        },
+        {
+          "type": "heading",
+          "text": "Hva bør et faktura eksempel vise?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hvem selgeren og kunden er.",
+            "Hva som er levert, og hvilket arbeid eller omfang prisen gjelder.",
+            "Fakturanummer, fakturadato og betalingsforfall.",
+            "Pris før MVA, eventuell MVA og totalbeløpet.",
+            "Tydelige opplysninger om hvordan kunden skal betale."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Parkettarbeid til avtalt pris"
+        },
+        {
+          "type": "paragraph",
+          "text": "Eksemplets linje «Legging av parkett» har antall 1 og enhetspris 12 000 kroner før MVA. Her er prisen for arbeidet samlet på én linje. Antall 1 er ikke en opplysning om én arbeidstime eller én kvadratmeter; det er enheten som brukes i dette priseksemplet."
+        },
+        {
+          "type": "invoiceFigure",
+          "variant": "line"
+        },
+        {
+          "type": "heading",
+          "text": "Fra nettopris til beløpet kunden betaler"
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Beregn nettobeløpet.",
+              "text": "1 × 12 000 kroner = 12 000 kroner før MVA."
+            },
+            {
+              "title": "Legg til MVA for dette eksemplet.",
+              "text": "25 prosent av 12 000 kroner er 3 000 kroner."
+            },
+            {
+              "title": "Kontroller totalen.",
+              "text": "12 000 + 3 000 = 15 000 kroner å betale."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dette er regnestykket i dokumentet, ikke en anbefaling om pris eller MVA-behandling for alle oppdrag. Bruk satsen og opplysningene som gjelder for ditt salg."
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor oppsettet betyr noe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kunden bør kunne sammenholde arbeidsbeskrivelsen med avtalen og se hvordan nettopris, avgift og total henger sammen. For ditt eget oppdrag bør beskrivelsen gjøre det klart hvilket arbeid avtalt pris dekker, med relevante leveringsopplysninger. Bankkonto og betalingsreferanse hjelper kunden å gjennomføre betalingen."
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-eksempel",
+          "label": "Se hele Faktura 110 og forklaringen av dokumentfeltene"
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-krav",
+          "label": "Les hva som er krav og hva som er praktiske tillegg"
+        },
+        {
+          "type": "paragraph",
+          "text": "I Jobbleder kan du legge inn fakturalinjene, kontrollere summene og generere PDF i Free. Free-PDF-en har Jobbleder-vannmerke. Last ned filen og send den selv til kunden."
+        },
+        {
+          "type": "link",
+          "href": "https://app.jobbleder.no",
+          "label": "Opprett faktura gratis"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Når bør du sende faktura for å få raskere betaling?",
+      "slug": "nar-sende-faktura",
+      "summary": "Timing betyr mye. Her ser du når det er smartest å sende faktura, og hvorfor raske rutiner gir bedre flyt.",
+      "category": "Faktura",
+      "tags": [
+        "faktura",
+        "betaling",
+        "forfallsdato",
+        "småbedrift",
+        "rutiner"
+      ],
+      "createdAt": "2026-02-28",
+      "seoTitle": "Når bør du sende faktura for raskere betaling?",
+      "seoDescription": "Lær hvorfor timing er viktig når du sender faktura, og hvordan gode rutiner kan gi raskere betaling.",
+      "relatedTopic": "faktura",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Mange tenker mest på hvordan fakturaen ser ut, men tidspunktet du sender den på betyr også mye. Ha en rutine for å fakturere når det er grunnlag for det etter avtalen og reglene for leveransen. Ved lengre oppdrag kan fakturering underveis være aktuelt; ikke legg til grunn at du alltid skal vente til hele jobben er ferdig, eller at forskuddsfakturering alltid er tillatt."
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-krav",
+          "label": "Kontroller fakturaopplysninger og betingelsene som gjelder salget"
+        },
+        {
+          "type": "heading",
+          "text": "Hvorfor timing er viktig"
+        },
+        {
+          "type": "paragraph",
+          "text": "Når fakturaen sendes raskt, er arbeidet fortsatt ferskt i minnet hos kunden. Det gjør dokumentet lettere å forstå og minsker risikoen for forsinkelser."
+        },
+        {
+          "type": "heading",
+          "text": "Gode rutiner gjør hverdagen enklere"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lag faktura når det er grunnlag for det, i tråd med avtalen og gjeldende regler",
+            "Ha tydelig betalingsfrist",
+            "Bruk faste rutiner for oppfølging",
+            "Sørg for at dokumentet er ryddig og lett å lese"
+          ]
+        },
+        {
+          "type": "note",
+          "text": "Det er ofte ikke kompliserte systemer som mangler, men gode vaner rundt når dokumentene faktisk blir sendt."
+        },
+        {
+          "type": "link",
+          "href": "/lage-faktura",
+          "label": "Les mer om å lage faktura"
+        },
+        {
+          "type": "cta",
+          "text": "Vil du sende faktura raskere og mer oversiktlig? Prøv Jobbleder gratis."
+        },
+        {
+          "type": "link",
+          "href": "https://app.jobbleder.no",
+          "label": "Start gratis"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Tilbud eller pristilbud – hva forventer kunden egentlig?",
+      "slug": "tilbud-eller-pristilbud",
+      "summary": "Lær hva kunden forventer av et tilbud eller pristilbud, og hvordan du gjør dokumentet tydeligere og mer profesjonelt.",
+      "category": "Tilbud",
+      "tags": [
+        "tilbud",
+        "pristilbud",
+        "kunde",
+        "pris",
+        "oppsett"
+      ],
+      "createdAt": "2026-03-05",
+      "seoTitle": "Tilbud eller pristilbud – hva forventer kunden?",
+      "seoDescription": "Slik lager du et tydelig tilbud eller pristilbud som er lett for kunden å forstå og ta stilling til.",
+      "relatedTopic": "tilbud",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ordet pristilbud sier ikke alene hvordan sluttprisen skal beregnes. Det viktigste er at kunden forstår om dere avtaler en fast sum, et prisoverslag eller betaling etter medgått tid. Skriv prisgrunnlaget sammen med beskrivelsen av arbeidet, slik at beløpet ikke kan leses løsrevet fra omfanget."
+        },
+        {
+          "type": "heading",
+          "text": "Fastpris: en sum for et avgrenset arbeid"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ved fastpris avtaler dere en bestemt sum for arbeidet som er beskrevet. Presiser derfor både hva som er med, og hvilke forutsetninger summen bygger på. Et uklart omfang blir ikke tydeligere av at det står fastpris ved beløpet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et illustrerende gulveksempel: «Fastpris 15 000 kroner inkludert MVA for legging av parkett i stuen. Kunden leverer parketten. Underlaget skal være klargjort; riving av gammelt gulv er ikke med.» Dette er en tenkt prisbeskrivelse, ikke en fullstendig avtaletekst eller en gjengivelse av Tilbud 29."
+        },
+        {
+          "type": "heading",
+          "text": "Prisoverslag: et anslag med et tydelig grunnlag"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et prisoverslag angir forventet pris for et beskrevet arbeid. Forklar hva du har vurdert, og hva som fortsatt er usikkert. Det bør ikke behandles som en uforpliktende startpris eller som fri adgang til å øke beløpet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tenkt eksempel er et prisoverslag på 8 000 kroner inkludert MVA for klargjøring av et undergulv etter befaring, samtidig som enkelte områder ennå ikke er tilgjengelige for undersøkelse. Beskriv hvilke arbeider og mengder anslaget bygger på, og hva dere må avklare dersom tilstanden viser seg å være annerledes. Et forbehold er ikke i seg selv en avklaring av hva kunden skal betale ekstra."
+        },
+        {
+          "type": "heading",
+          "text": "Timepris: skill sats fra tidsbruk og materialer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ved arbeid etter medgått tid må kunden forstå både timesatsen og hva som kommer i tillegg. Forklar hvordan timer skal dokumenteres, hvordan materialer prises, og om reise eller andre kostnader er med. Et anslått timeantall er ikke det samme som en avtalt fast totalpris."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tenkt eksempel er tilpasning av gulvlister til 900 kroner per time inkludert MVA. Fire timer gir 3 600 kroner for arbeidet, mens seks timer gir 5 400 kroner. Materialer kommer bare i tillegg slik dere har avtalt. Beløpene illustrerer regnestykket; de er ikke Jobbleder-priser eller en anbefalt bransjesats."
+        },
+        {
+          "type": "heading",
+          "text": "Avklar usikkerheten før dere velger prisgrunnlag"
+        },
+        {
+          "type": "paragraph",
+          "text": "Materialkvalitet, mål, underlag og endret arbeidsomfang kan påvirke kostnadene. Skill mellom usikkerheten du allerede kjenner, og arbeid kunden bestiller senere. Avklar hva som inngår før dere starter, og dokumenter endringer i arbeid, pris og fremdrift sammen med kundens svar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbrukerrådets veiledning om håndverkertjenester skiller mellom fastpris og prisoverslag i forbrukerforhold. Slike forbrukerregler skal ikke overføres ukritisk til avtaler mellom virksomheter. Vurder den konkrete avtalen og reglene som gjelder, fremfor å bruke én generell regel for alle tilbud."
+        },
+        {
+          "type": "textLink",
+          "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/sjekkliste-handverker/",
+          "label": "Les Forbrukerrådets veiledning om pris og avklaringer med håndverker"
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/tilbud-vs-kontrakt",
+          "label": "Se hvordan tilbud, aksept og skriftlig avtale henger sammen"
+        },
+        {
+          "type": "heading",
+          "text": "Vis prisgrunnlaget tydelig i dokumentet"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jobbleder lar deg beskrive og prise tilbudslinjene med antall, enhetspris og aktuell MVA. Kunden må likevel få en forståelig forklaring på hva beløpet gjelder. Et felt eller en generert PDF avklarer ikke alene hvilke prisvilkår dere er enige om."
+        },
+        {
+          "type": "textLink",
+          "href": "/tilbud-eksempel",
+          "label": "Se antall, enhetspris, MVA og total i det autentiske tilbudseksemplet"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Tilbud vs kontrakt – hva er forskjellen?",
+      "slug": "tilbud-vs-kontrakt",
+      "summary": "Lær forskjellen mellom tilbud og kontrakt og når du bør bruke hvert dokument.",
+      "category": "Kontrakt",
+      "tags": [
+        "tilbud",
+        "kontrakt",
+        "forskjell"
+      ],
+      "createdAt": "2026-04-07",
+      "relatedTopic": "kontrakt",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Når en kunde ber om pris på en jobb, starter du gjerne med et tilbud. Senere kan det være nyttig å samle vilkårene i en egen skriftlig kontrakt. Men avtalen mellom dere kan allerede være inngått før et slikt dokument er signert. Her ser vi på forskjellen med et parkettoppdrag som eksempel."
+        },
+        {
+          "type": "heading",
+          "text": "Hva er et tilbud?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tilbud beskriver arbeidet du foreslår å utføre, prisen og forutsetningene for oppdraget. Kunden skal kunne forstå hva som inngår, hva som eventuelt kommer i tillegg, og hvor lenge tilbudet gjelder."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tenk deg at du tilbyr å legge 20 m² parkett i en stue. I dette illustrasjonseksemplet er prisen 15 000 kroner inkludert MVA for selve leggingen. Kunden skaffer parketten, og tilbudet forutsetter at rommet er tømt og underlaget klargjort. Fjerning av gammelt gulv er ikke inkludert. Tilbudet oppgir også planlagt oppstart, forventet ferdigstillelse og en dato for når kunden må svare."
+        },
+        {
+          "type": "paragraph",
+          "text": "Før kunden aksepterer, bør dere avklare om dette faktisk dekker jobben. Hvis underlaget må utbedres eller kunden ønsker nye gulvlister, må omfang, pris og tidsplan avklares før slikt arbeid settes i gang."
+        },
+        {
+          "type": "textLink",
+          "href": "/tilbud-mal",
+          "label": "Se hvordan du lager et tilbud med arbeidsbeskrivelse og pris i Jobbleder"
+        },
+        {
+          "type": "heading",
+          "text": "Hva er en kontrakt?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ordet kontrakt brukes både om en avtale og om dokumentet som beskriver den. En separat skriftlig kontrakt kan samle det dere er enige om: arbeidets omfang, pris, materialansvar, datoer og betalingsvilkår. Da blir det lettere å finne tilbake til de samme opplysningene underveis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skill derfor mellom tilbudsdokumentet, kundens aksept, avtalen som kan følge av aksepten, og et eget kontraktsdokument. Å opprette et dokument i et program er ikke i seg selv dokumentasjon på at kunden har akseptert innholdet."
+        },
+        {
+          "type": "heading",
+          "text": "Hva skjer når kunden aksepterer tilbudet?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et tilbud som kunden aksepterer, kan danne en bindende avtale, avhengig av omstendighetene og reglene som gjelder for oppdraget. Du bør derfor ikke legge til grunn at dere står uten avtale frem til en separat kontrakt er signert."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ta vare på tilbudet og kundens svar. Hvis kunden sier ja, men samtidig ønsker andre materialer eller mer arbeid, bør dere avklare hva dere faktisk er enige om og dokumentere endringene. I parketteksemplet bør det være tydelig om svaret gjelder bare leggingen eller også arbeid som ikke var med i tilbudet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Et oppdrag for en privatkunde og en avtale mellom to virksomheter kan være underlagt ulike regler. Forbrukerregler om håndverkertjenester skal ikke uten videre brukes på B2B-oppdrag. Ved usikkerhet om en konkret avtale bør du få relevant juridisk veiledning."
+        },
+        {
+          "type": "heading",
+          "text": "Når er en separat skriftlig kontrakt nyttig?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Selv om dere allerede har kommet til enighet, kan et eget kontraktsdokument gjøre avtalen enklere å følge opp. Det er særlig nyttig når arbeidet går over tid, flere leveranser henger sammen, eller ansvar og betaling må beskrives nærmere."
+        },
+        {
+          "type": "paragraph",
+          "text": "For parkettoppdraget kan kontrakten samle tilbudet og senere avklaringer om underlag, tilgang til boligen og materiallevering. Kontroller at dokumentet gjengir det dere faktisk har avtalt. Nye eller endrede vilkår må avklares med kunden; en endring du gjør i dokumentet, er ikke i seg selv kundens godkjenning."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbrukerrådet anbefaler skriftlig kontrakt ved bruk av håndverker fordi den gjør det enklere å dokumentere enigheten. Behovet for god dokumentasjon må skilles fra spørsmålet om det allerede er inngått en bindende avtale."
+        },
+        {
+          "type": "textLink",
+          "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",
+          "label": "Les Forbrukerrådets råd om skriftlig kontrakt med håndverker"
+        },
+        {
+          "type": "heading",
+          "text": "Hva bør du avklare før arbeidet starter?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bruk tilbudet og eventuelle senere avklaringer som utgangspunkt for en praktisk gjennomgang med kunden:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Arbeid og omfang: hvilke rom, mengder og oppgaver inngår, og hva er holdt utenfor?",
+            "Materialer: hvem kjøper og leverer dem, og hvem har ansvar for klargjøringen?",
+            "Pris: er grunnlaget fastpris, timepris eller et overslag, og hvordan er aktuell MVA oppgitt?",
+            "Tid: når skal dere starte, når forventes jobben ferdig, og hvilke forutsetninger gjelder?",
+            "Endringer: hvordan skal dere avklare og dokumentere ekstraarbeid, pris og påvirkning på fremdriften?",
+            "Betaling: hva er avtalt om fakturering og betalingsfrist?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dette er en praktisk sjekkliste, ikke en uttømmende liste over lovkrav. Tilpass avklaringene til arbeidet, kundetypen og reglene som gjelder."
+        },
+        {
+          "type": "heading",
+          "text": "Hvordan støtter Jobbleder dokumentarbeidet?"
+        },
+        {
+          "type": "paragraph",
+          "text": "I Jobbleder kan du opprette tilbudet og generere en PDF. Du kan deretter velge å opprette en kontrakt fra tilbudet og redigere kontrakten videre som et selvstendig dokument. Se gjennom innholdet og avklar det med kunden før dere ordner eventuell signering utenfor appen."
+        },
+        {
+          "type": "contractVisual",
+          "variant": "offerAction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jobbleder har egne standardvilkår for privatkunder og bedriftsavtaler, med forslag til kontraktstype som du kan overstyre. Kontroller valget, arbeidsbeskrivelsen, prisgrunnlaget og vilkårene. Standardvilkårene avventer uavhengig juridisk gjennomgang; konvertering er ikke en juridisk vurdering av avtalen."
+        },
+        {
+          "type": "textLink",
+          "href": "/hva-skal-en-kontrakt-inneholde",
+          "label": "Bruk sjekklisten for innhold og avklaringer i kontrakten"
+        },
+        {
+          "type": "textLink",
+          "href": "/kontrakt-mal",
+          "label": "Se hvilke kontraktsopplysninger du kan tilpasse i Jobbleder"
+        },
+        {
+          "type": "paragraph",
+          "text": "Når du skal lage faktura, kan du bruke enten tilbudet eller kontrakten som grunnlag. Begge veiene støttes: Tilbud → Faktura og Tilbud → Kontrakt → Faktura. Du starter konverteringen selv og kontrollerer kunde, linjer, beløp, MVA, datoer og betalingsinformasjon før du genererer PDF-en og sender den manuelt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dokumentoppretting, PDF-eksport og disse konverteringene er tilgjengelige i Free. Free-PDF-er har Jobbleder-merking. Premium fjerner merkingen og lar deg bruke egen firmalogo; det er ikke nødvendig for dokumentflyten."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kundedialog, aksept og signering skjer utenfor den dokumenterte appflyten. Jobbleder tilbyr ikke elektronisk signering eller automatisk aksept, utsending eller oppfølging av tilbud."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/fra-tilbud-til-kontrakt-og-faktura",
+          "label": "Følg arbeidsflyten fra tilbud til kontrakt og faktura med ekte dokumenteksempler"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Når trenger du kontrakt som håndverker?",
+      "slug": "nar-trenger-du-kontrakt",
+      "summary": "Se når et eget kontraktsdokument er nyttig, hva du bør avklare med kunden og forskjellen på privatkunde og bedrift.",
+      "category": "Kontrakt",
+      "tags": [
+        "kontrakt",
+        "håndverker"
+      ],
+      "createdAt": "2026-04-07",
+      "relatedTopic": "kontrakt",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Du kan ha inngått en avtale selv om dere ikke har laget et separat kontraktsdokument. Spørsmålet er derfor både hva dere er enige om, og hvordan dere skal dokumentere det. Et skriftlig grunnlag er særlig nyttig når omfang, ansvar eller tidsplan trenger en nærmere forklaring."
+        },
+        {
+          "type": "heading",
+          "text": "Når er et eget dokument særlig nyttig?"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Når flere arbeidsoppgaver eller leveranser henger sammen.",
+            "Når materialer og forberedelser er fordelt mellom deg og kunden.",
+            "Når pris, delbetalinger eller tidsplan har flere forutsetninger.",
+            "Når kunden ønsker endringer etter at tilbudet er gitt."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tenk deg at du skal legge parkett, og kunden bestiller materialene. Før oppstart oppdager dere at underlaget må utbedres. Avklar hvem som skal gjøre det, hva arbeidet koster og om ferdigstillelsen påvirkes. Dokumenter avklaringen i stedet for å anta at «gulvlegging» allerede dekker alt."
+        },
+        {
+          "type": "heading",
+          "text": "Et lite oppdrag kan også trenge tydelige avklaringer"
+        },
+        {
+          "type": "paragraph",
+          "text": "Størrelsen alene avgjør ikke hva som er viktig å avtale. Ved en mindre malerjobb kan valg av flater, grunnarbeid og materialer være avgjørende. En kort og konkret arbeidsbeskrivelse kan være mer nyttig enn mange generelle formuleringer."
+        },
+        {
+          "type": "textLink",
+          "href": "/kontrakt-handverker",
+          "label": "Se praktiske avklaringer for håndverksoppdrag"
+        },
+        {
+          "type": "heading",
+          "text": "Har kunden allerede akseptert tilbudet?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Et akseptert tilbud kan allerede danne grunnlag for en avtale, avhengig av innhold, omstendigheter og reglene som gjelder. Et eget kontraktsdokument kan samle senere avklaringer, men er ikke automatisk et vilkår for at avtalen er bindende. Særregler og avtalte forbehold må vurderes."
+        },
+        {
+          "type": "textLink",
+          "href": "/blogg/tilbud-vs-kontrakt",
+          "label": "Les om tilbud, kundens svar og et eget kontraktsdokument"
+        },
+        {
+          "type": "heading",
+          "text": "Privatkunde og bedrift må vurderes hver for seg"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontroller hvem kunden er og hva oppdraget gjelder. Forbrukerrådets veiledning om håndverkertjenester er rettet mot forbrukerforhold. Reglene skal ikke automatisk legges til grunn for en avtale mellom virksomheter. Oppføring av ny bolig krever også en egen vurdering."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forbrukerrådet anbefaler skriftlig kontrakt for å dokumentere hva partene er enige om. Dette er et råd om dokumentasjon, ikke en påstand om at alle avtaler må signeres for å være bindende."
+        },
+        {
+          "type": "textLink",
+          "href": "https://www.forbrukerradet.no/forside/bolig/bruk-av-handverker/",
+          "label": "Les Forbrukerrådets råd om skriftlig dokumentasjon"
+        },
+        {
+          "type": "heading",
+          "text": "Slik kan Jobbleder hjelpe med forberedelsen"
+        },
+        {
+          "type": "paragraph",
+          "text": "I Jobbleder kan du velge privatkunde eller bedrift, beskrive oppdraget med flere arbeidsrader og en valgfri detaljbeskrivelse, og angi pris, tidsplan og betalingsvilkår. Du kan starte selv eller bruke et eksisterende tilbud som grunnlag. Kontroller kontraktstypeforslaget før du lager PDF-en."
+        },
+        {
+          "type": "contractVisual",
+          "variant": "work"
+        },
+        {
+          "type": "note",
+          "text": "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov."
+        },
+        {
+          "type": "paragraph",
+          "text": "Du gjennomgår og deler dokumentet selv og ordner eventuell signering utenfor appen. Jobbleder har ikke elektronisk signering. Dokumentoppretting og konvertering er med i Free; Premium gir andre valg for firmalogo og Jobbleder-merking."
+        },
+        {
+          "type": "textLink",
+          "href": "/hva-skal-en-kontrakt-inneholde",
+          "label": "Gå gjennom sjekklisten før du bruker dokumentet"
+        },
+        {
+          "type": "link",
+          "href": "/kontrakt-mal",
+          "label": "Se hvordan Jobbleder hjelper deg å forberede kontrakten"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Fra tilbud til kontrakt og faktura – slik fungerer det",
+      "slug": "fra-tilbud-til-kontrakt-og-faktura",
+      "summary": "Se hvordan du bruker et tilbud som grunnlag for kontrakt og faktura, og hva du må kontrollere før dokumentene deles.",
+      "category": "Oversikt",
+      "tags": [
+        "workflow",
+        "tilbud",
+        "kontrakt",
+        "faktura"
+      ],
+      "createdAt": "2026-04-07",
+      "relatedTopic": "oversikt",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Når du tar på deg et oppdrag, trenger kunden først å forstå hva du skal gjøre og hva det vil koste. Deretter må dere avklare avtalen, og til slutt skal fakturaen stemme med det du faktisk krever betaling for. Her følger vi et parkettoppdrag og viser hvordan du kan bruke dokumentopplysningene videre i Jobbleder."
+        },
+        {
+          "type": "paragraph",
+          "text": "Du velger selv neste handling. To støttede veier er Tilbud → Kontrakt → Faktura og Tilbud → Faktura. Kontrakt er altså ikke et obligatorisk mellomsteg i appen når du vil opprette faktura fra et tilbud."
+        },
+        {
+          "type": "heading",
+          "text": "Fra forespørsel til tilbud"
+        },
+        {
+          "type": "paragraph",
+          "text": "Start med å avklare arbeidssted, hva oppdraget omfatter og hva kunden forventer. For parkettarbeid kan du for eksempel beskrive hvilke rom arbeidet gjelder, hvilke forberedelser som inngår og hvem som skaffer materialene. Skill det dere har avtalt fra arbeid som eventuelt kommer i tillegg."
+        },
+        {
+          "type": "paragraph",
+          "text": "I Jobbleder velger du kunden og oppretter tilbudet med arbeidsbeskrivelse, enhetspris, antall og aktuell MVA. Knytt tilbudet til et prosjekt hvis det er relevant. Kontroller pris, gyldighet og vilkår før du lager PDF og deler dokumentet med kunden. Avklar aksept og endringer med kunden utenfor appen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Parkettoppdraget over er et tenkt teksteksempel. Skjermbildene nedenfor viser et annet, konkret oppdrag: Tilbud 30 og kontrakten med dette tilbudet som grunnlag. Fakturaeksemplet bruker Kontrakt 16 som kilde."
+        },
+        {
+          "type": "contractVisual",
+          "variant": "offerOverview"
+        },
+        {
+          "type": "textLink",
+          "href": "/tilbud-mal",
+          "label": "Se hvordan du lager tilbud i Jobbleder"
+        },
+        {
+          "type": "heading",
+          "text": "Fra tilbud til kontrakt"
+        },
+        {
+          "type": "steps",
+          "items": [
+            {
+              "title": "Finn riktig tilbud.",
+              "text": "Åpne Dokumenter, velg tilbudet og bruk Opprett kontrakt under forhåndsvisningen."
+            },
+            {
+              "title": "Kontroller kontraktsgrunnlaget.",
+              "text": "Se gjennom kunde, prosjekt, datoer, arbeidsbeskrivelse, prisgrunnlag og vilkår før du lagrer eller genererer dokumentet."
+            },
+            {
+              "title": "Tilpass kontrakten selvstendig.",
+              "text": "Kontrakten er et eget dokument etter konverteringen. Du kan redigere innhold og vilkår etter avtalen uten å behandle tilbudet og kontrakten som samme dokument. For en lagret kontrakt bruker du Rediger i Dokumenter."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Med Jobbleder kontrollerer du om kunden er privatperson eller virksomhet, og velger riktig kontraktstype. Gjennomgå arbeidsbeskrivelsen, eventuell detaljtekst, pris med eller uten MVA og forskjellen mellom estimert ferdigstillelse og avtalt frist. En betalingsplan beskriver vilkårene dere avtaler."
+        },
+        {
+          "type": "note",
+          "text": "Standardvilkårene i Jobbleder avventer uavhengig juridisk gjennomgang. Dokumentet er et grunnlag du må vurdere for oppdraget, ikke en juridisk godkjent mal klar til signering. Få juridisk veiledning ved behov."
+        },
+        {
+          "type": "contractVisual",
+          "variant": "offer"
+        },
+        {
+          "type": "textLink",
+          "href": "/kontrakt-mal",
+          "label": "Les om kontraktsinnhold og valgene i Jobbleder"
+        },
+        {
+          "type": "textLink",
+          "href": "/kontrakt-eksempel",
+          "label": "Forstå kontraktsdokumentets oppbygning før du bruker det"
+        },
+        {
+          "type": "paragraph",
+          "text": "I Jobbleder kan kontrakten redigeres og PDF-en genereres på nytt; dette gir ikke en revisjonshistorikk eller kundens godkjenning av endringene."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gå gjennom dokumentet med kunden. Kontrakten kan lastes ned som PDF, og dere ordner signeringen manuelt. Jobbleder har ikke elektronisk signering. Betalingsvilkårene er tekst og valg du kontrollerer, ikke en automatisk fakturaplan."
+        },
+        {
+          "type": "textLink",
+          "href": "/instruksjoner#lag-kontrakt-fra-tilbud",
+          "label": "Følg tilbud-til-kontrakt-veiledningen steg for steg"
+        },
+        {
+          "type": "heading",
+          "text": "Fra kontrakt til faktura"
+        },
+        {
+          "type": "paragraph",
+          "text": "Når du skal lage en faktura med avtalen som grunnlag, åpner du den lagrede kontrakten i Dokumenter og velger Opprett faktura. Appen tar opplysninger videre til fakturaskjemaet. Du må fortsatt kontrollere at grunnlaget passer arbeidet og beløpet som skal faktureres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kontroller kildereferansen, kunden og fakturalinjene. Se særlig gjennom arbeidsbeskrivelse, antall, enhetspriser og MVA. Sjekk også datoer og betalingsinformasjon før du velger Lagre eller Generer."
+        },
+        {
+          "type": "contractVisual",
+          "variant": "invoice"
+        },
+        {
+          "type": "paragraph",
+          "text": "En betalingsplan i kontrakten oppretter ikke fakturaer automatisk. Du velger selv når du oppretter faktura, og kontrollerer linjer og beløp. Når innholdet stemmer, genererer og laster du ned PDF-en. Du sender fakturaen manuelt til kunden."
+        },
+        {
+          "type": "textLink",
+          "href": "/instruksjoner#kontrakt-til-faktura",
+          "label": "Se handlingene for kontrakt til faktura"
+        },
+        {
+          "type": "heading",
+          "text": "Et alternativ: Fra tilbud direkte til faktura"
+        },
+        {
+          "type": "paragraph",
+          "text": "Du kan også bruke tilbudet direkte som fakturagrunnlag. Åpne det aktuelle tilbudet i Dokumenter og velg Opprett faktura. Dette er en egen konvertering; du trenger ikke først å opprette en kontrakt i appen."
+        },
+        {
+          "type": "productExample",
+          "asset": "mobileOfferInvoice",
+          "paragraphs": [
+            "Se gjennom kunden, prosjektet, datoene og opplysningene som følger med fra tilbudet. Oppdater fakturagrunnlaget hvis det dere skal fakturere, avviker fra tilbudet. Konverteringen erstatter ikke denne kontrollen.",
+            "I dette separate mobileksemplet gir én parkettlinje 12 000 kroner før MVA. Med eksemplets sats på 25 prosent er MVA 3 000 kroner og totalen 15 000 kroner. Bruk MVA-behandlingen som gjelder for ditt salg."
+          ],
+          "alt": "Fakturalinje og oppsummering på mobil med parkettarbeid, antall 1, netto 12 000, MVA 3 000 og total 15 000",
+          "caption": "Linje og oppsummering fra tilbud-til-faktura-eksemplet. Dokumentnummer og kildereferanse vises ikke i utsnittet; dette er et annet eksempel enn Faktura 113 ovenfor."
+        },
+        {
+          "type": "textLink",
+          "href": "/instruksjoner#tilbud-til-faktura",
+          "label": "Følg den direkte veien fra tilbud til faktura"
+        },
+        {
+          "type": "heading",
+          "text": "Før fakturaen sendes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ta en siste gjennomgang av dokumentet før du lager PDF og sender den. En praktisk sjekkliste er:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Kunde: gjelder fakturaen riktig kunde, med riktige opplysninger?",
+            "Arbeid: beskriver linjene det som faktisk skal faktureres, og riktig omfang?",
+            "Beløp: stemmer antall, enhetspriser og total med grunnlaget?",
+            "MVA: er behandlingen og satsen riktig for salget?",
+            "Betaling: stemmer betalingsinformasjonen og forfallsdatoen?",
+            "Datoer: er fakturadato og leveringsopplysninger kontrollert?"
+          ]
+        },
+        {
+          "type": "textLink",
+          "href": "/faktura-krav",
+          "label": "Les om fakturakrav og praktiske betalingsopplysninger"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oppretting av dokumenter, PDF-eksport og disse konverteringene er tilgjengelig i Free. Free-PDF-er har Jobbleder-vannmerke. Premium gir andre valg for firmalogo og PDF-profil; det er ikke nødvendig for dokumentflyten beskrevet her."
+        },
+        {
+          "type": "link",
+          "href": "/fakturaprogram-gratis",
+          "label": "Se fakturaverktøyet i Jobbleder"
+        }
+      ]
+    }
+  ]
+}

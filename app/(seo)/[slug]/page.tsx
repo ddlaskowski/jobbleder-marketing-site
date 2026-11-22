@@ -1,4 +1,5 @@
-import type { Metadata } from "next"
+import type { Metadata, ResolvingMetadata } from "next"
+import { socialMetadata } from "@/lib/socialMetadata"
 import { siteUrl } from "@/lib/siteUrl"
 import { notFound } from "next/navigation"
 import Container from "@/components/Container"
@@ -23,6 +24,8 @@ import InvoiceFigure from "@/components/editorial/InvoiceFigure"
 import OfferFigure from "@/components/editorial/OfferFigure"
 import OfferExamplePage from "@/components/product/offer/OfferExamplePage"
 import OfferGuidePage from "@/components/product/offer/OfferGuidePage"
+import ContractEditorialMedia from "@/components/product/contract/ContractEditorialMedia"
+import ContractGuidePage from "@/components/product/contract/ContractGuidePage"
 
 function buildFaqJsonLd(faqs: { q: string; a: string }[]) {
   return {
@@ -54,7 +57,7 @@ export function generateStaticParams(): Params[] {
   return seoPages.map((p) => ({ slug: p.slug }))
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params }: Props, parent: ResolvingMetadata): Promise<Metadata> {
   const { slug } = await params
   const page = getPage(slug)
   if (!page) return {}
@@ -65,6 +68,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     alternates: {
       canonical: siteUrl(`/${page.slug}`),
     },
+    ...(page.topic === "kontrakt" ? {
+      openGraph: { title: page.title, description: page.description, url: siteUrl(`/${page.slug}`), siteName: "Jobbleder", locale: "no_NO", type: "website" },
+      twitter: { card: "summary_large_image" as const, title: page.title, description: page.description },
+    } : await socialMetadata(page.title, page.description, `/${page.slug}`, parent, { fileBasedOpenGraph: true })),
   }
 }
 
@@ -81,6 +88,7 @@ export default async function SEOPage({ params }: Props) {
   if (slug === "tilbud-eksempel") return <OfferExamplePage />
   if (slug === "lage-tilbud" || slug === "hvordan-folge-opp-tilbud") return <OfferGuidePage slug={slug} />
   if (slug === "kontrakt-mal") return <ContractProductPage />
+  if (slug === "kontrakt-eksempel" || slug === "kontrakt-handverker" || slug === "hva-skal-en-kontrakt-inneholde") return <ContractGuidePage slug={slug} />
   if (isSpecializedTimelist(slug)) return <SpecializedTimelistPage slug={slug} />
     const faqJsonLd = page.faqs?.length ? buildFaqJsonLd(page.faqs) : null;
 
@@ -88,7 +96,7 @@ export default async function SEOPage({ params }: Props) {
     <>
       <Navbar/>  
       <Breadcrumbs slug={page.slug} />
-      <main className="py-16">
+      <main id="legacy-innhold" tabIndex={-1} className="py-16">
         {faqJsonLd && (
           <script
               type="application/ld+json"
@@ -147,6 +155,7 @@ export default async function SEOPage({ params }: Props) {
                         </div>
                         {section.invoiceExample && <InvoiceFigure />}
                         {section.offerExample && <OfferFigure variant={section.offerExample} />}
+                        <ContractEditorialMedia slug={page.slug} heading={section.heading} />
                         {section.checklists?.map(list => (
                           <div key={list.heading} className="mt-8">
                             <h3 className="text-xl font-semibold text-foreground">{list.heading}</h3>
